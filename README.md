@@ -24,6 +24,18 @@ convertida em graus _Fahrenheit_. A fórmula de conversão é: F = (9 * C + 160)
 
 6. Escreva um programa que armazene o valor 10 em uma variável A e o valor 20 em uma variável B. A seguir (utilizando apenas atribuições entre variáveis) troque os seus conteúdos fazendo com que o valor que está em A passe para B e vice-versa. Ao final, escrever os valores que ficaram armazenados nas variáveis.
 
+## Estrutura de decisão
+_TODO_
+
+## Estrutura de repetição
+_TODO_
+
+## Vetores
+_TODO_
+
+## Matrizes
+_TODO_
+
 ## Agradecimentos
 Segue alguns agradecimentos à professores que disponibilizaram uma lista de exercícios na internet facilitando a criação desta lista:
 - Prof. Angelo Augusto Frozza
