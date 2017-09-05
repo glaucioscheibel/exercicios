@@ -75,12 +75,27 @@ com D.
 
 ## Estrutura de decisão
 1. Faça um programa que peça dois números e imprima o maior deles.
+
 1. Faça um programa que leia três números e mostre o maior deles.
+
 1. Faça um programa que receba como entrada três valores e os imprima em ordem crescente.
+
 1. Faça um programa para aprovar empréstimos bancários. O código deve pedir três informações: valor do empréstimo, número de parcelas e salário do solicitante. Aprovar empréstimo caso o valor das parcelas representem no máximo 30% do salário do solicitante.
+
 1. A empresa paga ao corretor uma comissão calculada de acordo com o valor de suas vendas. Se o valor da venda de um corretor for maior que R$ 50.000.00 a comissão será de 12% do valor vendido. Se o valor da venda do corretor estiver entre R$ 30.000.00 e R$ 50.000.00 (incluindo extremos) a comissão será de 9.5%. Em qualquer outro caso, a comissão será de 7%. Escreva um programa onde será informado nome do corretor e o valor da venda, após isto o programa irá calcular o valor da comissão.
+
 1. Faça um programa onde serão informados as quatro notas do aluno. O programa irá então apresentar a média, se foi aprovado (nota >= 7) ou se ficou em exame. Caso o aluno ficou em exame, o programa irá então perguntar qual foi a nota do exame e então irá calcular a nova média (média anteior com a nota do exame) e informar se ele foi aprovado (nova média >= 5) ou se foi reprovado.
+
 1. Faça um programa que efetue a leitura de três valores numéricos representando os lados de um triângulo. O programa deverá verificar e informar se os lados fornecidos formam realmente um triângulo (cada lado é menor que a soma dos outros dois lados). Se esta condição for verdadeira, deverá ser indicado qual tipo de triângulo foi formado: isósceles (dois lados iguais e um diferente), escaleno (todos os lados diferentes) ou eqüilátero (todos os lados são iguais).
+
+1. Faça um programa que calcule as raízes de uma equação do segundo grau, na forma ax<sup>2</sup> + bx + c. O programa deverá pedir os valores de a, b e c e fazer as consistências, informando ao usuário nas seguintes situações:
+    1. Se o usuário informar o valor de A igual a zero, a equação não é do segundo grau e o programa não deve fazer pedir os demais valores, sendo encerrado;
+    1. Se o delta calculado for negativo, a equação não possui raizes reais. Informe ao usuário e encerre o programa;
+    1. Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
+    1. Se o delta for positivo, a equação possui duas raiz reais; informe-as ao usuário.
+
+1. Faça um Programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.
+
 
 ## Estrutura de repetição
 1. Faça um programa que calcule a soma dos números inteiros de 1 a 100.
@@ -103,18 +118,36 @@ com D.
 
 1. Um determinado material radioativo perde metade de sua massa a cada 50 segundos. Dada a massa inicial, em gramas, faça um programa que determine o tempo necessário para que essa massa se torne menor que 0,05 gramas.
 
+1. Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
+
 1. Uma rainha requisitou os serviços de um monge e disse-lhe que pagaria qualquer preço. O monge, necessitando de alimentos, indagou à rainha sobre o pagamento, se poderia ser feito com grãos de trigo dispostos em um tabuleiro de xadrez (que possui 64 casas), de tal forma que o primeiro quadro deveria conter apenas um grão e os quadros subsequentes, o dobro do quadro anterior. Crie um programa para calcular o total de grãos que o monge recebeu.
 
 1. Escreva um programa que determine o fatorial de um número. Para este problema, tem-se como entrada o valor do número do qual se deseja calcular o fatorial. O fatorial de 0 é igual a 1. O fatorial de um número N(N!) é definido conforme a seguir:
 
     N! = 1 * 2 * 3 * 4 * ... * (N-1) * N
 
+1. Faça um programa que peça para o usuário ir informando números até que ele informe 0 (zero). Após isto apresente os seguintes dados sobre os números digitados:
+    1. O maior número;
+    1. O menor número;
+    1. A soma dos números;
+    1. A média deles;
+    1. A quantidade de números pares;
+    1. A quantidade de números ímpares.
+
 ## Strings
+1. Faça um programa que permita ao usuário digitar o seu nome e em seguida mostre o nome do usuário de trás para frente utilizando somente letras maiúsculas. Dica: lembre−se que ao informar o nome o usuário pode digitar letras maiúsculas ou minúsculas.
+
+1. Dado uma string com uma frase informada pelo usuário (incluindo espaços em branco), conte:
+    1. quantos espaços em branco existem na frase.
+    1. quantas vezes aparecem as vogais a, e, i, o, u.
+
+1. Desenvolva um jogo em que o usuário tenha que adivinhar uma palavra que será mostrada com as letras embaralhadas. O programa terá uma lista de palavras lidas de um arquivo texto ou de um vetor e será escolhida uma aleatoriamente. O jogador terá seis tentativas para adivinhar a palavra. Ao final a palavra deve ser mostrada na tela, informando se o usuário ganhou ou perdeu o jogo.
+
 1. Leia um código de cinco algarismos (variável Codigo) e gere o digito verificador (DigitoV) módulo 7 para o mesmo. Supondo que os cinco algarismos do código são ABCDE, uma forma de calcular o dígito desejado, com módulo 7 é:
 
-    DigitoV = resto da divisão de S por 7, onde
+    DigitoV = resto da divisão de S por 7, onde S = 6A + 5B + 4C + 3D + 2E
 
-    S = 6*A + 5*B + 4*C + 3*D + 2*E
+1. _Leet_ é uma forma de se escrever o alfabeto latino usando outros símbolos em lugar das letras, como números por exemplo. A própria palavra _leet_ admite muitas variações, como l33t ou 1337. O uso do _leet_ reflete uma subcultura relacionada ao mundo dos jogos de computador e internet, sendo muito usada para confundir os iniciantes e afirmar-se como parte de um grupo. Pesquise sobre as principais formas de traduzir as letras. Depois, faça um programa que peça uma texto e transforme-o para a grafia _leet speak_.
 
 ## Vetores
 _TODO_
@@ -126,7 +159,8 @@ _TODO_
 _TODO_
 
 ## Agradecimentos
-Segue alguns agradecimentos à professores e eventos que disponibilizaram uma lista de exercícios na internet facilitando a criação desta lista:
+Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma lista de exercícios na internet facilitando a criação desta lista:
 - [Prof. Angelo Augusto Frozza](http://www.ifc-camboriu.edu.br/~frozza/)
 - [Profa. Flávia Pereira de Carvalho](https://fit.faccat.br/~fpereira/pagina/)
+- [Prof. Marco André Lopes Mendes](https://wiki.python.org.br/ListaDeExercicios)
 - [Olimpíada Brasileira de Informática](http://olimpiada.ic.unicamp.br/passadas/pp)
