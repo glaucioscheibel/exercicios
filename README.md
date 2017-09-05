@@ -90,5 +90,5 @@ _TODO_
 
 ## Agradecimentos
 Segue alguns agradecimentos à professores que disponibilizaram uma lista de exercícios na internet facilitando a criação desta lista:
-- Prof. Angelo Augusto Frozza
-- Profa. Flávia Pereira de Carvalho
+- [Prof. Angelo Augusto Frozza](http://www.ifc-camboriu.edu.br/~frozza/)
+- [Profa. Flávia Pereira de Carvalho](https://fit.faccat.br/~fpereira/pagina/)
