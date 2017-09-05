@@ -1,6 +1,43 @@
 # Exercícios
 Exercícios de programação
 
+## Lógica
+1. Para comemorar o aniversário de Cláudio, ele e mais quatro amigos – Alberto, Beto, Dino e Eurico – foram almoçar juntos no restaurante da escola. As mesas são redondas e acomodam exatamente cinco pessoas. Cláudio e Dino sentam-se um ao lado do outro. Alberto e Beto não sentam-se um ao lado do outro. Os dois amigos sentados ao lado de Eurico são:
+    - Alberto e Beto
+    - Cláudio e Dino
+    - Dino e Beto
+    - Cláudio e Alberto
+    - Alberto e Dino
+
+1. Uma equipe de meninas está participando de uma gincana preparada pelos professores da escola. Depois de muitas peripécias, elas finalmente encontraram o cofre escondido que contém a última tarefa a ser resolvida. Mas o cofre está protegido com um cadeado digital que é aberto somente se uma senha de quatro letras for digitada. Junto ao cofre elas encontraram também um pedaço de papel com as letras Xkzk. Inicialmente elas pensaram que essa era a senha, mas o cofre não abriu. No entanto, elas tinham certeza de que as quatro letras encontradas eram a chave para o enigma. Depois de pensar um pouco elas perceberam que os nomes das cinco meninas da equipe tinham exatamente quatro letras. Seria essa a ligação com as letras encontradas? Não demorou muito para elas abrirem o cofre, pois a senha era mesmo o nome de uma das meninas. Qual era a senha do cofre?
+    - Anna
+    - Lisa
+    - Nina
+    - Iris
+    - Nara
+
+1. Um palíndrome é um número inteiro positivo, sem zeros à esquerda, que é o mesmo se lido da esquerda para a direita ou da direita para a esquerda. Por exemplo, os números 11 e 65256 são palíndromes, mas os números 010 e 123 não são. A diferença entre o valor do maior palíndrome de três dígitos e o menor palíndrome de três dígitos é:
+    - 989
+    - 888
+    - 898
+    - 998
+    - 979
+
+1. Na Nlogônia, as cédulas de dinheiro são de $1,00, $3,00, $9,00, $27,00, e $81,00. Num dado momento, um vendedor possui apenas cinco cédulas, uma de cada um dos valores das cédulas existentes na Nlogônia. Qual dos valores abaixo não é possível ser dado como troco por esse vendedor?
+    - $40,00
+    - $35,00
+    - $31,00
+    - $13,00
+    - $4,00
+
+1. . Em uma sala há duas lousas (quadros negros), a lousa A e a lousa B. Na lousa A foi escrito o número 7 e na lousa B foi escrito o número 13. Após isso, um aluno entrou na sala, apagou o número da lousa B e em seu lugar escreveu um número igual ao número escrito na lousa A. Depois disso, outro aluno entrou na sala, apagou o número da lousa A e em seu lugar escreveu um número igual ao número atualmente escrito na lousa B. Depois dessas mudanças, quais são os números escritos nas
+lousas?
+    - 13 na lousa A e 7 na lousa B
+    - 7 na lousa A e 13 na lousa B
+    - 7 na lousa A e 7 na lousa B
+    - 13 na lousa A e 13 na lousa B
+    - 20 na lousa A e 6 na lousa B
+
 ## Estrutura sequencial
 1. Faça um programa que mostre a mensagem "Alo mundo" na tela.
 
@@ -89,6 +126,7 @@ _TODO_
 _TODO_
 
 ## Agradecimentos
-Segue alguns agradecimentos à professores que disponibilizaram uma lista de exercícios na internet facilitando a criação desta lista:
+Segue alguns agradecimentos à professores e eventos que disponibilizaram uma lista de exercícios na internet facilitando a criação desta lista:
 - [Prof. Angelo Augusto Frozza](http://www.ifc-camboriu.edu.br/~frozza/)
 - [Profa. Flávia Pereira de Carvalho](https://fit.faccat.br/~fpereira/pagina/)
+- [Olimpíada Brasileira de Informática](http://olimpiada.ic.unicamp.br/passadas/pp)
