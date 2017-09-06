@@ -2,6 +2,12 @@
 Exercícios de programação
 
 ## Lógica
+1. Um homem precisa atravessar um rio com um barco que possui capacidade de transportar apenas ele e mais uma de suas três cargas, que são: um cachorro, uma galinha e um saco de milho. Quais os passos que o homem deve fazer para conseguir atravessar o rio sem perder as suas cargas?
+
+1. Uma Torre de Hanói é formada por três discos sobrepostos transpassados por uma haste. Tendo mais duas hastes e podendo mover um disco por vez, mas nunca deixando um disco maior sobre um disco menor, quais os passos necessários para podermos passar os discos para uma outra haste?
+
+1. Três jesuítas e três canibais precisam atravessar um rio. No entanto dispõem apenas de um barco com capacidade para duas pessoas. Por medida de segurança não se permite que em alguma das margens do rio a quantidade de jesuítas seja inferior à quantidade de canibais. Qual a sequência de viagens necessárias para a travessia do rio com segurança para os jesuítas?
+
 1. Para comemorar o aniversário de Cláudio, ele e mais quatro amigos – Alberto, Beto, Dino e Eurico – foram almoçar juntos no restaurante da escola. As mesas são redondas e acomodam exatamente cinco pessoas. Cláudio e Dino sentam-se um ao lado do outro. Alberto e Beto não sentam-se um ao lado do outro. Os dois amigos sentados ao lado de Eurico são:
     - Alberto e Beto
     - Cláudio e Dino
@@ -150,7 +156,18 @@ com D.
 1. _Leet_ é uma forma de se escrever o alfabeto latino usando outros símbolos em lugar das letras, como números por exemplo. A própria palavra _leet_ admite muitas variações, como l33t ou 1337. O uso do _leet_ reflete uma subcultura relacionada ao mundo dos jogos de computador e internet, sendo muito usada para confundir os iniciantes e afirmar-se como parte de um grupo. Pesquise sobre as principais formas de traduzir as letras. Depois, faça um programa que peça uma texto e transforme-o para a grafia _leet speak_.
 
 ## Vetores
-_TODO_
+1. Faça um programa que copie o conteúdo de um vetor em um segundo vetor.
+
+1. Faça um programa que some o conteúdo de dois vetores e armazene o resultado em um terceiro vetor.
+
+1. Faça um programa para ler dois vetores V1 e V2 de 15 números cada. Calcular e escrever a quantidade de vezes que V1 e V2 possuem os mesmos números e nas mesmas posições.
+
+1. Faça um programa que defina dois vetores A = [1, 3, 5, 9, 12] e B = [1, 2, 3, 4, 7, 25] e faça as seguintes operações de conjuntos:
+    - A &bigcup; B: União (todos os valores de ambos os vetores)
+    - A &bigcap; B: Intersecção (apenas valores que existam em ambos)
+    - A &minus; B: Diferença (apenas valores que não apareçam simultaneamente em ambos conjuntos) 
+
+1. Escrever um programa que lê um vetor com 20 números inteiros e o escreve na tela. Troque, a seguir, o 1º elemento com o último, o 2º com o penúltimo etc. até o 10º com o 11º e escreva na tela o vetor N assim modificado.
 
 ## Matrizes
 _TODO_
