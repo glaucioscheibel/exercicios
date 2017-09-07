@@ -274,6 +274,28 @@ com D.
     1. A quantidade de números pares;
     1. A quantidade de números ímpares.
 
+1. O seguinte programa em Python não está funcionando e lhe foi pedido para que seja corrigido. Apenas olhando o código, qual foi o erro de programação?
+    ```python
+    cont1 = 0
+    cont2 = 0
+    brancos = 0
+    nulos = 0
+    voto = int(input())
+    while voto != -1:
+        if voto == 1:
+            cont1 += 1
+        elif voto == 2:
+            cont2 += 1
+        elif voto == 0:
+            brancos += 1
+        else:
+            nulos += 1
+    print(cont1)
+    print(cont2)
+    print(brancos)
+    print(nulos)
+    ```
+
 ## Strings
 1. Faça um programa que permita ao usuário digitar o seu nome e em seguida mostre o nome do usuário de trás para frente utilizando somente letras maiúsculas. Dica: lembre−se que ao informar o nome o usuário pode digitar letras maiúsculas ou minúsculas.
 
