@@ -1,5 +1,4 @@
-# Exercícios
-Exercícios de programação
+# Exercícios de Programação
 
 ## Lógica
 1. Um homem precisa atravessar um rio com um barco que possui capacidade de transportar apenas ele e mais uma de suas três cargas, que são: um cachorro, uma galinha e um saco de milho. Quais os passos que o homem deve fazer para conseguir atravessar o rio sem perder as suas cargas?
@@ -44,12 +43,49 @@ lousas?
     - 13 na lousa A e 13 na lousa B
     - 20 na lousa A e 6 na lousa B
 
+1. Maria tinha alguns biscoitos. Ela comeu dois e deu dois à irmã. Depois deu metade do que sobrou ao irmão. Se o irmão ficou com 5 biscoitos, quantos tinha Maria no início?
+
+1. Uma pessoa lê um livro de 100 páginas em 6 dias. Em quantos dias essa pessoa lê um livro de 150 páginas?
+
+1. Lúcia foi ao mesmo tempo a décima terceira melhor classificada e a décima terceira pior classificada de um concurso. Quantos eram os concorrentes?
+
+1. Ao observar a sequência de números abaixo, descubra qual das opções completa a série.
+
+    66, 59, 52, 45, 38, ??
+    - 32
+    - 35
+    - 31
+    - 41
+    - 43
+
+1. Ao observar a sequência de números abaixo, descubra qual das opções completa a série.
+
+    102, 103, 105, 108, ??
+    - 109
+    - 114
+    - 106
+    - 111
+    - 112
+
+1. Ao observar a sequência de números abaixo, descubra qual das opções completa a série.
+
+    50, 5, 40, 10, 30, ??
+    - 35
+    - 20
+    - 25
+    - 15
+    - 37
+
+1. Para A = V, B = V e C = F, qual o resultado da avaliação das seguintes expressões lógicas:
+    1. A or C and not B
+    2. (A or B) and (A and C)
+
 ## Estrutura sequencial
 1. Faça um programa que mostre a mensagem "Alo mundo" na tela.
 
 1. Faça um programa que peça as 4 notas bimestrais e mostre a média.
 
-1. Faça um programa para calcular a área de uma circunferência, considerando a fórmula ÁREA = π * RAIO2. Utilize as variáveis AREA e RAIO, a constante π (pi = 3,14159) e os operadores aritméticos de multiplicação.
+1. Faça um programa para calcular a área de uma circunferência, considerando a fórmula AREA = &pi; * RAIO<sup>2</sup>. Utilize as variáveis AREA e RAIO, a constante &pi; (pi = 3,14159) e os operadores aritméticos de multiplicação.
 
 1. Faça um programa que:
     1. Leia o nome;
@@ -68,9 +104,15 @@ convertida em graus _Fahrenheit_. A fórmula de conversão é: F = (9 * C + 160)
 
 1. Faça um programa que calcule a quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12Km por litro. Para obter o cálculo, o usuário deve fornecer o tempo gasto na viagem e a velocidade média durante ela. Desta forma, será possível obter a distância percorrida com a fórmula DISTANCIA = TEMPO * VELOCIDADE. Tendo o valor da distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a fórmula: LITROS_USADOS = DISTANCIA / 12. O programa deve apresentar os valores da velocidade média, tempo gasto na viagem, a distância percorrida e a quantidade de litros utilizada na viagem.
 
+1. Faça um programa para determinar o consumo médio de um automóvel sendo fornecida a distância total percorrida pelo automóvel e o total de combustível gasto.
+
 1. Faça um programa que leia os valores de COMPRIMENTO, LARGURA e ALTURA e apresente o valor do volume de uma caixa retangular. Utilize para o cálculo a fórmula VOLUME = COMPRIMENTO * LARGURA * ALTURA.
 
-1. Escreva um programa que armazene o valor 10 em uma variável A e o valor 20 em uma variável B. A seguir (utilizando apenas atribuições entre variáveis) troque os seus conteúdos fazendo com que o valor que está em A passe para B e vice-versa. Ao final, escrever os valores que ficaram armazenados nas variáveis.
+1. Faça um programa que leia a idade de uma pessoa expressa em anos, meses e dias e escreva a idade dessa pessoa expressa apenas em dias. Considerar ano com 365 dias e mês com 30 dias. Calcular quantos dias a pessoa já viveu até hoje.
+
+1. Faça um programa para calcular e imprimir o número de lâmpadas necessárias para iluminar um determinado cômodo de uma residência. Dados de entrada: a potência da lâmpada utilizada (em watts), as dimensões (largura e comprimento, em metros) do cômodo. Considere que a potência necessária é de 18 watts por metro quadrado.
+
+1. Faça um programa que armazene o valor 10 em uma variável A e o valor 20 em uma variável B. A seguir (utilizando apenas atribuições entre variáveis) troque os seus conteúdos fazendo com que o valor que está em A passe para B e vice-versa. Ao final, escrever os valores que ficaram armazenados nas variáveis.
 
 1. Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
 
@@ -86,22 +128,112 @@ com D.
 
 1. Faça um programa que receba como entrada três valores e os imprima em ordem crescente.
 
+1. As maçãs custam R$ 1.30 cada se forem compradas menos de uma dúzia, e R$ 1.00 se forem compradas pelo menos 12. Escreva um programa que leia o número de maçãs compradas, calcule e escreva o custo total da compra.
+
 1. Faça um programa para aprovar empréstimos bancários. O código deve pedir três informações: valor do empréstimo, número de parcelas e salário do solicitante. Aprovar empréstimo caso o valor das parcelas representem no máximo 30% do salário do solicitante.
 
 1. A empresa paga ao corretor uma comissão calculada de acordo com o valor de suas vendas. Se o valor da venda de um corretor for maior que R$ 50.000.00 a comissão será de 12% do valor vendido. Se o valor da venda do corretor estiver entre R$ 30.000.00 e R$ 50.000.00 (incluindo extremos) a comissão será de 9.5%. Em qualquer outro caso, a comissão será de 7%. Escreva um programa onde será informado nome do corretor e o valor da venda, após isto o programa irá calcular o valor da comissão.
 
 1. Faça um programa onde serão informados as quatro notas do aluno. O programa irá então apresentar a média, se foi aprovado (nota >= 7) ou se ficou em exame. Caso o aluno ficou em exame, o programa irá então perguntar qual foi a nota do exame e então irá calcular a nova média (média anteior com a nota do exame) e informar se ele foi aprovado (nova média >= 5) ou se foi reprovado.
 
+1. A jornada de trabalho semanal de um funcionário é de 40 horas. O funcionário que trabalhar mais de 40 horas receberá hora extra, cujo cálculo é o valor da hora regular com um acréscimo de 50%. Escreva um programa que leia o número de horas trabalhadas em um mês, o salário por hora e escreva o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham sido trabalhadas (considere que o mês possua 4 semanas exatas).
+
 1. Faça um programa que efetue a leitura de três valores numéricos representando os lados de um triângulo. O programa deverá verificar e informar se os lados fornecidos formam realmente um triângulo (cada lado é menor que a soma dos outros dois lados). Se esta condição for verdadeira, deverá ser indicado qual tipo de triângulo foi formado: isósceles (dois lados iguais e um diferente), escaleno (todos os lados diferentes) ou eqüilátero (todos os lados são iguais).
 
+1. Faça um programa para uma empresa que decide dar um reajuste funcionários de acordo com os seguintes critérios:
+    - 50% para aqueles que ganham menos do que três salários mínimos;
+    - 20% para aqueles que ganham entre três até dez salários mínimos;
+    - 15% para aqueles que ganham acima de dez até vinte salários mínimos;
+    - 10% para os demais funcionários.
+
 1. Faça um programa que calcule as raízes de uma equação do segundo grau, na forma ax<sup>2</sup> + bx + c. O programa deverá pedir os valores de a, b e c e fazer as consistências, informando ao usuário nas seguintes situações:
-    1. Se o usuário informar o valor de A igual a zero, a equação não é do segundo grau e o programa não deve fazer pedir os demais valores, sendo encerrado;
-    1. Se o delta calculado for negativo, a equação não possui raizes reais. Informe ao usuário e encerre o programa;
-    1. Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
-    1. Se o delta for positivo, a equação possui duas raiz reais; informe-as ao usuário.
+    - Se o usuário informar o valor de A igual a zero, a equação não é do segundo grau e o programa não deve fazer pedir os demais valores, sendo encerrado;
+    - Se o delta calculado for negativo, a equação não possui raizes reais. Informe ao usuário e encerre o programa;
+    - Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
+    - Se o delta for positivo, a equação possui duas raiz reais; informe-as ao usuário.
 
 1. Faça um Programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.
 
+1. Um posto está vendendo combustíveis com a seguinte tabela de descontos. Escreva um programa que leia o número de litros vendidos e o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 3.30 e o preço do litro do álcool é R$ 2.90.
+    <table border="1" align="center">
+        <tr>
+            <th rowspan="2" align="center">Álcool</th>
+            <td>até 20 litros, desconto de 3% por litro</td>
+        </tr>
+        <tr>
+            <td>acima de 20 litros, desconto de 5% por litro</td>
+        </tr>
+        <tr>
+            <th rowspan="2" align="center">Gasolina</th>
+            <td>até 20 litros, desconto de 4% por litro</td>
+        </tr>
+        <tr>
+            <td>acima de 20 litros, desconto de 6% por litro</td>
+        </tr>
+    </table>
+
+1. Uma quitanda está vendendo frutas com a seguinte tabela de preços. Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25.00, receberá ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade (em Kg) de maças adquiridas e escreva o valor a ser pago pelo cliente.
+    <table border="1" align="center">
+        <tr>
+            <td></td>
+            <th>Até 5Kg</th>
+            <th>Acima de 5kg</th>
+        </tr>
+        <tr>
+            <th>Morango</th>
+            <td>R$2,50 / kg</td>
+            <td>R$2,20 / kg</td>
+        </tr>
+        <tr>
+            <th>Maçã</th>
+            <td>R$1,80 / kg</td>
+            <td>R$1,50 / kg</td>
+        </tr>
+    </table>
+
+1. Uma Companhia de Seguros possui nove categorias de seguro baseadas na idade e ocupação do segurado. Somente pessoas com pelo menos 17 anos e não mais de 70 anos podem adquirir apólices de seguro. Quanto às classes de ocupações, foram definidos três grupos de risco. A tabela abaixo fornece as categorias em função da faixa etária e do grupo de risco. Dados nome, idade e grupo de risco, determinar a categoria do pretendente à aquisição de tal seguro. Imprimir o nome a idade e a categoria do pretendente, e , caso a idade não esteja na faixa necessária, imprimir uma mensagem.
+    <table border="1" align="center">
+        <tr>
+            <th>&nbsp;</th>
+            <th colspan="3" align="center">Grupos de risco</th>
+        </tr>
+        <tr>
+            <th>Idades</th>
+            <th>Baixa</th>
+            <th>Média</th>
+            <th>Alta</th>
+        </tr>
+        <tr>
+            <td>17 a 20</td>
+            <td align="center">1</td>
+            <td align="center">2</td>
+            <td align="center">3</td>
+        </tr>
+        <tr>
+            <td>21 a 24</td>
+            <td align="center">2</td>
+            <td align="center">3</td>
+            <td align="center">4</td>
+        </tr>
+        <tr>
+            <td>25 a 34</td>
+            <td align="center">3</td>
+            <td align="center">4</td>
+            <td align="center">5</td>
+        </tr>
+        <tr>
+            <td>35 a 64</td>
+            <td align="center">4</td>
+            <td align="center">5</td>
+            <td align="center">6</td>
+        </tr>
+        <tr>
+            <td>65 a 70</td>
+            <td align="center">7</td>
+            <td align="center">8</td>
+            <td align="center">9</td>
+        </tr>
+    </table>
 
 ## Estrutura de repetição
 1. Faça um programa que calcule a soma dos números inteiros de 1 a 100.
@@ -109,6 +241,8 @@ com D.
 1. Construa um programa que exiba a tabuada de 1 até N.
 
 1. Faça um programa para calcular e escrever a soma dos cubos dos números pares compreendidos entre A e B (B > A). A e B são lidos pelo teclado.
+
+1. Faça um programa que receba um valor que foi depositado na poupança e exiba o valor com rendimento mês a mês durante o período de um ano. Considere fixo o juros da poupança em 0,5% a. m.
 
 1. Número primo é aquele que só é divisível por ele mesmo e pelo número 1. Faça um programa que determine e escreva os números primos compreendidos entre um intervalo fornecido pelo usuário.
 
@@ -118,7 +252,7 @@ com D.
 
 1. Faça um programa para calcular e escrever a seguinte soma:
 
-    37x38/1 + 36x37/2 + 35x36/2 + ... + 1x2/37
+    37x38/1 + 36x37/2 + 35x36/3 + ... + 1x2/37
 
 1. Anacleto tem 1,50m e cresce 2 centímetros por ano, enquanto Felisberto tem 1,10m e cresce 3 centímetros por ano. Construa um programa que calcule e apresente quantos anos serão necessários para que Felisberto seja maior que Anacleto.
 
@@ -153,9 +287,24 @@ com D.
 
     DigitoV = resto da divisão de S por 7, onde S = 6A + 5B + 4C + 3D + 2E
 
+1. Escreva um programa que dado um valor numérico digitado pelo usuário (armazenado em uma variável inteira), imprima cada um dos seus dígitos por extenso.
+    Exemplo:
+
+        Entre o número: 4571
+        Resultado: quatro, cinco, sete, um
+
 1. _Leet_ é uma forma de se escrever o alfabeto latino usando outros símbolos em lugar das letras, como números por exemplo. A própria palavra _leet_ admite muitas variações, como l33t ou 1337. O uso do _leet_ reflete uma subcultura relacionada ao mundo dos jogos de computador e internet, sendo muito usada para confundir os iniciantes e afirmar-se como parte de um grupo. Pesquise sobre as principais formas de traduzir as letras. Depois, faça um programa que peça uma texto e transforme-o para a grafia _leet speak_.
 
+1. Escreva um programa que, a partir de um nome informado pelo usuário, exiba suas iniciais. As iniciais são formadas pela primeira letra de cada nome, sendo que todas deverão aparecer em maiúsculas na saída do programa. Note que os conectores e, do, da, dos, das, de, di, du não são considerados nomes e, portanto, não devem ser considerados para a obtenção das iniciais. As iniciais devem ser impressas em maiúsculas, ainda que o nome seja entrado todo em minúsculas.
+
+    Exemplos:
+
+        Maria das Graças Pimenta => MGP
+        João Carlos dos Santos => JCS
+
 ## Vetores
+1. Fazer um algoritmo que calcule e imprima o soma, a média, o maior e o menor dos valores armazenados em um vetor A de 100 elementos numéricos a serem lidos do dispositivo de entrada padrão.
+
 1. Faça um programa que copie o conteúdo de um vetor em um segundo vetor.
 
 1. Faça um programa que some o conteúdo de dois vetores e armazene o resultado em um terceiro vetor.
@@ -169,11 +318,25 @@ com D.
 
 1. Escrever um programa que lê um vetor com 20 números inteiros e o escreve na tela. Troque, a seguir, o 1º elemento com o último, o 2º com o penúltimo etc. até o 10º com o 11º e escreva na tela o vetor N assim modificado.
 
+1. Numa eleição existem n candidatos identificados pelos números 1, 2, 3 ... n. Faça um programa que compute o resultado de uma eleição. Inicialmente o programa deverá pedir o número total de candidatos e de votantes. Em seguida, deverá pedir para cada votante votar (informando o numero do candidato) e a o final mostrar o número de votos de cada candidato. Utilize um vetor para armazenar o total de votos de cada candidato.
+
 ## Matrizes
 _TODO_
 
 ## Funções
-_TODO_
+1. Crie uma função que receba duas palavras e retorne _True_ caso a primeira palavra seja um prefixo da segunda.
+
+### Funções recursivas
+1. Crie uma função recursiva que receba um número inteiro positivo N e calcule o somatório dos números de 1 a N.
+
+1. Faça uma função recursiva que calcule e retorne o fatorial de um número inteiro N.
+
+1. O máximo divisor comum (MDC) dos inteiros x e y é o maior inteiro que é divisível por x e y. Escreva uma função recursiva MDC, que retorna o máximo divisor comum de x e y. O MDC de x e y é definido como segue:
+
+    - se y é igual a 0, então mdc(x, y) é x;
+    - caso contrário, mdc(x, y) é mdc (y, x % y), onde % é o operador módulo (resto).
+
+1. Faça uma função recursiva que calcule e retorne o N-ésimo termo da sequência Fibonacci. Alguns números desta sequência são: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89...
 
 ## Agradecimentos
 Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma lista de exercícios na internet facilitando a criação desta lista:
