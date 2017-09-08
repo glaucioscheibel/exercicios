@@ -355,6 +355,59 @@ com D.
 1. Numa eleição existem n candidatos identificados pelos números 1, 2, 3 ... n. Faça um programa que compute o resultado de uma eleição. Inicialmente o programa deverá pedir o número total de candidatos e de votantes. Em seguida, deverá pedir para cada votante votar (informando o numero do candidato) e a o final mostrar o número de votos de cada candidato. Utilize um vetor para armazenar o total de votos de cada candidato.
 
 ## Matrizes
+1. Dada as matrizes A e B determine A + B. 
+    <table>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <th rowspan="2">A =</th>
+                        <td>-10</td>
+                        <td>1</td>
+                        <td>4</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>8</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <th rowspan="2">B =</th>
+                        <td>1</td>
+                        <td>8</td>
+                        <td>4</td>
+                        <td>-1</td>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td>6</td>
+                        <td>3</td>
+                        <td>-3</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+1. Faça um program que data a matriz A, gera a matriz oposta -A. Matriz oposta possui valores que se somados à matriz original, zera todos os seus valores.
+    <table>
+        <tr>
+            <th rowspan="2">A =</th>
+            <td>2</td>
+            <td>-3</td>
+        </tr>
+        <tr>
+            <td>-1</td>
+            <td>4</td>
+        </tr>
+    </table>
+
 1. Faça um programa que dada a seguinte matriz A, gere a matriz transposta dela A<sup>t</sup>. Matriz transposta é a que se obtém trocando-se ordenadamente as linhas pelas colunas.
     <table border="0">
         <tr>
