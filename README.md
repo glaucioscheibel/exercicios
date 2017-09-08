@@ -97,7 +97,7 @@ lousas?
 
 1. Faça um programa que peça as 4 notas bimestrais e mostre a média.
 
-1. Faça um programa para calcular a área de uma circunferência, considerando a fórmula AREA = &pi; * RAIO<sup>2</sup>. Utilize as variáveis AREA e RAIO, a constante &pi; (pi = 3,14159) e os operadores aritméticos de multiplicação.
+1. Faça um programa para calcular a área de uma circunferência, considerando a fórmula AREA = &pi; &times; RAIO<sup>2</sup>. Utilize as variáveis AREA e RAIO, a constante &pi; (pi = 3,14159) e os operadores aritméticos de multiplicação.
 
 1. Faça um programa que:
     1. Leia o nome;
@@ -112,13 +112,13 @@ lousas?
     1. Apresente o valor calculado.
 
 1. Faça um programa que leia uma temperatura em graus _Celsius_ e apresente-a
-convertida em graus _Fahrenheit_. A fórmula de conversão é: F = (9 * C + 160) / 5, na qual F é a temperatura em _Fahrenheit_ e C é a temperatura em _Celsius_.
+convertida em graus _Fahrenheit_. A fórmula de conversão é: F = (9 &times; C + 160) &divide; 5, na qual F é a temperatura em _Fahrenheit_ e C é a temperatura em _Celsius_.
 
-1. Faça um programa que calcule a quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12Km por litro. Para obter o cálculo, o usuário deve fornecer o tempo gasto na viagem e a velocidade média durante ela. Desta forma, será possível obter a distância percorrida com a fórmula DISTANCIA = TEMPO * VELOCIDADE. Tendo o valor da distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a fórmula: LITROS_USADOS = DISTANCIA / 12. O programa deve apresentar os valores da velocidade média, tempo gasto na viagem, a distância percorrida e a quantidade de litros utilizada na viagem.
+1. Faça um programa que calcule a quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12Km por litro. Para obter o cálculo, o usuário deve fornecer o tempo gasto na viagem e a velocidade média durante ela. Desta forma, será possível obter a distância percorrida com a fórmula DISTANCIA = TEMPO &times; VELOCIDADE. Tendo o valor da distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a fórmula: LITROS_USADOS = DISTANCIA &divide; 12. O programa deve apresentar os valores da velocidade média, tempo gasto na viagem, a distância percorrida e a quantidade de litros utilizada na viagem.
 
 1. Faça um programa para determinar o consumo médio de um automóvel sendo fornecida a distância total percorrida pelo automóvel e o total de combustível gasto.
 
-1. Faça um programa que leia os valores de COMPRIMENTO, LARGURA e ALTURA e apresente o valor do volume de uma caixa retangular. Utilize para o cálculo a fórmula VOLUME = COMPRIMENTO * LARGURA * ALTURA.
+1. Faça um programa que leia os valores de COMPRIMENTO, LARGURA e ALTURA e apresente o valor do volume de uma caixa retangular. Utilize para o cálculo a fórmula VOLUME = COMPRIMENTO &times; LARGURA &times; ALTURA.
 
 1. Faça um programa que leia a idade de uma pessoa expressa em anos, meses e dias e escreva a idade dessa pessoa expressa apenas em dias. Considerar ano com 365 dias e mês com 30 dias. Calcular quantos dias a pessoa já viveu até hoje.
 
@@ -140,13 +140,13 @@ com D.
 
 1. Faça um programa que receba como entrada três valores e os imprima em ordem crescente.
 
-1. As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem compradas pelo menos 12. Escreva um programa que leia o número de maçãs compradas, calcule e escreva o custo total da compra.
+1. As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem compradas pelo menos 12 unidades. Escreva um programa que leia o número de maçãs compradas, calcule e escreva o custo total da compra.
 
 1. Faça um programa para aprovar empréstimos bancários. O código deve pedir três informações: valor do empréstimo, número de parcelas e salário do solicitante. Aprovar empréstimo caso o valor das parcelas representem no máximo 30% do salário do solicitante.
 
-1. A empresa paga ao corretor uma comissão calculada de acordo com o valor de suas vendas. Se o valor da venda de um corretor for maior que R$ 50.000.00 a comissão será de 12% do valor vendido. Se o valor da venda do corretor estiver entre R$ 30.000,00 e R$ 50.000,00 (incluindo extremos) a comissão será de 9,5%. Em qualquer outro caso, a comissão será de 7%. Escreva um programa onde será informado nome do corretor e o valor da venda, após isto o programa irá calcular o valor da comissão.
+1. A empresa paga ao corretor uma comissão calculada de acordo com o valor de suas vendas. Se o valor da venda de um corretor for maior que R$ 50.000,00 a comissão será de 12% do valor vendido. Se o valor da venda do corretor estiver entre R$ 30.000,00 e R$ 50.000,00 (incluindo extremos) a comissão será de 9,5%. Em qualquer outro caso, a comissão será de 7%. Escreva um programa onde será informado nome do corretor e o valor da venda, após isto o programa irá calcular o valor da comissão.
 
-1. Faça um programa onde serão informados as quatro notas do aluno. O programa irá então apresentar a média, se foi aprovado (nota >= 7) ou se ficou em exame. Caso o aluno ficou em exame, o programa irá então perguntar qual foi a nota do exame e então irá calcular a nova média (média anteior com a nota do exame) e informar se ele foi aprovado (nova média >= 5) ou se foi reprovado.
+1. Faça um programa onde serão informados as quatro notas do aluno. O programa irá então apresentar a média, se foi aprovado (nota &ge; 7) ou se ficou em exame. Caso o aluno ficou em exame, o programa irá então perguntar qual foi a nota do exame e então irá calcular a nova média (média anteior com a nota do exame) e informar se ele foi aprovado (nova média &ge; 5) ou se foi reprovado.
 
 1. A jornada de trabalho semanal de um funcionário é de 40 horas. O funcionário que trabalhar mais de 40 horas receberá hora extra, cujo cálculo é o valor da hora regular com um acréscimo de 50%. Escreva um programa que leia o número de horas trabalhadas em um mês, o salário por hora e escreva o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham sido trabalhadas (considere que o mês possua 4 semanas exatas).
 
@@ -166,7 +166,7 @@ com D.
 
 1. Faça um Programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.
 
-1. Um posto está vendendo combustíveis com a seguinte tabela de descontos. Escreva um programa que leia o número de litros vendidos e o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 3.30 e o preço do litro do álcool é R$ 2.90.
+1. Um posto está vendendo combustíveis com a seguinte tabela de descontos. Escreva um programa que leia o número de litros vendidos e o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 3,30 e o preço do litro do álcool é R$ 2,90.
     <table border="1" align="center">
         <tr>
             <th rowspan="2" align="center">Álcool</th>
@@ -251,7 +251,7 @@ com D.
 
 1. Construa um programa que exiba a tabuada de 1 até N.
 
-1. Faça um programa para calcular e escrever a soma dos cubos dos números pares compreendidos entre A e B (B > A). A e B são lidos pelo teclado.
+1. Faça um programa para calcular e escrever a soma dos cubos dos números pares compreendidos entre A e B (B &gt; A). A e B são lidos pelo teclado.
 
 1. Faça um programa que receba um valor que foi depositado na poupança e exiba o valor com rendimento mês a mês durante o período de um ano. Considere fixo o juros da poupança em 0,5% a. m.
 
@@ -259,23 +259,23 @@ com D.
 
 1. Faça um programa que calcule o resultado dos 50 primeiros números da sequinte sequência:
 
-    1000/1 - 997/2 + 994/3 - 991/4 + ...
+    1000 &divide; 1 - 997 &divide; 2 + 994 &divide; 3 - 991 &divide; 4 + ...
 
 1. Faça um programa para calcular e escrever a seguinte soma:
 
-    37x38/1 + 36x37/2 + 35x36/3 + ... + 1x2/37
+    37 &times; 38 &divide; 1 + 36 &times; 37 &divide; 2 + 35 &times; 36 &divide; 3 + ... + 1 &times; 2 &divide; 37
 
 1. Anacleto tem 1,50m e cresce 2 centímetros por ano, enquanto Felisberto tem 1,10m e cresce 3 centímetros por ano. Construa um programa que calcule e apresente quantos anos serão necessários para que Felisberto seja maior que Anacleto.
 
 1. Um determinado material radioativo perde metade de sua massa a cada 50 segundos. Dada a massa inicial, em gramas, faça um programa que determine o tempo necessário para que essa massa se torne menor que 0,05 gramas.
 
-1. Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de crescimento de 1,5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
+1. Supondo que a população de um país A seja da ordem de 80.000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200.000 habitantes com uma taxa de crescimento de 1,5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
 
 1. Uma rainha requisitou os serviços de um monge e disse-lhe que pagaria qualquer preço. O monge, necessitando de alimentos, indagou à rainha sobre o pagamento, se poderia ser feito com grãos de trigo dispostos em um tabuleiro de xadrez (que possui 64 casas), de tal forma que o primeiro quadro deveria conter apenas um grão e os quadros subsequentes, o dobro do quadro anterior. Crie um programa para calcular o total de grãos que o monge recebeu.
 
 1. Escreva um programa que determine o fatorial de um número. Para este problema, tem-se como entrada o valor do número do qual se deseja calcular o fatorial. O fatorial de 0 é igual a 1. O fatorial de um número N(N!) é definido conforme a seguir:
 
-    N! = 1 * 2 * 3 * 4 * ... * (N-1) * N
+    N! = 1 &times; 2 &times; 3 &times; 4 &times; ... &times; (N - 1) &times; N
 
 1. Faça um programa que peça para o usuário ir informando números até que ele informe 0 (zero). Após isto apresente os seguintes dados sobre os números digitados:
     1. O maior número;
@@ -347,9 +347,9 @@ com D.
 1. Faça um programa que defina dois vetores A = [1, 3, 5, 9, 12] e B = [1, 2, 3, 4, 7, 25] e faça as seguintes operações de conjuntos:
     - A &bigcup; B: União (todos os valores de ambos os vetores)
     - A &bigcap; B: Intersecção (apenas valores que existam em ambos)
-    - A &minus; B: Diferença (apenas valores que não apareçam simultaneamente em ambos conjuntos) 
+    - A &minus; B: Diferença (apenas valores que não apareçam simultaneamente em ambos conjuntos)
 
-1. Escrever um programa que lê um vetor com 20 números inteiros e o escreve na tela. Troque, a seguir, o 1º elemento com o último, o 2º com o penúltimo etc. até o 10º com o 11º e escreva na tela o vetor N assim modificado.
+1. Escrever um programa que lê um vetor com 20 números inteiros e o escreve na tela. Troque, a seguir, o 1&ordm; elemento com o último, o 2&ordm; com o penúltimo etc. até o 10&ordm; com o 11&ordm; e escreva na tela o vetor N assim modificado.
 
 1. Numa eleição existem n candidatos identificados pelos números 1, 2, 3 ... n. Faça um programa que compute o resultado de uma eleição. Inicialmente o programa deverá pedir o número total de candidatos e de votantes. Em seguida, deverá pedir para cada votante votar (informando o numero do candidato) e a o final mostrar o número de votos de cada candidato. Utilize um vetor para armazenar o total de votos de cada candidato.
 
@@ -456,7 +456,7 @@ com D.
 1. O máximo divisor comum (MDC) dos inteiros x e y é o maior inteiro que é divisível por x e y. Escreva uma função recursiva MDC, que retorna o máximo divisor comum de x e y. O MDC de x e y é definido como segue:
 
     - se y é igual a 0, então mdc(x, y) é x;
-    - caso contrário, mdc(x, y) é mdc (y, x % y), onde % é o operador módulo (resto).
+    - caso contrário, mdc(x, y) é mdc (y, x mod y), onde mod é o operador módulo (resto).
 
 1. Faça uma função recursiva que calcule e retorne o N-ésimo termo da sequência Fibonacci. Alguns números desta sequência são: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89...
 
