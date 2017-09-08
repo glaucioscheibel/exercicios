@@ -395,7 +395,7 @@ com D.
         </tr>
     </table>
 
-1. Faça um program que data a matriz A, gera a matriz oposta -A. Matriz oposta possui valores que se somados à matriz original, zera todos os seus valores.
+1. Faça um programa que dada a matriz A, gere a matriz oposta -A. Matriz oposta possui valores que se somados à matriz original, gera uma matriz com valores zerados.
     <table>
         <tr>
             <th rowspan="2">A =</th>
