@@ -13,11 +13,14 @@
 1. [Agradecimentos](#agradecimentos)
 
 ## Lógica
-1. Um homem precisa atravessar um rio com um barco que possui capacidade de transportar apenas ele e mais uma de suas três cargas, que são: um cachorro, uma galinha e um saco de milho. Quais os passos que o homem deve fazer para conseguir atravessar o rio sem perder as suas cargas?
+1. Um homem precisa atravessar um rio com um barco que possui capacidade de transportar apenas ele e mais uma de suas três cargas, que são: um lobo, uma ovelha e um kilo de couve. Quais os passos que o homem deve fazer para conseguir atravessar o rio sem perder as suas cargas?
+[link racha-cuca](https://rachacuca.com.br/jogos/o-lobo-e-a-ovelha/)
 
 1. Uma Torre de Hanói é formada por três discos sobrepostos transpassados por uma haste. Tendo mais duas hastes e podendo mover um disco por vez, mas nunca deixando um disco maior sobre um disco menor, quais os passos necessários para podermos passar os discos para uma outra haste?
+[link UFRGS](https://www.ufrgs.br/psicoeduc/hanoi/)
 
 1. Três jesuítas e três canibais precisam atravessar um rio. No entanto dispõem apenas de um barco com capacidade para duas pessoas. Por medida de segurança não se permite que em alguma das margens do rio a quantidade de jesuítas seja inferior à quantidade de canibais. Qual a sequência de viagens necessárias para a travessia do rio com segurança para os jesuítas?
+[link racha-cuca](https://rachacuca.com.br/jogos/missionarios-e-canibais/)
 
 1. Para comemorar o aniversário de Cláudio, ele e mais quatro amigos – Alberto, Beto, Dino e Eurico – foram almoçar juntos no restaurante da escola. As mesas são redondas e acomodam exatamente cinco pessoas. Cláudio e Dino sentam-se um ao lado do outro. Alberto e Beto não sentam-se um ao lado do outro. Os dois amigos sentados ao lado de Eurico são:
     - Alberto e Beto
@@ -249,7 +252,7 @@ com D.
 ## Estrutura de repetição
 1. Faça um programa que calcule a soma dos números inteiros de 1 a 100.
 
-1. Construa um programa que exiba a tabuada de 1 até N.
+1. Construa um programa que exiba a tabuada de 1 até N, onde N é informado pelo usuário. ex: Até a tabuada de 3, irá imprimir as tabuadas de 1, 2 e 3.
 
 1. Faça um programa para calcular e escrever a soma dos cubos dos números pares compreendidos entre A e B (B &gt; A). A e B são lidos pelo teclado.
 
