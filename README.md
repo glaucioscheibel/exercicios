@@ -771,9 +771,9 @@ com D.
 ## Filmes
 Segue uma relação de filmes que abordam o tema da programação e/ou da importância da computação (ordem alfabética):
 1. [AlphaGo](http://www.imdb.com/title/tt6700846)
-1. [O Jogo da Imitação](http://www.imdb.com/title/tt2084970)
 1. [Intermediário.com](http://www.imdb.com/title/tt1251757)
 1. [Jobs](http://www.imdb.com/title/tt2357129)
+1. [O Jogo da Imitação](http://www.imdb.com/title/tt2084970)
 1. [Jogos de Guerra](http://www.imdb.com/title/tt0086567)
 1. [Piratas do Vale do Silício](http://www.imdb.com/title/tt0168122)
 1. [A Rede Social](http://www.imdb.com/title/tt1285016)
