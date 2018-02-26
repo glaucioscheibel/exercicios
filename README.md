@@ -10,6 +10,7 @@
 1. [Matrizes](#matrizes)
 1. [Funções](#funções)
     1. [Funções recursivas](#funções-recursivas)
+1. [Filmes](#filmes)
 1. [Agradecimentos](#agradecimentos)
 
 ## Lógica
@@ -766,6 +767,17 @@ com D.
 1. Faça uma função recursiva que calcule e retorne o N-ésimo termo da sequência Fibonacci. Alguns números desta sequência são: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89...
 
 1. Faça uma função recursiva que retorne a inversão de uma String passada como parâmetro. Ex: teste &rarr; etset
+
+## Filmes
+Segue uma relação de filmes que abordam o tema da programação e/ou da importância da computação (ordem alfabética):
+1. [AlphaGo](http://www.imdb.com/title/tt6700846)
+1. [O Jogo da Imitação](http://www.imdb.com/title/tt2084970)
+1. [Intermediário.com](http://www.imdb.com/title/tt1251757)
+1. [Jobs](http://www.imdb.com/title/tt2357129)
+1. [Jogos de Guerra](http://www.imdb.com/title/tt0086567)
+1. [Piratas do Vale do Silício](http://www.imdb.com/title/tt0168122)
+1. [A Rede Social](http://www.imdb.com/title/tt1285016)
+1. [Silicon Cowboys](http://www.imdb.com/title/tt4938484)
 
 ## Agradecimentos
 Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma lista de exercícios na internet facilitando a criação desta lista:
