@@ -97,13 +97,13 @@ lousas?
     2. (A or B) and (A and C)
 
 ## Estrutura sequencial
-1. Faça um programa que mostre a mensagem "Alo mundo" na tela.
+1. Faça um programa que imprima a mensagem "Alo mundo" na tela.
 
-1. Faça um programa que peça as 4 notas bimestrais e mostre a média.
+1. Faça um programa que peça as 4 notas bimestrais, calcule e imprima a média.
 
 1. Faça um programa para calcular a área de uma circunferência, considerando a fórmula AREA = &pi; &times; RAIO<sup>2</sup>. Utilize as variáveis AREA e RAIO, a constante &pi; (pi = 3,14159) e os operadores aritméticos de multiplicação.
 
-1. Faça um programa que peça dois números, base e expoente, calcule e mostre o primeiro número elevado ao segundo número. Utilize a função de potência da linguagem.
+1. Faça um programa que peça dois números, base e expoente, calcule e imprima o primeiro número elevado ao segundo número. Utilize a função de potência da linguagem.
 
 1. Faça um programa que:
     1. Leia o nome;
@@ -142,11 +142,11 @@ com D.
 ## Estrutura de decisão
 1. Faça um programa que peça dois números e imprima o maior deles.
 
-1. Faça um programa que leia três números e mostre o maior deles.
+1. Faça um programa que leia três números e imprima o maior deles.
 
 1. Faça um programa que receba como entrada três valores e os imprima em ordem crescente.
 
-1. As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem compradas pelo menos 12 unidades. Escreva um programa que leia o número de maçãs compradas, calcule e escreva o custo total da compra.
+1. As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem compradas pelo menos 12 unidades. Escreva um programa que leia o número de maçãs compradas, calcule e imprima o custo total da compra.
 
 1. Faça um programa para aprovar empréstimos bancários. O código deve pedir três informações: valor do empréstimo, número de parcelas e salário do solicitante. Aprovar empréstimo caso o valor das parcelas representem no máximo 30% do salário do solicitante.
 
@@ -154,9 +154,9 @@ com D.
 
 1. Faça um programa onde serão informados as quatro notas do aluno. O programa irá então apresentar a média, se foi aprovado (nota &ge; 7) ou se ficou em exame. Caso o aluno ficou em exame, o programa irá então perguntar qual foi a nota do exame e então irá calcular a nova média (média anteior com a nota do exame) e informar se ele foi aprovado (nova média &ge; 5) ou se foi reprovado.
 
-1. A jornada de trabalho semanal de um funcionário é de 40 horas. O funcionário que trabalhar mais de 40 horas receberá hora extra, cujo cálculo é o valor da hora regular com um acréscimo de 50%. Escreva um programa que leia o número de horas trabalhadas em um mês, o salário por hora e escreva o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham sido trabalhadas (considere que o mês possua 4 semanas exatas).
+1. A jornada de trabalho semanal de um funcionário é de 40 horas. O funcionário que trabalhar mais de 40 horas receberá hora extra, cujo cálculo é o valor da hora regular com um acréscimo de 50%. Escreva um programa que leia o número de horas trabalhadas em um mês, o salário por hora e imprima o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham sido trabalhadas (considere que o mês possua 4 semanas exatas).
 
-1. Faça um programa que efetue a leitura de três valores numéricos representando os lados de um triângulo. O programa deverá verificar e informar se os lados fornecidos formam realmente um triângulo (cada lado é menor que a soma dos outros dois lados). Se esta condição for verdadeira, deverá ser indicado qual tipo de triângulo foi formado: isósceles (dois lados iguais e um diferente), escaleno (todos os lados diferentes) ou eqüilátero (todos os lados são iguais).
+1. Faça um programa que efetue a leitura de três valores numéricos representando os lados de um triângulo. O programa deverá verificar e informar se os lados fornecidos formam realmente um triângulo (cada lado é menor que a soma dos outros dois lados). Se esta condição for verdadeira, deverá ser indicado qual tipo de triângulo foi formado: isósceles (dois lados iguais e um diferente), escaleno (todos os lados diferentes) ou equilátero (todos os lados são iguais).
 
 1. Faça um programa para uma empresa que decide dar um reajuste funcionários de acordo com os seguintes critérios:
     - 50% para aqueles que ganham menos do que três salários mínimos;
@@ -190,7 +190,7 @@ com D.
         </tr>
     </table>
 
-1. Uma quitanda está vendendo frutas com a seguinte tabela de preços. Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberá ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade (em Kg) de maças adquiridas e escreva o valor a ser pago pelo cliente.
+1. Uma quitanda está vendendo frutas com a seguinte tabela de preços. Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberá ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade (em Kg) de maças adquiridas e imprima o valor a ser pago pelo cliente.
     <table border="1" align="center">
         <tr>
             <td></td>
@@ -255,23 +255,23 @@ com D.
 ## Estrutura de repetição
 1. Faça um programa que calcule a soma dos números inteiros de 1 a 100.
 
-1. Escreva um programa que pergunte ao usuário um número e após, escreva na tela a soma total de 1 até o número lido. Exemplo: 5: 1 + 2 + 3 + 4 + 5 = 15
+1. Escreva um programa que pergunte ao usuário um número e após, imprima na tela a soma total de 1 até o número lido. Exemplo: 5: 1 + 2 + 3 + 4 + 5 = 15
 
-1. Faça um programa que peça dois números, base e expoente, calcule e mostre o primeiro número elevado ao segundo número. **Não utilize a função de potência da linguagem**.
+1. Faça um programa que peça dois números, base e expoente, calcule e imprima o primeiro número elevado ao segundo número. **Não utilize a função de potência da linguagem**.
 
 1. Construa um programa que exiba a tabuada de 1 até N, onde N é informado pelo usuário. ex: Até a tabuada de 3, irá imprimir as tabuadas de 1, 2 e 3.
 
-1. Faça um programa para calcular e escrever a soma dos cubos dos números pares compreendidos entre A e B (B &gt; A). A e B são lidos pelo teclado.
+1. Faça um programa para calcular e imprimir a soma dos cubos dos números pares compreendidos entre A e B (B &gt; A). A e B são lidos pelo teclado.
 
 1. Faça um programa que receba um valor que foi depositado na poupança e exiba o valor com rendimento mês a mês durante o período de um ano. Considere fixo o juros da poupança em 0,5% a. m.
 
-1. Número primo é aquele que só é divisível por ele mesmo e pelo número 1. Faça um programa que determine e escreva os números primos compreendidos entre um intervalo fornecido pelo usuário.
+1. Número primo é aquele que só é divisível por ele mesmo e pelo número 1. Faça um programa que determine e imprima os números primos compreendidos entre um intervalo fornecido pelo usuário.
 
 1. Faça um programa que calcule o resultado dos 50 primeiros números da sequinte sequência:
 
     1000 &divide; 1 - 997 &divide; 2 + 994 &divide; 3 - 991 &divide; 4 + ...
 
-1. Faça um programa para calcular e escrever a seguinte soma:
+1. Faça um programa para calcular e imprimir a seguinte soma:
 
     37 &times; 38 &divide; 1 + 36 &times; 37 &divide; 2 + 35 &times; 36 &divide; 3 + ... + 1 &times; 2 &divide; 37
 
@@ -279,7 +279,7 @@ com D.
 
 1. Um determinado material radioativo perde metade de sua massa a cada 50 segundos. Dada a massa inicial, em gramas, faça um programa que determine o tempo necessário para que essa massa se torne menor que 0,05 gramas.
 
-1. Supondo que a população de um país A seja da ordem de 80.000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200.000 habitantes com uma taxa de crescimento de 1,5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
+1. Supondo que a população de um país A seja da ordem de 80.000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200.000 habitantes com uma taxa de crescimento de 1,5%. Faça um programa que calcule e imprima o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
 
 1. Uma rainha requisitou os serviços de um monge e disse-lhe que pagaria qualquer preço. O monge, necessitando de alimentos, indagou à rainha sobre o pagamento, se poderia ser feito com grãos de trigo dispostos em um tabuleiro de xadrez (que possui 64 casas), de tal forma que o primeiro quadro deveria conter apenas um grão e os quadros subsequentes, o dobro do quadro anterior. Crie um programa para calcular o total de grãos que o monge recebeu.
 
@@ -318,7 +318,7 @@ com D.
     ```
 
 ## Strings
-1. Faça um programa que permita ao usuário digitar o seu nome e em seguida mostre o nome do usuário de trás para frente utilizando somente letras maiúsculas. Dica: lembre−se que ao informar o nome o usuário pode digitar letras maiúsculas ou minúsculas.
+1. Faça um programa que permita ao usuário digitar o seu nome e em seguida imprima o nome do usuário de trás para frente utilizando somente letras maiúsculas. Dica: lembre−se que ao informar o nome o usuário pode digitar letras maiúsculas ou minúsculas.
 
 1. Dado uma string com uma frase informada pelo usuário (incluindo espaços em branco), conte:
     1. quantos espaços em branco existem na frase.
@@ -352,16 +352,16 @@ com D.
 
 1. Faça um programa que some o conteúdo de dois vetores e armazene o resultado em um terceiro vetor.
 
-1. Faça um programa para ler dois vetores V1 e V2 de 15 números cada. Calcular e escrever a quantidade de vezes que V1 e V2 possuem os mesmos números e nas mesmas posições.
+1. Faça um programa para ler dois vetores V1 e V2 de 15 números cada. Calcular e imprimir a quantidade de vezes que V1 e V2 possuem os mesmos números e nas mesmas posições.
 
 1. Faça um programa que defina dois vetores A = [2, 4, 7, 13, 14, 15, 16] e B = [1, 6, 7, 11, 13, 16, 18] e faça as seguintes operações de conjuntos:
     - A &bigcup; B: União (todos os valores de ambos os vetores)
     - A &bigcap; B: Intersecção (apenas valores que existam em ambos)
     - A &minus; B: Diferença (apenas valores que não apareçam simultaneamente em ambos conjuntos)
 
-1. Escrever um programa que lê um vetor com 20 números inteiros e o escreve na tela. Troque, a seguir, o 1&ordm; elemento com o último, o 2&ordm; com o penúltimo etc. até o 10&ordm; com o 11&ordm; e escreva na tela o vetor N assim modificado.
+1. Escrever um programa que lê um vetor com 20 números inteiros e os imprime na tela. Troque, a seguir, o 1&ordm; elemento com o último, o 2&ordm; com o penúltimo etc. até o 10&ordm; com o 11&ordm; e imprima na tela o vetor N assim modificado.
 
-1. Numa eleição existem n candidatos identificados pelos números 1, 2, 3 ... n. Faça um programa que compute o resultado de uma eleição. Inicialmente o programa deverá pedir o número total de candidatos e de votantes. Em seguida, deverá pedir para cada votante votar (informando o numero do candidato) e a o final mostrar o número de votos de cada candidato. Utilize um vetor para armazenar o total de votos de cada candidato.
+1. Numa eleição existem n candidatos identificados pelos números 1, 2, 3 ... n. Faça um programa que compute o resultado de uma eleição. Inicialmente o programa deverá pedir o número total de candidatos e de votantes. Em seguida, deverá pedir para cada votante votar (informando o numero do candidato) e a o final imprimir o número de votos de cada candidato. Utilize um vetor para armazenar o total de votos de cada candidato.
 
 1. Ler 100 números de matriculas de alunos e armazenar em um vetor. Esses números são distintos, ou seja, não existem números de matriculas iguais. Caso o usuário informa um número de matrículo que já existe, o programa deverá emitir um alerta.
 
