@@ -170,7 +170,12 @@ com D.
     - Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
     - Se o delta for positivo, a equação possui duas raiz reais; informe-as ao usuário.
 
-1. Faça um Programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.
+1. Faça um programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto. Regras para o cálculo dos anos bissextos:
+
+    1. De 4 em 4 anos é ano bissexto.
+    1. De 100 em 100 anos não é ano bissexto.
+    1. De 400 em 400 anos é ano bissexto.
+    1. Prevalecem as últimas regras sobre as primeiras
 
 1. Um posto está vendendo combustíveis com a seguinte tabela de descontos. Escreva um programa que leia o número de litros vendidos e o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 3,30 e o preço do litro do álcool é R$ 2,90.
     <table border="1" align="center">
