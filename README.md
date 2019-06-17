@@ -272,7 +272,7 @@ com D.
 
 1. Número primo é aquele que só é divisível por ele mesmo e pelo número 1. Faça um programa que determine e imprima os números primos compreendidos entre um intervalo fornecido pelo usuário.
 
-1. Faça um programa que calcule o resultado dos 50 primeiros números da sequinte sequência:
+1. Faça um programa que calcule o resultado dos 50 primeiros números da seguinte sequência:
 
     1000 &divide; 1 - 997 &divide; 2 + 994 &divide; 3 - 991 &divide; 4 + ...
 
