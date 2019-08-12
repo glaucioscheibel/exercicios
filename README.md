@@ -350,9 +350,12 @@ com D.
         Maria das Graças Pimenta => MGP
         João Carlos dos Santos => JCS
 
-1.Dado uma frase, converta as letras minúsculas em maiúsculas e vice-versa
-ex: PalAVra
-saída pALavRA
+1. Dado uma frase informada pelo usuário, converta as letras minúsculas em maiúsculas e vice-versa.
+
+    Exemplo:
+
+        Entrada: PalAVra
+        saída:   pALavRA
 
 ## Vetores
 1. Fazer um algoritmo que calcule e imprima o soma, a média, o maior e o menor dos valores armazenados em um vetor A de 100 elementos numéricos a serem lidos do dispositivo de entrada padrão.
@@ -794,4 +797,4 @@ Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma l
 - [Profa. Flávia Pereira de Carvalho](https://fit.faccat.br/~fpereira/pagina/)
 - [Prof. Marco André Lopes Mendes](https://wiki.python.org.br/ListaDeExercicios)
 - [Olimpíada Brasileira de Informática](http://olimpiada.ic.unicamp.br/passadas/pp)
-- Só Alex
+- Alex (Aluno de Engenharia de Software da Univille)
