@@ -390,10 +390,10 @@ com D.
     ```
 1. Dadas duas sequências com *n* números inteiros entre 0 e 9, interpretadas como dois números inteiros de *n* algarismos, calcular a sequência de números que representa a soma dos dois inteiros.
     ```
-           8  2  4  3  4  2  5  1
+        1  8  2  4  3  4  2  5  1
     +      3  3  7  5  2  3  3  7
         -------------------------
-        1  1  6  1  8  6  5  8  8
+        2  1  6  1  8  6  5  8  8
     ```
 
 ## Matrizes
