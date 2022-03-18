@@ -1,6 +1,7 @@
 # Exercícios de Programação
 
 ## Conteúdo
+
 1. [Lógica](#lógica)
 1. [Algorítmo](#algorítmo)
 1. [Estrutura sequencial](#estrutura-sequencial)
@@ -15,11 +16,12 @@
 1. [Agradecimentos](#agradecimentos)
 
 ## Lógica
+
 1. Um homem precisa atravessar um rio com um barco que possui capacidade de transportar apenas ele e mais uma de suas três cargas, que são: um lobo, uma ovelha e um kilo de couve. Quais os passos que o homem deve fazer para conseguir atravessar o rio sem perder as suas cargas?
 [link racha-cuca](https://rachacuca.com.br/jogos/o-lobo-e-a-ovelha/)
 
 1. Uma Torre de Hanói é formada por três discos sobrepostos transpassados por uma haste. Tendo mais duas hastes e podendo mover um disco por vez, mas nunca deixando um disco maior sobre um disco menor, quais os passos necessários para podermos passar os discos para uma outra haste?
-[link UFRGS](https://www.ufrgs.br/psicoeduc/hanoi/)
+[link Univesp](https://apps.univesp.br/torre-de-hanoi/)
 
 1. Três jesuítas e três canibais precisam atravessar um rio. No entanto dispõem apenas de um barco com capacidade para duas pessoas. Por medida de segurança não se permite que em alguma das margens do rio a quantidade de jesuítas seja inferior à quantidade de canibais. Qual a sequência de viagens necessárias para a travessia do rio com segurança para os jesuítas?
 [link racha-cuca](https://rachacuca.com.br/jogos/missionarios-e-canibais/)
@@ -98,9 +100,11 @@ lousas?
     2. (A or B) and (A and C)
 
 ## Algorítmo
+
 1. Escreva um algorítmo, passo a passo, para trocar um pneu furado.
 
 ## Estrutura sequencial
+
 1. Faça um programa que imprima a mensagem "Alo mundo" na tela.
 
 1. Faça um programa que peça as 4 notas bimestrais, calcule e imprima a média.
@@ -144,6 +148,7 @@ convertida em graus _Fahrenheit_. A fórmula de conversão é: &#8457; = (9 &tim
 com D.
 
 ## Estrutura de decisão
+
 1. Faça um programa que peça dois números e imprima o maior deles.
 
 1. Faça um programa que leia três números e imprima o maior deles.
@@ -262,6 +267,7 @@ com D.
     </table>
 
 ## Estrutura de repetição
+
 1. Faça um programa que calcule a soma dos números inteiros de 1 a 100.
 
 1. Escreva um programa que pergunte ao usuário um número e após, imprima na tela a soma total de 1 até o número lido. Exemplo: 5: 1 + 2 + 3 + 4 + 5 = 15
@@ -305,6 +311,7 @@ com D.
     1. A quantidade de números ímpares.
 
 1. O seguinte programa em Python não está funcionando e lhe foi pedido para que seja corrigido. Apenas olhando o código, qual foi o erro de programação?
+
     ```python
     cont1 = 0
     cont2 = 0
@@ -327,6 +334,7 @@ com D.
     ```
 
 ## Strings
+
 1. Faça um programa que permita ao usuário digitar o seu nome e em seguida imprima o nome do usuário de trás para frente utilizando somente letras maiúsculas. Dica: lembre−se que ao informar o nome o usuário pode digitar letras maiúsculas ou minúsculas.
 
 1. Dado uma string com uma frase informada pelo usuário (incluindo espaços em branco), conte:
@@ -362,6 +370,7 @@ com D.
         saída:   pALavRA
 
 ## Vetores
+
 1. Fazer um algoritmo que calcule e imprima o soma, a média, o maior e o menor dos valores armazenados em um vetor A de 100 elementos numéricos a serem lidos do dispositivo de entrada padrão.
 
 1. Faça um programa que copie o conteúdo de um vetor em um segundo vetor.
@@ -401,6 +410,7 @@ com D.
     ```
 
 ## Matrizes
+
 1. Faça um programa para ler e imprimir uma matriz 2 &times; 4 de números inteiros.
 
 1. Dada a seguinte matriz, calcule:
@@ -436,7 +446,7 @@ com D.
         </tr>
     </table>
 
-1. Dada as matrizes A e B determine A + B. 
+1. Dada as matrizes A e B determine A + B.
     <table>
         <tr>
             <td>
@@ -765,6 +775,7 @@ com D.
     </table>
 
 ## Funções
+
 1. Crie uma função que receba duas palavras e retorne _True_ caso a primeira palavra seja um prefixo da segunda.
 
 1. Crie uma função que necessite de três argumentos, e que forneça a soma desses três argumentos.
@@ -778,6 +789,7 @@ com D.
 1. Número primo é aquele que só é divisível por ele mesmo e pelo número 1. Crie uma função que retorne verdadeiro ou falso se o número passado é primo ou não.
 
 ### Funções recursivas
+
 1. Crie uma função recursiva que receba um número inteiro positivo N e calcule o somatório dos números de 1 a N.
 
 1. Faça uma função recursiva que calcule e retorne o fatorial de um número inteiro N.
@@ -792,7 +804,9 @@ com D.
 1. Faça uma função recursiva que retorne a inversão de uma String passada como parâmetro. Ex: teste &rarr; etset
 
 ## Filmes
+
 Segue uma relação de filmes que abordam o tema da programação e/ou da importância da computação (ordem alfabética):
+
 1. [AlphaGo](http://www.imdb.com/title/tt6700846)
 1. [Intermediário.com](http://www.imdb.com/title/tt1251757)
 1. [Jobs](http://www.imdb.com/title/tt2357129)
@@ -803,7 +817,9 @@ Segue uma relação de filmes que abordam o tema da programação e/ou da import
 1. [Silicon Cowboys](http://www.imdb.com/title/tt4938484)
 
 ## Agradecimentos
+
 Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma lista de exercícios na internet facilitando a criação desta lista:
+
 - [Prof. Angelo Augusto Frozza](http://www.ifc-camboriu.edu.br/~frozza/)
 - [Profa. Flávia Pereira de Carvalho](https://fit.faccat.br/~fpereira/pagina/)
 - [Prof. Marco André Lopes Mendes](https://wiki.python.org.br/ListaDeExercicios)
