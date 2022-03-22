@@ -349,7 +349,8 @@ com D.
 
 1. Escreva um programa que dado um valor numérico digitado pelo usuário (armazenado em uma variável inteira), imprima cada um dos seus dígitos por extenso.
     Exemplo:
-    ```
+
+    ```text
     Entre o número: 4571
     Resultado: quatro, cinco, sete, um
     ```
@@ -360,7 +361,7 @@ com D.
 
     Exemplos:
 
-    ```
+    ```text
     Maria das Graças Pimenta -> MGP
     João Carlos dos Santos -> JCS
     ```
@@ -370,7 +371,8 @@ com D.
 1. Dado uma frase informada pelo usuário, converta as letras minúsculas em maiúsculas e vice-versa.
 
     Exemplo:
-    ```
+
+    ```text
     Entrada: PalAVra
     saída:   pALavRA
     ```
@@ -404,11 +406,14 @@ com D.
     1. Caso um vetor (A ou B) termine antes do outro, o vetor C deverá ser preenchido com os elementos do vetor que ainda possui informações.
 
 1. Uma escola de samba recebeu como pontos pela alegoria os seguintes 5 valores inclusos no vetor Notas. Lembrando que a nota mais alta e a nota mais baixa são descartadas. Faça um programa que calcule a média final do quesito.
-    ```
+
+    ```text
     Notas = [9.9, 9.7, 9.8, 10, 10]
     ```
-1. Dadas duas sequências com *n* números inteiros entre 0 e 9, interpretadas como dois números inteiros de *n* algarismos, calcular a sequência de números que representa a soma dos dois inteiros.
-    ```
+
+1. Dadas duas sequências com _n_ números inteiros entre 0 e 9, interpretadas como dois números inteiros de _n_ algarismos, calcular a sequência de números que representa a soma dos dois inteiros.
+
+    ```text
       1  8  2  4  3  4  2  5  1
     +    3  3  7  5  2  3  3  7
       -------------------------
