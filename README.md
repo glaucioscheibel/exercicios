@@ -359,17 +359,20 @@ com D.
 
     Exemplos:
 
-        Maria das Graças Pimenta &rarr; MGP
-        João Carlos dos Santos &rarr; JCS
+```
+    Maria das Graças Pimenta -> MGP
+    João Carlos dos Santos -> JCS
+```
 
 1. Faça um programa que peça ao usuário duas _strings_ diferentes, verifique então se elas são anagramas, ou seja, tem o mesmo conjunto de letras.
 
 1. Dado uma frase informada pelo usuário, converta as letras minúsculas em maiúsculas e vice-versa.
 
     Exemplo:
-
-        Entrada: PalAVra
-        saída:   pALavRA
+    ```
+    Entrada: PalAVra
+    saída:   pALavRA
+    ```
 
 ## Vetores
 
@@ -405,10 +408,10 @@ com D.
     ```
 1. Dadas duas sequências com *n* números inteiros entre 0 e 9, interpretadas como dois números inteiros de *n* algarismos, calcular a sequência de números que representa a soma dos dois inteiros.
     ```
-        1  8  2  4  3  4  2  5  1
-    +      3  3  7  5  2  3  3  7
-        -------------------------
-        2  1  6  1  8  6  5  8  8
+      1  8  2  4  3  4  2  5  1
+    +    3  3  7  5  2  3  3  7
+      -------------------------
+      2  1  6  1  8  6  5  8  8
     ```
 
 ## Matrizes
