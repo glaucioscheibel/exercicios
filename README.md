@@ -7,7 +7,7 @@
 1. [Estrutura sequencial](#estrutura-sequencial)
 1. [Estrutura de decisão](#estrutura-de-decisão)
 1. [Estrutura de repetição](#estrutura-de-repetição)
-1. [Strings](#strings)
+1. [_Strings_](#strings)
 1. [Vetores](#vetores)
 1. [Matrizes](#matrizes)
 1. [Funções](#funções)
@@ -333,11 +333,11 @@ com D.
     print(nulos)
     ```
 
-## Strings
+## _Strings_
 
 1. Faça um programa que permita ao usuário digitar o seu nome e em seguida imprima o nome do usuário de trás para frente utilizando somente letras maiúsculas. Dica: lembre−se que ao informar o nome o usuário pode digitar letras maiúsculas ou minúsculas.
 
-1. Dado uma string com uma frase informada pelo usuário (incluindo espaços em branco), conte:
+1. Dado uma _string_ com uma frase informada pelo usuário (incluindo espaços em branco), conte:
     1. quantos espaços em branco existem na frase.
     1. quantas vezes aparecem as vogais a, e, i, o, u.
 
@@ -359,8 +359,10 @@ com D.
 
     Exemplos:
 
-        Maria das Graças Pimenta => MGP
-        João Carlos dos Santos => JCS
+        Maria das Graças Pimenta &rarr; MGP
+        João Carlos dos Santos &rarr; JCS
+
+1. Faça um programa que peça ao usuário duas _strings_ diferentes, verifique então se elas são anagramas, ou seja, tem o mesmo conjunto de letras.
 
 1. Dado uma frase informada pelo usuário, converta as letras minúsculas em maiúsculas e vice-versa.
 
@@ -801,7 +803,7 @@ com D.
 
 1. Faça uma função recursiva que calcule e retorne o N-ésimo termo da sequência Fibonacci. Alguns números desta sequência são: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89...
 
-1. Faça uma função recursiva que retorne a inversão de uma String passada como parâmetro. Ex: teste &rarr; etset
+1. Faça uma função recursiva que retorne a inversão de uma _String_ passada como parâmetro. Ex: teste &rarr; etset
 
 ## Filmes
 
