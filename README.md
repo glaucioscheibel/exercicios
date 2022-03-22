@@ -349,9 +349,10 @@ com D.
 
 1. Escreva um programa que dado um valor numérico digitado pelo usuário (armazenado em uma variável inteira), imprima cada um dos seus dígitos por extenso.
     Exemplo:
-
-        Entre o número: 4571
-        Resultado: quatro, cinco, sete, um
+    ```
+    Entre o número: 4571
+    Resultado: quatro, cinco, sete, um
+    ```
 
 1. _Leet_ é uma forma de se escrever o alfabeto latino usando outros símbolos em lugar das letras, como números por exemplo. A própria palavra _leet_ admite muitas variações, como l33t ou 1337. O uso do _leet_ reflete uma subcultura relacionada ao mundo dos jogos de computador e internet, sendo muito usada para confundir os iniciantes e afirmar-se como parte de um grupo. Pesquise sobre as principais formas de traduzir as letras. Depois, faça um programa que peça uma texto e transforme-o para a grafia _leet speak_.
 
@@ -359,10 +360,10 @@ com D.
 
     Exemplos:
 
-```
+    ```
     Maria das Graças Pimenta -> MGP
     João Carlos dos Santos -> JCS
-```
+    ```
 
 1. Faça um programa que peça ao usuário duas _strings_ diferentes, verifique então se elas são anagramas, ou seja, tem o mesmo conjunto de letras.
 
