@@ -312,7 +312,7 @@ com D.
 
 1. Leia um número positivo do usuário, então, calcule e imprima a sequência Fibonacci (onde cada número é a soma dos dois anteriores) até o primeiro número superior ao número lido. Exemplo: se o usuário informou o número 30, a sequência a ser impressa será 0 1 1 2 3 5 8 13 21 34.
 
-1. Faça um programa que peça ao usuário pensar em um número de 1 a 1000, o programa então tentará adivinhar o número pensando. A cada _chute_ que o programa der, o usuário deverá responder se ele acertou, se o valor foi acima ou abaixo do pensado. Caso o programa acerte em até 9 tentativas, o programa será considerado vitorioso.
+1. Faça um programa que peça ao usuário pensar em um número de 1 a 1000, o programa então tentará adivinhar o número pensando. A cada _chute_ que o programa der, o usuário deverá responder se ele acertou, se o valor foi acima ou abaixo do pensado. Caso o programa acerte em até 10 tentativas, o programa será considerado vitorioso.
 
 1. O seguinte programa em Python não está funcionando e lhe foi pedido para que seja corrigido. Apenas olhando o código, qual foi o erro de programação?
 
