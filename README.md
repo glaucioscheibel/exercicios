@@ -429,7 +429,7 @@ com D.
 1. Faça um programa para ler e imprimir uma matriz 2 &times; 4 de números inteiros.
 
 1. Dada a seguinte matriz, calcule:
-    1. A soma dos elementos de primeira coluna;
+    1. A soma dos elementos da primeira coluna;
     1. O produto dos elementos da primeira linha;
     1. A soma de todos os elementos;
     1. O produto da diagonal principal.
@@ -551,6 +551,46 @@ com D.
             </td>
         </tr>
     </table>
+
+1. Dada as matrizes A e B determine A &times; B.
+    <table>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <th rowspan="2">A =</th>
+                        <td align="right">2</td>
+                        <td align="right">3</td>
+                        <td align="right">1</td>
+                    </tr>
+                    <tr>
+                        <td align="right">-1</td>
+                        <td align="right">0</td>
+                        <td align="right">2</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <th rowspan="3">B =</th>
+                        <td align="right">1</td>
+                        <td align="right">-2</td>
+                    </tr>
+                    <tr>
+                        <td align="right">0</td>
+                        <td align="right">5</td>
+                    </tr>
+                    <tr>
+                        <td align="right">4</td>
+                        <td align="right">1</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+1. Matriz identidade é a matriz quadrada de ordem n (2x2, 3x3, 4x4, ... nxn), em que os elementos da diagonal principal são iguais a 1 e, o restante dos elementos são iguais a 0. Faça um programa que peça ao usuário informar o tamanho do ordem e gere a matriz identidade.
 
 1. Dada a seguinte matriz 3x3:
     <table>
