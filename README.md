@@ -3,7 +3,7 @@
 ## Conteúdo
 
 1. [Lógica](#lógica)
-1. [Algorítmo](#algorítmo)
+1. [Algoritmo](#algoritmo)
 1. [Estrutura sequencial](#estrutura-sequencial)
 1. [Estrutura de decisão](#estrutura-de-decisão)
 1. [Estrutura de repetição](#estrutura-de-repetição)
@@ -99,9 +99,9 @@ lousas?
     1. A or C and not B
     2. (A or B) and (A and C)
 
-## Algorítmo
+## Algoritmo
 
-1. Escreva um algorítmo, passo a passo, para trocar um pneu furado.
+1. Escreva um algoritmo, passo a passo, para trocar um pneu furado.
 
 ## Estrutura sequencial
 
