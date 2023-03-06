@@ -863,6 +863,7 @@ com D.
 Segue uma relação de filmes que abordam o tema da programação e/ou da importância da computação (ordem alfabética):
 
 1. [AlphaGo](http://www.imdb.com/title/tt6700846)
+1. [Estrelas Além do Tempo](https://www.imdb.com/title/tt4846340)
 1. [Intermediário.com](http://www.imdb.com/title/tt1251757)
 1. [Jobs](http://www.imdb.com/title/tt2357129)
 1. [O Jogo da Imitação](http://www.imdb.com/title/tt2084970)
