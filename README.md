@@ -20,9 +20,6 @@
 1. Um homem precisa atravessar um rio com um barco que possui capacidade de transportar apenas ele e mais uma de suas três cargas, que são: um lobo, uma ovelha e um kilo de couve. Quais os passos que o homem deve fazer para conseguir atravessar o rio sem perder as suas cargas?
 [link racha-cuca](https://rachacuca.com.br/jogos/o-lobo-e-a-ovelha/)
 
-1. Uma Torre de Hanói é formada por três discos sobrepostos transpassados por uma haste. Tendo mais duas hastes e podendo mover um disco por vez, mas nunca deixando um disco maior sobre um disco menor, quais os passos necessários para podermos passar os discos para uma outra haste?
-[link Univesp](https://apps.univesp.br/torre-de-hanoi/)
-
 1. Três jesuítas e três canibais precisam atravessar um rio. No entanto dispõem apenas de um barco com capacidade para duas pessoas. Por medida de segurança não se permite que em alguma das margens do rio a quantidade de jesuítas seja inferior à quantidade de canibais. Qual a sequência de viagens necessárias para a travessia do rio com segurança para os jesuítas?
 [link racha-cuca](https://rachacuca.com.br/jogos/missionarios-e-canibais/)
 
@@ -97,7 +94,24 @@ lousas?
 
 1. Para A = V, B = V e C = F, qual o resultado da avaliação das seguintes expressões lógicas:
     1. A or C and not B
-    2. (A or B) and (A and C)
+    1. (A or B) and (A and C)
+
+1. Há cinco casas diferentes em cinco cores diferentes em uma fileira. Em cada casa mora uma pessoa com uma diferente nacionalidade. Os cinco proprietários bebem um certo tipo de bebida, fuma cigarro de uma certa marca e tem um certo tipo de animal de estimação. Nenhum dos proprietários tem o mesmo tipo de animal ou de marca de cigarro ou de bebida. Quem é o dono do peixe? [link racha-cuca](https://rachacuca.com.br/logica/problemas/teste-de-einstein/)
+    1. O britânico mora na casa vermelha
+    1. O suíço tem um cão como animal de estimação
+    1. O dinamarquês bebe chá
+    1. A casa verde fica imediatamente à esquerda da casa branca
+    1. O dono da casa verde bebe café
+    1. O proprietário que fuma Pall Mall tem um pássaro
+    1. O dono da casa amarela fuma Dunhill
+    1. O proprietário morando na casa do centro bebe leite
+    1. O norueguês mora na primeira casa
+    1. O dono que fuma Blends mora ao lado do que cria gatos
+    1. O proprietário que cria um cavalo mora ao lado do que fuma Dunhill
+    1. O dono que fuma Bluemasters bebe cerveja
+    1. O alemão fuma Prince
+    1. O norueguês mora ao lado da casa azul
+    1. O proprietário que fuma Blends mora ao lado do que bebe água
 
 ## Algoritmo
 
@@ -863,6 +877,7 @@ com D.
 Segue uma relação de filmes que abordam o tema da programação e/ou da importância da computação (ordem alfabética):
 
 1. [AlphaGo](http://www.imdb.com/title/tt6700846)
+1. [C0d3rs Championship](https://www.imdb.com/title/tt20850260)
 1. [Estrelas Além do Tempo](https://www.imdb.com/title/tt4846340)
 1. [Intermediário.com](http://www.imdb.com/title/tt1251757)
 1. [Jobs](http://www.imdb.com/title/tt2357129)
