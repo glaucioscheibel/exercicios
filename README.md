@@ -133,12 +133,6 @@ lousas?
     1. Concatene o nome com o sobrenome;
     1. Apresente o nome completo.
 
-1. Faça um programa que:
-    1. Leia um número inteiro;
-    1. Leia um segundo número inteiro;
-    1. Efetue a adição dos dois valores;
-    1. Apresente o valor calculado.
-
 1. Faça um programa que leia uma temperatura em graus _Celsius_ e apresente-a
 convertida em graus _Fahrenheit_. A fórmula de conversão é: &#8457; = (9 &times; &#8451; + 160) &divide; 5, na qual &#8457; é a temperatura em _Fahrenheit_ e &#8451; é a temperatura em _Celsius_.
 
