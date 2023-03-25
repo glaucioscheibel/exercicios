@@ -123,6 +123,14 @@ lousas?
 
 1. Faça um programa que peça as 4 notas bimestrais, calcule e imprima a média.
 
+1. Faça um programa que leia três notas de um aluno, calcule e escreva a média final deste aluno. Considerar que a média é ponderada e que o peso das notas é 2, 3 e 5.
+
+   ```text
+                     n1 × 2 + n2 × 3 + n3 × 5
+        mediafinal = ------------------------
+                                10
+   ```
+
 1. Faça um programa para calcular a área de uma circunferência, considerando a fórmula AREA = &pi; &times; RAIO<sup>2</sup>. Utilize as variáveis AREA e RAIO, a constante &pi; (pi = 3,14159) e os operadores aritméticos de multiplicação.
 
 1. Faça um programa que peça dois números, base e expoente, calcule e imprima o primeiro número elevado ao segundo número. Utilize a função de potência da linguagem.
@@ -133,8 +141,7 @@ lousas?
     1. Concatene o nome com o sobrenome;
     1. Apresente o nome completo.
 
-1. Faça um programa que leia uma temperatura em graus _Celsius_ e apresente-a
-convertida em graus _Fahrenheit_. A fórmula de conversão é: &#8457; = (9 &times; &#8451; + 160) &divide; 5, na qual &#8457; é a temperatura em _Fahrenheit_ e &#8451; é a temperatura em _Celsius_.
+1. Faça um programa que leia uma temperatura em graus _Celsius_ e apresente-a convertida em graus _Fahrenheit_. A fórmula de conversão é: &#8457; = (9 &times; &#8451; + 160) &divide; 5, na qual &#8457; é a temperatura em _Fahrenheit_ e &#8451; é a temperatura em _Celsius_.
 
 1. Faça um programa que calcule a quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12Km por litro. Para obter o cálculo, o usuário deve fornecer o tempo gasto na viagem e a velocidade média durante ela. Desta forma, será possível obter a distância percorrida com a fórmula DISTANCIA = TEMPO &times; VELOCIDADE. Tendo o valor da distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a fórmula: LITROS_USADOS = DISTANCIA &divide; 12. O programa deve apresentar os valores da velocidade média, tempo gasto na viagem, a distância percorrida e a quantidade de litros utilizada na viagem.
 
