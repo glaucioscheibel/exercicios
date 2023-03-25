@@ -126,9 +126,9 @@ lousas?
 1. Faça um programa que leia três notas de um aluno, calcule e escreva a média final deste aluno. Considerar que a média é ponderada e que o peso das notas é 2, 3 e 5.
 
    ```text
-                     n1 × 2 + n2 × 3 + n3 × 5
-        mediafinal = ------------------------
-                                10
+                 n1 × 2 + n2 × 3 + n3 × 5
+    mediafinal = ------------------------
+                            10
    ```
 
 1. Faça um programa para calcular a área de uma circunferência, considerando a fórmula AREA = &pi; &times; RAIO<sup>2</sup>. Utilize as variáveis AREA e RAIO, a constante &pi; (pi = 3,14159) e os operadores aritméticos de multiplicação.
