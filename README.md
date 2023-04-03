@@ -877,16 +877,17 @@ com D.
 
 Segue uma relação de filmes que abordam o tema da programação e/ou da importância da computação (ordem alfabética):
 
-1. [AlphaGo](http://www.imdb.com/title/tt6700846)
-1. [C0d3rs Championship](https://www.imdb.com/title/tt20850260)
-1. [Estrelas Além do Tempo](https://www.imdb.com/title/tt4846340)
-1. [Intermediário.com](http://www.imdb.com/title/tt1251757)
-1. [Jobs](http://www.imdb.com/title/tt2357129)
-1. [O Jogo da Imitação](http://www.imdb.com/title/tt2084970)
-1. [Jogos de Guerra](http://www.imdb.com/title/tt0086567)
-1. [Piratas do Vale do Silício](http://www.imdb.com/title/tt0168122)
-1. [A Rede Social](http://www.imdb.com/title/tt1285016)
-1. [Silicon Cowboys](http://www.imdb.com/title/tt4938484)
+- [AlphaGo](http://www.imdb.com/title/tt6700846)
+- [C0d3rs Championship](https://www.imdb.com/title/tt20850260)
+- [Estrelas Além do Tempo](https://www.imdb.com/title/tt4846340)
+- [Intermediário.com](http://www.imdb.com/title/tt1251757)
+- [Jobs](http://www.imdb.com/title/tt2357129)
+- [O Jogo da Imitação](http://www.imdb.com/title/tt2084970)
+- [Jogos de Guerra](http://www.imdb.com/title/tt0086567)
+- [Piratas do Vale do Silício](http://www.imdb.com/title/tt0168122)
+- [A Rede Social](http://www.imdb.com/title/tt1285016)
+- [Silicon Cowboys](http://www.imdb.com/title/tt4938484)
+- [Tetris](https://www.imdb.com/title/tt12758060/)
 
 ## Agradecimentos
 
