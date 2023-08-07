@@ -6,6 +6,7 @@
 1. [Algoritmo](#algoritmo)
 1. [Estrutura sequencial](#estrutura-sequencial)
 1. [Estrutura de decisão](#estrutura-de-decisão)
+    1. [Estrutura condicional](#estrutura-condicional)
 1. [Estrutura de repetição](#estrutura-de-repetição)
 1. [_Strings_](#strings)
 1. [Vetores](#vetores)
@@ -281,6 +282,10 @@ com D.
             <td align="center">9</td>
         </tr>
     </table>
+
+### Estrutura Condicional
+
+1. Faça um programa que leia a primeira letra do estado civil de uma pessoa e mostre uma mensagem com a sua descrição (Solteiro, Casado, Viúvo, Divorciado, Desquitado). Mostre uma mensagem de erro caso for informado um código inválido.
 
 ## Estrutura de repetição
 
