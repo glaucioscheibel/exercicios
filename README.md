@@ -287,6 +287,10 @@ com D.
 
 1. Faça um programa que leia a primeira letra do estado civil de uma pessoa e mostre uma mensagem com a sua descrição (Solteiro, Casado, Viúvo, Divorciado, Desquitado). Mostre uma mensagem de erro caso for informado um código inválido.
 
+1. Faça um programa que leia dois valores do usuário e a operação que ele deseja executar (Operações: (+) soma, (-) subtração, (/) divisão, (*) multiplicação). Execute a operação desejada e imprima na tela.
+
+1. Uma loja fornece 10% de desconto para funcionários e 5% de desconto para clientes vips. Faça um programa que calcule o valor total a ser pago por uma pessoa. O programa deverá ler o valor total da compra efetuada e um código que identifique se o comprador é um cliente comum (1), funcionário (2) ou vip (3).
+
 ## Estrutura de repetição
 
 1. Faça um programa que calcule a soma dos números inteiros de 1 a 100.
