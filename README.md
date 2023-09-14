@@ -416,7 +416,7 @@ com D.
 
 1. Faça um programa para ler dois vetores V1 e V2 de 15 números cada. Calcular e imprimir a quantidade de vezes que V1 e V2 possuem os mesmos números e nas mesmas posições.
 
-1. Faça um programa que defina dois vetores A = [2, 4, 7, 13, 14, 15, 16] e B = [1, 6, 7, 11, 13, 16, 18] e faça as seguintes operações de conjuntos:
+1. Faça um programa que defina dois vetores ```A = [2, 4, 7, 13, 14, 15, 16]``` e ```B = [1, 6, 7, 11, 13, 16, 18]``` e faça as seguintes operações de conjuntos:
     - A &bigcup; B: União (todos os valores de ambos os vetores)
     - A &bigcap; B: Intersecção (apenas valores que existam em ambos)
     - A &minus; B: Diferença (apenas valores que não apareçam simultaneamente em ambos conjuntos)
@@ -436,7 +436,7 @@ com D.
 
 1. Uma escola de samba recebeu como pontos pela alegoria os seguintes 5 valores inclusos no vetor Notas. Lembrando que a nota mais alta e a nota mais baixa são descartadas. Faça um programa que calcule a média final do quesito.
 
-    ```text
+    ```python
     Notas = [9.9, 9.7, 9.8, 10, 10]
     ```
 
