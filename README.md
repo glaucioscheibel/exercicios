@@ -890,7 +890,7 @@ Segue uma relação de filmes que abordam o tema da programação e/ou da import
 - [AlphaGo](http://www.imdb.com/title/tt6700846)
 - [C0d3rs Championship](https://www.imdb.com/title/tt20850260)
 - [Estrelas Além do Tempo](https://www.imdb.com/title/tt4846340)
-- [Hello World](https://www.youtube.com/watch?v=vZVk6FQN4NE)
+- [Hello World](https://www.imdb.com/title/tt11590582)
 - [Intermediário.com](http://www.imdb.com/title/tt1251757)
 - [Jobs](http://www.imdb.com/title/tt2357129)
 - [O Jogo da Imitação](http://www.imdb.com/title/tt2084970)
