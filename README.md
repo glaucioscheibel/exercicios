@@ -305,7 +305,7 @@ com D.
 
 1. Faça um programa que receba um valor que foi depositado na poupança e exiba o valor com rendimento mês a mês durante o período de um ano. Considere fixo o juros da poupança em 0,5% a. m.
 
-1. Número primo é aquele que só é divisível por ele mesmo e pelo número 1. Faça um programa que determine e imprima os números primos compreendidos entre um intervalo fornecido pelo usuário.
+1. Número primo é aquele que só é divisível por ele mesmo e pelo número 1. Faça um programa que peça um número inteiro ao usuário e determine se o número informado é primo ou não.
 
 1. Faça um programa que calcule o resultado dos 50 primeiros números da seguinte sequência:
 
