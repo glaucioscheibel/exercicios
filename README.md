@@ -311,7 +311,7 @@ com D.
 
     1000 &divide; 1 - 997 &divide; 2 + 994 &divide; 3 - 991 &divide; 4 + ...
 
-1. Faça um programa para calcular e imprimir a seguinte soma:
+1. Faça um programa para calcular e imprimir a seguinte equação:
 
     37 &times; 38 &divide; 1 + 36 &times; 37 &divide; 2 + 35 &times; 36 &divide; 3 + ... + 1 &times; 2 &divide; 37
 
