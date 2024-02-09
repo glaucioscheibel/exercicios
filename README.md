@@ -888,6 +888,7 @@ com D.
 Segue uma relação de filmes que abordam o tema da programação e/ou da importância da computação (ordem alfabética):
 
 - [AlphaGo](http://www.imdb.com/title/tt6700846)
+- [BlackBerry](https://www.imdb.com/title/tt21867434)
 - [C0d3rs Championship](https://www.imdb.com/title/tt20850260)
 - [Estrelas Além do Tempo](https://www.imdb.com/title/tt4846340)
 - [Hello World](https://www.imdb.com/title/tt11590582)
