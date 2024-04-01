@@ -890,14 +890,13 @@ com D.
 
 1. Faça um programa concorrente que crie 10 _threads_ que exibam o nome da _thread_ e um contador que varia de 1 a 10. Execute várias vezes e observe as variações na saída. Os valores são sempre impressos na mesma ordem?
 
-1. Faça um programa que gere um array de 1 milhão números inteiros aleatórios e faça as seguintes execuções:
+1. Faça um programa que gere um array de 1 milhão números inteiros aleatórios e faça as seguintes tarefas:
     1. Some todos os valores de forma sequencial e meça o tempo de execução;
     1. Some todos os valores de forma concorrente com 10 _threads_ e meça o tempo de execução;
     1. Some todos os valores de forma concorrente com 100 _threads_ e meça o tempo de execução.
-
-   Responda as seguintes perguntas:
-   1. Qual foi o _speedup_ obtido?
-   1. Teve algum caso que o _speedup_ foi negativo?
+    1. Responda as seguintes perguntas:
+        1. Qual foi o _speedup_[^1] obtido?
+        1. Teve algum caso que o _speedup_ foi negativo?
 
 ## Filmes
 
@@ -940,3 +939,7 @@ Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma l
 - [Prof. Marco André Lopes Mendes](https://wiki.python.org.br/ListaDeExercicios)
 - [Olimpíada Brasileira de Informática](http://olimpiada.ic.unicamp.br/passadas/pp)
 - Alex (Aluno de Engenharia de Software da Univille)
+
+## Notas de rodapé
+
+[^1]: Na arquitetura de computadores, speedup é um número que mede o desempenho relativo de dois sistemas que processam o mesmo problema.
