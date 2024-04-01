@@ -13,6 +13,7 @@
 1. [Matrizes](#matrizes)
 1. [Funções](#funções)
     1. [Funções recursivas](#funções-recursivas)
+1. [Programação concorrente](#programação-concorrente)
 1. [Filmes](#filmes)
 1. [Livros](#livros)
 1. [Agradecimentos](#agradecimentos)
@@ -882,6 +883,19 @@ com D.
 1. Faça uma função recursiva que calcule e retorne o N-ésimo termo da sequência Fibonacci. Alguns números desta sequência são: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89...
 
 1. Faça uma função recursiva que retorne a inversão de uma _String_ passada como parâmetro. Ex: teste &rarr; etset
+
+## Programação concorrente
+
+1. Faça um programa concorrente que crie 10 _threads_ que exibam o nome da _thread_ e a hora atual.
+
+1. Faça um programa concorrente que crie 10 _threads_ que exibam o nome da _thread_ e um contador que varia de 1 a 10. Execute várias vezes e observe as variações na saída. Os valores são sempre impressos na mesma ordem?
+
+1. Faça um programa que gere um array de 1 milhão números inteiros aleatórios e faça as seguintes execuções:
+    1. Some todos os valores de forma sequencial e meça o tempo de execução;
+    1. Some todos os valores de forma concorrente com 10 _threads_ e meça o tempo de execução;
+    1. Some todos os valores de forma concorrente com 100 _threads_ e meça o tempo de execução.
+Qual foi o _speedup_ obtido?
+Teve algum caso que o _speedup_ foi negativo?
 
 ## Filmes
 
