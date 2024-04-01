@@ -940,6 +940,4 @@ Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma l
 - [Olimpíada Brasileira de Informática](http://olimpiada.ic.unicamp.br/passadas/pp)
 - Alex (Aluno de Engenharia de Software da Univille)
 
-## Notas de rodapé
-
 [^1]: Na arquitetura de computadores, speedup é um número que mede o desempenho relativo de dois sistemas que processam o mesmo problema.
