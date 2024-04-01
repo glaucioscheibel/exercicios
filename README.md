@@ -894,8 +894,10 @@ com D.
     1. Some todos os valores de forma sequencial e meça o tempo de execução;
     1. Some todos os valores de forma concorrente com 10 _threads_ e meça o tempo de execução;
     1. Some todos os valores de forma concorrente com 100 _threads_ e meça o tempo de execução.
-Qual foi o _speedup_ obtido?
-Teve algum caso que o _speedup_ foi negativo?
+
+   Responda as seguintes perguntas:
+   1. Qual foi o _speedup_ obtido?
+   1. Teve algum caso que o _speedup_ foi negativo?
 
 ## Filmes
 
