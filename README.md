@@ -897,6 +897,10 @@ com D.
     1. Responda as seguintes perguntas:
         1. Qual foi o _speedup_[^1] obtido?
         1. Teve algum caso que o _speedup_ foi negativo?
+1. Faça um programa que crie uma lista (_ArrayList_) e manipule ela com as seguintes _threads_:
+    - Duas _threads_ incluindo valores aleatórios na lista.
+    - Uma _thread_ removendo o primeiro valor da lista.
+    - Uma _thread_ imprimindo a cada segundo os valores existentes.
 
 ## Filmes
 
