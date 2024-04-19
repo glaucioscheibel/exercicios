@@ -926,9 +926,9 @@ Segue uma relação de filmes que abordam o tema da programação e/ou da import
 Segue relação de livros recomendados (ordem alfabética):
 
 - [Como o Google Funciona](https://isbndb.com/book/9788580576139)
-- [Conceitos de Linguagens de Programação](https://isbndb.com/book/9781292436821)
+- [Conceitos de Linguagens de Programação](https://isbndb.com/book/9788582604687)
 - [Entendendo Algoritmos](https://isbndb.com/book/9788575225639)
-- [Introdução à Programação Com Python](https://isbndb.com/book/9788575227183)
+- [Introdução à Programação Com Python](https://isbndb.com/book/9788575228869)
 - [Metodologia de Pesquisa para Ciência da Computação](https://isbndb.com/book/9788595151093)
 - [The New Kingmakers](https://isbndb.com/book/9781449356347)
 - [Nova Era Digital](https://isbndb.com/book/9788580573886)
