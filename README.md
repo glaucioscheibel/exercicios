@@ -908,7 +908,7 @@ com D.
 
 ## NoSQL Chave-Valor
 
-1. Faça um programa que conecte numa base Redis e chame as funções Ping e ECHO. Utilize a biblioteca [Jedis](https://github.com/redis/jedis).
+1. Faça um programa que conecte numa base Redis e chame as funções PING e ECHO. Utilize a linguagem [Java](https://adoptium.net/) com a biblioteca [Jedis](https://github.com/redis/jedis).
 
 1. Crie 10 entradas chave-valor aleatórios e em seguida acesse o banco Redis com algum programa GUI ([RedisInsight](https://redis.io/insight/) ou [Another](https://goanother.com/)) e verifique se as chaves foram criadas. Depois volte ao programa e liste as chaves e seus respectivos valores.
 
