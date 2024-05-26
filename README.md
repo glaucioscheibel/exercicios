@@ -14,6 +14,7 @@
 1. [Funções](#funções)
     1. [Funções recursivas](#funções-recursivas)
 1. [Programação concorrente](#programação-concorrente)
+1. [NoSQL Chave-Valor](#nosql-chave-valor)
 1. [Filmes](#filmes)
 1. [Livros](#livros)
 1. [Agradecimentos](#agradecimentos)
@@ -897,11 +898,29 @@ com D.
     1. Responda as seguintes perguntas:
         1. Qual foi o _speedup_[^1] obtido?
         1. Teve algum caso que o _speedup_ foi negativo?
+
 1. Faça um programa que crie uma lista (_ArrayList_) e manipule ela com as seguintes _threads_:
     - Duas _threads_ incluindo valores aleatórios na lista.
     - Uma _thread_ removendo o primeiro valor da lista.
     - Uma _thread_ imprimindo a cada segundo os valores existentes.
+
 1. Numa cozinha, existe 1 lavador de pratos e dois enxugadores de pratos. O escorredor tem espaço para 10 pratos. Faça um programa que simule a lavação e enxugamento de 100 pratos.
+
+## NoSQL Chave-Valor
+
+1. Faça um programa que conecte numa base Redis e chame as funções Ping e ECHO. Utilize a biblioteca [Jedis](https://github.com/redis/jedis).
+
+1. Crie 10 entradas chave-valor aleatórios e em seguida acesse o banco Redis com algum programa GUI ([RedisInsight](https://redis.io/insight/) ou [Another](https://goanother.com/)) e verifique se as chaves foram criadas. Depois volte ao programa e liste as chaves e seus respectivos valores.
+
+1. Crie uma chave inteira com o nome "programa:execuções" e a cada chamada do programa execute a função INCR. Verifique pela GUI se o valor está sendo incrementado.
+
+1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado LIST.
+
+1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado SET.
+
+1. Crie uma lista de contatos com a chave "contatos:" mais o apelido da pessoa. Usando o tipo HASH, crie os campos _nome_, _sobrenome_, _telefone_, _idade_. Faça um programa com as operações CRUD (_Create_, _Read_, _Update_, _Delete_) da lista de contatos.
+
+1. Faça um programa que fique publicando (_PUBLISH_) a cada 20 segundos um número aleatório no tópico "codigo:segurança". Faça um segundo programa que assine (_PSUBSCRIBE_) a este mesmo tópico e que exiba os valores que vem sendo publicados.
 
 ## Filmes
 
