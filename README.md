@@ -15,6 +15,7 @@
     1. [Funções recursivas](#funções-recursivas)
 1. [Programação concorrente](#programação-concorrente)
 1. [NoSQL Chave-Valor](#nosql-chave-valor)
+1. [NoSQL Documento](#nosql-documento)
 1. [Filmes](#filmes)
 1. [Livros](#livros)
 1. [Agradecimentos](#agradecimentos)
@@ -921,6 +922,38 @@ com D.
 1. Crie uma lista de contatos com a chave "contatos:" mais o apelido da pessoa. Usando o tipo HASH, crie os campos _nome_, _sobrenome_, _telefone_, _idade_. Faça um programa com as operações CRUD (_Create_, _Read_, _Update_, _Delete_) da lista de contatos.
 
 1. Faça um programa que fique publicando (_PUBLISH_) a cada 20 segundos um número aleatório no tópico "codigo:segurança". Faça um segundo programa que assine (_PSUBSCRIBE_) a este mesmo tópico e que exiba os valores que vem sendo publicados.
+
+## NoSQL Documento
+
+1. Importe a base de dados de exemplo do airbnb ([link](https://github.com/neelabalan/mongodb-sample-dataset/tree/main/sample_airbnb)) e responda as seguintes perguntas:
+    1. Quantas coleções existem?
+    1. Qual o tipo de dado usado para Id?
+    1. Quais tipos de dados foram usados pelos campos no primeiro nível de cada documento?
+    1. São aproximadamente quantos campos por documento?
+    1. Existe "relacionamento" entre os documentos?
+    1. Caso fosse usado um banco relacional, como ficaria o Modelo Entidade-Relacionamento.
+    1. Existem dados geoespaciais? Se sim, como são armazenados?
+    1. Cite vantagens e desvantagens do uso do modelo documento neste caso.
+
+1. Importe a base de dados de exemplo de dados atmosféricos ([link](https://github.com/neelabalan/mongodb-sample-dataset/tree/main/sample_weatherdata)) e responda as seguintes perguntas:
+    1. Quantas coleções existem?
+    1. Qual o tipo de dado usado para Id?
+    1. Quais tipos de dados foram usados pelos campos no primeiro nível de cada documento?
+    1. São aproximadamente quantos campos por documento?
+    1. Existe "relacionamento" entre os documentos?
+    1. Caso fosse usado um banco relacional, como ficaria o Modelo Entidade-Relacionamento.
+    1. Existem dados geoespaciais? Se sim, como são armazenados?
+    1. Cite vantagens e desvantagens do uso do modelo documento neste caso.
+
+1. Importe a base de dados de exemplo de dados do mflix ([link](https://github.com/neelabalan/mongodb-sample-dataset/tree/main/sample_mflix)) e responda as seguintes perguntas:
+    1. Quantas coleções existem?
+    1. Qual o tipo de dado usado para Id?
+    1. Quais tipos de dados foram usados pelos campos no primeiro nível de cada documento?
+    1. São aproximadamente quantos campos por documento?
+    1. Existe "relacionamento" entre os documentos?
+    1. Caso fosse usado um banco relacional, como ficaria o Modelo Entidade-Relacionamento.
+    1. Existem dados geoespaciais? Se sim, como são armazenados?
+    1. Cite vantagens e desvantagens do uso do modelo documento neste caso.
 
 ## Filmes
 
