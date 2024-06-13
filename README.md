@@ -618,7 +618,7 @@ com D.
         </tr>
     </table>
 
-1. Matriz identidade é a matriz quadrada de ordem n (2x2, 3x3, 4x4, ... nxn), em que os elementos da diagonal principal são iguais a 1 e, o restante dos elementos são iguais a 0. Faça um programa que peça ao usuário informar o tamanho do ordem e gere a matriz identidade.
+1. Matriz identidade é a matriz quadrada de ordem N (2x2, 3x3, 4x4, ... NxN), em que os elementos da diagonal principal são iguais a 1 e, o restante dos elementos são iguais a 0. Faça um programa que peça ao usuário informar o tamanho do ordem e gere a matriz identidade.
 
 1. Dada a seguinte matriz 3x3:
     <table>
