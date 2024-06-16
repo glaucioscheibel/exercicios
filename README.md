@@ -925,27 +925,7 @@ com D.
 
 ## NoSQL Documento
 
-1. Importe a base de dados de exemplo do airbnb ([link](https://github.com/neelabalan/mongodb-sample-dataset/tree/main/sample_airbnb)) e responda as seguintes perguntas:
-    1. Quantas coleções existem?
-    1. Qual o tipo de dado usado para Id?
-    1. Quais tipos de dados foram usados pelos campos no primeiro nível de cada documento?
-    1. São aproximadamente quantos campos por documento?
-    1. Existe "relacionamento" entre os documentos?
-    1. Caso fosse usado um banco relacional, como ficaria o Modelo Entidade-Relacionamento.
-    1. Existem dados geoespaciais? Se sim, como são armazenados?
-    1. Cite vantagens e desvantagens do uso do modelo documento neste caso.
-
-1. Importe a base de dados de exemplo de dados atmosféricos ([link](https://github.com/neelabalan/mongodb-sample-dataset/tree/main/sample_weatherdata)) e responda as seguintes perguntas:
-    1. Quantas coleções existem?
-    1. Qual o tipo de dado usado para Id?
-    1. Quais tipos de dados foram usados pelos campos no primeiro nível de cada documento?
-    1. São aproximadamente quantos campos por documento?
-    1. Existe "relacionamento" entre os documentos?
-    1. Caso fosse usado um banco relacional, como ficaria o Modelo Entidade-Relacionamento.
-    1. Existem dados geoespaciais? Se sim, como são armazenados?
-    1. Cite vantagens e desvantagens do uso do modelo documento neste caso.
-
-1. Importe a base de dados de exemplo de dados do mflix ([link](https://github.com/neelabalan/mongodb-sample-dataset/tree/main/sample_mflix)) e responda as seguintes perguntas:
+1. Importe as bases de dados de exemplo do [airbnb](mongodb/airbnb/), [mflix](mongodb/mflix/) e [weather](mongodb/weather/) e responda as seguintes perguntas sobre cada uma delas:
     1. Quantas coleções existem?
     1. Qual o tipo de dado usado para Id?
     1. Quais tipos de dados foram usados pelos campos no primeiro nível de cada documento?
