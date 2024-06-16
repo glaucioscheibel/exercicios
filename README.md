@@ -935,6 +935,12 @@ com D.
     1. Existem dados geoespaciais? Se sim, como são armazenados?
     1. Cite vantagens e desvantagens do uso do modelo documento neste caso.
 
+1. Faça um programa que acesse a base de dados do [mflix](mongodb/mflix/) e faça as seguintes consultas:
+    1. Liste os filmes com o nome "_The Room_" ordenados pelo maior valor no campo "_imdb.rating_"
+    1. Liste os filmes que possuam uma duração ("_runtime_") menor ou igual à 15 minutos.
+    1. Liste os filmes produzidos nos anos 80.
+    1. Liste os filmes que tenha o gênero "_Drama_"
+
 ## Filmes
 
 Segue uma relação de filmes que abordam o tema da programação e/ou da importância da computação (ordem alfabética):
