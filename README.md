@@ -19,6 +19,7 @@
 1. [Filmes](#filmes)
 1. [Livros](#livros)
 1. [Agradecimentos](#agradecimentos)
+1. [Informações legais](#informações-legais)
 
 ## Lógica
 
@@ -934,6 +935,7 @@ com D.
     1. Caso fosse usado um banco relacional, como ficaria o Modelo Entidade-Relacionamento.
     1. Existem dados geoespaciais? Se sim, como são armazenados?
     1. Cite vantagens e desvantagens do uso do modelo documento neste caso.
+
 1. Com a base de dados do [mflix](mongodb/mflix/) e faça os seguintes programas com a linguagem [Java&trade;](https://www.java.com/) e a biblioteca [MongoDB&reg; Synchronous Driver](https://www.mongodb.com/docs/drivers/java/sync/current/):
     1. Liste os filmes com o nome "_The Room_" ordenados pelo maior valor no campo "_imdb.rating_".
     1. Liste os filmes que possuam uma duração ("_runtime_") menor ou igual à 15 minutos.
@@ -980,17 +982,16 @@ Segue relação de livros recomendados (ordem alfabética):
 
 Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma lista de exercícios na internet facilitando a criação desta lista:
 
-- [Prof. Angelo Augusto Frozza](http://www.ifc-camboriu.edu.br/~frozza/)
 - [Profa. Flávia Pereira de Carvalho](https://fit.faccat.br/~fpereira/pagina/)
 - [Prof. Marco André Lopes Mendes](https://wiki.python.org.br/ListaDeExercicios)
-- [Olimpíada Brasileira de Informática](http://olimpiada.ic.unicamp.br/passadas/pp)
 - Alex (Aluno de Engenharia de Software da Univille)
 
-## Legal
+## Informações legais
 
 - "Java" is a registered trademark of Oracle.
 - "MongoDB" is a trademark or registered trademark of MongoDB Inc.
 - "Python" is a trademark of the Python Software Foundation.
 - "Redis" is a registered trademark of Redis Ltd.
 
+---
 [^1]: Na arquitetura de computadores, _speedup_ é um número que mede o desempenho relativo de dois sistemas que processam o mesmo problema.
