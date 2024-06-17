@@ -342,7 +342,7 @@ com D.
 
 1. Faça um programa que peça ao usuário pensar em um número de 1 a 1000, o programa então tentará adivinhar o número pensando. A cada _chute_ que o programa der, o usuário deverá responder se ele acertou, se o valor foi acima ou abaixo do pensado. Caso o programa acerte em até 10 tentativas, o programa será considerado vitorioso.
 
-1. O seguinte programa em Python não está funcionando e lhe foi pedido para que seja corrigido. Apenas olhando o código, qual foi o erro de programação?
+1. O seguinte programa em Python&trade; não está funcionando e lhe foi pedido para que seja corrigido. Apenas olhando o código, qual foi o erro de programação?
 
     ```python
     cont1 = 0
@@ -909,11 +909,11 @@ com D.
 
 ## NoSQL Chave-Valor
 
-1. Faça um programa que conecte numa base Redis e chame as funções PING e ECHO. Utilize a linguagem [Java](https://adoptium.net/) com a biblioteca [Jedis](https://github.com/redis/jedis).
+1. Faça um programa que conecte numa base [Redis&reg;](https://redis.io/) e chame as funções `PING` e `ECHO`. Utilize a linguagem [Java&trade;](https://www.java.com/) com a biblioteca [Jedis](https://github.com/redis/jedis).
 
-1. Crie 10 entradas chave-valor aleatórios e em seguida acesse o banco Redis com algum programa GUI ([RedisInsight](https://redis.io/insight/) ou [Another](https://goanother.com/)) e verifique se as chaves foram criadas. Depois volte ao programa e liste as chaves e seus respectivos valores.
+1. Crie 10 entradas chave-valor aleatórios e em seguida acesse o banco Redis com algum programa GUI ([RedisInsight](https://redis.io/insight/) ou [Another Redis Desktop Manager](https://goanother.com/)) e verifique se as chaves foram criadas. Depois volte ao programa e liste as chaves e seus respectivos valores.
 
-1. Crie uma chave inteira com o nome "programa:execuções" e a cada chamada do programa execute a função INCR. Verifique pela GUI se o valor está sendo incrementado.
+1. Crie uma chave inteira com o nome "programa:execuções" e a cada chamada do programa execute a função `INCR`. Verifique pela GUI se o valor está sendo incrementado.
 
 1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado LIST.
 
@@ -921,7 +921,7 @@ com D.
 
 1. Crie uma lista de contatos com a chave "contatos:" mais o apelido da pessoa. Usando o tipo HASH, crie os campos _nome_, _sobrenome_, _telefone_, _idade_. Faça um programa com as operações CRUD (_Create_, _Read_, _Update_, _Delete_) da lista de contatos.
 
-1. Faça um programa que fique publicando (_PUBLISH_) a cada 20 segundos um número aleatório no tópico "codigo:segurança". Faça um segundo programa que assine (_PSUBSCRIBE_) a este mesmo tópico e que exiba os valores que vem sendo publicados.
+1. Faça um programa que fique publicando (`PUBLISH`) a cada 20 segundos um número aleatório no tópico "codigo:segurança". Faça um segundo programa que assine (`PSUBSCRIBE`) a este mesmo tópico e que exiba os valores que vem sendo publicados.
 
 ## NoSQL Documento
 
@@ -934,12 +934,15 @@ com D.
     1. Caso fosse usado um banco relacional, como ficaria o Modelo Entidade-Relacionamento.
     1. Existem dados geoespaciais? Se sim, como são armazenados?
     1. Cite vantagens e desvantagens do uso do modelo documento neste caso.
-
-1. Faça um programa que acesse a base de dados do [mflix](mongodb/mflix/) e faça as seguintes consultas:
-    1. Liste os filmes com o nome "_The Room_" ordenados pelo maior valor no campo "_imdb.rating_"
+1. Com a base de dados do [mflix](mongodb/mflix/) e faça os seguintes programas com a linguagem [Java&trade;](https://www.java.com/) e a biblioteca [MongoDB&reg; Synchronous Driver](https://www.mongodb.com/docs/drivers/java/sync/current/):
+    1. Liste os filmes com o nome "_The Room_" ordenados pelo maior valor no campo "_imdb.rating_".
     1. Liste os filmes que possuam uma duração ("_runtime_") menor ou igual à 15 minutos.
     1. Liste os filmes produzidos nos anos 80.
     1. Liste os filmes que tenha o gênero "_Drama_"
+    1. Liste os fimes que possuam mais de 3 prêmios.
+    1. Insira o filme [Piratas do Vale do Silício](http://www.imdb.com/title/tt0168122).
+    1. Insira o filme [Silicon Cowboys](http://www.imdb.com/title/tt4938484) e inclua dois comentários.
+    1. Para os filmes lançados antes de 1950, inclua o gênero _old_.
 
 ## Filmes
 
@@ -983,4 +986,11 @@ Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma l
 - [Olimpíada Brasileira de Informática](http://olimpiada.ic.unicamp.br/passadas/pp)
 - Alex (Aluno de Engenharia de Software da Univille)
 
-[^1]: Na arquitetura de computadores, speedup é um número que mede o desempenho relativo de dois sistemas que processam o mesmo problema.
+## Legal
+
+- "Java" is a registered trademark of Oracle.
+- "MongoDB" is a trademark or registered trademark of MongoDB Inc.
+- "Python" is a trademark of the Python Software Foundation.
+- "Redis" is a registered trademark of Redis Ltd.
+
+[^1]: Na arquitetura de computadores, _speedup_ é um número que mede o desempenho relativo de dois sistemas que processam o mesmo problema.
