@@ -993,5 +993,4 @@ Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma l
 - "Python" is a trademark of the Python Software Foundation.
 - "Redis" is a registered trademark of Redis Ltd.
 
----
 [^1]: Na arquitetura de computadores, _speedup_ é um número que mede o desempenho relativo de dois sistemas que processam o mesmo problema.
