@@ -937,9 +937,9 @@ com D.
     1. Cite vantagens e desvantagens do uso do modelo documento neste caso.
 
 1. Com a base de dados do [mflix](mongodb/mflix/) e faça os seguintes programas com a linguagem [Java&trade;](https://www.java.com/) e a biblioteca [MongoDB&reg; Synchronous Driver](https://www.mongodb.com/docs/drivers/java/sync/current/):
-    1. Liste os filmes com o nome "_The Room_" ordenados pelo maior valor no campo "_imdb.rating_".
+    1. Liste os filmes com o nome "_The Room_".
     1. Liste os filmes que possuam uma duração ("_runtime_") menor ou igual à 15 minutos.
-    1. Liste os filmes produzidos nos anos 80.
+    1. Liste os filmes produzidos nos anos 80 ordenados pelo maior valor no campo "_imdb.rating_".
     1. Liste os filmes que tenha o gênero "_Drama_"
     1. Liste os fimes que possuam mais de 3 prêmios.
     1. Insira o filme [Piratas do Vale do Silício](http://www.imdb.com/title/tt0168122).
