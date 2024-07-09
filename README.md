@@ -887,6 +887,12 @@ com D.
 
 1. Faça uma função recursiva que retorne a inversão de uma _String_ passada como parâmetro. Ex: teste &rarr; etset
 
+1. **Torres de Hanói** é um jogo matemático onde dispomos de 3 pinos: _pino origem_, _pino de trabalho_ e _pino destino_. O _pino origem_ contém n discos empilhados por ordem crescente de tamanho (o maior disco fica embaixo). O objetivo do jogo é levar todos os discos do _pino origem_ para o _pino destino_, utilizando o _pino de trabalho_ para auxiliar a tarefa, e atendendo às seguintes restrições:
+    1. Apenas um disco pode ser movido por vez (o disco que estiver no topo da pilha de um dos pinos).
+    2. Um disco de tamanho maior nunca pode ser colocado sobre um disco de tamanho menor.
+
+    Faça um programa com função recursiva que resolve o jogo das Torres de Hanoi.
+
 ## Programação concorrente
 
 1. Faça um programa concorrente que crie 10 _threads_ que exibam o nome da _thread_ e a hora atual.
