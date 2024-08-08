@@ -970,6 +970,9 @@ Segue uma relação de filmes que abordam o tema da programação e/ou da import
 - [Silicon Cowboys](http://www.imdb.com/title/tt4938484)
 - [Tetris](https://www.imdb.com/title/tt12758060/)
 - [Y2K: Bomba-Relógio](https://www.imdb.com/title/tt26786629)
+- [Tron: Legacy](https://www.imdb.com/title/tt1104001/)
+- [Revolution OS](https://www.imdb.com/title/tt0308808/)
+- [Ex- Machina](https://www.imdb.com/title/tt0470752/)
 
 ## Livros
 
