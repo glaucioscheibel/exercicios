@@ -983,6 +983,9 @@ Segue relação de livros recomendados (ordem alfabética):
 - [The New Kingmakers](https://isbndb.com/book/9781449356347)
 - [Nova Era Digital](https://isbndb.com/book/9788580573886)
 - [A Vida Digital](https://isbndb.com/book/9788571644557)
+- [O Programador Pragmático De aprendiz a mestre](https://isbndb.com/book/9788577807000)
+- [Código Limpo: Habilidades Práticas do Agile Software](https://isbndb.com/book/9788576082675)
+- [Algoritmos - Teoria e Prática](https://isbndb.com/book/9788535236996)
 
 ## Agradecimentos
 
