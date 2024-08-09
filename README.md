@@ -970,6 +970,9 @@ Segue uma relação de filmes que abordam o tema da programação e/ou da import
 - [Silicon Cowboys](http://www.imdb.com/title/tt4938484)
 - [Tetris](https://www.imdb.com/title/tt12758060/)
 - [Y2K: Bomba-Relógio](https://www.imdb.com/title/tt26786629)
+- [Tron: Legacy](https://www.imdb.com/title/tt1104001/)
+- [Revolution OS](https://www.imdb.com/title/tt0308808/)
+- [Ex- Machina](https://www.imdb.com/title/tt0470752/)
 
 ## Livros
 
@@ -983,6 +986,9 @@ Segue relação de livros recomendados (ordem alfabética):
 - [The New Kingmakers](https://isbndb.com/book/9781449356347)
 - [Nova Era Digital](https://isbndb.com/book/9788580573886)
 - [A Vida Digital](https://isbndb.com/book/9788571644557)
+- [O Programador Pragmático De aprendiz a mestre](https://isbndb.com/book/9788577807000)
+- [Código Limpo: Habilidades Práticas do Agile Software](https://isbndb.com/book/9788576082675)
+- [Algoritmos - Teoria e Prática](https://isbndb.com/book/9788535236996)
 
 ## Agradecimentos
 
