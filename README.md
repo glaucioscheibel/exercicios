@@ -960,6 +960,7 @@ Segue uma relação de filmes que abordam o tema da programação e/ou da import
 - [BlackBerry](https://www.imdb.com/title/tt21867434)
 - [C0d3rs Championship](https://www.imdb.com/title/tt20850260)
 - [Estrelas Além do Tempo](https://www.imdb.com/title/tt4846340)
+- [Ex-Machina](https://www.imdb.com/title/tt0470752/)
 - [Hello World](https://www.imdb.com/title/tt11590582)
 - [Intermediário.com](http://www.imdb.com/title/tt1251757)
 - [Jobs](http://www.imdb.com/title/tt2357129)
@@ -967,17 +968,17 @@ Segue uma relação de filmes que abordam o tema da programação e/ou da import
 - [Jogos de Guerra](http://www.imdb.com/title/tt0086567)
 - [Piratas do Vale do Silício](http://www.imdb.com/title/tt0168122)
 - [A Rede Social](http://www.imdb.com/title/tt1285016)
+- [Revolution OS](https://www.imdb.com/title/tt0308808/)
 - [Silicon Cowboys](http://www.imdb.com/title/tt4938484)
 - [Tetris](https://www.imdb.com/title/tt12758060/)
 - [Y2K: Bomba-Relógio](https://www.imdb.com/title/tt26786629)
-- [Tron: Legacy](https://www.imdb.com/title/tt1104001/)
-- [Revolution OS](https://www.imdb.com/title/tt0308808/)
-- [Ex- Machina](https://www.imdb.com/title/tt0470752/)
 
 ## Livros
 
 Segue relação de livros recomendados (ordem alfabética):
 
+- [Algoritmos - Teoria e Prática](https://isbndb.com/book/9788535236996)
+- [Código Limpo: Habilidades Práticas do Agile Software](https://isbndb.com/book/9788576082675)
 - [Como o Google Funciona](https://isbndb.com/book/9788580576139)
 - [Conceitos de Linguagens de Programação](https://isbndb.com/book/9788582604687)
 - [Entendendo Algoritmos](https://isbndb.com/book/9788575225639)
@@ -985,10 +986,8 @@ Segue relação de livros recomendados (ordem alfabética):
 - [Metodologia de Pesquisa para Ciência da Computação](https://isbndb.com/book/9788595151093)
 - [The New Kingmakers](https://isbndb.com/book/9781449356347)
 - [Nova Era Digital](https://isbndb.com/book/9788580573886)
-- [A Vida Digital](https://isbndb.com/book/9788571644557)
 - [O Programador Pragmático De aprendiz a mestre](https://isbndb.com/book/9788577807000)
-- [Código Limpo: Habilidades Práticas do Agile Software](https://isbndb.com/book/9788576082675)
-- [Algoritmos - Teoria e Prática](https://isbndb.com/book/9788535236996)
+- [A Vida Digital](https://isbndb.com/book/9788571644557)
 
 ## Agradecimentos
 
