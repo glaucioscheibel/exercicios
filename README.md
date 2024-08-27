@@ -978,7 +978,6 @@ Segue uma relação de filmes que abordam o tema da programação e/ou da import
 
 Segue relação de livros recomendados (ordem alfabética):
 
-- [Algoritmos - Teoria e Prática](https://isbndb.com/book/9788535236996)
 - [Código Limpo: Habilidades Práticas do Agile Software](https://isbndb.com/book/9788576082675)
 - [Como o Google Funciona](https://isbndb.com/book/9788580576139)
 - [Conceitos de Linguagens de Programação](https://isbndb.com/book/9788582604687)
