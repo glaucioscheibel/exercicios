@@ -147,7 +147,7 @@ lousas?
     1. Concatene o nome com o sobrenome;
     1. Apresente o nome completo.
 
-1. Faça um programa que leia uma temperatura em graus _Celsius_ e apresente-a convertida em graus _Fahrenheit_. A fórmula de conversão é: &#8457; = (9 &times; &#8451; + 160) &divide; 5, na qual &#8457; é a temperatura em _Fahrenheit_ e &#8451; é a temperatura em _Celsius_.
+1. Faça um programa que leia uma temperatura em graus _Celsius_ e apresente-a convertida em graus _Fahrenheit_. A fórmula de conversão é: &#8457; = (&#8451; &times; 9 &divide; 5) &plus; 32, na qual &#8457; é a temperatura em _Fahrenheit_ e &#8451; é a temperatura em _Celsius_.
 
 1. Faça um programa que calcule a quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12Km por litro. Para obter o cálculo, o usuário deve fornecer o tempo gasto na viagem e a velocidade média durante ela. Desta forma, será possível obter a distância percorrida com a fórmula DISTANCIA = TEMPO &times; VELOCIDADE. Tendo o valor da distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a fórmula: LITROS_USADOS = DISTANCIA &divide; 12. O programa deve apresentar os valores da velocidade média, tempo gasto na viagem, a distância percorrida e a quantidade de litros utilizada na viagem.
 
@@ -864,7 +864,7 @@ com D.
 
 1. Crie uma função que necessite de três argumentos, e que forneça a soma desses três argumentos.
 
-1. Faça um programa com duas funções, uma que recebe uma temperatura em _Fahrenheit_ e retorna em _Celcius_ e outra que faz o inverso. Lembrando que as fórmulas são &#8451; = (&#8457; - 32) &divide; 1,8 e &#8457; = &#8451; &times; 1,8 + 32.
+1. Faça um programa com duas funções, uma que recebe uma temperatura em _Fahrenheit_ e retorna em _Celcius_ e outra que faz o inverso. Lembrando que as fórmulas são &#8451; = (&#8457; &minus; 32) &times; 5 &divide; 9 e &#8457; = (&#8451; &times; 9 &divide; 5) &plus; 32.
 
 1. Crie uma função que receba como parâmetro um inteiro positivo ano e devolve verdadeiro ou falso se ano for bissexto ou não. Anos bissextos ocorrem a cada quatro anos exceto anos múltiplos de 100 que não são múltiplos de 400.
 
