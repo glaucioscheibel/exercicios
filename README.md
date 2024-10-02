@@ -932,7 +932,7 @@ com D.
 
 ## NoSQL Documento
 
-1. Importe as bases de dados de exemplo do [airbnb](mongodb/airbnb/), [mflix](mongodb/mflix/) e [weather](mongodb/weather/) e responda as seguintes perguntas sobre cada uma delas:
+1. Importe as bases de dados de exemplo do [airbnb](src/main/resources/mongodb/airbnb/), [mflix](src/main/resources/mongodb/mflix/) e [weather](src/main/resources/mongodb/weather/) e responda as seguintes perguntas sobre cada uma delas:
     1. Quantas coleções existem?
     1. Qual o tipo de dado usado para Id?
     1. Quais tipos de dados foram usados pelos campos no primeiro nível de cada documento?
@@ -942,7 +942,7 @@ com D.
     1. Existem dados geoespaciais? Se sim, como são armazenados?
     1. Cite vantagens e desvantagens do uso do modelo documento neste caso.
 
-1. Com a base de dados do [mflix](mongodb/mflix/) e faça os seguintes programas com a linguagem [Java&trade;](https://www.java.com/) e a biblioteca [MongoDB&reg; Synchronous Driver](https://www.mongodb.com/docs/drivers/java/sync/current/):
+1. Com a base de dados do [mflix](src/main/resources/mongodb/mflix/) e faça os seguintes programas com a linguagem [Java&trade;](https://www.java.com/) e a biblioteca [MongoDB&reg; Synchronous Driver](https://www.mongodb.com/docs/drivers/java/sync/current/):
     1. Liste os filmes com o nome "_The Room_".
     1. Liste os filmes que possuam uma duração ("_runtime_") menor ou igual à 15 minutos.
     1. Liste os filmes produzidos nos anos 80 ordenados pelo maior valor no campo "_imdb.rating_".
