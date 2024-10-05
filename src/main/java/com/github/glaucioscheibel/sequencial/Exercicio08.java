@@ -1,4 +1,4 @@
-package com.github.glaucioscheibel;
+package com.github.glaucioscheibel.sequencial;
 
 import java.util.Scanner;
 
