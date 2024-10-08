@@ -163,9 +163,6 @@ lousas?
 
 1. Considere a seguinte situação: Descontam-se inicialmente 10% do salário bruto do trabalhador como contribuição à previdência social. Após esse desconto, há um outro desconto de 5% sobre o valor restante do salário bruto, a título de imposto de renda. Faça um programa que leia o salário bruto de um cidadão e imprima o seu salário líquido.
 
-1. Faça um programa que leia quatro números e apresente os resultados de adição e multiplicação dos valores entre si, baseando-se na utilização da propriedade distributiva, ou seja, se forem lidas as variáveis A, B, C e D, devem ser somadas e multiplicadas A com B, A com C e A com D; B com C, B com D e por último C
-com D.
-
 ## Estrutura de decisão
 
 1. Faça um programa que peça dois números e imprima o maior deles.
