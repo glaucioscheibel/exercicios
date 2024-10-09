@@ -169,9 +169,7 @@ lousas?
 
 1. Faça um programa que leia três números e imprima o maior deles.
 
-1. Faça um programa que receba como entrada três valores e os imprima em ordem crescente.
-
-1. As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem compradas pelo menos 12 unidades. Escreva um programa que leia o número de maçãs compradas, calcule e imprima o custo total da compra.
+1. As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,10 se forem compradas pelo menos 12 unidades. Escreva um programa que leia o número de maçãs compradas, calcule e imprima o custo total da compra.
 
 1. Faça um programa para aprovar empréstimos bancários. O código deve pedir três informações: valor do empréstimo, número de parcelas e salário do solicitante. Aprovar empréstimo caso o valor das parcelas represente no máximo 30% do salário do solicitante.
 
