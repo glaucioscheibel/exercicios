@@ -237,49 +237,6 @@ lousas?
         </tr>
     </table>
 
-1. Uma Companhia de Seguros possui nove categorias de seguro baseadas na idade e ocupação do segurado. Somente pessoas com pelo menos 17 anos e não mais de 70 anos podem adquirir apólices de seguro. Quanto às classes de ocupações, foram definidos três grupos de risco. A tabela abaixo fornece as categorias em função da faixa etária e do grupo de risco. Dados nome, idade e grupo de risco, determinar a categoria do pretendente à aquisição de tal seguro. Imprimir o nome a idade e a categoria do pretendente, e, caso a idade não esteja na faixa necessária, imprimir uma mensagem.
-    <table border="1" align="center">
-        <tr>
-            <th rowspan="2">Idades</th>
-            <th colspan="3" align="center">Grupos de risco</th>
-        </tr>
-        <tr>
-            <th>Baixa</th>
-            <th>Média</th>
-            <th>Alta</th>
-        </tr>
-        <tr>
-            <td>17 a 20</td>
-            <td align="center">1</td>
-            <td align="center">2</td>
-            <td align="center">3</td>
-        </tr>
-        <tr>
-            <td>21 a 24</td>
-            <td align="center">2</td>
-            <td align="center">3</td>
-            <td align="center">4</td>
-        </tr>
-        <tr>
-            <td>25 a 34</td>
-            <td align="center">3</td>
-            <td align="center">4</td>
-            <td align="center">5</td>
-        </tr>
-        <tr>
-            <td>35 a 64</td>
-            <td align="center">4</td>
-            <td align="center">5</td>
-            <td align="center">6</td>
-        </tr>
-        <tr>
-            <td>65 a 70</td>
-            <td align="center">7</td>
-            <td align="center">8</td>
-            <td align="center">9</td>
-        </tr>
-    </table>
-
 ### Estrutura Condicional
 
 1. Faça um programa que leia a primeira letra do estado civil de uma pessoa e mostre uma mensagem com a sua descrição (Solteiro, Casado, Viúvo, Divorciado, Desquitado). Mostre uma mensagem de erro caso for informado um código inválido.
