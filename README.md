@@ -239,7 +239,7 @@ lousas?
 
 ### Estrutura Condicional
 
-1. Faça um programa que leia a primeira letra do estado civil de uma pessoa e mostre uma mensagem com a sua descrição (Solteiro, Casado, Viúvo, Divorciado, Desquitado). Mostre uma mensagem de erro caso for informado um código inválido.
+1. Faça um programa que leia a primeira letra do estado civil de uma pessoa e mostre uma mensagem com a sua descrição (Solteiro, Casado, Viúvo, Divorciado, dEsquitado). Mostre uma mensagem de erro caso for informado um código inválido.
 
 1. Faça um programa que leia dois valores do usuário e a operação que ele deseja executar (Operações: (+) soma, (-) subtração, (/) divisão, (*) multiplicação). Execute a operação desejada e imprima na tela.
 
