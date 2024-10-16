@@ -21,11 +21,12 @@
                 <version>2.43.0</version>
                 <configuration>
                     <java>
-                        <palantirJavaFormat></palantirJavaFormat>
+                        <palantirJavaFormat/>
                     </java>
                     <pom>
                         <sortPom>
                             <nrOfIndentSpace>4</nrOfIndentSpace>
+                            <expandEmptyElements>false</expandEmptyElements>
                         </sortPom>
                     </pom>
                 </configuration>
