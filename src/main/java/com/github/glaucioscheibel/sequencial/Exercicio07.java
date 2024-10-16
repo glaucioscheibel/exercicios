@@ -10,5 +10,6 @@ public class Exercicio07 {
         c = input.nextDouble();
         f = (c * 9 / 5) + 32;
         System.out.printf("Temperatura em fahrenheit: %.2f", f);
+        input.close();
     }
 }

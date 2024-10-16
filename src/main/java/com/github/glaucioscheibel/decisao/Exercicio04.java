@@ -19,5 +19,6 @@ public class Exercicio04 {
         } else {
             System.out.println("Empréstimo aprovado.");
         }
+        input.close();
     }
 }

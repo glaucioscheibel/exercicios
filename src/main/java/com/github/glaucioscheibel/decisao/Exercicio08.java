@@ -25,5 +25,6 @@ public class Exercicio08 {
             msg = "Os lados não formam um triângulo";
         }
         System.out.println(msg);
+        input.close();
     }
 }

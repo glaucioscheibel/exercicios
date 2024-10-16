@@ -27,5 +27,6 @@ public class Exercicio10 {
         } else {
             System.out.println("A equação não é do segundo grau");
         }
+        input.close();
     }
 }

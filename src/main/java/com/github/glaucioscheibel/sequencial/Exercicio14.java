@@ -15,5 +15,6 @@ public class Exercicio14 {
         System.out.printf("    Previdência: R$ %1.2f\n", previdencia);
         System.out.printf("           I.R.: R$ %1.2f\n", ir);
         System.out.printf("Salário Líquido: R$ %1.2f\n", liquido);
+        input.close();
     }
 }

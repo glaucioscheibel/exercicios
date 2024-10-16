@@ -33,5 +33,6 @@ public class Exercicio06 {
         } else {
             System.out.println("Reprovado!");
         }
+        input.close();
     }
 }

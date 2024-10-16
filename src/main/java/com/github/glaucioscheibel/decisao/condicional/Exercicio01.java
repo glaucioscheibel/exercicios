@@ -28,5 +28,6 @@ public class Exercicio01 {
                 System.err.println("Inicial inválida");
                 break;
         }
+        input.close();
     }
 }

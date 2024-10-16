@@ -11,5 +11,6 @@ public class Exercicio04 {
         raio = input.nextDouble();
         area = Math.PI * Math.pow(raio, 2);
         System.out.printf("Area: %.2f \n", area);
+        input.close();
     }
 }

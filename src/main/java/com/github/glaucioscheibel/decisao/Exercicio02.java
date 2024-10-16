@@ -25,5 +25,6 @@ public class Exercicio02 {
                 System.out.printf("Maior: %d \n", num3);
             }
         }
+        input.close();
     }
 }

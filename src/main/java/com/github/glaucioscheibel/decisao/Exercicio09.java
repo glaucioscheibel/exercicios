@@ -19,5 +19,6 @@ public class Exercicio09 {
             salario *= 1.1;
         }
         System.out.printf("Novo salário: R$ %1.2f \n", salario);
+        input.close();
     }
 }

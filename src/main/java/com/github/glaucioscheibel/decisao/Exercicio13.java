@@ -25,5 +25,6 @@ public class Exercicio13 {
             preco -= preco * 0.1;
         }
         System.out.printf("Preço: %1.2f", preco);
+        input.close();
     }
 }

@@ -16,5 +16,6 @@ public class Exercicio01 {
         } else {
             System.out.printf("Maior: %d \n", num2);
         }
+        input.close();
     }
 }

@@ -16,5 +16,6 @@ public class Exercicio08 {
         System.out.printf("Tempo gasto: %.2f \n", tempoGasto);
         System.out.printf("Distância: %.2f \n", distancia);
         System.out.printf("Litros usados: %.2f", litrosUsados);
+        input.close();
     }
 }

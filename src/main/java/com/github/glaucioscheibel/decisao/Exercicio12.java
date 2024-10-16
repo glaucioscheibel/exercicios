@@ -24,5 +24,6 @@ public class Exercicio12 {
         if (preco > 0) {
             System.out.printf("Preço: R$ %1.2f \n", preco);
         }
+        input.close();
     }
 }

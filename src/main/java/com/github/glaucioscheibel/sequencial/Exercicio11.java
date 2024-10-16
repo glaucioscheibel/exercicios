@@ -15,5 +15,6 @@ public class Exercicio11 {
         comprimento = input.nextDouble();
         quantidade = (int) Math.ceil(largura * comprimento * 18 / potencia);
         System.out.printf("São necessárias %d lâmpadas.\n", quantidade);
+        input.close();
     }
 }

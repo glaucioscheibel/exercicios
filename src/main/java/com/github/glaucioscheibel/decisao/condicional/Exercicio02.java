@@ -30,5 +30,6 @@ public class Exercicio02 {
                 break;
         }
         System.out.printf("%d %s %d = %d", val1, operacao, val2, resultado);
+        input.close();
     }
 }

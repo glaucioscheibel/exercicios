@@ -11,5 +11,6 @@ public class Exercicio11 {
         ano = input.nextInt();
         bisexto = (ano % 4 == 0 && ano % 100 != 0) || ano % 400 == 0;
         System.out.printf("O ano %d%sé bisexto\n", ano, bisexto ? " " : " não ");
+        input.close();
     }
 }

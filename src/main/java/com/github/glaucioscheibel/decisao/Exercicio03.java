@@ -15,5 +15,6 @@ public class Exercicio03 {
             valor = qtdeMacas * 1.1;
         }
         System.out.printf("Total: R$ %1.2f \n", valor);
+        input.close();
     }
 }
