@@ -12,7 +12,7 @@ public class Exercicio08 {
                 soma += a / b;
             }
             a -= 3;
-            b += 1;
+            b++;
         }
         System.out.printf("Soma: %1.2f\n", soma);
     }

@@ -8,7 +8,7 @@ public class Exercicio10 {
         while (felisberto <= anacleto) {
             anacleto += 0.02;
             felisberto += 0.03;
-            anos += 1;
+            anos++;
         }
         System.out.printf("Felisberto será maior que Anacleto em %d anos\n", anos);
     }

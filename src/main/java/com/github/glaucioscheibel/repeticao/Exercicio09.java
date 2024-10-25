@@ -7,10 +7,7 @@ public class Exercicio09 {
         double c = 1;
         double soma = 0;
         while (c <= 37) {
-            soma += a * b / c;
-            a -= 1;
-            b -= 1;
-            c += 1;
+            soma += a-- * b-- / c++;
         }
         System.out.printf("Resultado: %1.2f", soma);
     }

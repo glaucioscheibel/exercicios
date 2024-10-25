@@ -6,7 +6,7 @@ public class Exercicio12 {
         int paisB = 200_000;
         int anos = 0;
         while (paisA < paisB) {
-            anos += 1;
+            anos++;
             paisA += paisA * 0.03;
             paisB += paisB * 0.015;
         }

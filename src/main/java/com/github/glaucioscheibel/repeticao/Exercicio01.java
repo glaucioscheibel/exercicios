@@ -6,7 +6,7 @@ public class Exercicio01 {
         int soma = 0;
         while (i <= 100) {
             soma += i;
-            i += 1;
+            i++;
         }
         System.out.printf("Soma: %d \n", soma);
     }
