@@ -324,8 +324,6 @@ lousas?
     1. quantos espaços em branco existem na frase.
     1. quantas vezes aparecem as vogais a, e, i, o, u.
 
-1. Desenvolva um jogo em que o usuário tenha que adivinhar uma palavra que será mostrada com as letras embaralhadas. O programa terá uma lista de palavras lidas de um arquivo texto ou de um vetor e será escolhida uma aleatoriamente. O jogador terá seis tentativas para adivinhar a palavra. Ao final a palavra deve ser mostrada na tela, informando se o usuário ganhou ou perdeu o jogo.
-
 1. Leia um código de cinco algarismos (variável Codigo) e gere o digito verificador (DigitoV) módulo 7 para o mesmo. Supondo que os cinco algarismos do código são ABCDE, uma forma de calcular o dígito desejado, com módulo 7 é:
 
     DigitoV = resto da divisão de S por 7, onde S = 6A + 5B + 4C + 3D + 2E
