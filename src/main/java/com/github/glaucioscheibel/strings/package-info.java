@@ -1,4 +1,4 @@
 /**
- * Estrutura de decisão
+ * Strings
  */
 package com.github.glaucioscheibel.strings;
