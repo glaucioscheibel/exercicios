@@ -9,7 +9,7 @@
     1. [Estrutura condicional](#estrutura-condicional)
 1. [Estrutura de repetição](#estrutura-de-repetição)
 1. [_Strings_](#strings)
-1. [Vetores](#vetores)
+1. [Vetores e coleções](#vetores-e-coleções)
 1. [Matrizes](#matrizes)
 1. [Funções](#funções)
     1. [Funções recursivas](#funções-recursivas)
@@ -358,7 +358,7 @@ lousas?
     saída:   pALavRA
     ```
 
-## Vetores
+## Vetores e coleções
 
 1. Fazer um algoritmo que calcule e imprima o soma, a média, o maior e o menor dos valores armazenados em um vetor A de 100 elementos numéricos a serem lidos do dispositivo de entrada padrão.
 
