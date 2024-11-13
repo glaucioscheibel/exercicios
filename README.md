@@ -375,8 +375,6 @@ lousas?
 
 1. Escrever um programa que lê um vetor com 20 números inteiros e os imprime na tela. Troque, a seguir, o 1&ordm; elemento com o último, o 2&ordm; com o penúltimo etc. até o 10&ordm; com o 11&ordm; e imprima na tela o vetor N assim modificado.
 
-1. Numa eleição existem n candidatos identificados pelos números 1, 2, 3 ... n. Faça um programa que compute o resultado de uma eleição. Inicialmente o programa deverá pedir o número total de candidatos e de votantes. Em seguida, deverá pedir para cada votante votar (informando o numero do candidato) e a o final imprimir o número de votos de cada candidato. Utilize um vetor para armazenar o total de votos de cada candidato.
-
 1. Ler 100 números de matriculas de alunos e armazenar em um vetor. Esses números são distintos, ou seja, não existem números de matriculas iguais. Caso o usuário informa um número de matrículo que já existe, o programa deverá emitir um alerta.
 
 1. Faça um programa que leia um vetor com N elementos formado por valores do tipo inteiro. Crie então dois novos vetores, um com os valores pares e outro com os valores ímpares do vetor original.
