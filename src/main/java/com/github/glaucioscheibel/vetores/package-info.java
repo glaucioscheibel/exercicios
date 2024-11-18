@@ -1,4 +1,4 @@
 /**
- * Estrutura de decisão
+ * Vetores
  */
 package com.github.glaucioscheibel.vetores;
