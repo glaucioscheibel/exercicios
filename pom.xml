@@ -21,7 +21,9 @@
                 <version>2.43.0</version>
                 <configuration>
                     <java>
-                        <palantirJavaFormat/>
+                        <palantirJavaFormat>
+                            <version>2.50.0</version>
+                        </palantirJavaFormat>
                     </java>
                     <pom>
                         <sortPom>
