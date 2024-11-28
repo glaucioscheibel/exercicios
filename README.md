@@ -741,39 +741,21 @@ lousas?
     <table>
         <tr>
             <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
         </tr>
         <tr>
             <td align="right">&nbsp;1</td>
             <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
         </tr>
         <tr>
             <td align="right">&nbsp;1</td>
             <td align="right">&nbsp;2</td>
             <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
         </tr>
         <tr>
             <td align="right">&nbsp;1</td>
             <td align="right">&nbsp;3</td>
             <td align="right">&nbsp;3</td>
             <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
         </tr>
         <tr>
             <td align="right">&nbsp;1</td>
@@ -781,8 +763,6 @@ lousas?
             <td align="right">&nbsp;6</td>
             <td align="right">&nbsp;4</td>
             <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
         </tr>
         <tr>
             <td align="right">&nbsp;1</td>
@@ -791,7 +771,6 @@ lousas?
             <td align="right">10</td>
             <td align="right">&nbsp;5</td>
             <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;&nbsp;</td>
         </tr>
         <tr>
             <td align="right">&nbsp;1</td>
