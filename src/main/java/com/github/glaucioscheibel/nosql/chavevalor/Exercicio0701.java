@@ -10,7 +10,7 @@ public class Exercicio0701 {
         boolean running = true;
         while (running) {
             int codigo = random.nextInt();
-            System.out.printf("publicando %d no canal codigo:segurança", codigo);
+            System.out.printf("publicando %d no canal codigo:segurança\n", codigo);
             jedis.publish("codigo:segurança", String.valueOf(codigo));
             try {
                 Thread.sleep(20000);
