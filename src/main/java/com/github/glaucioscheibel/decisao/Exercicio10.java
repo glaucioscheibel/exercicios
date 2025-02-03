@@ -27,8 +27,8 @@ public class Exercicio10 {
                     double r2 = (-b - Math.sqrt(delta)) / (2 * a);
                     System.out.printf("A equação possui duas raízes reais: %1.2f e %1.2f", r1, r2);
                 }
-                input.close();
             }
         }
+        input.close();
     }
 }
