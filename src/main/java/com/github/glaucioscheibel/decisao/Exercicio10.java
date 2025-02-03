@@ -9,24 +9,26 @@ public class Exercicio10 {
         Scanner input = new Scanner(System.in);
         System.out.print("A: ");
         a = input.nextInt();
-        System.out.print("B: ");
-        b = input.nextInt();
-        System.out.print("C: ");
-        c = input.nextInt();
-        if (a != 0) {
-            delta = Math.pow(b, 2) - 4 * a * c;
-            if (delta > 0) {
-                if (delta == 0) {
-                    System.out.println("A equação possui apenas uma raiz real");
-                } else {
-                    System.out.println("A equação possui duas raízes reais");
-                }
-            } else {
-                System.out.println("A equação não possui raízes reais");
-            }
-        } else {
+        if (a == 0) {
             System.out.println("A equação não é do segundo grau");
+        } else {
+            System.out.print("B: ");
+            b = input.nextInt();
+            System.out.print("C: ");
+            c = input.nextInt();
+            delta = Math.pow(b, 2) - 4 * a * c;
+            if (delta < 0) {
+                System.out.println("A equação não possui raízes reais");
+            } else {
+                double r1 = (-b + Math.sqrt(delta)) / (2 * a);
+                if (delta == 0) {
+                    System.out.printf("A equação possui apenas uma raiz real: %1.2f\n", r1);
+                } else {
+                    double r2 = (-b - Math.sqrt(delta)) / (2 * a);
+                    System.out.printf("A equação possui duas raízes reais: %1.2f e %1.2f", r1, r2);
+                }
+                input.close();
+            }
         }
-        input.close();
     }
 }
