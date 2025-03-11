@@ -888,7 +888,7 @@ lousas?
     1. Existem dados geoespaciais? Se sim, como são armazenados?
     1. Cite vantagens e desvantagens do uso do modelo documento neste caso.
 
-1. Com a base de dados do [mflix](src/main/resources/mongodb/mflix/) e faça os seguintes programas com a linguagem [Java&trade;](https://www.java.com/) e a biblioteca [MongoDB&reg; Synchronous Driver](https://www.mongodb.com/docs/drivers/java/sync/current/):
+1. Com a base de dados do [mflix](src/main/resources/mongodb/mflix/) e faça os seguintes programas com a linguagem [Java&trade;](https://www.java.com/) e a biblioteca [MongoDB&reg; Synchronous Driver](https://www.mongodb.com/pt-br/docs/drivers/java/sync/current/):
     1. Liste os filmes com o nome "_The Room_".
     1. Liste os filmes que possuam uma duração ("_runtime_") menor ou igual à 15 minutos.
     1. Liste os filmes produzidos nos anos 80 ordenados pelo maior valor no campo "_imdb.rating_".
@@ -924,17 +924,17 @@ Segue uma relação de filmes que abordam o tema da programação e/ou da import
 
 Segue relação de livros recomendados (ordem alfabética):
 
-- [Código Limpo: Habilidades Práticas do Agile Software](https://isbndb.com/book/9788576082675)
-- [Como o Google Funciona](https://isbndb.com/book/9788580576139)
-- [Conceitos de Linguagens de Programação](https://isbndb.com/book/9788582604687)
-- [Entendendo Algoritmos](https://isbndb.com/book/9788575225639)
-- [Introdução à Programação Com Python](https://isbndb.com/book/9788575228869)
-- [Lógica de programação: A construção de algoritmos e estruturas de dados](https://isbndb.com/book/9788582605721)
-- [Metodologia de Pesquisa para Ciência da Computação](https://isbndb.com/book/9788595151093)
-- [The New Kingmakers](https://isbndb.com/book/9781449356347)
-- [Nova Era Digital](https://isbndb.com/book/9788580573886)
-- [O Programador Pragmático De aprendiz a mestre](https://isbndb.com/book/9788577807000)
-- [A Vida Digital](https://isbndb.com/book/9788571644557)
+- [Código Limpo: Habilidades Práticas do Agile Software](https://altabooks.com.br/produto/codigo-limpo/)
+- [Como o Google Funciona](https://intrinseca.com.br/livro/como-o-google-funciona/)
+- [Conceitos de Linguagens de Programação](https://loja.grupoa.com.br/conceitos-de-linguagens-de-programacao-p992606)
+- [Entendendo Algoritmos](https://novatec.com.br/livros/entendendo-algoritmos/)
+- [Introdução à Programação Com Python](https://novatec.com.br/livros/introducao-python-4ed/)
+- [Lógica de programação: A construção de algoritmos e estruturas de dados](https://loja.grupoa.com.br/logica-de-programacao-4ed-p1018386)
+- [Metodologia de Pesquisa para Ciência da Computação](https://www.grupogen.com.br/e-book-metodologia-de-pesquisa-para-ciencia-da-computacao)
+- [The New Kingmakers](https://thenewkingmakers.com/)
+- [Nova Era Digital](https://intrinseca.com.br/livro/a-nova-era-digital/)
+- [O Programador Pragmático De aprendiz a mestre](https://loja.grupoa.com.br/o-programador-pragmatico-p995566)
+- [A Vida Digital](https://www.companhiadasletras.com.br/livro/9788571644557/a-vida-digital)
 
 ## Agradecimentos
 

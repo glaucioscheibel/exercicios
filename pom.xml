@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.glaucioscheibel</groupId>
     <artifactId>exercicios</artifactId>
@@ -8,12 +9,17 @@
     <name>exercicios</name>
     <url>http://maven.apache.org</url>
     <properties>
-        <maven.compiler.target>21</maven.compiler.target>
-        <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.release>21</maven.compiler.release>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>5.3.1</version>
+        </dependency>
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
@@ -36,6 +42,10 @@
                         <sortPom>
                             <nrOfIndentSpace>4</nrOfIndentSpace>
                             <expandEmptyElements>false</expandEmptyElements>
+                            <keepBlankLines>false</keepBlankLines>
+                            <indentSchemaLocation>true</indentSchemaLocation>
+                            <sortDependencies>groupId,artifactId</sortDependencies>
+                            <sortProperties>true</sortProperties>
                         </sortPom>
                     </pom>
                 </configuration>
