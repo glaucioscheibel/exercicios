@@ -35,7 +35,7 @@
                 <configuration>
                     <java>
                         <palantirJavaFormat>
-                            <version>2.56.0</version>
+                            <version>2.57.0</version>
                         </palantirJavaFormat>
                     </java>
                     <pom>
@@ -43,7 +43,7 @@
                             <nrOfIndentSpace>4</nrOfIndentSpace>
                             <expandEmptyElements>false</expandEmptyElements>
                             <keepBlankLines>false</keepBlankLines>
-                            <indentSchemaLocation>true</indentSchemaLocation>
+                            <indentAttribute>schemaLocation</indentAttribute>
                             <sortDependencies>groupId,artifactId</sortDependencies>
                             <sortProperties>true</sortProperties>
                         </sortPom>
