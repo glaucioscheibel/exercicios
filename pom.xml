@@ -35,7 +35,7 @@
                 <configuration>
                     <java>
                         <palantirJavaFormat>
-                            <version>2.57.0</version>
+                            <version>2.58.0</version>
                         </palantirJavaFormat>
                     </java>
                     <pom>
