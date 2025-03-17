@@ -852,6 +852,8 @@ lousas?
     1. Responda as seguintes perguntas:
         1. Qual foi o _speedup_[^1] obtido?
         1. Teve algum caso que o _speedup_ foi negativo?
+    1. Repita os testes acima usando _Threads_ virtuais.
+        1. Houve diferenças entre _Threads_ de plataforma e _Threads_ virtuais? Se houve, quais foram e explique o porquê das diferenças.
 
 1. Faça um programa que crie uma lista (_ArrayList_) e manipule ela com as seguintes _threads_:
     - Duas _threads_ incluindo valores aleatórios na lista.
