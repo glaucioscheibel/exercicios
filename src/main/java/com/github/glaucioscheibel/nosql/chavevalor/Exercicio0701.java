@@ -1,12 +1,12 @@
 package com.github.glaucioscheibel.nosql.chavevalor;
 
 import java.util.Random;
-import redis.clients.jedis.Jedis;
+import redis.clients.jedis.UnifiedJedis;
 
 public class Exercicio0701 {
     public static void main(String[] args) {
         Random random = new Random();
-        Jedis jedis = new Jedis("localhost", 6379);
+        UnifiedJedis jedis = new UnifiedJedis("redis://localhost:6379");
         boolean running = true;
         while (running) {
             int codigo = random.nextInt();
