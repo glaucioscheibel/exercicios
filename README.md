@@ -864,9 +864,9 @@ lousas?
 
 ## NoSQL Chave-Valor
 
-1. Faça um programa que conecte numa base [Redis&reg;](https://redis.io/) e chame as funções `PING` e `ECHO`. Utilize a linguagem [Java&trade;](https://www.java.com/) com a biblioteca [Jedis](https://github.com/redis/jedis).
+1. Faça um programa que conecte numa base [Redis&reg;](https://redis.io/), [Valkey&copy;](https://valkey.io/) ou [Memurai&reg;](https://www.memurai.com/) e chame as funções `PING` e `ECHO`. Utilize a linguagem [Java&trade;](https://www.java.com/) com a biblioteca [Jedis](https://github.com/redis/jedis).
 
-1. Crie 10 entradas chave-valor aleatórios e em seguida acesse o banco Redis com algum programa GUI ([RedisInsight](https://redis.io/insight/) ou [Another Redis Desktop Manager](https://goanother.com/)) e verifique se as chaves foram criadas. Depois volte ao programa e liste as chaves e seus respectivos valores.
+1. Crie 10 entradas chave-valor aleatórios e em seguida acesse o banco Redis com algum programa GUI ([RedisInsight](https://redis.io/insight/), [Another Redis Desktop Manager](https://goanother.com/) ou [Redis for VS Code](https://marketplace.visualstudio.com/items?itemName=Redis.redis-for-vscode)) e verifique se as chaves foram criadas. Depois volte ao programa e liste as chaves e seus respectivos valores.
 
 1. Crie uma chave inteira com o nome "programa:execuções" e a cada chamada do programa execute a função `INCR`. Verifique pela GUI se o valor está sendo incrementado.
 
@@ -948,9 +948,12 @@ Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma l
 
 ## Informações legais
 
-- "Java" is a registered trademark of Oracle.
-- "MongoDB" is a trademark or registered trademark of MongoDB Inc.
-- "Python" is a trademark of the Python Software Foundation.
-- "Redis" is a registered trademark of Redis Ltd.
+- **Java** is a registered trademark of Oracle.
+- **Memurai** is a registered trademark of Janea Systems Inc.
+- **MongoDB** is a registered trademark of MongoDB Inc.
+- **Python** is a trademark of the Python Software Foundation.
+- **Redis** is a registered trademark of Redis Ltd.
+- **Valkey** is copyright by Valkey contributors.
+- **Visual Studio Code** and **VS Code** are trademarks of Microsoft Corporation.
 
 [^1]: Na arquitetura de computadores, _speedup_ é um número que mede o desempenho relativo de dois sistemas que processam o mesmo problema.
