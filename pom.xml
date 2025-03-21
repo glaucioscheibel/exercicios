@@ -7,7 +7,6 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>exercicios</name>
-    <url>http://maven.apache.org</url>
     <properties>
         <maven.compiler.release>21</maven.compiler.release>
         <maven.compiler.source>21</maven.compiler.source>
@@ -40,7 +39,7 @@
                 <configuration>
                     <java>
                         <palantirJavaFormat>
-                            <version>2.59.0</version>
+                            <version>2.61.0</version>
                         </palantirJavaFormat>
                     </java>
                     <pom>
