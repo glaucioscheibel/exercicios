@@ -9,7 +9,7 @@ public class Exercicio07 {
         Scanner input = new Scanner(System.in);
         System.out.print("Número: ");
         numero = input.nextInt();
-        for (int i = 2; i < numero / 2; i++) {
+        for (int i = 2; i < (numero / 2) + 1; i++) {
             if (numero % i == 0) {
                 primo = false;
                 break;
