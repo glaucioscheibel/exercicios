@@ -860,7 +860,7 @@ lousas?
     - Uma _thread_ removendo o primeiro valor da lista.
     - Uma _thread_ imprimindo a cada segundo os valores existentes.
 
-1. Numa cozinha, existe 1 lavador de pratos e dois enxugadores de pratos. O escorredor tem espaço para 10 pratos. Faça um programa que simule a lavação e enxugamento de 100 pratos.
+1. Numa cozinha, existe 1 lavador de pratos e 2 enxugadores de pratos. O escorredor tem espaço para 10 pratos. Faça um programa que simule a lavação e enxugamento de 100 pratos.
 
 ## NoSQL Chave-Valor
 
