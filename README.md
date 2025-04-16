@@ -860,7 +860,7 @@ lousas?
     - Uma _thread_ removendo o primeiro valor da lista.
     - Uma _thread_ imprimindo a cada segundo os valores existentes.
 
-1. Em uma cozinha, existe uma pilha de 100 pratos sujos. Para tal, temos um pessoa lavando pratos e 2 enxugando os pratos. Entre eles, existe um escorredor com espaço para apenas dez pratos. Faça um programa que simule a lavação dos 100 pratos sujos, sua colocação no escorredor e o enxugamento destes. Após enxugar cada prato, ele será colocado na pilha de pratos limpos.
+1. Em uma cozinha, existe uma pilha de 100 pratos sujos. Para tal, temos uma pessoa lavando pratos e duas enxugando os pratos. Entre eles, existe um escorredor com espaço para apenas dez pratos. Faça um programa que simule a lavação dos 100 pratos sujos, sua colocação no escorredor e o enxugamento destes. Após enxugar cada prato, ele será colocado na pilha de pratos limpos.
 
 ## NoSQL Chave-Valor
 
