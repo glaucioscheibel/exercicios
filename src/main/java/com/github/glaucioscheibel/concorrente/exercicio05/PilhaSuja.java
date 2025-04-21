@@ -1,17 +1,18 @@
 package com.github.glaucioscheibel.concorrente.exercicio05;
 
 public class PilhaSuja {
-    private int prato;
-    private int total;
+    private int pratos;
+    private int qtde;
 
-    public PilhaSuja(int total) {
-        this.total = total;
+    public PilhaSuja(int qtde) {
+        this.qtde = qtde;
     }
 
-    public synchronized int getPratoSujo() {
-        if (prato >= total) {
-            return 0;
+    public synchronized int nextPrato() {
+        pratos++;
+        if (pratos <= qtde) {
+            return pratos;
         }
-        return ++prato;
+        return 0;
     }
 }

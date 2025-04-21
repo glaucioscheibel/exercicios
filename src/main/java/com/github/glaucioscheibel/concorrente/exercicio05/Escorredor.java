@@ -1,44 +1,44 @@
 package com.github.glaucioscheibel.concorrente.exercicio05;
 
 public class Escorredor {
-    int[] espacos = new int[10];
-    int livre = 0;
-    boolean fim;
+    private int[] espacos;
+    private int livre = 0;
+    private boolean fim;
+
+    public Escorredor(int tam) {
+        espacos = new int[tam];
+    }
 
     public synchronized void poe(int prato) {
-        while (livre == espacos.length - 1) {
+        while (livre >= espacos.length) {
             try {
                 wait();
             } catch (InterruptedException ie) {
             }
         }
-        livre++;
+        System.out.printf("Colocando prato %d\n", prato);
         espacos[livre] = prato;
+        livre++;
         notifyAll();
     }
 
-    public synchronized int tira() {
+    public synchronized int retira() {
         while (livre == 0 && !fim) {
             try {
                 wait();
             } catch (InterruptedException ie) {
             }
         }
-        if (!fim) {
-            int prato = espacos[livre];
-            livre--;
-            notifyAll();
-            return prato;
-        } else {
+        notifyAll();
+        if (fim && livre == 0) {
             return 0;
         }
+        livre--;
+        System.out.printf("Retirando prato %d\n", espacos[livre]);
+        return espacos[livre];
     }
 
-    public synchronized void setFim(boolean fim) {
-        this.fim = fim;
-    }
-
-    public synchronized boolean isFim() {
-        return fim && livre == 0;
+    public void setFim() {
+        fim = true;
     }
 }
