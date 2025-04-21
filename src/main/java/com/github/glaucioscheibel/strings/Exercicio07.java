@@ -10,9 +10,9 @@ public class Exercicio07 {
         palavra1 = input.nextLine();
         System.out.print("Palavra 2: ");
         palavra2 = input.nextLine();
-        String aux = palavra2;
         boolean anagrama = palavra1.length() == palavra2.length();
         if (anagrama) {
+            String aux = palavra2;
             for (char c : palavra1.toCharArray()) {
                 aux = aux.replaceFirst(String.valueOf(c), "");
             }
