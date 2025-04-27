@@ -9,10 +9,10 @@ public class Exercicio02 {
         int produtoDiagonal = 1;
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                if (i == 0) {
+                if (j == 0) {
                     somaPrimeiraColuna += matriz[i][j];
                 }
-                if (j == 0) {
+                if (i == 0) {
                     produtoPrimeiraLinha *= matriz[i][j];
                 }
                 if (i == j) {
