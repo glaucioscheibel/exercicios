@@ -50,9 +50,20 @@
                             <indentAttribute>schemaLocation</indentAttribute>
                             <sortDependencies>groupId,artifactId</sortDependencies>
                             <sortProperties>true</sortProperties>
+                            <sortPlugins>groupId,artifactId</sortPlugins>
                         </sortPom>
                     </pom>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.4.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.14.0</version>
             </plugin>
         </plugins>
     </build>
