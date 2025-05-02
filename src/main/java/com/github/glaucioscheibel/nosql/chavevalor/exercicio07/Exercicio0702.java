@@ -12,7 +12,7 @@ public class Exercicio0702 {
                 System.out.printf("Recebi %s do canal %s\n", message, channel);
             }
         };
-        jedis.subscribe(subscriber, "codigo:segurança");
+        jedis.subscribe(subscriber, "codigo:seguranca");
         jedis.close();
     }
 }

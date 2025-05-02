@@ -9,9 +9,9 @@ public class Exercicio0701 {
         UnifiedJedis jedis = new UnifiedJedis("redis://localhost:6379");
         boolean running = true;
         while (running) {
-            int codigo = random.nextInt();
-            System.out.printf("publicando %d no canal codigo:segurança\n", codigo);
-            jedis.publish("codigo:segurança", String.valueOf(codigo));
+            int codigo = random.nextInt(999_999);
+            System.out.printf("publicando %d no canal codigo:seguranca\n", codigo);
+            jedis.publish("codigo:seguranca", String.valueOf(codigo));
             try {
                 Thread.sleep(20000);
             } catch (InterruptedException e) {
