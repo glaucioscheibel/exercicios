@@ -17,7 +17,7 @@ public class Enxugador extends Thread {
         }
     }
 
-    private void enxuga(int prato) {
+    private static void enxuga(int prato) {
         System.out.printf("Enxugando prato %d\n", prato);
     }
 }

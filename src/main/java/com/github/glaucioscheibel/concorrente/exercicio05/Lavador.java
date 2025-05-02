@@ -18,7 +18,7 @@ public class Lavador extends Thread {
         escorredor.setFim();
     }
 
-    private void lavar(int prato) {
+    private static void lavar(int prato) {
         System.out.printf("Lavando prato %d\n", prato);
     }
 }

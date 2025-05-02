@@ -1,4 +1,4 @@
-package com.github.glaucioscheibel.nosql.chavevalor;
+package com.github.glaucioscheibel.nosql.chavevalor.exercicio07;
 
 import redis.clients.jedis.JedisPubSub;
 import redis.clients.jedis.UnifiedJedis;

@@ -1,4 +1,4 @@
-package com.github.glaucioscheibel.nosql.chavevalor;
+package com.github.glaucioscheibel.nosql.chavevalor.exercicio07;
 
 import java.util.Random;
 import redis.clients.jedis.UnifiedJedis;
