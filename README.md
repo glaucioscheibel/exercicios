@@ -646,81 +646,81 @@ lousas?
 1. O tempo que um determinado avião dispensa para percorrer o trecho entre duas localidades distintas está disponível através da seguinte matriz:
     <table>
         <tr>
-            <th>&nbsp;</th>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-            <th>4</th>
-            <th>5</th>
-            <th>6</th>
-            <th>7</th>
+            <th align="right">&nbsp;</th>
+            <th align="right">&nbsp;1</th>
+            <th align="right">&nbsp;2</th>
+            <th align="right">&nbsp;3</th>
+            <th align="right">&nbsp;4</th>
+            <th align="right">&nbsp;5</th>
+            <th align="right">&nbsp;6</th>
+            <th align="right">&nbsp;7</th>
         </tr>
         <tr>
-            <th>1</th>
+            <th align="right">&nbsp;1</th>
             <td align="right">&nbsp;</td>
-            <td align="right">2</td>
+            <td align="right">&nbsp;2</td>
             <td align="right">11</td>
-            <td align="right">6</td>
+            <td align="right">&nbsp;6</td>
             <td align="right">15</td>
             <td align="right">11</td>
-            <td align="right">1</td>
+            <td align="right">&nbsp;1</td>
         </tr>
         <tr>
-            <th>2</th>
-            <td align="right">2</td>
+            <th align="right">&nbsp;2</th>
+            <td align="right">&nbsp;2</td>
             <td align="right">&nbsp;</td>
-            <td align="right">7</td>
+            <td align="right">&nbsp;7</td>
             <td align="right">12</td>
-            <td align="right">4</td>
-            <td align="right">2</td>
+            <td align="right">&nbsp;4</td>
+            <td align="right">&nbsp;2</td>
             <td align="right">15</td>
         </tr>
         <tr>
-            <th>3</th>
+            <th align="right">&nbsp;3</th>
             <td align="right">11</td>
-            <td align="right">7</td>
+            <td align="right">&nbsp;7</td>
             <td align="right">&nbsp;</td>
             <td align="right">11</td>
-            <td align="right">8</td>
-            <td align="right">3</td>
+            <td align="right">&nbsp;8</td>
+            <td align="right">&nbsp;3</td>
             <td align="right">13</td>
         </tr>
         <tr>
-            <th>4</th>
-            <td align="right">6</td>
+            <th align="right">&nbsp;4</th>
+            <td align="right">&nbsp;6</td>
             <td align="right">12</td>
             <td align="right">11</td>
             <td align="right">&nbsp;</td>
             <td align="right">10</td>
-            <td align="right">2</td>
-            <td align="right">1</td>
+            <td align="right">&nbsp;2</td>
+            <td align="right">&nbsp;1</td>
         </tr>
         <tr>
-            <th>5</th>
+            <th align="right">&nbsp;5</th>
             <td align="right">15</td>
-            <td align="right">4</td>
-            <td align="right">8</td>
+            <td align="right">&nbsp;4</td>
+            <td align="right">&nbsp;8</td>
             <td align="right">10</td>
             <td align="right">&nbsp;</td>
-            <td align="right">5</td>
+            <td align="right">&nbsp;5</td>
             <td align="right">13</td>
         </tr>
         <tr>
-            <th>6</th>
+            <th align="right">&nbsp;6</th>
             <td align="right">11</td>
-            <td align="right">2</td>
-            <td align="right">3</td>
-            <td align="right">2</td>
-            <td align="right">5</td>
+            <td align="right">&nbsp;2</td>
+            <td align="right">&nbsp;3</td>
+            <td align="right">&nbsp;2</td>
+            <td align="right">&nbsp;5</td>
             <td align="right">&nbsp;</td>
             <td align="right">14</td>
         </tr>
         <tr>
-            <th>7</th>
-            <td align="right">1</td>
+            <th align="right">&nbsp;7</th>
+            <td align="right">&nbsp;1</td>
             <td align="right">15</td>
             <td align="right">13</td>
-            <td align="right">1</td>
+            <td align="right">&nbsp;1</td>
             <td align="right">13</td>
             <td align="right">14</td>
             <td align="right">&nbsp;</td>
