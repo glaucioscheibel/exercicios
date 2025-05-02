@@ -408,68 +408,68 @@ lousas?
     1. O produto dos elementos da primeira linha;
     1. A soma de todos os elementos;
     1. O produto da diagonal principal.
-
-    <table>
-        <tr>
-            <td align="right">1</td>
-            <td align="right">2</td>
-            <td align="right">3</td>
-            <td align="right">4</td>
-        </tr>
-        <tr>
-            <td align="right">5</td>
-            <td align="right">6</td>
-            <td align="right">7</td>
-            <td align="right">8</td>
-        </tr>
-        <tr>
-            <td align="right">9</td>
-            <td align="right">10</td>
-            <td align="right">11</td>
-            <td align="right">12</td>
-        </tr>
-        <tr>
-            <td align="right">13</td>
-            <td align="right">14</td>
-            <td align="right">15</td>
-            <td align="right">16</td>
-        </tr>
-    </table>
+<br><br>
+        <table>
+            <tr>
+                <td style="text-align: right">1</td>
+                <td style="text-align: right">2</td>
+                <td style="text-align: right">3</td>
+                <td style="text-align: right">4</td>
+            </tr>
+            <tr>
+                <td style="text-align: right">5</td>
+                <td style="text-align: right">6</td>
+                <td style="text-align: right">7</td>
+                <td style="text-align: right">8</td>
+            </tr>
+            <tr>
+                <td style="text-align: right">9</td>
+                <td style="text-align: right">10</td>
+                <td style="text-align: right">11</td>
+                <td style="text-align: right">12</td>
+            </tr>
+            <tr>
+                <td style="text-align: right">13</td>
+                <td style="text-align: right">14</td>
+                <td style="text-align: right">15</td>
+                <td style="text-align: right">16</td>
+            </tr>
+        </table>
 
 1. Dada as matrizes A e B determine A + B.
     <table>
-        <tr>
-            <td>
+        <tr style="border: none;">
+            <td style="border: 0;">
                 <table>
-                    <tr>
-                        <th rowspan="2">A =</th>
-                        <td align="right">-10</td>
-                        <td align="right">1</td>
-                        <td align="right">4</td>
-                        <td align="right">6</td>
+                    <tr style="border: none;">
+                        <th rowspan="2" style="border: none;">A =</th>
+                        <td style="text-align: right">-10</td>
+                        <td style="text-align: right">1</td>
+                        <td style="text-align: right">4</td>
+                        <td style="text-align: right">6</td>
                     </tr>
-                    <tr>
-                        <td align="right">2</td>
-                        <td align="right">3</td>
-                        <td align="right">2</td>
-                        <td align="right">8</td>
+                    <tr style="border: none;">
+                        <td style="text-align: right">2</td>
+                        <td style="text-align: right">3</td>
+                        <td style="text-align: right">2</td>
+                        <td style="text-align: right">8</td>
                     </tr>
                 </table>
             </td>
-            <td>
+            <td style="border: 0;">
                 <table>
-                    <tr>
-                        <th rowspan="2">B =</th>
-                        <td align="right">1</td>
-                        <td align="right">8</td>
-                        <td align="right">4</td>
-                        <td align="right">-1</td>
+                    <tr style="border: none;">
+                        <th rowspan="2" style="border: none;">B =</th>
+                        <td style="text-align: right">1</td>
+                        <td style="text-align: right">8</td>
+                        <td style="text-align: right">4</td>
+                        <td style="text-align: right">-1</td>
                     </tr>
-                    <tr>
-                        <td align="right">0</td>
-                        <td align="right">6</td>
-                        <td align="right">3</td>
-                        <td align="right">-3</td>
+                    <tr style="border: none;">
+                        <td style="text-align: right">0</td>
+                        <td style="text-align: right">6</td>
+                        <td style="text-align: right">3</td>
+                        <td style="text-align: right">-3</td>
                     </tr>
                 </table>
             </td>
@@ -478,49 +478,49 @@ lousas?
 
 1. Faça um programa que dada a matriz A, gere a matriz oposta -A. Matriz oposta possui valores que se somados à matriz original, gera uma matriz com valores zerados.
     <table>
-        <tr>
-            <th rowspan="2">A =</th>
-            <td align="right">2</td>
-            <td align="right">-3</td>
+        <tr style="border: none;">
+            <th rowspan="2" style="border: none;">A =</th>
+            <td style="text-align: right">2</td>
+            <td style="text-align: right">-3</td>
         </tr>
         <tr>
-            <td align="right">-1</td>
-            <td align="right">4</td>
+            <td style="text-align: right">-1</td>
+            <td style="text-align: right">4</td>
         </tr>
     </table>
 
 1. Faça um programa que dada a seguinte matriz A, gere a matriz transposta dela A<sup>t</sup>. Matriz transposta é a que se obtém trocando-se ordenadamente as linhas pelas colunas.
-    <table border="0">
-        <tr>
-            <td>
+    <table>
+        <tr style="border: none;">
+            <td style="border: none;">
                 <table>
-                    <tr>
-                        <th rowspan="3">A =</th>
-                        <td align="right">-7</td>
-                        <td align="right">8</td>
+                    <tr style="border: none;">
+                        <th rowspan="3" style="border: none;">A =</th>
+                        <td style="text-align: right">-7</td>
+                        <td style="text-align: right">8</td>
                     </tr>
-                    <tr>
-                        <td align="right">4</td>
-                        <td align="right">9</td>
+                    <tr style="border: none;">
+                        <td style="text-align: right">4</td>
+                        <td style="text-align: right">9</td>
                     </tr>
-                    <tr>
-                        <td align="right">2</td>
-                        <td align="right">1</td>
+                    <tr style="border: none;">
+                        <td style="text-align: right">2</td>
+                        <td style="text-align: right">1</td>
                     </tr>
                 </table>
             </td>
-            <td valign="top">
+            <td style="border: none;">
                 <table>
-                    <tr>
-                        <th rowspan="2">A<sup>t</sup> = </th>
-                        <td align="right">-7</td>
-                        <td align="right">4</td>
-                        <td align="right">2</td>
+                    <tr style="border: none;">
+                        <th rowspan="2" style="border: none;">A<sup>t</sup> = </th>
+                        <td style="text-align: right">-7</td>
+                        <td style="text-align: right">4</td>
+                        <td style="text-align: right">2</td>
                     </tr>
-                    <tr>
-                        <td align="right">8</td>
-                        <td align="right">9</td>
-                        <td align="right">1</td>
+                    <tr style="border: none;">
+                        <td style="text-align: right">8</td>
+                        <td style="text-align: right">9</td>
+                        <td style="text-align: right">1</td>
                     </tr>
                 </table>
             </td>
@@ -529,36 +529,36 @@ lousas?
 
 1. Dada as matrizes A e B determine A &times; B.
     <table>
-        <tr>
-            <td>
+        <tr style="border: none;">
+            <td style="border: none;">
                 <table>
-                    <tr>
-                        <th rowspan="2">A =</th>
-                        <td align="right">2</td>
-                        <td align="right">3</td>
-                        <td align="right">1</td>
+                    <tr style="border: none;">
+                        <th rowspan="2" style="border: none;">A =</th>
+                        <td style="text-align: right">2</td>
+                        <td style="text-align: right">3</td>
+                        <td style="text-align: right">1</td>
                     </tr>
-                    <tr>
-                        <td align="right">-1</td>
-                        <td align="right">0</td>
-                        <td align="right">2</td>
+                    <tr style="border: none;">
+                        <td style="text-align: right">-1</td>
+                        <td style="text-align: right">0</td>
+                        <td style="text-align: right">2</td>
                     </tr>
                 </table>
             </td>
-            <td>
+            <td style="border: none;">
                 <table>
-                    <tr>
-                        <th rowspan="3">B =</th>
-                        <td align="right">1</td>
-                        <td align="right">-2</td>
+                    <tr style="border: none;">
+                        <th rowspan="3" style="border: none;">B =</th>
+                        <td style="text-align: right">1</td>
+                        <td style="text-align: right">-2</td>
                     </tr>
-                    <tr>
-                        <td align="right">0</td>
-                        <td align="right">5</td>
+                    <tr style="border: none;">
+                        <td style="text-align: right">0</td>
+                        <td style="text-align: right">5</td>
                     </tr>
-                    <tr>
-                        <td align="right">4</td>
-                        <td align="right">1</td>
+                    <tr style="border: none;">
+                        <td style="text-align: right">4</td>
+                        <td style="text-align: right">1</td>
                     </tr>
                 </table>
             </td>
@@ -646,84 +646,84 @@ lousas?
 1. O tempo que um determinado avião dispensa para percorrer o trecho entre duas localidades distintas está disponível através da seguinte matriz:
     <table>
         <tr>
-            <th>&nbsp;</th>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-            <th>4</th>
-            <th>5</th>
-            <th>6</th>
-            <th>7</th>
+            <th style="text-align: right">&nbsp;</th>
+            <th style="text-align: right">&nbsp;1</th>
+            <th style="text-align: right">&nbsp;2</th>
+            <th style="text-align: right">&nbsp;3</th>
+            <th style="text-align: right">&nbsp;4</th>
+            <th style="text-align: right">&nbsp;5</th>
+            <th style="text-align: right">&nbsp;6</th>
+            <th style="text-align: right">&nbsp;7</th>
         </tr>
         <tr>
-            <th>1</th>
-            <td align="right">&nbsp;</td>
-            <td align="right">2</td>
-            <td align="right">11</td>
-            <td align="right">6</td>
-            <td align="right">15</td>
-            <td align="right">11</td>
-            <td align="right">1</td>
+            <th style="text-align: right">&nbsp;1</th>
+            <td style="text-align: right">&nbsp;</td>
+            <td style="text-align: right">&nbsp;2</td>
+            <td style="text-align: right">11</td>
+            <td style="text-align: right">&nbsp;6</td>
+            <td style="text-align: right">15</td>
+            <td style="text-align: right">11</td>
+            <td style="text-align: right">&nbsp;1</td>
         </tr>
         <tr>
-            <th>2</th>
-            <td align="right">2</td>
-            <td align="right">&nbsp;</td>
-            <td align="right">7</td>
-            <td align="right">12</td>
-            <td align="right">4</td>
-            <td align="right">2</td>
-            <td align="right">15</td>
+            <th style="text-align: right">&nbsp;2</th>
+            <td style="text-align: right">&nbsp;2</td>
+            <td style="text-align: right">&nbsp;</td>
+            <td style="text-align: right">&nbsp;7</td>
+            <td style="text-align: right">12</td>
+            <td style="text-align: right">&nbsp;4</td>
+            <td style="text-align: right">&nbsp;2</td>
+            <td style="text-align: right">15</td>
         </tr>
         <tr>
-            <th>3</th>
-            <td align="right">11</td>
-            <td align="right">7</td>
-            <td align="right">&nbsp;</td>
-            <td align="right">11</td>
-            <td align="right">8</td>
-            <td align="right">3</td>
-            <td align="right">13</td>
+            <th style="text-align: right">&nbsp;3</th>
+            <td style="text-align: right">11</td>
+            <td style="text-align: right">&nbsp;7</td>
+            <td style="text-align: right">&nbsp;</td>
+            <td style="text-align: right">11</td>
+            <td style="text-align: right">&nbsp;8</td>
+            <td style="text-align: right">&nbsp;3</td>
+            <td style="text-align: right">13</td>
         </tr>
         <tr>
-            <th>4</th>
-            <td align="right">6</td>
-            <td align="right">12</td>
-            <td align="right">11</td>
-            <td align="right">&nbsp;</td>
-            <td align="right">10</td>
-            <td align="right">2</td>
-            <td align="right">1</td>
+            <th style="text-align: right">&nbsp;4</th>
+            <td style="text-align: right">&nbsp;6</td>
+            <td style="text-align: right">12</td>
+            <td style="text-align: right">11</td>
+            <td style="text-align: right">&nbsp;</td>
+            <td style="text-align: right">10</td>
+            <td style="text-align: right">&nbsp;2</td>
+            <td style="text-align: right">&nbsp;1</td>
         </tr>
         <tr>
-            <th>5</th>
-            <td align="right">15</td>
-            <td align="right">4</td>
-            <td align="right">8</td>
-            <td align="right">10</td>
-            <td align="right">&nbsp;</td>
-            <td align="right">5</td>
-            <td align="right">13</td>
+            <th style="text-align: right">&nbsp;5</th>
+            <td style="text-align: right">15</td>
+            <td style="text-align: right">&nbsp;4</td>
+            <td style="text-align: right">&nbsp;8</td>
+            <td style="text-align: right">10</td>
+            <td style="text-align: right">&nbsp;</td>
+            <td style="text-align: right">&nbsp;5</td>
+            <td style="text-align: right">13</td>
         </tr>
         <tr>
-            <th>6</th>
-            <td align="right">11</td>
-            <td align="right">2</td>
-            <td align="right">3</td>
-            <td align="right">2</td>
-            <td align="right">5</td>
-            <td align="right">&nbsp;</td>
-            <td align="right">14</td>
+            <th style="text-align: right">&nbsp;6</th>
+            <td style="text-align: right">11</td>
+            <td style="text-align: right">&nbsp;2</td>
+            <td style="text-align: right">&nbsp;3</td>
+            <td style="text-align: right">&nbsp;2</td>
+            <td style="text-align: right">&nbsp;5</td>
+            <td style="text-align: right">&nbsp;</td>
+            <td style="text-align: right">14</td>
         </tr>
         <tr>
-            <th>7</th>
-            <td align="right">1</td>
-            <td align="right">15</td>
-            <td align="right">13</td>
-            <td align="right">1</td>
-            <td align="right">13</td>
-            <td align="right">14</td>
-            <td align="right">&nbsp;</td>
+            <th style="text-align: right">&nbsp;7</th>
+            <td style="text-align: right">&nbsp;1</td>
+            <td style="text-align: right">15</td>
+            <td style="text-align: right">13</td>
+            <td style="text-align: right">&nbsp;1</td>
+            <td style="text-align: right">13</td>
+            <td style="text-align: right">14</td>
+            <td style="text-align: right">&nbsp;</td>
         </tr>
     </table>
 
@@ -740,67 +740,67 @@ lousas?
 
     <table>
         <tr>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;1</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
         </tr>
         <tr>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;1</td>
+            <td style="text-align: right">&nbsp;1</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
         </tr>
         <tr>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;2</td>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;1</td>
+            <td style="text-align: right">&nbsp;2</td>
+            <td style="text-align: right">&nbsp;1</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
         </tr>
         <tr>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;3</td>
-            <td align="right">&nbsp;3</td>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;1</td>
+            <td style="text-align: right">&nbsp;3</td>
+            <td style="text-align: right">&nbsp;3</td>
+            <td style="text-align: right">&nbsp;1</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
         </tr>
         <tr>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;4</td>
-            <td align="right">&nbsp;6</td>
-            <td align="right">&nbsp;4</td>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;1</td>
+            <td style="text-align: right">&nbsp;4</td>
+            <td style="text-align: right">&nbsp;6</td>
+            <td style="text-align: right">&nbsp;4</td>
+            <td style="text-align: right">&nbsp;1</td>
+            <td style="text-align: right">&nbsp;</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
         </tr>
         <tr>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;5</td>
-            <td align="right">10</td>
-            <td align="right">10</td>
-            <td align="right">&nbsp;5</td>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;&nbsp;</td>
+            <td style="text-align: right">&nbsp;1</td>
+            <td style="text-align: right">&nbsp;5</td>
+            <td style="text-align: right">10</td>
+            <td style="text-align: right">10</td>
+            <td style="text-align: right">&nbsp;5</td>
+            <td style="text-align: right">&nbsp;1</td>
+            <td style="text-align: right">&nbsp;&nbsp;</td>
         </tr>
         <tr>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;6</td>
-            <td align="right">15</td>
-            <td align="right">20</td>
-            <td align="right">15</td>
-            <td align="right">&nbsp;6</td>
-            <td align="right">&nbsp;1</td>
+            <td style="text-align: right">&nbsp;1</td>
+            <td style="text-align: right">&nbsp;6</td>
+            <td style="text-align: right">15</td>
+            <td style="text-align: right">20</td>
+            <td style="text-align: right">15</td>
+            <td style="text-align: right">&nbsp;6</td>
+            <td style="text-align: right">&nbsp;1</td>
         </tr>
     </table>
 
