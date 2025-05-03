@@ -3,23 +3,32 @@ package com.github.glaucioscheibel.funcoes;
 import java.util.Scanner;
 
 public class Exercicio06 {
-    public static boolean ehPrimo(int numero) {
-        if (numero < 2) {
-            return false;
-        }
-        for (int i = 2; i < numero / 2; i++) {
-            if (numero % i == 0) {
-                return false;
+    public static String tipoTriangulo(int ladoA, int ladoB, int ladoC) {
+        String msg;
+        if (ladoA < ladoB + ladoC && ladoB < ladoA + ladoC && ladoC < ladoA + ladoB) {
+            if (ladoA == ladoB && ladoB == ladoC) {
+                msg = "Triângulo equilátero";
+            } else if (ladoA == ladoB || ladoB == ladoC || ladoC == ladoA) {
+                msg = "Triângulo isósceles";
+            } else {
+                msg = "Triângulo escaleno";
             }
+        } else {
+            msg = "Os lados não formam um triângulo";
         }
-        return true;
+        return msg;
     }
 
     public static void main(String[] args) {
+        int ladoA, ladoB, ladoC;
         Scanner input = new Scanner(System.in);
-        System.out.print("Número: ");
-        int numero = input.nextInt();
-        System.out.printf("O número %d %sé primo\n", numero, ehPrimo(numero) ? "" : "não ");
+        System.out.print("Lado A: ");
+        ladoA = input.nextInt();
+        System.out.print("Lado B: ");
+        ladoB = input.nextInt();
+        System.out.print("Lado C: ");
+        ladoC = input.nextInt();
+        System.out.println(tipoTriangulo(ladoA, ladoB, ladoC));
         input.close();
     }
 }

@@ -810,6 +810,8 @@ lousas?
 
 1. Crie uma função que necessite de três argumentos, e que forneça a soma desses três argumentos.
 
+1. Crie uma função que uma quantidade variável de argumentos, e que forneça a soma desses argumentos.
+
 1. Faça um programa com duas funções, uma que recebe uma temperatura em _Fahrenheit_ e retorna em _Celcius_ e outra que faz o inverso. Lembrando que as fórmulas são &#8451; = (&#8457; &minus; 32) &times; 5 &divide; 9 e &#8457; = (&#8451; &times; 9 &divide; 5) &plus; 32.
 
 1. Crie uma função que receba como parâmetro um inteiro positivo ano e devolve verdadeiro ou falso se ano for bissexto ou não. Anos bissextos ocorrem a cada quatro anos exceto anos múltiplos de 100 que não são múltiplos de 400.
