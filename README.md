@@ -826,7 +826,7 @@ lousas?
 
 1. Faça uma função recursiva que calcule e retorne o fatorial de um número inteiro N.
 
-1. O máximo divisor comum (MDC) dos inteiros x e y é o maior inteiro que é divisível por x e y. Escreva o algoritmo de Euclides através de uma função recursiva MDC, que retorna o máximo divisor comum de x e y. O MDC de x e y é definido como segue:
+1. O máximo divisor comum (MDC) dos inteiros x e y é o maior número inteiro que é divisor de ambos x e y. Escreva o algoritmo de Euclides através de uma função recursiva MDC, que retorna o máximo divisor comum de x e y. O MDC de x e y é definido como segue:
 
     - se y é igual a 0, então mdc(x, y) é x;
     - caso contrário, mdc(x, y) é mdc (y, x mod y), onde mod é o operador módulo (resto).
