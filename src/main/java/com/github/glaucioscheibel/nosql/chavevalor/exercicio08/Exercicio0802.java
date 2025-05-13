@@ -1,9 +1,9 @@
-package com.github.glaucioscheibel.nosql.chavevalor.exercicio07;
+package com.github.glaucioscheibel.nosql.chavevalor.exercicio08;
 
 import redis.clients.jedis.JedisPubSub;
 import redis.clients.jedis.UnifiedJedis;
 
-public class Exercicio0702 {
+public class Exercicio0802 {
     public static void main(String[] args) {
         UnifiedJedis jedis = new UnifiedJedis("redis://localhost:6379");
         JedisPubSub subscriber = new JedisPubSub() {
