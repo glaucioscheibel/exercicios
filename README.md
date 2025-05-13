@@ -962,4 +962,4 @@ Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma l
 
 [^1]: Na arquitetura de computadores, _speedup_ é um número que mede o desempenho relativo de dois sistemas que processam o mesmo problema.
 
-[^2]: C.R.U.D. são as operações _Create_, _Read_, _Update e _Delete_
+[^2]: C.R.U.D. são as operações _Create_, _Read_, _Update_ e _Delete_
