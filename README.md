@@ -872,13 +872,13 @@ lousas?
 
 1. Crie uma chave inteira com o nome "programa:execuções" e a cada chamada do programa execute a função `INCR`. Verifique pela GUI se o valor está sendo incrementado.
 
-1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado LIST.
+1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado `LIST`.
 
-1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado SET.
+1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado `SET`.
 
-1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado Sorted SET.
+1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado `Sorted SET`.
 
-1. Crie uma lista de contatos com a chave "contatos:" mais o apelido da pessoa. Usando o tipo HASH, crie os campos _nome_, _sobrenome_, _telefone_, _idade_. Faça um programa com as operações C.R.U.D.[^2] da lista de contatos.
+1. Crie uma lista de contatos com a chave "contatos:" mais o apelido da pessoa. Usando o tipo `HASH`, crie os campos _nome_, _sobrenome_, _telefone_, _idade_. Faça um programa com as operações C.R.U.D.[^2] da lista de contatos.
 
 1. Faça um programa que fique publicando (`PUBLISH`) a cada 20 segundos um número aleatório no tópico "codigo:segurança". Faça um segundo programa que assine (`PSUBSCRIBE`) a este mesmo tópico e que exiba os valores que vem sendo publicados.
 
