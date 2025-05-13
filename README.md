@@ -880,6 +880,8 @@ lousas?
 
 1. Faça um programa que fique publicando (`PUBLISH`) a cada 20 segundos um número aleatório no tópico "codigo:segurança". Faça um segundo programa que assine (`PSUBSCRIBE`) a este mesmo tópico e que exiba os valores que vem sendo publicados.
 
+1. Crie a classe Pessoa, com os atributos mais comuns (id, nome, telefone, etc), e após isto crie uma classe PessoaDAO que implemente as operações básicas de C.R.U.D.[^2] para fazerem a persistência dos objetos na base chave-valor usando do mecanismo de serialização do Java&trade;.
+
 ## NoSQL Documento
 
 1. Importe as bases de dados de exemplo do [airbnb](src/main/resources/mongodb/airbnb/), [mflix](src/main/resources/mongodb/mflix/) e [weather](src/main/resources/mongodb/weather/) e responda as seguintes perguntas sobre cada uma delas:
@@ -959,3 +961,5 @@ Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma l
 - **Visual Studio Code** and **VS Code** are trademarks of Microsoft Corporation.
 
 [^1]: Na arquitetura de computadores, _speedup_ é um número que mede o desempenho relativo de dois sistemas que processam o mesmo problema.
+
+[^2]: C.R.U.D. são as operações _Create_, _Read_, _Update e _Delete_
