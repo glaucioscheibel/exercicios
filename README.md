@@ -876,7 +876,7 @@ lousas?
 
 1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado SET.
 
-1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado SORTEDSET.
+1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado Sorted SET.
 
 1. Crie uma lista de contatos com a chave "contatos:" mais o apelido da pessoa. Usando o tipo HASH, crie os campos _nome_, _sobrenome_, _telefone_, _idade_. Faça um programa com as operações C.R.U.D.[^2] da lista de contatos.
 
