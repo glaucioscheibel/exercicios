@@ -1,9 +1,9 @@
-package com.github.glaucioscheibel.nosql.chavevalor.exercicio08;
+package com.github.glaucioscheibel.nosql.chavevalor.exercicio09;
 
 import java.util.Random;
 import redis.clients.jedis.UnifiedJedis;
 
-public class Exercicio0801 {
+public class Exercicio0901 {
     public static void main(String[] args) {
         Random random = new Random();
         UnifiedJedis jedis = new UnifiedJedis("redis://localhost:6379");
