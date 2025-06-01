@@ -405,14 +405,12 @@ lousas?
     1. A soma de todos os elementos;
     1. O produto da diagonal principal.
 
-    $
-    A = \begin{bmatrix*}[r]
-    1&2&3&4\\
-    5&6&7&8\\
-    9&10&11&12\\
+    $A = \begin{bmatrix*}[r]
+    1&2&3&4\\\
+    5&6&7&8\\\
+    9&10&11&12\\\
     13&14&15&16
-    \end{bmatrix*}
-    $
+    \end{bmatrix*}$
 
 1. Dada as matrizes A e B determine A + B.
 
