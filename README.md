@@ -259,11 +259,11 @@ lousas?
 
 1. Faça um programa que calcule o resultado dos 50 primeiros números da seguinte sequência:
 
-    1000 &divide; 1 - 997 &divide; 2 + 994 &divide; 3 - 991 &divide; 4 + ...
+    $\frac{1000}{1} - \frac{997}{2} + \frac{994}{3} - \frac{991}{4} + \dots$
 
 1. Faça um programa para calcular e imprimir a seguinte equação:
 
-    37 &times; 38 &divide; 1 + 36 &times; 37 &divide; 2 + 35 &times; 36 &divide; 3 + ... + 1 &times; 2 &divide; 37
+    $37 \times \frac{38}{1} + 36 \times \frac{37}{2} + 35 \times \frac{36}{3} + \dots + 1 \times \frac{2}{37}$
 
 1. Anacleto tem 1,50m e cresce 2 centímetros por ano, enquanto Felisberto tem 1,10m e cresce 3 centímetros por ano. Construa um programa que calcule e apresente quantos anos serão necessários para que Felisberto seja maior que Anacleto.
 
@@ -275,7 +275,7 @@ lousas?
 
 1. Escreva um programa que determine o fatorial de um número. Para este problema, tem-se como entrada o valor do número do qual se deseja calcular o fatorial. O fatorial de 0 é igual a 1. O fatorial de um número N(N!) é definido conforme a seguir:
 
-    N! = 1 &times; 2 &times; 3 &times; 4 &times; ... &times; (N - 1) &times; N
+    $N! = 1 \times 2 \times 3 \times 4 \times \dots \times (N - 1) \times N$
 
 1. Faça um programa que peça para o usuário ir informando números até que ele informe 0 (zero). Após isto apresente os seguintes dados sobre os números digitados:
     1. O maior número;
@@ -322,7 +322,7 @@ lousas?
 
 1. Leia um código de cinco algarismos (variável Codigo) e gere o digito verificador (DigitoV) módulo 7 para o mesmo. Supondo que os cinco algarismos do código são ABCDE, uma forma de calcular o dígito desejado, com módulo 7 é:
 
-    DigitoV = resto da divisão de S por 7, onde S = 6A + 5B + 4C + 3D + 2E
+    DigitoV = resto da divisão de S por 7, onde $S = 6A + 5B + 4C + 3D + 2E$
 
 1. Escreva um programa que dado um valor numérico digitado pelo usuário (armazenado em uma variável inteira), imprima cada um dos seus dígitos por extenso.
     Exemplo:
@@ -399,129 +399,60 @@ lousas?
 
 1. Faça um programa para ler e imprimir uma matriz 2 &times; 4 de números inteiros.
 
-1. Dada a seguinte matriz, calcule:
+1. Dada a seguinte matriz A, calcule:
     1. A soma dos elementos da primeira coluna;
     1. O produto dos elementos da primeira linha;
     1. A soma de todos os elementos;
     1. O produto da diagonal principal.
 
-    <table>
-        <tr>
-            <td align="right">1</td>
-            <td align="right">2</td>
-            <td align="right">3</td>
-            <td align="right">4</td>
-        </tr>
-        <tr>
-            <td align="right">5</td>
-            <td align="right">6</td>
-            <td align="right">7</td>
-            <td align="right">8</td>
-        </tr>
-        <tr>
-            <td align="right">9</td>
-            <td align="right">10</td>
-            <td align="right">11</td>
-            <td align="right">12</td>
-        </tr>
-        <tr>
-            <td align="right">13</td>
-            <td align="right">14</td>
-            <td align="right">15</td>
-            <td align="right">16</td>
-        </tr>
-    </table>
+    $
+    A =
+    \begin{pmatrix*}[r]
+    1&2&3&4\\
+    5&6&7&8\\
+    9&10&11&12\\
+    13&14&15&16
+    \end{pmatrix*}
+    $
 
 1. Dada as matrizes A e B determine A + B.
-    <table>
-        <tr>
-            <td>
-                <table>
-                    <tr>
-                        <th rowspan="2">A =</th>
-                        <td align="right">-10</td>
-                        <td align="right">1</td>
-                        <td align="right">4</td>
-                        <td align="right">6</td>
-                    </tr>
-                    <tr>
-                        <td align="right">2</td>
-                        <td align="right">3</td>
-                        <td align="right">2</td>
-                        <td align="right">8</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table>
-                    <tr>
-                        <th rowspan="2">B =</th>
-                        <td align="right">1</td>
-                        <td align="right">8</td>
-                        <td align="right">4</td>
-                        <td align="right">-1</td>
-                    </tr>
-                    <tr>
-                        <td align="right">0</td>
-                        <td align="right">6</td>
-                        <td align="right">3</td>
-                        <td align="right">-3</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+
+    $
+    A = \begin{pmatrix*}[r]
+    -10 & 1 & 4 & 6 \\
+    2 & 3 & 2 & 8
+    \end{pmatrix*}
+    $
+
+    $
+    B = \begin{pmatrix*}[r]
+    1 & 8 & 4 & -1 \\
+    0 & 6 & 3 & -3
+    \end{pmatrix*}
+    $
 
 1. Faça um programa que dada a matriz A, gere a matriz oposta -A. Matriz oposta possui valores que se somados à matriz original, gera uma matriz com valores zerados.
-    <table>
-        <tr>
-            <th rowspan="2">A =</th>
-            <td align="right">2</td>
-            <td align="right">-3</td>
-        </tr>
-        <tr>
-            <td align="right">-1</td>
-            <td align="right">4</td>
-        </tr>
-    </table>
+
+    $
+    A = \begin{pmatrix*}[r]
+    2 & -3 \\
+    -1 & 4
+    \end{pmatrix*}
+    $
 
 1. Faça um programa que dada a seguinte matriz A, gere a matriz transposta dela A<sup>t</sup>. Matriz transposta é a que se obtém trocando-se ordenadamente as linhas pelas colunas.
-    <table border="0">
-        <tr>
-            <td>
-                <table>
-                    <tr>
-                        <th rowspan="3">A =</th>
-                        <td align="right">-7</td>
-                        <td align="right">8</td>
-                    </tr>
-                    <tr>
-                        <td align="right">4</td>
-                        <td align="right">9</td>
-                    </tr>
-                    <tr>
-                        <td align="right">2</td>
-                        <td align="right">1</td>
-                    </tr>
-                </table>
-            </td>
-            <td valign="top">
-                <table>
-                    <tr>
-                        <th rowspan="2">A<sup>t</sup> = </th>
-                        <td align="right">-7</td>
-                        <td align="right">4</td>
-                        <td align="right">2</td>
-                    </tr>
-                    <tr>
-                        <td align="right">8</td>
-                        <td align="right">9</td>
-                        <td align="right">1</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+
+    $
+    A = \begin{pmatrix*}[r]
+    -7 & 8 \\
+    4 & 9 \\
+    2 & 1
+    \end{pmatrix*}
+    A^t = \begin{pmatrix*}[r]
+    -7 & 4 & 2 \\
+    8 & 9 & 1
+    \end{pmatrix*}
+    $
 
 1. Dada as matrizes A e B determine A &times; B.
     <table>
