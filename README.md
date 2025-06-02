@@ -133,7 +133,7 @@ lousas?
 
     $mediafinal = \frac{n1 \times 2 + n2 \times 3 + n3 \times 5}{10}$
 
-1. Faça um programa para calcular a área de uma circunferência, considerando a fórmula AREA = &pi; &times; RAIO<sup>2</sup>. Utilize as variáveis AREA e RAIO, a constante &pi; (pi = 3,14159) e os operadores aritméticos de multiplicação.
+1. Faça um programa para calcular a área de uma circunferência, considerando a fórmula $area = \pi \times raio^2$. Utilize as variáveis `area` e `raio`, a constante &pi; (&pi; = 3,14159) e os operadores aritméticos de multiplicação.
 
 1. Faça um programa que peça dois números, base e expoente, calcule e imprima o primeiro número elevado ao segundo número. Utilize a função de potência da linguagem.
 
@@ -143,11 +143,11 @@ lousas?
     1. Concatene o nome com o sobrenome;
     1. Apresente o nome completo.
 
-1. Faça um programa que leia uma temperatura em graus _Celsius_ e apresente-a convertida em graus _Fahrenheit_. A fórmula de conversão é: &#8457; = (&#8451; &times; 9 &divide; 5) &plus; 32, na qual &#8457; é a temperatura em _Fahrenheit_ e &#8451; é a temperatura em _Celsius_.
+1. Faça um programa que leia uma temperatura em graus _Celsius_ e apresente-a convertida em graus _Fahrenheit_. A fórmula de conversão é: $^\circ F =  \frac{^\circ C \times 9}{5} + 32$, na qual &#8457; é a temperatura em _Fahrenheit_ e &#8451; é a temperatura em _Celsius_.
 
-1. Faça um programa que calcule a quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12Km por litro. Para obter o cálculo, o usuário deve fornecer o tempo gasto na viagem e a velocidade média durante ela. Desta forma, será possível obter a distância percorrida com a fórmula DISTANCIA = TEMPO &times; VELOCIDADE. Tendo o valor da distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a fórmula: LITROS_USADOS = DISTANCIA &divide; 12. O programa deve apresentar os valores da velocidade média, tempo gasto na viagem, a distância percorrida e a quantidade de litros utilizada na viagem.
+1. Faça um programa que calcule a quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12Km por litro. Para obter o cálculo, o usuário deve fornecer o tempo gasto na viagem e a velocidade média durante ela. Desta forma, será possível obter a distância percorrida com a fórmula $Distancia = Tempo \times Velocidade$. Tendo o valor da distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a fórmula: $LitrosUsados = \frac{Distancia}{12}$. O programa deve apresentar os valores da velocidade média, tempo gasto na viagem, a distância percorrida e a quantidade de litros utilizada na viagem.
 
-1. Faça um programa que leia os valores de COMPRIMENTO, LARGURA e ALTURA e apresente o valor do volume de uma caixa retangular. Utilize para o cálculo a fórmula VOLUME = COMPRIMENTO &times; LARGURA &times; ALTURA.
+1. Faça um programa que leia os valores de COMPRIMENTO, LARGURA e ALTURA e apresente o valor do volume de uma caixa retangular. Utilize para o cálculo a fórmula $Volume = Comprimento \times Largura \times Altura$.
 
 1. Faça um programa que leia a idade de uma pessoa expressa em anos, meses e dias e escreva a idade dessa pessoa expressa apenas em dias. Considerar ano com 365 dias e mês com 30 dias. Calcular quantos dias a pessoa já viveu até hoje.
 
@@ -245,7 +245,7 @@ lousas?
 
 1. Faça um programa que calcule a soma dos números inteiros de 1 a 100.
 
-1. Escreva um programa que pergunte ao usuário um número e após, imprima na tela a soma total de 1 até o número lido. Exemplo: 5: 1 + 2 + 3 + 4 + 5 = 15
+1. Escreva um programa que pergunte ao usuário um número e após, imprima na tela a soma total de 1 até o número lido. Exemplo: 5: $1 + 2 + 3 + 4 + 5 = 15$
 
 1. Faça um programa que peça dois números, base e expoente, calcule e imprima o primeiro número elevado ao segundo número. **Não utilize a função de potência da linguagem**.
 
@@ -259,11 +259,11 @@ lousas?
 
 1. Faça um programa que calcule o resultado dos 50 primeiros números da seguinte sequência:
 
-    1000 &divide; 1 - 997 &divide; 2 + 994 &divide; 3 - 991 &divide; 4 + ...
+    $\frac{1000}{1} - \frac{997}{2} + \frac{994}{3} - \frac{991}{4} + \dots$
 
 1. Faça um programa para calcular e imprimir a seguinte equação:
 
-    37 &times; 38 &divide; 1 + 36 &times; 37 &divide; 2 + 35 &times; 36 &divide; 3 + ... + 1 &times; 2 &divide; 37
+    $37 \times \frac{38}{1} + 38 \times \frac{36}{2} + 35 \times \frac{36}{3} + \dots + 1 \times \frac{2}{37}$
 
 1. Anacleto tem 1,50m e cresce 2 centímetros por ano, enquanto Felisberto tem 1,10m e cresce 3 centímetros por ano. Construa um programa que calcule e apresente quantos anos serão necessários para que Felisberto seja maior que Anacleto.
 
@@ -275,7 +275,7 @@ lousas?
 
 1. Escreva um programa que determine o fatorial de um número. Para este problema, tem-se como entrada o valor do número do qual se deseja calcular o fatorial. O fatorial de 0 é igual a 1. O fatorial de um número N(N!) é definido conforme a seguir:
 
-    N! = 1 &times; 2 &times; 3 &times; 4 &times; ... &times; (N - 1) &times; N
+    $N! = 1 \times 2 \times 3 \times 4 \times \dots \times (N - 1) \times N$
 
 1. Faça um programa que peça para o usuário ir informando números até que ele informe 0 (zero). Após isto apresente os seguintes dados sobre os números digitados:
     1. O maior número;
@@ -322,7 +322,7 @@ lousas?
 
 1. Leia um código de cinco algarismos (variável Codigo) e gere o digito verificador (DigitoV) módulo 7 para o mesmo. Supondo que os cinco algarismos do código são ABCDE, uma forma de calcular o dígito desejado, com módulo 7 é:
 
-    DigitoV = resto da divisão de S por 7, onde S = 6A + 5B + 4C + 3D + 2E
+    DigitoV = resto da divisão de S por 7, onde $S = 6A + 5B + 4C + 3D + 2E$
 
 1. Escreva um programa que dado um valor numérico digitado pelo usuário (armazenado em uma variável inteira), imprima cada um dos seus dígitos por extenso.
     Exemplo:
@@ -808,7 +808,12 @@ lousas?
 
 1. Crie uma função que uma quantidade variável de argumentos, e que forneça a soma desses argumentos.
 
-1. Faça um programa com duas funções, uma que recebe uma temperatura em _Fahrenheit_ e retorna em _Celcius_ e outra que faz o inverso. Lembrando que as fórmulas são &#8451; = (&#8457; &minus; 32) &times; 5 &divide; 9 e &#8457; = (&#8451; &times; 9 &divide; 5) &plus; 32.
+1. Faça um programa com duas funções, uma que recebe uma temperatura em _Fahrenheit_ e retorna em _Celcius_ e outra que faz o inverso. Lembrando que as fórmulas são:
+
+    $^\circ C = \frac{(^\circ F - 32) \times 5}{9}$
+
+    $^\circ F =  \frac{^\circ C \times 9}{5} + 32$
+
 
 1. Crie uma função que receba como parâmetro um inteiro positivo ano e devolve verdadeiro ou falso se ano for bissexto ou não. Anos bissextos ocorrem a cada quatro anos exceto anos múltiplos de 100 que não são múltiplos de 400.
 
