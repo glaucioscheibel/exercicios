@@ -908,7 +908,7 @@ lousas?
     1. Liste os filmes que possuam uma duração ("_runtime_") menor ou igual à 15 minutos.
     1. Liste os filmes produzidos nos anos 80 ordenados pelo maior valor no campo "_imdb.rating_".
     1. Liste os filmes que tenha o gênero "_Drama_"
-    1. Liste os fimes que possuam mais de 3 prêmios.
+    1. Liste os nomes e a quantidade de prêmios recebidos dos fimes que possuam mais de 3 prêmios.
     1. Insira o filme [Piratas do Vale do Silício](http://www.imdb.com/title/tt0168122).
     1. Insira o filme [Silicon Cowboys](http://www.imdb.com/title/tt4938484) e inclua dois comentários.
     1. Para os filmes lançados antes de 1950, inclua o gênero _old_.
