@@ -907,7 +907,7 @@ lousas?
     1. Liste os filmes com o nome "_The Room_".
     1. Liste os filmes que possuam uma duração ("_runtime_") menor ou igual à 15 minutos.
     1. Liste os filmes produzidos nos anos 80 ordenados pelo maior valor no campo "_imdb.rating_".
-    1. Liste os filmes que tenha o gênero "_Drama_"
+    1. Liste os nomes e gêneros dos filmes que contenham o gênero "_Drama_" e "_Comedy_".
     1. Liste, em ordem alfabética, os nomes e a quantidade de prêmios recebidos dos fimes que possuam mais de 3 prêmios ganhos.
     1. Insira o filme [Piratas do Vale do Silício](http://www.imdb.com/title/tt0168122).
     1. Insira o filme [Silicon Cowboys](http://www.imdb.com/title/tt4938484) e inclua dois comentários.
