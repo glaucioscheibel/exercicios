@@ -568,23 +568,10 @@ lousas?
 1. Matriz identidade é a matriz quadrada de ordem N (2x2, 3x3, 4x4, ... NxN), em que os elementos da diagonal principal são iguais a 1 e, o restante dos elementos são iguais a 0. Faça um programa que peça ao usuário informar o tamanho do ordem e gere a matriz identidade.
 
 1. Dada a seguinte matriz 3x3:
-    <table>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-        </tr>
-    </table>
+
+    ```math
+    \begin{bmatrix}1&2&3\\4&5&6\\7&8&9\end{bmatrix}
+    ```
 
     Faça um programa que:
 
