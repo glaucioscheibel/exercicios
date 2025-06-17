@@ -901,8 +901,7 @@ lousas?
     1. Existem dados geoespaciais? Se sim, como são armazenados?
     1. Cite vantagens e desvantagens do uso do modelo documento neste caso.
 
-    > [!TIP]
-    > Use o comando ```mongoimport --db=<nomedabase> <arquivo.json>``` do [MongoDB&reg; Database Tools](https://www.mongodb.com/try/download/database-tools)
+    > Dica: Use o comando ```mongoimport --db=<nomedabase> <arquivo.json>``` do [MongoDB&reg; Database Tools](https://www.mongodb.com/try/download/database-tools)
 
 1. Com a base de dados do [mflix](src/main/resources/mongodb/mflix/) e faça os seguintes programas com a linguagem [Java&trade;](https://www.java.com/) e a biblioteca [MongoDB&reg; Synchronous Driver](https://www.mongodb.com/pt-br/docs/drivers/java/sync/current/):
     1. Liste os filmes com o nome "_The Room_".
