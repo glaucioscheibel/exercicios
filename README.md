@@ -576,59 +576,22 @@ lousas?
     Faça um programa que:
 
     1. Apresente a matriz rotacionada em 90&deg;:
-        <table>
-            <tr>
-                <td>7</td>
-                <td>4</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>5</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>6</td>
-                <td>3</td>
-            </tr>
-        </table>
+
+    ```math
+    \begin{bmatrix}7&4&1\\8&5&2\\9&6&3\end{bmatrix}
+    ```
+
     1. Apresente a matriz rotacionada em 180&deg;:
-        <table>
-            <tr>
-                <td>9</td>
-                <td>8</td>
-                <td>7</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>5</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>2</td>
-                <td>1</td>
-            </tr>
-        </table>
+
+    ```math
+    \begin{bmatrix}9&8&7\\6&5&4\\3&2&1\end{bmatrix}
+    ```
+
     1. Apresente a matriz rotacionada em 270&deg;:
-        <table>
-            <tr>
-                <td>3</td>
-                <td>6</td>
-                <td>9</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>5</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>4</td>
-                <td>7</td>
-            </tr>
-        </table>
+
+    ```math
+    \begin{bmatrix}3&6&9\\2&5&8\\1&4&7\end{bmatrix}
+    ```
 
 1. O tempo que um determinado avião dispensa para percorrer o trecho entre duas localidades distintas está disponível através da seguinte matriz:
     <table>
