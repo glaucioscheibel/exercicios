@@ -410,65 +410,91 @@ lousas?
     1. O produto da diagonal principal.
 
     ```math
-    A = \begin{bmatrix}1&2&3&4\\5&6&7&8\\9&10&11&12\\13&14&15&16\end{bmatrix}
+    A = \begin{bmatrix}
+    1 & 2 & 3 & 4 \\
+    5 & 6 & 7 & 8 \\
+    9 & 10 & 11 & 12 \\
+    13 & 14 & 15 & 16
+    \end{bmatrix}
     ```
 
 1. Dada as matrizes A e B determine A + B.
 
     ```math
-    A = \begin{bmatrix}-10&4&1&6\\2&3&2&8\end{bmatrix}
-    B = \begin{bmatrix}1&8&4&-1\\0&6&3&-3\end{bmatrix}
+    A = \begin{bmatrix}
+    -10 & 4 & 1 & 6 \\
+    2 & 3 & 2 & 8
+    \end{bmatrix}
+    B = \begin{bmatrix}
+    1 & 8 & 4 & -1 \\
+    0 & 6 & 3 & -3
+    \end{bmatrix}
     ```
 
 1. Faça um programa que dada a matriz A, gere a matriz oposta -A. Matriz oposta possui valores que se somados à matriz original, gera uma matriz com valores zerados.
 
     ```math
-    A = \begin{bmatrix}2&-3\\-1&4\end{bmatrix}
+    A = \begin{bmatrix}
+    2 & -3 \\
+    -1 & 4
+    \end{bmatrix}
     ```
 
 1. Faça um programa que dada a seguinte matriz A, gere a matriz transposta dela A<sup>t</sup>. Matriz transposta é a que se obtém trocando-se ordenadamente as linhas pelas colunas.
 
     ```math
-    A = \begin{bmatrix}-7&8\\4&9\\2&1\end{bmatrix}
-    A^t = \begin{bmatrix}-7&4&2\\8&9&1\end{bmatrix}
+    A = \begin{bmatrix}
+    -7 & 8 \\
+    4 & 9 \\
+    2 & 1
+    \end{bmatrix}
+    A^t = \begin{bmatrix}
+    -7 & 4 & 2 \\
+    8 & 9 & 1
+    \end{bmatrix}
     ```
 
 1. Dada as matrizes A e B determine A &times; B.
 
     ```math
-    A = \begin{bmatrix}2&3&1\\-1&0&2\end{bmatrix}
-    B = \begin{bmatrix}1&-2\\0&5\\4&1\end{bmatrix}
+    A = \begin{bmatrix}
+    2 & 3 & 1 \\
+    -1 & 0 & 2
+    \end{bmatrix}
+    B = \begin{bmatrix}
+    1 & -2 \\
+    0 & 5 \\
+    4 & 1
+    \end{bmatrix}
     ```
 
 1. Matriz identidade é a matriz quadrada de ordem N (2&times;2, 3&times;3, 4&times;4, ... N&times;N), em que os elementos da diagonal principal são iguais a 1 e, o restante dos elementos são iguais a 0.
 
     Faça um programa que peça ao usuário informar o tamanho do ordem e gere a matriz identidade.
 
-1. Dada a seguinte matriz 3x3:
+1. Dada a seguinte matriz 3x3, faça um programa que:
 
     ```math
     \begin{bmatrix}1&2&3\\4&5&6\\7&8&9\end{bmatrix}
     ```
 
-    Faça um programa que:
-
     1. Apresente a matriz rotacionada em 90&deg;:
 
-    ```math
-    \begin{bmatrix}7&4&1\\8&5&2\\9&6&3\end{bmatrix}
-    ```
+       ```math
+       \begin{bmatrix}7&4&1\\8&5&2\\9&6&3\end{bmatrix}
+       ```
 
     1. Apresente a matriz rotacionada em 180&deg;:
 
-    ```math
-    \begin{bmatrix}9&8&7\\6&5&4\\3&2&1\end{bmatrix}
-    ```
+        ```math
+        \begin{bmatrix}9&8&7\\6&5&4\\3&2&1\end{bmatrix}
+       ```
 
     1. Apresente a matriz rotacionada em 270&deg;:
 
-    ```math
-    \begin{bmatrix}3&6&9\\2&5&8\\1&4&7\end{bmatrix}
-    ```
+       ```math
+       \begin{bmatrix}3&6&9\\2&5&8\\1&4&7\end{bmatrix}
+       ```
 
 1. O tempo que um determinado avião dispensa para percorrer o trecho entre duas localidades distintas está disponível através da seguinte tabela:
 
@@ -567,7 +593,15 @@ lousas?
     ex: Triângulo de Pascal de ordem 7:
 
     ```math
-    \begin{bmatrix}1\\1&1\\1&2&1\\1&3&3&1\\1&4&6&4&1\\1&5&10&10&5&1\\1&6&15&20&15&6&1\end{bmatrix}
+    \begin{bmatrix}
+    1 \\
+    1 & 1 \\
+    1 & 2 & 1 \\
+    1 & 3 & 3 & 1 \\
+    1 & 4 & 6 & 4 & 1 \\
+    1 & 5 & 10 & 10 & 5 & 1 \\
+    1 & 6 & 15 & 20 & 15 & 6 & 1
+    \end{bmatrix}
     ```
 
 ## Funções
