@@ -147,7 +147,7 @@ lousas?
 
 1. Faça um programa que calcule a quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12Km por litro. Para obter o cálculo, o usuário deve fornecer o tempo gasto na viagem e a velocidade média durante ela. Desta forma, será possível obter a distância percorrida com a fórmula $Distancia = Tempo \times Velocidade$. Tendo o valor da distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a fórmula: $LitrosUsados = \frac{Distancia}{12}$. O programa deve apresentar os valores da velocidade média, tempo gasto na viagem, a distância percorrida e a quantidade de litros utilizada na viagem.
 
-1. Faça um programa que leia os valores de COMPRIMENTO, LARGURA e ALTURA e apresente o valor do volume de uma caixa retangular. Utilize para o cálculo a fórmula $Volume = Comprimento \times Largura \times Altura$.
+1. Faça um programa que leia os valores de _Comprimento_, _Largura_ e _Altura_ e apresente o valor do volume de uma caixa retangular. Utilize para o cálculo a fórmula $Volume = Comprimento \times Largura \times Altura$.
 
 1. Faça um programa que leia a idade de uma pessoa expressa em anos, meses e dias e escreva a idade dessa pessoa expressa apenas em dias. Considerar ano com 365 dias e mês com 30 dias. Calcular quantos dias a pessoa já viveu até hoje.
 
@@ -470,7 +470,8 @@ lousas?
     \begin{bmatrix}3&6&9\\2&5&8\\1&4&7\end{bmatrix}
     ```
 
-1. O tempo que um determinado avião dispensa para percorrer o trecho entre duas localidades distintas está disponível através da seguinte matriz:
+1. O tempo que um determinado avião dispensa para percorrer o trecho entre duas localidades distintas está disponível através da seguinte tabela:
+
     <table>
         <tr>
             <th align="right">&nbsp;</th>
@@ -565,71 +566,9 @@ lousas?
 
     ex: Triângulo de Pascal de ordem 7:
 
-    <table>
-        <tr>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-        </tr>
-        <tr>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-        </tr>
-        <tr>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;2</td>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-        </tr>
-        <tr>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;3</td>
-            <td align="right">&nbsp;3</td>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-        </tr>
-        <tr>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;4</td>
-            <td align="right">&nbsp;6</td>
-            <td align="right">&nbsp;4</td>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;</td>
-            <td align="right">&nbsp;&nbsp;</td>
-        </tr>
-        <tr>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;5</td>
-            <td align="right">10</td>
-            <td align="right">10</td>
-            <td align="right">&nbsp;5</td>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;&nbsp;</td>
-        </tr>
-        <tr>
-            <td align="right">&nbsp;1</td>
-            <td align="right">&nbsp;6</td>
-            <td align="right">15</td>
-            <td align="right">20</td>
-            <td align="right">15</td>
-            <td align="right">&nbsp;6</td>
-            <td align="right">&nbsp;1</td>
-        </tr>
-    </table>
+    ```math
+    \begin{bmatrix}1\\1&1\\1&2&1\\1&3&3&1\\1&4&6&4&1\\1&5&10&10&5&1\\1&6&15&20&15&6&1\end{bmatrix}
+    ```
 
 ## Funções
 
