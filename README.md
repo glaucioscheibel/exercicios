@@ -409,36 +409,36 @@ lousas?
     1. A soma de todos os elementos;
     1. O produto da diagonal principal.
 
-```math
-A = \begin{bmatrix}1&2&3&4\\5&6&7&8\\9&10&11&12\\13&14&15&16\end{bmatrix}
-```
+    ```math
+    A = \begin{bmatrix}1&2&3&4\\5&6&7&8\\9&10&11&12\\13&14&15&16\end{bmatrix}
+    ```
 
 1. Dada as matrizes A e B determine A + B.
 
-```math
-A = \begin{bmatrix}-10&4&1&6\\2&3&2&8\end{bmatrix}
-B = \begin{bmatrix}1&8&4&-1\\0&6&3&-3\end{bmatrix}
-```
+    ```math
+    A = \begin{bmatrix}-10&4&1&6\\2&3&2&8\end{bmatrix}
+    B = \begin{bmatrix}1&8&4&-1\\0&6&3&-3\end{bmatrix}
+    ```
 
 1. Faça um programa que dada a matriz A, gere a matriz oposta -A. Matriz oposta possui valores que se somados à matriz original, gera uma matriz com valores zerados.
 
-```math
-A = \begin{bmatrix}2&-3\\-1&4\end{bmatrix}
-```
+    ```math
+    A = \begin{bmatrix}2&-3\\-1&4\end{bmatrix}
+    ```
 
 1. Faça um programa que dada a seguinte matriz A, gere a matriz transposta dela A<sup>t</sup>. Matriz transposta é a que se obtém trocando-se ordenadamente as linhas pelas colunas.
 
-```math
-A = \begin{bmatrix}-7&8\\4&9\\2&1\end{bmatrix}
-A^t = \begin{bmatrix}-7&4&2\\8&9&1\end{bmatrix}
-```
+    ```math
+    A = \begin{bmatrix}-7&8\\4&9\\2&1\end{bmatrix}
+    A^t = \begin{bmatrix}-7&4&2\\8&9&1\end{bmatrix}
+    ```
 
 1. Dada as matrizes A e B determine A &times; B.
 
-```math
-A = \begin{bmatrix}2&3&1\\-1&0&2\end{bmatrix}
-B = \begin{bmatrix}1&-2\\0&5\\4&1\end{bmatrix}
-```
+    ```math
+    A = \begin{bmatrix}2&3&1\\-1&0&2\end{bmatrix}
+    B = \begin{bmatrix}1&-2\\0&5\\4&1\end{bmatrix}
+    ```
 
 1. Matriz identidade é a matriz quadrada de ordem N (2&times;2, 3&times;3, 4&times;4, ... N&times;N), em que os elementos da diagonal principal são iguais a 1 e, o restante dos elementos são iguais a 0.
 
