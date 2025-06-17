@@ -409,85 +409,22 @@ lousas?
     1. A soma de todos os elementos;
     1. O produto da diagonal principal.
 
-    <table>
-        <tr>
-            <td align="right">1</td>
-            <td align="right">2</td>
-            <td align="right">3</td>
-            <td align="right">4</td>
-        </tr>
-        <tr>
-            <td align="right">5</td>
-            <td align="right">6</td>
-            <td align="right">7</td>
-            <td align="right">8</td>
-        </tr>
-        <tr>
-            <td align="right">9</td>
-            <td align="right">10</td>
-            <td align="right">11</td>
-            <td align="right">12</td>
-        </tr>
-        <tr>
-            <td align="right">13</td>
-            <td align="right">14</td>
-            <td align="right">15</td>
-            <td align="right">16</td>
-        </tr>
-    </table>
+```math
+\begin{bmatrix}1&2&3&4\\5&6&7&8\\9&10&11&12\\13&14&15&16\end{bmatrix}
+```
 
 1. Dada as matrizes A e B determine A + B.
-    <table>
-        <tr>
-            <td>
-                <table>
-                    <tr>
-                        <th rowspan="2">A =</th>
-                        <td align="right">-10</td>
-                        <td align="right">1</td>
-                        <td align="right">4</td>
-                        <td align="right">6</td>
-                    </tr>
-                    <tr>
-                        <td align="right">2</td>
-                        <td align="right">3</td>
-                        <td align="right">2</td>
-                        <td align="right">8</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table>
-                    <tr>
-                        <th rowspan="2">B =</th>
-                        <td align="right">1</td>
-                        <td align="right">8</td>
-                        <td align="right">4</td>
-                        <td align="right">-1</td>
-                    </tr>
-                    <tr>
-                        <td align="right">0</td>
-                        <td align="right">6</td>
-                        <td align="right">3</td>
-                        <td align="right">-3</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+
+```math
+A= \begin{bmatrix}-10&4&1&6\\2&3&2&8\end{bmatrix}
+B= \begin{bmatrix}1&8&4&-1\\0&6&3&-3\end{bmatrix}
+```
 
 1. Faça um programa que dada a matriz A, gere a matriz oposta -A. Matriz oposta possui valores que se somados à matriz original, gera uma matriz com valores zerados.
-    <table>
-        <tr>
-            <th rowspan="2">A =</th>
-            <td align="right">2</td>
-            <td align="right">-3</td>
-        </tr>
-        <tr>
-            <td align="right">-1</td>
-            <td align="right">4</td>
-        </tr>
-    </table>
+
+```math
+A= \begin{bmatrix}2&-3\\-1&4\end{bmatrix}
+```
 
 1. Faça um programa que dada a seguinte matriz A, gere a matriz transposta dela A<sup>t</sup>. Matriz transposta é a que se obtém trocando-se ordenadamente as linhas pelas colunas.
     <table border="0">
