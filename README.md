@@ -189,7 +189,7 @@ lousas?
     - Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
     - Se o delta for positivo, a equação possui duas raízes reais; informe-as ao usuário.
 
-    Fórmula de baskara:
+    Fórmula de bhaskara:
 
     $x = -b \pm \frac{\sqrt{b^2 - 4ac}}{2a}$
 
