@@ -593,7 +593,7 @@ lousas?
     ex: Triângulo de Pascal de ordem 7:
 
     ```math
-    \begin{bmatrix}
+    \begin{matrix}
     1 \\
     1 & 1 \\
     1 & 2 & 1 \\
@@ -601,7 +601,7 @@ lousas?
     1 & 4 & 6 & 4 & 1 \\
     1 & 5 & 10 & 10 & 5 & 1 \\
     1 & 6 & 15 & 20 & 15 & 6 & 1
-    \end{bmatrix}
+    \end{matrix}
     ```
 
 ## Funções
@@ -671,23 +671,23 @@ lousas?
 
 ## NoSQL Chave-Valor
 
-1. Faça um programa que conecte numa base [Redis&reg;](https://redis.io/), [Valkey&copy;](https://valkey.io/) ou [Memurai&reg;](https://www.memurai.com/) e chame as funções `PING` e `ECHO`. Utilize a linguagem [Java&trade;](https://www.java.com/) com a biblioteca [Jedis](https://github.com/redis/jedis).
+1. Faça um programa que conecte numa base [Redis&reg;](https://redis.io/), [Valkey&copy;](https://valkey.io/) ou [Memurai&reg;](https://www.memurai.com/) e chame as funções `Ping` e `Echo`. Utilize a linguagem [Java&trade;](https://www.java.com/) com a biblioteca [Jedis](https://github.com/redis/jedis).
 
 1. Crie 10 entradas chave-valor aleatórios e em seguida acesse o banco Redis com algum programa GUI ([RedisInsight](https://redis.io/insight/), [Another Redis Desktop Manager](https://goanother.com/) ou [Redis for VS Code](https://marketplace.visualstudio.com/items?itemName=Redis.redis-for-vscode)) e verifique se as chaves foram criadas. Depois volte ao programa e liste as chaves e seus respectivos valores.
 
-1. Crie uma chave inteira com o nome "programa:execuções" e a cada chamada do programa execute a função `INCR`. Verifique pela GUI se o valor está sendo incrementado.
+1. Crie uma chave inteira com o nome "programa:execuções" e a cada chamada do programa execute a função `Incr`. Verifique pela GUI se o valor está sendo incrementado.
 
-1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado `LIST`.
+1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado `List`.
 
-1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado `SET`.
+1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado `Set`.
 
-1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado `Sorted SET`.
+1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado `Sorted Set`.
 
-1. Crie uma lista de contatos com a chave "contatos:" mais o apelido da pessoa. Usando o tipo `HASH`, crie os campos _nome_, _sobrenome_, _telefone_, _idade_. Faça um programa com as operações C.R.U.D.[^2] da lista de contatos.
+1. Crie uma lista de contatos com a chave "contatos:" mais o apelido da pessoa. Usando o tipo `Hash`, crie os campos _nome_, _sobrenome_, _telefone_, _idade_. Faça um programa com as operações C.R.U.D.[^2] da lista de contatos.
 
 1. Crie a classe Pessoa, com os atributos mais comuns (id, nome, telefone, etc), e após isto crie uma classe PessoaDAO que implemente as operações básicas de C.R.U.D.[^2] para fazerem a persistência dos objetos na base chave-valor usando do mecanismo de serialização do Java&trade;.
 
-1. Faça um programa que fique publicando (`PUBLISH`) a cada 20 segundos um número aleatório no tópico `codigo:seguranca`. Faça um segundo programa que assine (`SUBSCRIBE`) a este mesmo tópico e que exiba os valores que vem sendo publicados.
+1. Faça um programa que fique publicando (`Publish`) a cada 20 segundos um número aleatório no tópico `codigo:seguranca`. Faça um segundo programa que assine (`Subscribe`) a este mesmo tópico e que exiba os valores que vem sendo publicados.
 
 ## NoSQL Documento
 
@@ -701,7 +701,7 @@ lousas?
     1. Existem dados geoespaciais? Se sim, como são armazenados?
     1. Cite vantagens e desvantagens do uso do modelo documento neste caso.
 
-    > Dica: Use o comando ```mongoimport --db=<nomedabase> <arquivo.json>``` do [MongoDB&reg; Database Tools](https://www.mongodb.com/try/download/database-tools)
+    > Dica: Use o comando `mongoimport --db=<nomedabase> <arquivo.json>` do [MongoDB&reg; Database Tools](https://www.mongodb.com/try/download/database-tools)
 
 1. Com a base de dados do [mflix](src/main/resources/mongodb/mflix/) e faça os seguintes programas com a linguagem [Java&trade;](https://www.java.com/) e a biblioteca [MongoDB&reg; Synchronous Driver](https://www.mongodb.com/pt-br/docs/drivers/java/sync/current/):
     1. Liste os filmes com o nome "_The Room_".
