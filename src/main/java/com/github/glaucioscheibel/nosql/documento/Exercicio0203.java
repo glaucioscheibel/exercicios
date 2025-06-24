@@ -2,7 +2,7 @@ package com.github.glaucioscheibel.nosql.documento;
 
 import static com.mongodb.client.model.Filters.and;
 import static com.mongodb.client.model.Filters.gte;
-import static com.mongodb.client.model.Filters.lte;
+import static com.mongodb.client.model.Filters.lt;
 import static com.mongodb.client.model.Sorts.descending;
 
 import com.mongodb.client.FindIterable;
@@ -19,7 +19,7 @@ public class Exercicio0203 {
         MongoCollection<Document> collection = database.getCollection("movies");
         long ini = System.currentTimeMillis();
         FindIterable<Document> docs =
-                collection.find(and(gte("year", 1980), lte("year", 1980))).sort(descending("imdb.rating"));
+                collection.find(and(gte("year", 1980), lt("year", 1990))).sort(descending("imdb.rating"));
         int count = 0;
         for (Document doc : docs) {
             System.out.printf("Achei: %s\n\n", doc.toJson());
