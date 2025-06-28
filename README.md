@@ -707,11 +707,32 @@ lousas?
     1. Liste os filmes com o nome "_The Room_".
     1. Liste os filmes que possuam uma duração ("_runtime_") menor ou igual à 15 minutos.
     1. Liste os filmes produzidos nos anos 1980's ordenados do maior ao menor valor no campo "_imdb.rating_".
-    1. Liste os nomes e gêneros dos filmes que contenham o gênero "_Drama_" e "_Comedy_".
+    1. Liste os nomes e gêneros dos filmes que contenham, ao menos, ambos gêneros "_Drama_" e "_Comedy_".
     1. Liste, em ordem alfabética, os nomes e a quantidade de prêmios recebidos dos fimes que possuam mais de 3 prêmios ganhos.
-    1. Insira o filme [Piratas do Vale do Silício](http://www.imdb.com/title/tt0168122).
+    1. Insira o filme[O Triunfo dos Nerds](https://www.imdb.com/title/tt0115398).
     1. Insira o filme [Silicon Cowboys](http://www.imdb.com/title/tt4938484) e inclua dois comentários.
     1. Para os filmes lançados antes de 1950, inclua o gênero _old_.
+
+1. Com o uso da biblioteca [Morphia](https://morphia.dev/), vamos criar uma aplicação C.R.U.D[^2]:
+    1. Crie classes de modelo com a sequinte estrutura:
+        - Livro:
+            - id
+            - titulo
+            - autor (_Referenced_)
+            - ano
+            - preco
+        - Autor
+            - id
+            - nome
+            - livros (_Referenced_)
+            - enderecos (_Embedded_)
+        - Endereco
+            - rua
+            - complemento
+            - bairro
+            - cep
+            - tipo
+    2. Crie um programa que crie os dados do autor Edgar Allan Poe e do seu endereço residencial, após isto armazene na base de dados do MongoDB&reg.
 
 ## Filmes
 
