@@ -1,11 +1,16 @@
 package com.github.glaucioscheibel.nosql.documento.odm.model;
 
 import dev.morphia.annotations.Entity;
+import dev.morphia.annotations.Field;
 import dev.morphia.annotations.Id;
+import dev.morphia.annotations.Index;
+import dev.morphia.annotations.IndexOptions;
+import dev.morphia.annotations.Indexes;
 import java.util.Objects;
 import org.bson.types.ObjectId;
 
 @Entity
+@Indexes(@Index(fields = @Field("titulo"), options = @IndexOptions(unique = true)))
 public class Livro {
     @Id
     private ObjectId id;
@@ -13,8 +18,6 @@ public class Livro {
     private String titulo;
 
     private int ano;
-
-    private double preco;
 
     public Livro() {}
 
@@ -46,14 +49,6 @@ public class Livro {
         this.ano = ano;
     }
 
-    public double getPreco() {
-        return preco;
-    }
-
-    public void setPreco(double preco) {
-        this.preco = preco;
-    }
-
     @Override
     public int hashCode() {
         return Objects.hash(id);
@@ -83,6 +78,6 @@ public class Livro {
 
     @Override
     public String toString() {
-        return "Livro [id=" + id + ", titulo=" + titulo + ", ano=" + ano + ", preco=" + preco + "]";
+        return "Livro [id=" + id + ", titulo=" + titulo + ", ano=" + ano + "]";
     }
 }

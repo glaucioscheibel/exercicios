@@ -733,11 +733,12 @@ lousas?
             - cep
             - tipo
 
-        >Obs: A entidade Autor deverá possuir um índice único por nome.
+        >Obs: A entidade Autor deverá possuir um índice único por nome e a entidade livro deverá possuir um índice único por título.
 
     1. Crie o livro [O Corvo](https://pt.wikipedia.org/wiki/O_Corvo) e o armazene na base do MongoDB&reg; e após isto crie os dados do autor Edgar Allan Poe, do seu endereço residencial, e do livro e o armazene.
     1. Busque o autor _Edgar Allan Poe_ e apresente todos os seus dados (endereços e livros).
     1. Adicione mais 2 livros escritos por este autor.
+    1. Altere o nome do livro _O Corvo_ para _O Corvo e outros contos extraordinários_ através do comando `query update`.
 
 ## Filmes
 

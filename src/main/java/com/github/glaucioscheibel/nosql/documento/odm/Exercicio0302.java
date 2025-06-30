@@ -12,7 +12,6 @@ public class Exercicio0302 {
         Datastore datastore = Morphia.createDatastore(MongoClients.create());
         Livro corvo = new Livro("O Corvo");
         corvo.setAno(1845);
-        corvo.setPreco(100.0);
         corvo = datastore.save(corvo);
         Autor edgar = new Autor("Edgar Allan Poe");
         Endereco endereco1 = new Endereco();
