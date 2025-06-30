@@ -16,6 +16,12 @@ public class Livro {
 
     private double preco;
 
+    public Livro() {}
+
+    public Livro(String titulo) {
+        this.titulo = titulo;
+    }
+
     public ObjectId getId() {
         return id;
     }

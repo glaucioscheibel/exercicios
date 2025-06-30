@@ -735,8 +735,8 @@ lousas?
 
         >Obs: A entidade Autor deverá possuir um índice único por nome.
 
-    1. Crie um programa que crie os dados do autor Edgar Allan Poe e do seu endereço residencial, após isto armazene na base de dados do MongoDB&reg;.
-    1. Crie o livro "O Corvo" e adicione ao autor _Edgar Allan Poe_.
+    1. Crie o livro [O Corvo](https://pt.wikipedia.org/wiki/O_Corvo) e o armazene na base do MongoDB&reg; e após isto crie os dados do autor Edgar Allan Poe, do seu endereço residencial, e do livro e o armazene.
+    1. Busque o autor _Edgar Allan Poe_ e apresente todos os seus dados (endereços e livros).
     1. Adicione mais 2 livros escritos por este autor.
 
 ## Filmes
