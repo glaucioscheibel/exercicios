@@ -1,0 +1,20 @@
+@startuml model
+class Autor {
+    -id: ObjectId<<Id>>
+    -nome: String
+}
+class Endereco {
+    -rua: String
+    -bairro: String
+    -complemento: String
+    -cep: String
+    -cidade: String
+    -tipo: String
+}
+class Livro {
+    -id: ObjectId<<Id>>
+    -titulo: String
+}
+Autor *-> "*" Endereco : possui >
+Autor -> "*" Livro : escreveu >
+@enduml

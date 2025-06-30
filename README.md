@@ -714,7 +714,7 @@ lousas?
     1. Para os filmes lançados antes de 1950, inclua o gênero _old_.
 
 1. Com o uso da biblioteca [Morphia](https://morphia.dev/), vamos criar uma aplicação C.R.U.D[^2]:
-    1. Crie classes de modelo com a sequinte estrutura:
+    1. Crie classes de modelo com a sequinte estrutura e com as anotações do _Morphia_:
         - Livro:
             - id
             - titulo
@@ -732,7 +732,12 @@ lousas?
             - bairro
             - cep
             - tipo
-    2. Crie um programa que crie os dados do autor Edgar Allan Poe e do seu endereço residencial, após isto armazene na base de dados do MongoDB&reg.
+
+        >Obs: A entidade Autor deverá possuir um índice único por nome.
+
+    1. Crie um programa que crie os dados do autor Edgar Allan Poe e do seu endereço residencial, após isto armazene na base de dados do MongoDB&reg;.
+    1. Crie o livro "O Corvo" e adicione ao autor _Edgar Allan Poe_.
+    1. Adicione mais 2 livros escritos por este autor.
 
 ## Filmes
 
