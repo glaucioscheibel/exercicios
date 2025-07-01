@@ -720,7 +720,6 @@ lousas?
             - titulo
             - autor (_Referenced_)
             - ano
-            - preco
         - Autor
             - id
             - nome
