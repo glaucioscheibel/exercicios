@@ -11,15 +11,13 @@ import org.bson.Document;
 
 public class Exercicio0201 {
     public static void main(String[] args) {
-        MongoClient mongoClient = MongoClients.create("mongodb://127.0.0.1:27017");
+        MongoClient mongoClient = MongoClients.create();
         MongoDatabase database = mongoClient.getDatabase("mflix");
         MongoCollection<Document> collection = database.getCollection("movies");
-        long ini = System.currentTimeMillis();
         FindIterable<Document> docs = collection.find(eq("title", "The Room"));
         for (Document doc : docs) {
             System.out.printf("Achei: %s\n\n", doc.toJson());
         }
-        System.out.printf("Achei em %d ms\n", System.currentTimeMillis() - ini);
         mongoClient.close();
     }
 }
