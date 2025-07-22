@@ -22,7 +22,7 @@
         <dependency>
             <groupId>io.github.classgraph</groupId>
             <artifactId>classgraph</artifactId>
-            <version>4.8.180</version>
+            <version>4.8.181</version>
         </dependency>
         <dependency>
             <groupId>net.bytebuddy</groupId>
@@ -50,11 +50,11 @@
             <plugin>
                 <groupId>com.diffplug.spotless</groupId>
                 <artifactId>spotless-maven-plugin</artifactId>
-                <version>2.45.0</version>
+                <version>2.46.1</version>
                 <configuration>
                     <java>
                         <palantirJavaFormat>
-                            <version>2.70.0</version>
+                            <version>2.72.0</version>
                         </palantirJavaFormat>
                         <formatAnnotations/>
                     </java>
