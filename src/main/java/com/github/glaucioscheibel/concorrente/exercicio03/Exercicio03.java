@@ -7,7 +7,7 @@ public class Exercicio03 {
         int[] numeros = new int[1_000_000_000];
         Random r = new Random();
         for (int i = 0; i < numeros.length; i++) {
-            numeros[i] = r.nextInt();
+            numeros[i] = r.nextInt(1, 100_000);
         }
 
         // Sequencial

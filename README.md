@@ -709,7 +709,7 @@ lousas?
     1. Liste os filmes produzidos nos anos 1980's ordenados do maior ao menor valor no campo "_imdb.rating_".
     1. Liste os nomes e gêneros dos filmes que contenham, ao menos, ambos gêneros "_Drama_" e "_Comedy_".
     1. Liste, em ordem alfabética, os nomes e a quantidade de prêmios recebidos dos fimes que possuam mais de 3 prêmios ganhos.
-    1. Insira o filme[O Triunfo dos Nerds](https://www.imdb.com/title/tt0115398).
+    1. Insira o filme [O Triunfo dos Nerds](https://www.imdb.com/title/tt0115398).
     1. Insira o filme [Silicon Cowboys](http://www.imdb.com/title/tt4938484) e inclua dois comentários.
     1. Para os filmes lançados antes de 1950, inclua o gênero _old_.
 
