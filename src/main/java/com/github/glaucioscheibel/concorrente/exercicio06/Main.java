@@ -1,4 +1,4 @@
-package com.github.glaucioscheibel.concorrente.exercicio05;
+package com.github.glaucioscheibel.concorrente.exercicio06;
 
 public class Main {
     public static void main(String[] args) throws Exception {
