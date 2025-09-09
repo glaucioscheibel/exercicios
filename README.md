@@ -667,7 +667,7 @@ lousas?
     - Uma _thread_ removendo o primeiro valor da lista.
     - Uma _thread_ imprimindo a cada segundo os valores existentes.
 
-1. O banco Firmeza foi fundado com 100 contas correntes com R$ 1.000,00 de saldo inicial. Para avaliar a performance do sistema, crie um teste com programação concorrente que simule 5 sistemas fazendo transferências de valores aleatórios de até R$ 2.500,00 de uma conta aleatória para outra igualmente aleatória. Para avaliar a robusteza das transações, imprima o valor total no cofre do banco a cada 5 segundos, que deverá ser sempre de R$ 100.00,00. Após 3 minutos de execução, verifique a quantidade de transações que foram executadas e se o valor total no cofre continua sendo R$ 100.000,00.
+1. O banco Firmeza foi fundado com 100 contas correntes com R$ 1.000,00 de saldo inicial. Para avaliar a performance do sistema, crie um teste com programação concorrente que simule 5 sistemas fazendo transferências de valores aleatórios de até R$ 2.500,00 de uma conta aleatória para outra igualmente aleatória. Para avaliar a robusteza das transações, imprima o valor total no cofre do banco a cada 5 segundos, que deverá ser sempre de R$ 100.000,00. Após 3 minutos de execução, verifique a quantidade de transações que foram executadas e se o valor total no cofre continua sendo R$ 100.000,00.
 
 1. Em uma cozinha, existe uma pilha de 100 pratos sujos. Para tal, temos uma pessoa lavando pratos e duas enxugando os pratos. Entre eles, existe um escorredor com espaço para apenas dez pratos. Faça um programa que simule a lavação dos 100 pratos sujos, sua colocação no escorredor e o enxugamento destes. Após enxugar cada prato, ele será colocado na pilha de pratos limpos.
 
