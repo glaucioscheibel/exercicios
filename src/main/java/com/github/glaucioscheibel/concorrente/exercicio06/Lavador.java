@@ -1,24 +1,29 @@
 package com.github.glaucioscheibel.concorrente.exercicio06;
 
-public class Lavador extends Thread {
-    private PilhaSuja sujos;
-    private Escorredor escorredor;
+import java.util.List;
 
-    public Lavador(PilhaSuja sujos, Escorredor escorredor) {
+public class Lavador implements Runnable {
+    private final List<Prato> sujos;
+    private final Escorredor escorredor;
+
+    public Lavador(List<Prato> sujos, Escorredor escorredor) {
         this.sujos = sujos;
         this.escorredor = escorredor;
     }
 
+    @Override
     public void run() {
-        int prato;
-        while ((prato = sujos.nextPrato()) != 0) {
+        while (!sujos.isEmpty()) {
+            Prato prato = sujos.removeFirst();
             lavar(prato);
             escorredor.poe(prato);
         }
-        escorredor.setFim();
+        escorredor.fim();
+        System.out.println("Lavador terminou");
     }
 
-    private static void lavar(int prato) {
-        System.out.printf("Lavando prato %d\n", prato);
+    public void lavar(Prato prato) {
+        prato.setEstado(Estado.MOLHADO);
+        System.out.println("Lavei prato " + prato.getId());
     }
 }

@@ -1,44 +1,46 @@
 package com.github.glaucioscheibel.concorrente.exercicio06;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class Escorredor {
-    private int[] espacos;
-    private int livre = 0;
+    private final Queue<Prato> espacos;
     private boolean fim;
 
-    public Escorredor(int tam) {
-        espacos = new int[tam];
+    public Escorredor() {
+        espacos = new LinkedList<>();
     }
 
-    public synchronized void poe(int prato) {
-        while (livre >= espacos.length) {
-            try {
-                wait();
-            } catch (InterruptedException ie) {
-            }
-        }
-        System.out.printf("Colocando prato %d\n", prato);
-        espacos[livre] = prato;
-        livre++;
-        notifyAll();
-    }
-
-    public synchronized int retira() {
-        while (livre == 0 && !fim) {
-            try {
-                wait();
-            } catch (InterruptedException ie) {
-            }
-        }
-        notifyAll();
-        if (fim && livre == 0) {
-            return 0;
-        }
-        livre--;
-        System.out.printf("Retirando prato %d\n", espacos[livre]);
-        return espacos[livre];
-    }
-
-    public void setFim() {
+    public void fim() {
         fim = true;
+    }
+
+    public boolean isFim() {
+        return fim;
+    }
+
+    public synchronized void poe(Prato prato) {
+        while (espacos.size() >= 10) {
+            try {
+                wait();
+            } catch (InterruptedException e) {
+            }
+        }
+        espacos.add(prato);
+        notifyAll();
+    }
+
+    public synchronized Prato tira() {
+        while (espacos.isEmpty() && !fim) {
+            try {
+                wait();
+            } catch (InterruptedException e) {
+            }
+        }
+        notifyAll();
+        if (fim) {
+            return null;
+        }
+        return espacos.poll();
     }
 }
