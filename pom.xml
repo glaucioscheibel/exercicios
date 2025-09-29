@@ -56,6 +56,7 @@
                         <palantirJavaFormat>
                             <version>2.75.0</version>
                         </palantirJavaFormat>
+                        <forbidWildcardImports/>
                         <formatAnnotations/>
                     </java>
                     <pom>
