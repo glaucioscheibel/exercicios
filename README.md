@@ -673,7 +673,7 @@ lousas?
 
 ## NoSQL Chave-Valor
 
-1. Faça um programa que conecte numa base [Redis&reg;](https://redis.io/), [Valkey&copy;](https://valkey.io/) ou [Memurai&reg;](https://www.memurai.com/) e chame as funções `Ping` e `Echo`. Utilize a linguagem [Java&trade;](https://www.java.com/) com a biblioteca [Jedis](https://github.com/redis/jedis).
+1. Faça um programa que conecte numa base [Redis&reg;](https://redis.io/) ou [Valkey&copy;](https://valkey.io/) e chame as funções `Ping` e `Echo`. Utilize a linguagem [Java&trade;](https://www.java.com/) com a biblioteca [Jedis](https://github.com/redis/jedis).
 
 1. Crie 10 entradas chave-valor aleatórios e em seguida acesse o banco Redis com algum programa GUI ([RedisInsight](https://redis.io/insight/), [Another Redis Desktop Manager](https://goanother.com/) ou [Redis for VS Code](https://marketplace.visualstudio.com/items?itemName=Redis.redis-for-vscode)) e verifique se as chaves foram criadas. Depois volte ao programa e liste as chaves e seus respectivos valores.
 
@@ -790,7 +790,6 @@ Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma l
 ## Informações legais
 
 - **Java** is a registered trademark of Oracle.
-- **Memurai** is a registered trademark of Janea Systems Inc.
 - **MongoDB** is a registered trademark of MongoDB Inc.
 - **Python** is a trademark of the Python Software Foundation.
 - **Redis** is a registered trademark of Redis Ltd.
