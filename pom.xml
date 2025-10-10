@@ -27,7 +27,7 @@
         <dependency>
             <groupId>net.bytebuddy</groupId>
             <artifactId>byte-buddy</artifactId>
-            <version>1.17.7</version>
+            <version>1.17.8</version>
         </dependency>
         <dependency>
             <groupId>org.mongodb</groupId>
@@ -42,7 +42,7 @@
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
-            <version>6.2.0</version>
+            <version>7.0.0</version>
         </dependency>
     </dependencies>
     <build>
