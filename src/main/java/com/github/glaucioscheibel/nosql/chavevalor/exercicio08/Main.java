@@ -10,8 +10,7 @@ public class Main {
         input = new Scanner(System.in);
         int opcao = 0;
         do {
-            System.out.println(
-                    """
+            System.out.println("""
                     Menu:
                     1 - Create
                     2 - Read
