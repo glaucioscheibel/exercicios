@@ -17,12 +17,12 @@
         <dependency>
             <groupId>dev.morphia.morphia</groupId>
             <artifactId>morphia-core</artifactId>
-            <version>2.5.0</version>
+            <version>2.5.1</version>
         </dependency>
         <dependency>
             <groupId>io.github.classgraph</groupId>
             <artifactId>classgraph</artifactId>
-            <version>4.8.181</version>
+            <version>4.8.184</version>
         </dependency>
         <dependency>
             <groupId>net.bytebuddy</groupId>
@@ -54,7 +54,7 @@
                 <configuration>
                     <java>
                         <palantirJavaFormat>
-                            <version>2.80.0</version>
+                            <version>2.81.0</version>
                         </palantirJavaFormat>
                         <forbidWildcardImports/>
                         <formatAnnotations/>
