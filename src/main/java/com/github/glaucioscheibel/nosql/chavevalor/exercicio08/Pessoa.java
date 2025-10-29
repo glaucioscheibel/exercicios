@@ -3,6 +3,7 @@ package com.github.glaucioscheibel.nosql.chavevalor.exercicio08;
 import java.io.Serializable;
 
 public class Pessoa implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String apelido;
     private String nome;
     private String sobrenome;
