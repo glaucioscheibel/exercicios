@@ -7,7 +7,7 @@ import com.mongodb.client.MongoClients;
 import dev.morphia.Datastore;
 import dev.morphia.Morphia;
 
-public class Exercicio0302 {
+public class Exercicio0102 {
     public static void main(String[] args) throws Exception {
         Datastore datastore = Morphia.createDatastore(MongoClients.create());
         Livro corvo = new Livro("O Corvo");

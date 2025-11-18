@@ -7,7 +7,7 @@ import dev.morphia.Morphia;
 import dev.morphia.query.Query;
 import dev.morphia.query.filters.Filters;
 
-public class Exercicio0303 {
+public class Exercicio0103 {
     public static void main(String[] args) {
         Datastore datastore = Morphia.createDatastore(MongoClients.create());
         Query<Autor> query = datastore.find(Autor.class);

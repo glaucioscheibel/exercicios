@@ -9,7 +9,7 @@ import dev.morphia.Datastore;
 import dev.morphia.Morphia;
 import dev.morphia.UpdateOptions;
 
-public class Exercicio0305 {
+public class Exercicio0105 {
     public static void main(String[] args) {
         Datastore datastore = Morphia.createDatastore(MongoClients.create());
         datastore

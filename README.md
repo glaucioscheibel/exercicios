@@ -16,6 +16,7 @@
 1. [Programação concorrente](#programação-concorrente)
 1. [NoSQL Chave-Valor](#nosql-chave-valor)
 1. [NoSQL Documento](#nosql-documento)
+    1. [ODM](#nosql-documento-odm)
 1. [Filmes](#filmes)
 1. [Livros](#livros)
 1. [Agradecimentos](#agradecimentos)
@@ -714,6 +715,9 @@ lousas?
     1. Insira o filme [O Triunfo dos Nerds](https://www.imdb.com/title/tt0115398).
     1. Insira o filme [Silicon Cowboys](http://www.imdb.com/title/tt4938484) e inclua dois comentários.
     1. Para os filmes lançados antes de 1950, inclua o gênero _old_.
+1. Crie a classe Pessoa, com os atributos mais comuns (id, nome, telefone, etc) e com pelo menos 1 atributo composto (endereço contento rua, bairro, cep, tipo), e após isto crie uma classe PessoaDAO que implemente as operações básicas de C.R.U.D.[^2] para fazerem a persistência dos objetos na base documento usando o formato JSON[^3].
+
+### NoSQL Documento ODM
 
 1. Com o uso da biblioteca [Morphia](https://morphia.dev/), vamos criar uma aplicação C.R.U.D[^2]:
     1. Crie classes de modelo com a sequinte estrutura e com as anotações do _Morphia_:
@@ -798,3 +802,5 @@ Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma l
 [^1]: Na arquitetura de computadores, _speedup_ é um número que mede o desempenho relativo de dois sistemas que processam o mesmo problema.
 
 [^2]: C.R.U.D. são as operações _Create_, _Read_, _Update_ e _Delete_
+
+[^3]: JSON JavaScript Object Notation
