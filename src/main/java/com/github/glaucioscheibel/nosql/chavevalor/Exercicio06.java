@@ -1,7 +1,7 @@
 package com.github.glaucioscheibel.nosql.chavevalor;
 
 import java.util.Map;
-import redis.clients.jedis.UnifiedJedis;
+import redis.clients.jedis.RedisClient;
 
 public class Exercicio06 {
     public static void main(String[] args) {
@@ -26,7 +26,7 @@ public class Exercicio06 {
                 9d,
                 "Josefina",
                 10d);
-        UnifiedJedis jedis = new UnifiedJedis("redis://localhost:6379");
+        RedisClient jedis = RedisClient.create("redis://localhost:6379");
         jedis.zadd("sortedsetusuarios", nomes);
         jedis.close();
     }

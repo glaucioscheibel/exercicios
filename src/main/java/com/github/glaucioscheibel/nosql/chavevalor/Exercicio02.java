@@ -1,11 +1,11 @@
 package com.github.glaucioscheibel.nosql.chavevalor;
 
 import java.util.Set;
-import redis.clients.jedis.UnifiedJedis;
+import redis.clients.jedis.RedisClient;
 
 public class Exercicio02 {
     public static void main(String[] args) {
-        UnifiedJedis jedis = new UnifiedJedis("redis://localhost:6379");
+        RedisClient jedis = RedisClient.create("redis://localhost:6379");
         for (int i = 1; i <= 10; i++) {
             jedis.set("chave" + i, "valor" + i);
         }

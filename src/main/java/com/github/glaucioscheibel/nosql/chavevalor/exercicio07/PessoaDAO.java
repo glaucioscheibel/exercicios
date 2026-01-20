@@ -2,13 +2,13 @@ package com.github.glaucioscheibel.nosql.chavevalor.exercicio07;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
-import redis.clients.jedis.UnifiedJedis;
+import redis.clients.jedis.RedisClient;
 
 public class PessoaDAO {
-    private UnifiedJedis jedis;
+    private RedisClient jedis;
 
     public PessoaDAO() {
-        this.jedis = new UnifiedJedis("redis://localhost:6379");
+        jedis = RedisClient.create("redis://localhost:6379");
     }
 
     public void create(Pessoa pessoa) {

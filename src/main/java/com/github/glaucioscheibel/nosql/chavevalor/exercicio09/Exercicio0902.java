@@ -1,11 +1,11 @@
 package com.github.glaucioscheibel.nosql.chavevalor.exercicio09;
 
 import redis.clients.jedis.JedisPubSub;
-import redis.clients.jedis.UnifiedJedis;
+import redis.clients.jedis.RedisClient;
 
 public class Exercicio0902 {
     public static void main(String[] args) {
-        UnifiedJedis jedis = new UnifiedJedis("redis://localhost:6379");
+        RedisClient jedis = RedisClient.create("redis://localhost:6379");
         JedisPubSub subscriber = new JedisPubSub() {
             @Override
             public void onMessage(String channel, String message) {
