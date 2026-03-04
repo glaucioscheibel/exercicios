@@ -6,7 +6,7 @@ public class Exercicio01 extends Thread {
 
     @Override
     public void run() {
-        System.out.printf("%s: %tT\n", Thread.currentThread().getName(), new Date());
+        System.out.printf("%s: %tT\n", getName(), new Date());
     }
 
     public static void main(String[] args) {
