@@ -1,12 +1,12 @@
 package com.github.glaucioscheibel.concorrente.exercicio03;
 
 public class Soma implements Runnable {
-    private int[] numeros;
+    private short[] numeros;
     private int ini;
     private int qtde;
     private long soma;
 
-    public Soma(int[] numeros, int ini, int qtde) {
+    public Soma(short[] numeros, int ini, int qtde) {
         this.numeros = numeros;
         this.ini = ini;
         this.qtde = qtde;

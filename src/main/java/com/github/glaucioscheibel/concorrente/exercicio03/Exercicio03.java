@@ -4,10 +4,10 @@ import java.util.Random;
 
 public class Exercicio03 {
     public static void main(String[] args) throws Exception {
-        int[] numeros = new int[1_000_000_000];
+        short[] numeros = new short[1_000_000_000];
         Random r = new Random();
         for (int i = 0; i < numeros.length; i++) {
-            numeros[i] = r.nextInt(1, 100_000);
+            numeros[i] = (short) r.nextInt(1, Short.MAX_VALUE);
         }
 
         // Sequencial
