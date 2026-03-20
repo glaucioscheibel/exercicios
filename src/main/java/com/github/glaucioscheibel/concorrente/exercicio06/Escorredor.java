@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class Escorredor {
     private final Queue<Prato> espacos;
-    private boolean fim;
+    private volatile boolean fim;
 
     public Escorredor() {
         espacos = new LinkedList<>();
@@ -31,14 +31,14 @@ public class Escorredor {
     }
 
     public synchronized Prato tira() {
-        while (espacos.isEmpty() && !fim) {
+        while (!fim && espacos.isEmpty()) {
             try {
                 wait();
             } catch (InterruptedException e) {
             }
         }
         notifyAll();
-        if (fim) {
+        if (fim && espacos.isEmpty()) {
             return null;
         }
         return espacos.poll();

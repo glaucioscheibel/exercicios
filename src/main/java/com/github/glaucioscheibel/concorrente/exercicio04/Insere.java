@@ -13,7 +13,7 @@ public class Insere extends Thread {
     @Override
     public void run() {
         Random r = new Random();
-        while (true) {
+        while (!Thread.currentThread().isInterrupted()) {
             synchronized (numeros) {
                 numeros.add(r.nextInt(10_000));
             }

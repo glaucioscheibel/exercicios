@@ -11,13 +11,14 @@ public class Imprime extends Thread {
 
     @Override
     public void run() {
-        while (true) {
+        while (!Thread.currentThread().isInterrupted()) {
             synchronized (numeros) {
                 System.out.println(numeros);
             }
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException ie) {
+                Thread.currentThread().interrupt();
             }
         }
     }

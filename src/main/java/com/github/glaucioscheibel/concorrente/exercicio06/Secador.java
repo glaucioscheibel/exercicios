@@ -21,11 +21,11 @@ public class Secador implements Runnable {
                 }
             }
         }
-        System.out.println("Secador terminou");
+        System.out.printf("%s terminou\n", Thread.currentThread().getName());
     }
 
     private void secar(Prato prato) {
         prato.setEstado(Estado.LIMPO);
-        System.out.println("Sequei prato " + prato.getId());
+        System.out.printf("%s sequei prato %d\n", Thread.currentThread().getName(), prato.getId());
     }
 }

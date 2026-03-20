@@ -14,16 +14,19 @@ public class Lavador implements Runnable {
     @Override
     public void run() {
         while (!sujos.isEmpty()) {
-            Prato prato = sujos.removeFirst();
+            Prato prato;
+            synchronized (sujos) {
+                prato = sujos.removeFirst();
+            }
             lavar(prato);
             escorredor.poe(prato);
         }
         escorredor.fim();
-        System.out.println("Lavador terminou");
+        System.out.printf("%s terminou\n", Thread.currentThread().getName());
     }
 
     public void lavar(Prato prato) {
         prato.setEstado(Estado.MOLHADO);
-        System.out.println("Lavei prato " + prato.getId());
+        System.out.printf("%s lavou prato %d\n", Thread.currentThread().getName(), prato.getId());
     }
 }

@@ -11,7 +11,7 @@ public class Remove extends Thread {
 
     @Override
     public void run() {
-        while (true) {
+        while (!Thread.currentThread().isInterrupted()) {
             synchronized (numeros) {
                 if (!numeros.isEmpty()) {
                     numeros.removeFirst();
