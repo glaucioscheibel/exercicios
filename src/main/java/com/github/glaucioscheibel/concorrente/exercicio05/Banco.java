@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Banco {
     private List<Conta> contas;
-    private volatile int transacoes;
+    private volatile long transacoes;
     private Object monitor;
 
     public Banco(int qtdeContas, double saldoInicial) {
@@ -43,7 +43,7 @@ public class Banco {
         }
     }
 
-    public int getTransacoes() {
+    public long getTransacoes() {
         return transacoes;
     }
 }
