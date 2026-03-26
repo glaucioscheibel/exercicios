@@ -13,7 +13,7 @@ public class Exercicio05 {
         while (true) {
             Thread.sleep(5000);
             System.out.printf(
-                    "Saldo do banco: %,.2f Transações %,d\n", firmeza.getSaldoTotal(), firmeza.getTransacoes());
+                    "Saldo do banco: %,.2f Transações: %,d\n", firmeza.getSaldoTotal(), firmeza.getTransacoes());
             if (System.currentTimeMillis() - ini >= _3_MINUTOS) {
                 break;
             }
