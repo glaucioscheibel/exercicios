@@ -3,10 +3,12 @@ package com.github.glaucioscheibel.funcoes.recursao;
 import java.util.Scanner;
 
 public class Exercicio06 {
+    private static int movimento;
+
     public static void hanoi(int quantidade, String origem, String destino, String aux) {
         if (quantidade >= 1) {
             hanoi(quantidade - 1, origem, aux, destino);
-            System.out.printf("Movendo disco de %s para %s\n", origem, destino);
+            System.out.printf("%d: Movendo disco de %s para %s\n", ++movimento, origem, destino);
             hanoi(quantidade - 1, aux, destino, origem);
         }
     }
