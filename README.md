@@ -674,6 +674,42 @@ lousas?
 
 1. Descubra qual a quantidade de _Threads_ que o seu sistema consegue criar. Para isso, fique criando _Threads_ de plataforma e "estacione" elas com o método _park()_ da classe _LockSupport_.
 
+1. Observe o programa a seguir, e diga o motivo do valor de saída no console não ser 2000. Qual seria a correção?
+```java
+    public class Exercicio08 {
+
+        int count = 0;
+
+        void increment() {
+            count++;
+        }
+
+        public static void main(String[] args) throws Exception {
+            Exercicio08 contador = new Exercicio08();
+
+            Thread t1 = new Thread(() -> {
+                for (int i = 0; i < 1000; i++) {
+                    contador.increment();
+                }
+            });
+
+            Thread t2 = new Thread(() -> {
+                for (int i = 0; i < 1000; i++) {
+                    contador.increment();
+                }
+            });
+
+            t1.start();
+            t2.start();
+
+            t1.join();
+            t2.join();
+
+            System.out.println(contador.count);
+        }
+    }
+``` 
+
 ## NoSQL Chave-Valor
 
 1. Faça um programa que conecte numa base [Redis&reg;](https://redis.io/) e chame as funções `Ping` e `Echo`. Utilize a linguagem [Java&trade;](https://www.java.com/) com a biblioteca [Jedis](https://github.com/redis/jedis).
