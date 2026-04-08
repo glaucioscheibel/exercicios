@@ -674,14 +674,17 @@ lousas?
 
 1. Descubra qual a quantidade de _Threads_ que o seu sistema consegue criar. Para isso, fique criando _Threads_ de plataforma e "estacione" elas com o método _park()_ da classe _LockSupport_.
 
-1. Observe o programa a seguir, e diga o motivo do valor de saída no console não ser 2000. Qual seria a correção?
+1. Observe o programa a seguir, e diga o motivo do valor de saída no console as vezes não ser 2000. Qual seria a correção?
 ```java
     public class Exercicio08 {
+        private int count = 0;
 
-        int count = 0;
-
-        void increment() {
+        public void increment() {
             count++;
+        }
+
+        public int getCount() {
+            return count;
         }
 
         public static void main(String[] args) throws Exception {
@@ -705,7 +708,7 @@ lousas?
             t1.join();
             t2.join();
 
-            System.out.println(contador.count);
+            System.out.println(contador.getCount());
         }
     }
 ``` 

@@ -3,11 +3,14 @@ package com.github.glaucioscheibel.concorrente;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Exercicio08 {
+    private AtomicInteger count = new AtomicInteger(0);
 
-    AtomicInteger count = new AtomicInteger();
-
-    void increment() {
+    public void increment() {
         count.incrementAndGet();
+    }
+
+    public int getCount() {
+        return count.get();
     }
 
     public static void main(String[] args) throws Exception {
@@ -31,6 +34,6 @@ public class Exercicio08 {
         t1.join();
         t2.join();
 
-        System.out.println(contador.count.get());
+        System.out.println(contador.getCount());
     }
 }
