@@ -4,13 +4,20 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import redis.clients.jedis.DefaultJedisClientConfig;
 import redis.clients.jedis.RedisClient;
+import redis.clients.jedis.RedisProtocol;
 
 public class PessoaDAO {
-    private RedisClient jedis;
+    private RedisClient redis;
 
     public PessoaDAO() {
-        jedis = RedisClient.create("redis://localhost:6379");
+        DefaultJedisClientConfig config =
+                DefaultJedisClientConfig.builder().protocol(RedisProtocol.RESP3).build();
+        redis = RedisClient.builder()
+                .hostAndPort("localhost", 6379)
+                .clientConfig(config)
+                .build();
     }
 
     public void create(Pessoa pessoa) {
@@ -18,7 +25,7 @@ public class PessoaDAO {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             ObjectOutputStream bos = new ObjectOutputStream(baos);
             bos.writeObject(pessoa);
-            jedis.set(("contatos2:" + pessoa.getApelido()).getBytes(), baos.toByteArray());
+            redis.set(("contatos2:" + pessoa.getApelido()).getBytes(), baos.toByteArray());
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -31,7 +38,7 @@ public class PessoaDAO {
     public Pessoa read(String apelido) {
         Pessoa p = null;
         try {
-            byte[] data = jedis.get(("contatos2:" + apelido).getBytes());
+            byte[] data = redis.get(("contatos2:" + apelido).getBytes());
             ByteArrayInputStream bis = new ByteArrayInputStream(data);
             ObjectInputStream ois = new ObjectInputStream(bis);
             p = (Pessoa) ois.readObject();
@@ -42,6 +49,6 @@ public class PessoaDAO {
     }
 
     public void delete(String apelido) {
-        jedis.del("contatos2:" + apelido);
+        redis.del("contatos2:" + apelido);
     }
 }

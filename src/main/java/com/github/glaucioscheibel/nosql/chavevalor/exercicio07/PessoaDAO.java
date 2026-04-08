@@ -2,13 +2,20 @@ package com.github.glaucioscheibel.nosql.chavevalor.exercicio07;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
+import redis.clients.jedis.DefaultJedisClientConfig;
 import redis.clients.jedis.RedisClient;
+import redis.clients.jedis.RedisProtocol;
 
 public class PessoaDAO {
-    private RedisClient jedis;
+    private RedisClient redis;
 
     public PessoaDAO() {
-        jedis = RedisClient.create("redis://localhost:6379");
+        DefaultJedisClientConfig config =
+                DefaultJedisClientConfig.builder().protocol(RedisProtocol.RESP3).build();
+        redis = RedisClient.builder()
+                .hostAndPort("localhost", 6379)
+                .clientConfig(config)
+                .build();
     }
 
     public void create(Pessoa pessoa) {
@@ -23,7 +30,7 @@ public class PessoaDAO {
             data.put("telefone", pessoa.getTelefone());
         }
         data.put("idade", String.valueOf(pessoa.getIdade()));
-        jedis.hset("contatos:" + pessoa.getApelido(), data);
+        redis.hset("contatos:" + pessoa.getApelido(), data);
     }
 
     public void update(Pessoa pessoa) {
@@ -32,7 +39,7 @@ public class PessoaDAO {
 
     public Pessoa read(String apelido) {
         Pessoa p = null;
-        Map<String, String> data = jedis.hgetAll("contatos:" + apelido);
+        Map<String, String> data = redis.hgetAll("contatos:" + apelido);
         if (data != null && !data.isEmpty()) {
             p = new Pessoa();
             p.setApelido(apelido);
@@ -45,6 +52,6 @@ public class PessoaDAO {
     }
 
     public void delete(String apelido) {
-        jedis.del("contatos:" + apelido);
+        redis.del("contatos:" + apelido);
     }
 }
