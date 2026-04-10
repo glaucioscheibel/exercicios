@@ -8,8 +8,8 @@ public class Exercicio06 {
         for (int i = 1; i <= 100; i++) {
             sujos.addPrato(new Prato(i, Estado.SUJO));
         }
-        System.out.printf("Pilha suja: %s\n", sujos);
-        System.out.printf("Pilha limpa: %s\n", limpos);
+        System.out.printf("Pilha com %d pratos sujos: %s\n", sujos.getQtde(), sujos);
+        System.out.printf("Pilha com %d pratos limpos: %s\n", limpos.getQtde(), limpos);
         Lavador l1 = new Lavador(sujos, escorredor);
         Secador s1 = new Secador(limpos, escorredor);
         Secador s2 = new Secador(limpos, escorredor);
@@ -19,7 +19,7 @@ public class Exercicio06 {
         t1.join();
         t2.join();
         t3.join();
-        System.out.printf("Pilha suja: %s\n", sujos);
-        System.out.printf("Pilha limpa: %s\n", limpos);
+        System.out.printf("Pilha com %d pratos sujos: %s\n", sujos.getQtde(), sujos);
+        System.out.printf("Pilha com %d pratos limpos: %s\n", limpos.getQtde(), limpos);
     }
 }

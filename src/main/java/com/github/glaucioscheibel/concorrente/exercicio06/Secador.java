@@ -26,5 +26,6 @@ public class Secador implements Runnable {
     private void secar(Prato prato) {
         prato.setEstado(Estado.LIMPO);
         System.out.printf("%s sequei prato %d\n", Thread.currentThread().getName(), prato.getId());
+        Thread.yield();
     }
 }

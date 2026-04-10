@@ -25,5 +25,6 @@ public class Lavador implements Runnable {
     public void lavar(Prato prato) {
         prato.setEstado(Estado.MOLHADO);
         System.out.printf("%s lavou prato %d\n", Thread.currentThread().getName(), prato.getId());
+        Thread.yield();
     }
 }
