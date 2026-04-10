@@ -23,6 +23,6 @@ public class Prato {
 
     @Override
     public String toString() {
-        return "Prato{" + "id=" + id + ", estado=" + estado + '}';
+        return id + ":" + estado;
     }
 }

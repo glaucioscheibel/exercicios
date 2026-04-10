@@ -1,26 +1,25 @@
 package com.github.glaucioscheibel.concorrente.exercicio06;
 
-import java.util.List;
-
 public class Secador implements Runnable {
-    private List<Prato> limpos;
-    private Escorredor escorredor;
+    private PilhaPratos limpos;
+    private PilhaPratos escorredor;
 
-    public Secador(List<Prato> limpos, Escorredor escorredor) {
+    public Secador(PilhaPratos limpos, PilhaPratos escorredor) {
         this.limpos = limpos;
         this.escorredor = escorredor;
     }
 
     public void run() {
-        while (!escorredor.isFim()) {
-            Prato prato = escorredor.tira();
+        Prato prato = null;
+        do {
+            prato = escorredor.removePrato();
             if (prato != null) {
                 secar(prato);
                 synchronized (limpos) {
-                    limpos.add(prato);
+                    limpos.addPrato(prato);
                 }
             }
-        }
+        } while (limpos.temEspaco());
         System.out.printf("%s terminou\n", Thread.currentThread().getName());
     }
 
