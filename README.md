@@ -619,7 +619,6 @@ lousas?
 
     $^\circ F =  \frac{^\circ C \times 9}{5} + 32$
 
-
 1. Crie uma função que receba como parâmetro um inteiro positivo ano e devolve verdadeiro ou falso se ano for bissexto ou não. Anos bissextos ocorrem a cada quatro anos exceto anos múltiplos de 100 que não são múltiplos de 400.
 
 1. Crie uma função que receba o comprimento de cada um dos três lados de um triângulo e retorne se esse triângulo é isósceles (dois lados iguais e um diferente), escaleno (todos os lados diferentes), equilátero (todos os lados são iguais) ou se não é um triangulo (algum lado é maior que a soma dos outros dois lados).
@@ -718,7 +717,7 @@ lousas?
             System.out.println(contador.getCount());
         }
     }
-``` 
+```
 
 ## NoSQL Chave-Valor
 
