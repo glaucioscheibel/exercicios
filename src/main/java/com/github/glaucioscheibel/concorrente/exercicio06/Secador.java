@@ -15,9 +15,7 @@ public class Secador implements Runnable {
             prato = escorredor.removePrato();
             if (prato != null) {
                 secar(prato);
-                synchronized (limpos) {
-                    limpos.addPrato(prato);
-                }
+                limpos.addPrato(prato);
             }
         } while (limpos.temEspaco());
         System.out.printf("%s terminou\n", Thread.currentThread().getName());
