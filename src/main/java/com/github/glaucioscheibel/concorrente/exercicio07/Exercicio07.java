@@ -44,7 +44,7 @@ public class Exercicio07 {
             soma += future.get();
         }
         executor.shutdown();
-        System.out.printf("Total %d Threads %s: %d\n", numThreads, descricao, soma);
+        System.out.printf("Total %d Threads %s: %,d\n", numThreads, descricao, soma);
         System.out.printf("Tempo: %d milisegundos \n\n", System.currentTimeMillis() - timer);
     }
 }
