@@ -499,88 +499,15 @@ lousas?
 
 1. O tempo que um determinado avião dispensa para percorrer o trecho entre duas localidades distintas está disponível através da seguinte tabela:
 
-    <table>
-        <tr>
-            <th align="right">&nbsp;</th>
-            <th align="right">&nbsp;1</th>
-            <th align="right">&nbsp;2</th>
-            <th align="right">&nbsp;3</th>
-            <th align="right">&nbsp;4</th>
-            <th align="right">&nbsp;5</th>
-            <th align="right">&nbsp;6</th>
-            <th align="right">&nbsp;7</th>
-        </tr>
-        <tr>
-            <th align="right">&nbsp;1</th>
-            <td align="right">&nbsp;</td>
-            <td align="right">&nbsp;2</td>
-            <td align="right">11</td>
-            <td align="right">&nbsp;6</td>
-            <td align="right">15</td>
-            <td align="right">11</td>
-            <td align="right">&nbsp;1</td>
-        </tr>
-        <tr>
-            <th align="right">&nbsp;2</th>
-            <td align="right">&nbsp;2</td>
-            <td align="right">&nbsp;</td>
-            <td align="right">&nbsp;7</td>
-            <td align="right">12</td>
-            <td align="right">&nbsp;4</td>
-            <td align="right">&nbsp;2</td>
-            <td align="right">15</td>
-        </tr>
-        <tr>
-            <th align="right">&nbsp;3</th>
-            <td align="right">11</td>
-            <td align="right">&nbsp;7</td>
-            <td align="right">&nbsp;</td>
-            <td align="right">11</td>
-            <td align="right">&nbsp;8</td>
-            <td align="right">&nbsp;3</td>
-            <td align="right">13</td>
-        </tr>
-        <tr>
-            <th align="right">&nbsp;4</th>
-            <td align="right">&nbsp;6</td>
-            <td align="right">12</td>
-            <td align="right">11</td>
-            <td align="right">&nbsp;</td>
-            <td align="right">10</td>
-            <td align="right">&nbsp;2</td>
-            <td align="right">&nbsp;1</td>
-        </tr>
-        <tr>
-            <th align="right">&nbsp;5</th>
-            <td align="right">15</td>
-            <td align="right">&nbsp;4</td>
-            <td align="right">&nbsp;8</td>
-            <td align="right">10</td>
-            <td align="right">&nbsp;</td>
-            <td align="right">&nbsp;5</td>
-            <td align="right">13</td>
-        </tr>
-        <tr>
-            <th align="right">&nbsp;6</th>
-            <td align="right">11</td>
-            <td align="right">&nbsp;2</td>
-            <td align="right">&nbsp;3</td>
-            <td align="right">&nbsp;2</td>
-            <td align="right">&nbsp;5</td>
-            <td align="right">&nbsp;</td>
-            <td align="right">14</td>
-        </tr>
-        <tr>
-            <th align="right">&nbsp;7</th>
-            <td align="right">&nbsp;1</td>
-            <td align="right">15</td>
-            <td align="right">13</td>
-            <td align="right">&nbsp;1</td>
-            <td align="right">13</td>
-            <td align="right">14</td>
-            <td align="right">&nbsp;</td>
-        </tr>
-    </table>
+    |       |  1 |  2 |  3 |  4 |  5 |  6 |  7 |
+    |------:|---:|---:|---:|---:|---:|---:|---:|
+    | **1** |    |  2 | 11 |  6 | 15 | 11 |  1 |
+    | **2** |  2 |    |  7 | 12 |  4 |  2 | 15 |
+    | **3** | 11 |  7 |    | 11 |  8 | 31 |  3 |
+    | **4** |  6 | 12 | 11 |    | 10 |  2 |  1 |
+    | **5** | 15 |  4 |  8 | 10 |    |  5 | 13 |
+    | **6** | 11 |  2 |  3 |  2 |  5 |    | 14 |
+    | **7** |  1 | 15 | 13 |  1 | 13 | 14 |    |
 
     1. Faça um programa que leia a matriz anterior e informe ao usuário o tempo necessário para percorrer duas cidades por ele fornecidas;
     1. Faça um programa que permita ao usuário informa várias cidades e as armazene no vetor de rota até que ele informe 0 (zero), após isto imprima o tempo total para cumprir todo o trajeto fornecido passando por todas as cidades.
