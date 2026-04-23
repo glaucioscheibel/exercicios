@@ -202,7 +202,6 @@ lousas?
     1. Prevalecem as últimas regras sobre as primeiras
 
 1. Um posto está vendendo combustíveis com a seguinte tabela de descontos. Escreva um programa que leia o número de litros vendidos e o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 3,30 e o preço do litro do álcool é R$ 2,90.
-
     <table border="1" align="center">
         <tr>
             <th rowspan="2" align="center">Álcool</th>
@@ -221,11 +220,23 @@ lousas?
     </table>
 
 1. Uma quitanda está vendendo frutas com a seguinte tabela de preços. Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberá ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade (em Kg) de maças adquiridas e imprima o valor a ser pago pelo cliente.
-
-    |             |      Até 5Kg | Acima de 5kg |
-    |-------------|-------------:|-------------:|
-    | **Morango** | R$ 2,50 / kg | R$ 2,20 / kg |
-    | **Maçã**    | R$ 1,80 / kg | R$ 1,50 / kg |
+    <table border="1" align="center">
+        <tr>
+            <td></td>
+            <th>Até 5Kg</th>
+            <th>Acima de 5kg</th>
+        </tr>
+        <tr>
+            <th>Morango</th>
+            <td>R$ 2,50 / kg</td>
+            <td>R$ 2,20 / kg</td>
+        </tr>
+        <tr>
+            <th>Maçã</th>
+            <td>R$ 1,80 / kg</td>
+            <td>R$ 1,50 / kg</td>
+        </tr>
+    </table>
 
 ### Estrutura Condicional
 
@@ -279,7 +290,7 @@ lousas?
     1. A quantidade de números pares;
     1. A quantidade de números ímpares.
 
-1. Leia um número positivo do usuário, então, calcule e imprima a sequência Fibonacci (onde cada número é a soma dos dois anteriores) até o primeiro número superior ao número lido. Exemplo: se o usuário informou o número 30, a sequência a ser impressa será `0 1 1 2 3 5 8 13 21 34`.
+1. Leia um número positivo do usuário, então, calcule e imprima a sequência Fibonacci (onde cada número é a soma dos dois anteriores) até o primeiro número superior ao número lido. Exemplo: se o usuário informou o número 30, a sequência a ser impressa será 0 1 1 2 3 5 8 13 21 34.
 
 1. Faça um programa que peça ao usuário pensar em um número de 1 a 1000, o programa então tentará adivinhar o número pensando. A cada _chute_ que o programa der, o usuário deverá responder se ele acertou, se o valor foi acima ou abaixo do pensado. Caso o programa acerte em até 10 tentativas, o programa será considerado vitorioso.
 
@@ -430,7 +441,7 @@ lousas?
     \end{bmatrix}
     ```
 
-1. Faça um programa que dada a seguinte matriz A, gere a sua matriz transposta $A^t$. Matriz transposta é a que se obtém trocando-se ordenadamente as linhas pelas colunas.
+1. Faça um programa que dada a seguinte matriz A, gere a matriz transposta dela A<sup>t</sup>. Matriz transposta é a que se obtém trocando-se ordenadamente as linhas pelas colunas.
 
     ```math
     A = \begin{bmatrix}
@@ -462,7 +473,7 @@ lousas?
 
     Faça um programa que peça ao usuário informar o tamanho do ordem e gere a matriz identidade.
 
-1. Dada a seguinte matriz 3 &times; 3, faça um programa que:
+1. Dada a seguinte matriz 3x3, faça um programa que:
 
     ```math
     \begin{bmatrix}1&2&3\\4&5&6\\7&8&9\end{bmatrix}
@@ -578,7 +589,7 @@ lousas?
     1. Repita os testes acima usando _Threads_ virtuais.
         1. Houve diferenças entre _Threads_ de plataforma e _Threads_ virtuais? Se houve, quais foram e explique o porquê das diferenças.
 
-1. Faça um programa que crie uma lista (`ArrayList`) e manipule ela com as seguintes _threads_:
+1. Faça um programa que crie uma lista (_ArrayList_) e manipule ela com as seguintes _threads_:
     - Duas _threads_ incluindo valores aleatórios na lista.
     - Uma _thread_ removendo o primeiro valor da lista.
     - Uma _thread_ imprimindo a cada segundo os valores existentes.
@@ -588,12 +599,12 @@ lousas?
 1. Em uma cozinha, existe uma pilha de 100 pratos sujos. Para tal, temos uma pessoa lavando pratos e duas secando os pratos. Entre eles, existe um escorredor com espaço para apenas dez pratos. Faça um programa que simule a lavação dos 100 pratos sujos, sua colocação no escorredor e a secagem destes. Após enxugar cada prato, ele será colocado na pilha de pratos limpos.
 
 1. Reescreva o exercício 3 usando [Executors](https://docs.oracle.com/en/java/javase/26/docs/api/java.base/java/util/concurrent/package-summary.html#executors-heading). Faça os testes com 10 e 100 _Threads_ usando os _Executors_ abaixo listados. Explique o funcionamento de cada _Executor_ e o motivo da diferença nos tempos recebidos.
-    - `ThreadPerTaskExecutor`
-    - `VirtualThreadPerTaskExecutor`
-    - `CachedThreadPool`
-    - `WorkStealingPool`
+    - _ThreadPerTaskExecutor_
+    - _VirtualThreadPerTaskExecutor_
+    - _CachedThreadPool_
+    - _WorkStealingPool_
 
-1. Descubra qual a quantidade de _Threads_ que o seu sistema consegue criar. Para isso, fique criando _Threads_ de plataforma e "estacione" elas com o método `park()` da classe `LockSupport`.
+1. Descubra qual a quantidade de _Threads_ que o seu sistema consegue criar. Para isso, fique criando _Threads_ de plataforma e "estacione" elas com o método _park()_ da classe _LockSupport_.
 
 1. Observe o programa a seguir, e diga o motivo do valor de saída no console as vezes não ser 2000. Qual seria a correção?
 
