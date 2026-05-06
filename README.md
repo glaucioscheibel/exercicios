@@ -652,7 +652,7 @@ lousas?
 
 1. Crie 10 entradas chave-valor aleatórios e em seguida acesse o banco Redis com algum programa GUI ([RedisInsight](https://redis.io/insight/), [Another Redis Desktop Manager](https://goanother.com/) ou [Redis for VS Code](https://marketplace.visualstudio.com/items?itemName=Redis.redis-for-vscode)) e verifique se as chaves foram criadas. Depois volte ao programa e liste as chaves e seus respectivos valores.
 
-1. Crie uma chave inteira com o nome "programa:execuções" e a cada chamada do programa execute a função `Incr`. Verifique pela GUI se o valor está sendo incrementado.
+1. Crie uma chave inteira com o nome "programa:execucoes" e a cada chamada do programa execute a função `Incr`. Verifique pela GUI se o valor está sendo incrementado.
 
 1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado `List`.
 
