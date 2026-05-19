@@ -1,4 +1,4 @@
-package com.github.glaucioscheibel.nosql.chavevalor.exercicio09;
+package com.github.glaucioscheibel.nosql.chavevalor.exercicio10;
 
 import static redis.clients.jedis.RedisProtocol.RESP3;
 
@@ -6,7 +6,7 @@ import redis.clients.jedis.DefaultJedisClientConfig;
 import redis.clients.jedis.JedisPubSub;
 import redis.clients.jedis.RedisClient;
 
-public class Exercicio0902 {
+public class Exercicio1002 {
     public static void main(String[] args) {
         RedisClient redis = RedisClient.builder()
                 .hostAndPort("localhost", 6379)

@@ -1,4 +1,4 @@
-package com.github.glaucioscheibel.nosql.chavevalor.exercicio09;
+package com.github.glaucioscheibel.nosql.chavevalor.exercicio10;
 
 import static redis.clients.jedis.RedisProtocol.RESP3;
 
@@ -6,7 +6,7 @@ import java.util.Random;
 import redis.clients.jedis.DefaultJedisClientConfig;
 import redis.clients.jedis.RedisClient;
 
-public class Exercicio0901 {
+public class Exercicio1001 {
     public static void main(String[] args) {
         Random random = new Random();
         RedisClient redis = RedisClient.builder()
