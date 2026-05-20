@@ -21,17 +21,10 @@ public class Main {
             opcao = input.nextInt();
             input.nextLine();
             switch (opcao) {
-                case 1:
-                    create();
-                    break;
-                case 2:
-                    read();
-                    break;
-                case 3:
-                    break;
-                case 4:
-                    delete();
-                    break;
+                case 1 -> create();
+                case 2 -> read();
+                case 3 -> update();
+                case 4 -> delete();
             }
         } while (opcao != 0);
         input.close();
@@ -52,6 +45,10 @@ public class Main {
         p.setIdade(input.nextInt());
         input.nextLine();
         dao.create(p);
+    }
+
+    private static void update() {
+        create();
     }
 
     private static void read() {
