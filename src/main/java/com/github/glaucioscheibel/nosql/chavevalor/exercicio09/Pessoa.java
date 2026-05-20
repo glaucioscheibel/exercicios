@@ -1,4 +1,4 @@
-package com.github.glaucioscheibel.nosql.chavevalor.exercicio08;
+package com.github.glaucioscheibel.nosql.chavevalor.exercicio09;
 
 import java.io.Serial;
 import java.io.Serializable;
