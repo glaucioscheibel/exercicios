@@ -19,6 +19,7 @@
     1. [ODM](#nosql-documento-odm)
 1. [Filmes](#filmes)
 1. [Livros](#livros)
+1. [Palestras](#palestras)
 1. [Agradecimentos](#agradecimentos)
 1. [Informações legais](#informações-legais)
 
