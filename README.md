@@ -759,6 +759,10 @@ Segue relação de livros recomendados (ordem alfabética):
 - [O Programador Pragmático De aprendiz a mestre](https://loja.grupoa.com.br/o-programador-pragmatico-p995566)
 - [A Vida Digital](https://www.companhiadasletras.com.br/livro/9788571644557/a-vida-digital)
 
+## Palestras
+
+- [Meet the inventor of the electronic spreadsheet](https://www.ted.com/talks/dan_bricklin_meet_the_inventor_of_the_electronic_spreadsheet)
+
 ## Agradecimentos
 
 Segue alguns agradecimentos aos professores e eventos que disponibilizaram uma lista de exercícios na internet facilitando a criação desta lista:
