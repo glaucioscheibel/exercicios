@@ -15,7 +15,7 @@ public class Exercicio0102 {
         corvo = datastore.save(corvo);
         Autor edgar = new Autor("Edgar Allan Poe");
         Endereco endereco1 = new Endereco();
-        endereco1.setRua(" 7th Street");
+        endereco1.setRua("7th Street");
         endereco1.setCidade("Philadelphia");
         endereco1.setTipo("redidencial");
         edgar.addEndereco(endereco1);
