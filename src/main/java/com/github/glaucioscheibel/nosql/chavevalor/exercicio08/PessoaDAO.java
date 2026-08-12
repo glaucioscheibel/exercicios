@@ -1,22 +1,16 @@
 package com.github.glaucioscheibel.nosql.chavevalor.exercicio08;
 
-import static redis.clients.jedis.RedisProtocol.RESP3;
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import redis.clients.jedis.DefaultJedisClientConfig;
 import redis.clients.jedis.RedisClient;
 
 public class PessoaDAO {
     private RedisClient redis;
 
     public PessoaDAO() {
-        redis = RedisClient.builder()
-                .hostAndPort("localhost", 6379)
-                .clientConfig(DefaultJedisClientConfig.builder().protocol(RESP3).build())
-                .build();
+        redis = RedisClient.create("redis://localhost:6379");
     }
 
     public void create(Pessoa pessoa) {

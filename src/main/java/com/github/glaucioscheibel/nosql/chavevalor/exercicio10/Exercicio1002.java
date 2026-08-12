@@ -1,17 +1,11 @@
 package com.github.glaucioscheibel.nosql.chavevalor.exercicio10;
 
-import static redis.clients.jedis.RedisProtocol.RESP3;
-
-import redis.clients.jedis.DefaultJedisClientConfig;
 import redis.clients.jedis.JedisPubSub;
 import redis.clients.jedis.RedisClient;
 
 public class Exercicio1002 {
     public static void main(String[] args) {
-        RedisClient redis = RedisClient.builder()
-                .hostAndPort("localhost", 6379)
-                .clientConfig(DefaultJedisClientConfig.builder().protocol(RESP3).build())
-                .build();
+        RedisClient redis = RedisClient.create("redis://localhost:6379");
         JedisPubSub subscriber = new JedisPubSub() {
             @Override
             public void onMessage(String channel, String message) {

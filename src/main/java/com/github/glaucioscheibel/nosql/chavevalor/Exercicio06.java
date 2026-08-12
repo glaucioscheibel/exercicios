@@ -1,9 +1,6 @@
 package com.github.glaucioscheibel.nosql.chavevalor;
 
-import static redis.clients.jedis.RedisProtocol.RESP3;
-
 import java.util.Map;
-import redis.clients.jedis.DefaultJedisClientConfig;
 import redis.clients.jedis.RedisClient;
 
 public class Exercicio06 {
@@ -29,10 +26,7 @@ public class Exercicio06 {
                 9d,
                 "Josefina",
                 10d);
-        RedisClient redis = RedisClient.builder()
-                .hostAndPort("localhost", 6379)
-                .clientConfig(DefaultJedisClientConfig.builder().protocol(RESP3).build())
-                .build();
+        RedisClient redis = RedisClient.create("redis://localhost:6379");
         redis.zadd("sortedsetusuarios", nomes);
         redis.close();
     }
