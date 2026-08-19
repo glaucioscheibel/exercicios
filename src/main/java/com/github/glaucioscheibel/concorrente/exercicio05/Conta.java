@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Conta {
     private double saldo;
-    private Lock lock;
+    private final Lock lock;
 
     public Conta(double saldo) {
         this.saldo = saldo;

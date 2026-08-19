@@ -1,7 +1,7 @@
 package com.github.glaucioscheibel.concorrente.exercicio06;
 
 public class PilhaPratos {
-    private Prato[] pratos;
+    private final Prato[] pratos;
     private volatile int qtde;
 
     public PilhaPratos(int tamanho) {
@@ -12,7 +12,7 @@ public class PilhaPratos {
         while (qtde >= pratos.length) {
             try {
                 wait();
-            } catch (InterruptedException e) {
+            } catch (InterruptedException _) {
                 Thread.currentThread().interrupt();
             }
         }
@@ -25,7 +25,7 @@ public class PilhaPratos {
         if (qtde <= 0) {
             try {
                 wait(2000);
-            } catch (InterruptedException e) {
+            } catch (InterruptedException _) {
                 Thread.currentThread().interrupt();
             }
         }

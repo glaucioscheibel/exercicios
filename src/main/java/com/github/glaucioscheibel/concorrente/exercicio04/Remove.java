@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.concorrente.exercicio04;
 import java.util.List;
 
 public class Remove extends Thread {
-    private List<Integer> numeros;
+    private final List<Integer> numeros;
 
     public Remove(List<Integer> numeros) {
         this.numeros = numeros;

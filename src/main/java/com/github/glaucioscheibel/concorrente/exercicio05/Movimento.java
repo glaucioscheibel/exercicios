@@ -2,9 +2,9 @@ package com.github.glaucioscheibel.concorrente.exercicio05;
 
 import java.util.Random;
 
-public class Movimento extends Thread {
-    private Banco banco;
-    private Random random;
+public class Movimento implements Runnable {
+    private final Banco banco;
+    private final Random random;
 
     public Movimento(Banco banco) {
         this.banco = banco;

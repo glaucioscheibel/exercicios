@@ -3,7 +3,8 @@ package com.github.glaucioscheibel.concorrente.exercicio03;
 import java.util.Random;
 
 public class Exercicio03 {
-    public static void main(String[] args) throws Exception {
+
+    public static void main(String[] args) {
         short[] numeros = new short[1_000_000_000];
         Random r = new Random();
         for (int i = 0; i < numeros.length; i++) {
@@ -13,86 +14,49 @@ public class Exercicio03 {
         // Sequencial
         long hini = System.currentTimeMillis();
         long soma = 0;
-        for (int i = 0; i < numeros.length; i++) {
-            soma += numeros[i];
+        for (short numero : numeros) {
+            soma += numero;
         }
+        long millis = System.currentTimeMillis() - hini;
         System.out.printf("Total Sequencial: %,d%n", soma);
-        System.out.printf("Tempo: %d milisegundos%n%n", System.currentTimeMillis() - hini);
+        System.out.printf("Tempo: %d milissegundos%n%n", millis);
 
-        // 10 Threads de plataforma
-        hini = System.currentTimeMillis();
-        int faixa = numeros.length / 10;
-        Soma[] somas = new Soma[10];
-        Thread[] threads = new Thread[10];
+        executa(numeros, 10, false, millis);
+        executa(numeros, 100, false, millis);
+        executa(numeros, 10, true, millis);
+        executa(numeros, 100, true, millis);
+    }
+
+    private static void executa(short[] numeros, int qtdeThreads, boolean virtual, long sequential) {
+        long hini = System.currentTimeMillis();
+        int faixa = numeros.length / qtdeThreads;
+        Soma[] somas = new Soma[qtdeThreads];
+        // Cria e inicia as threads
+        Thread[] threads = new Thread[qtdeThreads];
         int ini = 0;
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < qtdeThreads; i++) {
             somas[i] = new Soma(numeros, ini, faixa);
-            threads[i] = Thread.ofPlatform().start(somas[i]);
+            if (virtual) {
+                threads[i] = Thread.ofVirtual().start(somas[i]);
+            } else {
+                threads[i] = Thread.ofPlatform().start(somas[i]);
+            }
             ini += faixa;
         }
-        soma = 0;
-        for (int i = 0; i < 10; i++) {
-            threads[i].join();
-            soma += somas[i].getSoma();
+        // Aguarda o término das threads e soma os resultados
+        long soma = 0;
+        for (int i = 0; i < qtdeThreads; i++) {
+            try {
+                threads[i].join();
+            } catch (InterruptedException _) {
+                System.err.println("Thread interrompida");
+            }
+            soma += somas[i].getTotal();
         }
-        System.out.printf("Total 10 Threads Plat: %,d%n", soma);
-        System.out.printf("Tempo: %d milisegundos %n%n", System.currentTimeMillis() - hini);
-
-        // 100 Threads de plataforma
-        hini = System.currentTimeMillis();
-        faixa = numeros.length / 100;
-        somas = new Soma[100];
-        threads = new Thread[100];
-        ini = 0;
-        for (int i = 0; i < 100; i++) {
-            somas[i] = new Soma(numeros, ini, faixa);
-            threads[i] = Thread.ofPlatform().start(somas[i]);
-            ini += faixa;
-        }
-        soma = 0;
-        for (int i = 0; i < 100; i++) {
-            threads[i].join();
-            soma += somas[i].getSoma();
-        }
-        System.out.printf("Total 100 Threads Plat: %,d%n", soma);
-        System.out.printf("Tempo: %d milisegundos %n%n", System.currentTimeMillis() - hini);
-
-        // 10 Threads virtuais
-        hini = System.currentTimeMillis();
-        faixa = numeros.length / 10;
-        somas = new Soma[10];
-        threads = new Thread[10];
-        ini = 0;
-        for (int i = 0; i < 10; i++) {
-            somas[i] = new Soma(numeros, ini, faixa);
-            threads[i] = Thread.ofVirtual().start(somas[i]);
-            ini += faixa;
-        }
-        soma = 0;
-        for (int i = 0; i < 10; i++) {
-            threads[i].join();
-            soma += somas[i].getSoma();
-        }
-        System.out.printf("Total 10 Threads Virt: %,d%n", soma);
-        System.out.printf("Tempo: %d milisegundos %n%n", System.currentTimeMillis() - hini);
-
-        // 100 Threads virtuais
-        hini = System.currentTimeMillis();
-        faixa = numeros.length / 100;
-        somas = new Soma[100];
-        threads = new Thread[100];
-        ini = 0;
-        for (int i = 0; i < 100; i++) {
-            somas[i] = new Soma(numeros, ini, faixa);
-            threads[i] = Thread.ofVirtual().start(somas[i]);
-            ini += faixa;
-        }
-        soma = 0;
-        for (int i = 0; i < 100; i++) {
-            threads[i].join();
-            soma += somas[i].getSoma();
-        }
-        System.out.printf("Total 100 Threads Virt: %,d%n", soma);
-        System.out.printf("Tempo: %d milisegundos %n%n", System.currentTimeMillis() - hini);
+        long millis = System.currentTimeMillis() - hini;
+        double speedup = (double) sequential / millis;
+        System.out.printf("Total %d Threads %s: %,d%n", qtdeThreads, virtual ? "Virtuais" : "Nativas", soma);
+        System.out.printf("Tempo: %d milissegundos %n", millis);
+        System.out.printf("Speedup: %.2fx%n%n", speedup);
     }
 }

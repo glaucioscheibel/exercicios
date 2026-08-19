@@ -3,9 +3,9 @@ package com.github.glaucioscheibel.concorrente.exercicio07;
 import java.util.concurrent.Callable;
 
 public class Soma implements Callable<Long> {
-    private short[] numeros;
-    private int ini;
-    private int qtde;
+    private final short[] numeros;
+    private final int ini;
+    private final int qtde;
 
     public Soma(short[] numeros, int ini, int qtde) {
         this.numeros = numeros;

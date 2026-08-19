@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
 public class Banco {
-    private List<Conta> contas;
-    private AtomicLong transacoes;
+    private final List<Conta> contas;
+    private final AtomicLong transacoes;
 
     public Banco(int qtdeContas, double saldoInicial) {
         transacoes = new AtomicLong();

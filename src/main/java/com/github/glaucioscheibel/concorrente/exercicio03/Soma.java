@@ -1,10 +1,10 @@
 package com.github.glaucioscheibel.concorrente.exercicio03;
 
 public class Soma implements Runnable {
-    private short[] numeros;
-    private int ini;
-    private int qtde;
-    private long soma;
+    private final short[] numeros;
+    private final int ini;
+    private final int qtde;
+    private long total;
 
     public Soma(short[] numeros, int ini, int qtde) {
         this.numeros = numeros;
@@ -15,11 +15,11 @@ public class Soma implements Runnable {
     @Override
     public void run() {
         for (int i = ini; i < ini + qtde; i++) {
-            soma += numeros[i];
+            total += numeros[i];
         }
     }
 
-    public long getSoma() {
-        return soma;
+    public long getTotal() {
+        return total;
     }
 }

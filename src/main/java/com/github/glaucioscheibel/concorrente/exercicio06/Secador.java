@@ -1,8 +1,8 @@
 package com.github.glaucioscheibel.concorrente.exercicio06;
 
 public class Secador implements Runnable {
-    private PilhaPratos limpos;
-    private PilhaPratos escorredor;
+    private final PilhaPratos limpos;
+    private final PilhaPratos escorredor;
 
     public Secador(PilhaPratos limpos, PilhaPratos escorredor) {
         this.limpos = limpos;

@@ -4,18 +4,19 @@ import java.util.List;
 import java.util.Random;
 
 public class Insere extends Thread {
-    private List<Integer> numeros;
+    private final List<Integer> numeros;
+    private final Random random;
 
     public Insere(List<Integer> numeros) {
         this.numeros = numeros;
+        random = new Random();
     }
 
     @Override
     public void run() {
-        Random r = new Random();
         while (!Thread.currentThread().isInterrupted()) {
             synchronized (numeros) {
-                numeros.add(r.nextInt(10_000));
+                numeros.add(random.nextInt(10_000));
             }
         }
     }

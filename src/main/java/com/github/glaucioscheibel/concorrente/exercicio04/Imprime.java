@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.concorrente.exercicio04;
 import java.util.List;
 
 public class Imprime extends Thread {
-    private List<Integer> numeros;
+    private final List<Integer> numeros;
 
     public Imprime(List<Integer> numeros) {
         this.numeros = numeros;
@@ -17,7 +17,7 @@ public class Imprime extends Thread {
             }
             try {
                 Thread.sleep(1000);
-            } catch (InterruptedException ie) {
+            } catch (InterruptedException _) {
                 Thread.currentThread().interrupt();
             }
         }

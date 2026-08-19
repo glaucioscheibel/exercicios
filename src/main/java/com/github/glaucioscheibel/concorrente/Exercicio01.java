@@ -1,12 +1,12 @@
 package com.github.glaucioscheibel.concorrente;
 
-import java.util.Date;
+import java.time.LocalTime;
 
 public class Exercicio01 extends Thread {
 
     @Override
     public void run() {
-        System.out.printf("%s: %tT%n", getName(), new Date());
+        System.out.printf("%s: %tT%n", getName(), LocalTime.now());
     }
 
     public static void main(String[] args) {

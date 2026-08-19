@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.concorrente;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Exercicio09 {
-    private AtomicInteger count = new AtomicInteger(0);
+    private final AtomicInteger count = new AtomicInteger(0);
 
     public void increment() {
         count.incrementAndGet();
