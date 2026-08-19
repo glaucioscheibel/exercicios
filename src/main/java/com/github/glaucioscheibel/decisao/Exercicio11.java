@@ -10,7 +10,7 @@ public class Exercicio11 {
         System.out.print("Ano: ");
         ano = input.nextInt();
         bissexto = (ano % 4 == 0 && ano % 100 != 0) || ano % 400 == 0;
-        System.out.printf("O ano %d%sé bissexto\n", ano, bissexto ? " " : " não ");
+        System.out.printf("O ano %d%sé bissexto%n", ano, bissexto ? " " : " não ");
         input.close();
     }
 }

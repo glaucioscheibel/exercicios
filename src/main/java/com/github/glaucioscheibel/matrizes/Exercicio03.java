@@ -14,6 +14,6 @@ public class Exercicio03 {
                 c.get(i).add(a[i][j] + b[i][j]);
             }
         }
-        System.out.printf("C: %s\n", c);
+        System.out.printf("C: %s%n", c);
     }
 }

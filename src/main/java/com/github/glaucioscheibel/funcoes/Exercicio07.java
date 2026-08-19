@@ -19,7 +19,7 @@ public class Exercicio07 {
         Scanner input = new Scanner(System.in);
         System.out.print("Número: ");
         int numero = input.nextInt();
-        System.out.printf("O número %d %sé primo\n", numero, ehPrimo(numero) ? "" : "não ");
+        System.out.printf("O número %d %sé primo%n", numero, ehPrimo(numero) ? "" : "não ");
         input.close();
     }
 }

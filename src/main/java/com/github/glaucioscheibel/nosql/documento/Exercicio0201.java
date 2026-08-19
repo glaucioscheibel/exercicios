@@ -16,7 +16,7 @@ public class Exercicio0201 {
         MongoCollection<Document> collection = database.getCollection("movies");
         FindIterable<Document> docs = collection.find(eq("title", "The Room"));
         for (Document doc : docs) {
-            System.out.printf("Achei: %s\n\n", doc.toJson());
+            System.out.printf("Achei: %s%n%n", doc.toJson());
         }
         mongoClient.close();
     }

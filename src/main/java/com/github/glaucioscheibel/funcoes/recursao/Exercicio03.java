@@ -18,7 +18,7 @@ public class Exercicio03 {
         x = input.nextInt();
         System.out.print("Y: ");
         y = input.nextInt();
-        System.out.printf("O máximo divisor comum de %d e %d é %d\n", x, y, mdc(x, y));
+        System.out.printf("O máximo divisor comum de %d e %d é %d%n", x, y, mdc(x, y));
         input.close();
     }
 }

@@ -25,7 +25,7 @@ public class Exercicio03 {
                 valorAPagar = 0;
                 break;
         }
-        System.out.printf("Valor a pagar: %1.2f \n", valorAPagar);
+        System.out.printf("Valor a pagar: %1.2f %n", valorAPagar);
         input.close();
     }
 }

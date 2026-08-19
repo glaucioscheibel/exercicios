@@ -14,7 +14,7 @@ public class Exercicio03 {
         for (int i = 0; i < expoente; i++) {
             potencia *= base;
         }
-        System.out.printf("Resultado: %d\n", potencia);
+        System.out.printf("Resultado: %d%n", potencia);
         input.close();
     }
 }

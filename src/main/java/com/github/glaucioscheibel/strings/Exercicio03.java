@@ -27,7 +27,7 @@ public class Exercicio03 {
         D = Character.getNumericValue(codigo.charAt(3));
         E = Character.getNumericValue(codigo.charAt(4));
         digito = (6 * A + 5 * B + 4 * C + 3 * D + 2 * E) % 7;
-        System.out.printf("Código com dígito: %s-%d\n", codigo, digito);
+        System.out.printf("Código com dígito: %s-%d%n", codigo, digito);
         input.close();
     }
 }

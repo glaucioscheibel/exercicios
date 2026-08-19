@@ -13,7 +13,7 @@ public class Exercicio01 {
         for (int i = nome.length() - 1; i >= 0; i--) {
             nomeInvertido.append(nome.charAt(i));
         }
-        System.out.printf("Seu nome invertido é %s\n", nomeInvertido);
+        System.out.printf("Seu nome invertido é %s%n", nomeInvertido);
         input.close();
     }
 }

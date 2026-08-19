@@ -10,7 +10,7 @@ public class Exercicio06 {
         saldo = input.nextDouble();
         for (int mes = 1; mes <= 12; mes++) {
             saldo += saldo * 0.005;
-            System.out.printf("Mês %2d saldo: %1.2f \n", mes, saldo);
+            System.out.printf("Mês %2d saldo: %1.2f %n", mes, saldo);
         }
         input.close();
     }

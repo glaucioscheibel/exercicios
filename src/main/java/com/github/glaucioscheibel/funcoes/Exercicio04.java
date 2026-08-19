@@ -18,7 +18,7 @@ public class Exercicio04 {
         temp = input.nextDouble();
         double f = toFahrenheit(temp);
         double c = toCelcius(f);
-        System.out.printf("A temperatura %1.2f é %1.2fF e %1.2fC\n", temp, f, c);
+        System.out.printf("A temperatura %1.2f é %1.2fF e %1.2fC%n", temp, f, c);
         input.close();
     }
 }

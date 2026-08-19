@@ -36,12 +36,12 @@ public class Exercicio15 {
                 total += n;
             }
         } while (n != 0);
-        System.out.printf("Maior: %d\n", max);
-        System.out.printf("Menor: %d\n", min);
-        System.out.printf("Soma: %d\n", total);
-        System.out.printf("Média: %1.2f\n", ((double) total / qtde));
-        System.out.printf("Pares: %d\n", pares);
-        System.out.printf("Impares: %d\n", impares);
+        System.out.printf("Maior: %d%n", max);
+        System.out.printf("Menor: %d%n", min);
+        System.out.printf("Soma: %d%n", total);
+        System.out.printf("Média: %1.2f%n", ((double) total / qtde));
+        System.out.printf("Pares: %d%n", pares);
+        System.out.printf("Impares: %d%n", impares);
         input.close();
     }
 }

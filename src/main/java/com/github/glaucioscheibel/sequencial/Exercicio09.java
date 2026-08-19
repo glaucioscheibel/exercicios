@@ -13,7 +13,7 @@ public class Exercicio09 {
         System.out.print("Altura: ");
         altura = input.nextDouble();
         volume = comprimento * largura * altura;
-        System.out.printf("Volume: %.2f \n", volume);
+        System.out.printf("Volume: %.2f %n", volume);
         input.close();
     }
 }

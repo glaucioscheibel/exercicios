@@ -11,7 +11,7 @@ public class Exercicio02 {
         }
         Set<String> chaves = redis.keys("*");
         for (String chave : chaves) {
-            System.out.printf("%s = %s\n", chave, redis.get(chave));
+            System.out.printf("%s = %s%n", chave, redis.get(chave));
         }
         redis.close();
     }

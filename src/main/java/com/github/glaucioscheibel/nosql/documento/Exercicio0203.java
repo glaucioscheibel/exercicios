@@ -20,7 +20,7 @@ public class Exercicio0203 {
         FindIterable<Document> docs =
                 collection.find(and(gte("year", 1980), lt("year", 1990))).sort(descending("imdb.rating"));
         for (Document doc : docs) {
-            System.out.printf("Achei: %s\n\n", doc.toJson());
+            System.out.printf("Achei: %s%n%n", doc.toJson());
         }
         mongoClient.close();
     }

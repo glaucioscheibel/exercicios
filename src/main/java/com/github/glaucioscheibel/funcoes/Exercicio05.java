@@ -12,7 +12,7 @@ public class Exercicio05 {
         Scanner input = new Scanner(System.in);
         System.out.print("Ano: ");
         ano = input.nextInt();
-        System.out.printf("O ano %d%sé bissexto\n", ano, ehBissexto(ano) ? " " : " não ");
+        System.out.printf("O ano %d%sé bissexto%n", ano, ehBissexto(ano) ? " " : " não ");
         input.close();
     }
 }

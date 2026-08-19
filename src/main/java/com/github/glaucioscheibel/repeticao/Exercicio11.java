@@ -13,7 +13,7 @@ public class Exercicio11 {
             tempo += 50;
             massa /= 2;
         }
-        System.out.printf("Levou %d segundos.\n", tempo);
+        System.out.printf("Levou %d segundos.%n", tempo);
         input.close();
     }
 }

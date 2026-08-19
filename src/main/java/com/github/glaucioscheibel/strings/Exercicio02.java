@@ -25,7 +25,7 @@ public class Exercicio02 {
                     break;
             }
         }
-        System.out.printf("Na frase tem %d espaços e %d vogais.\n", espacos, vogais);
+        System.out.printf("Na frase tem %d espaços e %d vogais.%n", espacos, vogais);
         input.close();
     }
 }

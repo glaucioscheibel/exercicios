@@ -16,8 +16,8 @@ public class Exercicio03 {
         for (int i = 0; i < numeros.length; i++) {
             soma += numeros[i];
         }
-        System.out.printf("Total Sequencial: %,d\n", soma);
-        System.out.printf("Tempo: %d milisegundos\n\n", System.currentTimeMillis() - hini);
+        System.out.printf("Total Sequencial: %,d%n", soma);
+        System.out.printf("Tempo: %d milisegundos%n%n", System.currentTimeMillis() - hini);
 
         // 10 Threads de plataforma
         hini = System.currentTimeMillis();
@@ -35,8 +35,8 @@ public class Exercicio03 {
             threads[i].join();
             soma += somas[i].getSoma();
         }
-        System.out.printf("Total 10 Threads Plat: %,d\n", soma);
-        System.out.printf("Tempo: %d milisegundos \n\n", System.currentTimeMillis() - hini);
+        System.out.printf("Total 10 Threads Plat: %,d%n", soma);
+        System.out.printf("Tempo: %d milisegundos %n%n", System.currentTimeMillis() - hini);
 
         // 100 Threads de plataforma
         hini = System.currentTimeMillis();
@@ -54,8 +54,8 @@ public class Exercicio03 {
             threads[i].join();
             soma += somas[i].getSoma();
         }
-        System.out.printf("Total 100 Threads Plat: %,d\n", soma);
-        System.out.printf("Tempo: %d milisegundos \n\n", System.currentTimeMillis() - hini);
+        System.out.printf("Total 100 Threads Plat: %,d%n", soma);
+        System.out.printf("Tempo: %d milisegundos %n%n", System.currentTimeMillis() - hini);
 
         // 10 Threads virtuais
         hini = System.currentTimeMillis();
@@ -73,8 +73,8 @@ public class Exercicio03 {
             threads[i].join();
             soma += somas[i].getSoma();
         }
-        System.out.printf("Total 10 Threads Virt: %,d\n", soma);
-        System.out.printf("Tempo: %d milisegundos \n\n", System.currentTimeMillis() - hini);
+        System.out.printf("Total 10 Threads Virt: %,d%n", soma);
+        System.out.printf("Tempo: %d milisegundos %n%n", System.currentTimeMillis() - hini);
 
         // 100 Threads virtuais
         hini = System.currentTimeMillis();
@@ -92,7 +92,7 @@ public class Exercicio03 {
             threads[i].join();
             soma += somas[i].getSoma();
         }
-        System.out.printf("Total 100 Threads Virt: %,d\n", soma);
-        System.out.printf("Tempo: %d milisegundos \n\n", System.currentTimeMillis() - hini);
+        System.out.printf("Total 100 Threads Virt: %,d%n", soma);
+        System.out.printf("Tempo: %d milisegundos %n%n", System.currentTimeMillis() - hini);
     }
 }

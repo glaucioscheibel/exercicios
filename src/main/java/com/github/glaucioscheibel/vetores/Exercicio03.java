@@ -10,8 +10,8 @@ public class Exercicio03 {
         for (int i = 0; i < vetor1.length; i++) {
             vetor3[i] = vetor1[i] + vetor2[i];
         }
-        System.out.printf("Vetor 1: %s\n", Arrays.toString(vetor1));
-        System.out.printf("Vetor 2: %s\n", Arrays.toString(vetor2));
-        System.out.printf("Vetor 3: %s\n", Arrays.toString(vetor3));
+        System.out.printf("Vetor 1: %s%n", Arrays.toString(vetor1));
+        System.out.printf("Vetor 2: %s%n", Arrays.toString(vetor2));
+        System.out.printf("Vetor 3: %s%n", Arrays.toString(vetor3));
     }
 }

@@ -22,7 +22,7 @@ public class Exercicio12 {
             System.out.println("Tipo desconhecido");
         }
         if (preco > 0) {
-            System.out.printf("Preço: R$ %1.2f \n", preco);
+            System.out.printf("Preço: R$ %1.2f %n", preco);
         }
         input.close();
     }

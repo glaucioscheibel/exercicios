@@ -32,6 +32,6 @@ public class Exercicio11 {
             ai--;
             bi--;
         }
-        System.out.printf("Resultado: %s\n", soma);
+        System.out.printf("Resultado: %s%n", soma);
     }
 }

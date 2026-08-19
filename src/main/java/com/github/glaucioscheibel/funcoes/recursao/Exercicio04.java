@@ -18,7 +18,7 @@ public class Exercicio04 {
         Scanner input = new Scanner(System.in);
         System.out.print("N: ");
         n = input.nextInt();
-        System.out.printf("O número na posição %d é %d\n", n, fibonacci(n));
+        System.out.printf("O número na posição %d é %d%n", n, fibonacci(n));
         input.close();
     }
 }

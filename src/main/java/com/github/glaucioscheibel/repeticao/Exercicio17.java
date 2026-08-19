@@ -13,7 +13,7 @@ public class Exercicio17 {
         char resp;
         while (!acertei) {
             int chute = (min + max) / 2;
-            System.out.printf("O número que você pensou é %d?\n", chute);
+            System.out.printf("O número que você pensou é %d?%n", chute);
             System.out.print("S-im, M-aior, N-menor: ");
             resp = input.nextLine().toUpperCase().charAt(0);
             if (resp == 'S') {

@@ -14,15 +14,15 @@ public class Exercicio02 {
         num3 = input.nextInt();
         if (num1 > num2) {
             if (num1 > num3) {
-                System.out.printf("Maior: %d \n", num1);
+                System.out.printf("Maior: %d %n", num1);
             } else {
-                System.out.printf("Maior: %d \n", num3);
+                System.out.printf("Maior: %d %n", num3);
             }
         } else {
             if (num2 > num3) {
-                System.out.printf("Maior: %d \n", num2);
+                System.out.printf("Maior: %d %n", num2);
             } else {
-                System.out.printf("Maior: %d \n", num3);
+                System.out.printf("Maior: %d %n", num3);
             }
         }
         input.close();

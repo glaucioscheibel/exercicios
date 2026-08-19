@@ -29,10 +29,10 @@ public class Exercicio01 {
             soma += numeros[i];
         }
         media = soma / numeros.length;
-        System.out.printf("Soma: %d\n", soma);
-        System.out.printf("Média: %d\n", media);
-        System.out.printf("Maior: %d\n", maior);
-        System.out.printf("Menor: %d\n", menor);
+        System.out.printf("Soma: %d%n", soma);
+        System.out.printf("Média: %d%n", media);
+        System.out.printf("Maior: %d%n", maior);
+        System.out.printf("Menor: %d%n", menor);
         input.close();
     }
 }

@@ -14,7 +14,7 @@ public class Exercicio08 {
                 });
             }
         } catch (OutOfMemoryError error) {
-            System.out.printf("Consegui criar %d threads.\n", total.get());
+            System.out.printf("Consegui criar %d threads.%n", total.get());
             throw error;
         }
     }

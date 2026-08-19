@@ -15,7 +15,7 @@ public class Exercicio02 {
         System.out.print("Informe a nota4: ");
         n4 = input.nextFloat();
         media = (n1 + n2 + n3 + n4) / 4;
-        System.out.printf("Media: %2.2f \n", media);
+        System.out.printf("Media: %2.2f %n", media);
         input.close();
     }
 }

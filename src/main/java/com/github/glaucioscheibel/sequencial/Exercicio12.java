@@ -10,6 +10,6 @@ public class Exercicio12 {
         A = B;
         B = aux;
 
-        System.out.printf("A:%d, B:%d \n", A, B);
+        System.out.printf("A:%d, B:%d %n", A, B);
     }
 }

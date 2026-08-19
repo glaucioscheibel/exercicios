@@ -12,10 +12,10 @@ public class Exercicio08 {
         velocidadeMedia = input.nextDouble();
         double distancia = tempoGasto * velocidadeMedia;
         double litrosUsados = distancia / 12;
-        System.out.printf("Velocidade média: %.2f \n", velocidadeMedia);
-        System.out.printf("Tempo gasto: %.2f \n", tempoGasto);
-        System.out.printf("Distância: %.2f \n", distancia);
-        System.out.printf("Litros usados: %.2f \n", litrosUsados);
+        System.out.printf("Velocidade média: %.2f %n", velocidadeMedia);
+        System.out.printf("Tempo gasto: %.2f %n", tempoGasto);
+        System.out.printf("Distância: %.2f %n", distancia);
+        System.out.printf("Litros usados: %.2f %n", litrosUsados);
         input.close();
     }
 }

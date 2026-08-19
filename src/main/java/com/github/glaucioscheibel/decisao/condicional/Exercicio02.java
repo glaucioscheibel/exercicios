@@ -12,7 +12,7 @@ public class Exercicio02 {
         val1 = input.nextInt();
         System.out.print("Valor2: ");
         val2 = input.nextInt();
-        input.nextLine(); // ignore o \n
+        input.nextLine(); // ignore o %n
         System.out.print("Operação: ");
         operacao = input.nextLine().charAt(0);
         switch (operacao) {

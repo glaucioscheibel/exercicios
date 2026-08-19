@@ -22,7 +22,7 @@ public class Exercicio06 {
                 iniciais += palavra.charAt(0);
             }
         }
-        System.out.printf("Iniciais: %s\n", iniciais);
+        System.out.printf("Iniciais: %s%n", iniciais);
         input.close();
     }
 }

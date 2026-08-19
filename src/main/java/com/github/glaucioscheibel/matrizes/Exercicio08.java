@@ -19,7 +19,7 @@ public class Exercicio08 {
                     matriz[i][n - j - 1] = temp;
                 }
             }
-            System.out.printf("Rotacionado em %d°:\n", r);
+            System.out.printf("Rotacionado em %d°:%n", r);
             for (int i = 0; i < matriz.length; i++) {
                 for (int j = 0; j < matriz[i].length; j++) {
                     System.out.printf("%d ", matriz[i][j]);

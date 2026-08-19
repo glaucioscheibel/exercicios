@@ -11,10 +11,10 @@ public class Exercicio14 {
         previdencia = bruto * 0.1;
         ir = (bruto - previdencia) * 0.05;
         liquido = bruto - previdencia - ir;
-        System.out.printf("  Salário Bruto: R$ %1.2f\n", bruto);
-        System.out.printf("    Previdência: R$ %1.2f\n", previdencia);
-        System.out.printf("           I.R.: R$ %1.2f\n", ir);
-        System.out.printf("Salário Líquido: R$ %1.2f\n", liquido);
+        System.out.printf("  Salário Bruto: R$ %1.2f%n", bruto);
+        System.out.printf("    Previdência: R$ %1.2f%n", previdencia);
+        System.out.printf("           I.R.: R$ %1.2f%n", ir);
+        System.out.printf("Salário Líquido: R$ %1.2f%n", liquido);
         input.close();
     }
 }

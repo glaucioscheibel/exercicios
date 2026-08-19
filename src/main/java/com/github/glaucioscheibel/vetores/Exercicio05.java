@@ -27,10 +27,10 @@ public class Exercicio05 {
             }
         }
 
-        System.out.printf("A: %s\n", a);
-        System.out.printf("B: %s\n", b);
-        System.out.printf("União: %s\n", uniao);
-        System.out.printf("Interseccao: %s\n", interseccao);
-        System.out.printf("Diferença: %s\n", diferenca);
+        System.out.printf("A: %s%n", a);
+        System.out.printf("B: %s%n", b);
+        System.out.printf("União: %s%n", uniao);
+        System.out.printf("Interseccao: %s%n", interseccao);
+        System.out.printf("Diferença: %s%n", diferenca);
     }
 }

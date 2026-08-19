@@ -12,7 +12,7 @@ public class Exercicio02 {
         for (int i = 1; i <= max; i++) {
             soma += i;
         }
-        System.out.printf("Soma: %d \n", soma);
+        System.out.printf("Soma: %d %n", soma);
         input.close();
     }
 }

@@ -19,7 +19,7 @@ public class Exercicio07 {
             horasNormais = horasTrabalhadas;
         }
         salarioTotal = horasNormais * salarioHora + horasExtras * salarioHora * 1.5;
-        System.out.printf("Salário total: %1.2f \n", salarioTotal);
+        System.out.printf("Salário total: %1.2f %n", salarioTotal);
         input.close();
     }
 }

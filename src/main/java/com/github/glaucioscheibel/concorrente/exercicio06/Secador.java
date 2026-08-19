@@ -18,12 +18,12 @@ public class Secador implements Runnable {
                 limpos.addPrato(prato);
             }
         } while (limpos.temEspaco());
-        System.out.printf("%s terminou\n", Thread.currentThread().getName());
+        System.out.printf("%s terminou%n", Thread.currentThread().getName());
     }
 
     private void secar(Prato prato) {
         prato.setEstado(Estado.LIMPO);
-        System.out.printf("%s sequei prato %d\n", Thread.currentThread().getName(), prato.getId());
+        System.out.printf("%s sequei prato %d%n", Thread.currentThread().getName(), prato.getId());
         Thread.yield();
     }
 }

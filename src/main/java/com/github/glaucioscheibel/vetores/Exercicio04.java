@@ -21,7 +21,7 @@ public class Exercicio04 {
                 vezes++;
             }
         }
-        System.out.printf("v1 e v2 possuem %d valores iguais nas mesmas posições\n", vezes);
+        System.out.printf("v1 e v2 possuem %d valores iguais nas mesmas posições%n", vezes);
         input.close();
     }
 }

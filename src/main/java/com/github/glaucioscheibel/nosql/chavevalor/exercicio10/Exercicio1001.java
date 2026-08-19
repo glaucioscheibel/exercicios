@@ -10,11 +10,11 @@ public class Exercicio1001 {
         boolean running = true;
         while (running) {
             int codigo = random.nextInt(999_999);
-            System.out.printf("publicando %d no canal codigo:seguranca\n", codigo);
+            System.out.printf("publicando %d no canal codigo:seguranca%n", codigo);
             redis.publish("codigo:seguranca", String.valueOf(codigo));
             try {
                 Thread.sleep(20000);
-            } catch (InterruptedException e) {
+            } catch (InterruptedException _) {
                 running = false;
             }
         }

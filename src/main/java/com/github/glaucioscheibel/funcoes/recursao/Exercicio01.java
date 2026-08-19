@@ -15,7 +15,7 @@ public class Exercicio01 {
         Scanner input = new Scanner(System.in);
         System.out.print("Número: ");
         numero = input.nextInt();
-        System.out.printf("Somatória: %d\n", soma(numero));
+        System.out.printf("Somatória: %d%n", soma(numero));
         input.close();
     }
 }

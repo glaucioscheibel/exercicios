@@ -12,9 +12,9 @@ public class Exercicio01 {
         System.out.print("Número 2: ");
         num2 = input.nextInt();
         if (num1 > num2) {
-            System.out.printf("Maior: %d \n", num1);
+            System.out.printf("Maior: %d %n", num1);
         } else {
-            System.out.printf("Maior: %d \n", num2);
+            System.out.printf("Maior: %d %n", num2);
         }
         input.close();
     }

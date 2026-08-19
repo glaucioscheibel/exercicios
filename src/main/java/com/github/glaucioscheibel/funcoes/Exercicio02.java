@@ -9,6 +9,6 @@ public class Exercicio02 {
         int a = 1;
         int b = 2;
         int c = 3;
-        System.out.printf("soma de %d, %d e %d é %d\n", a, b, c, soma(a, b, c));
+        System.out.printf("soma de %d, %d e %d é %d%n", a, b, c, soma(a, b, c));
     }
 }

@@ -13,7 +13,7 @@ public class Exercicio03 {
         System.out.print("Informe a nota3: ");
         n3 = input.nextFloat();
         media = (n1 * 2 + n2 * 3 + n3 * 5) / 10;
-        System.out.printf("Media: %2.2f \n", media);
+        System.out.printf("Media: %2.2f %n", media);
         input.close();
     }
 }

@@ -15,7 +15,7 @@ public class Exercicio08 {
                 impares.add(n);
             }
         }
-        System.out.printf("Pares: %s\n", pares);
-        System.out.printf("Impares: %s\n", impares);
+        System.out.printf("Pares: %s%n", pares);
+        System.out.printf("Impares: %s%n", impares);
     }
 }

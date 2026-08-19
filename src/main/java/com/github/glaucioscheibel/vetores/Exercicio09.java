@@ -30,6 +30,6 @@ public class Exercicio09 {
             bi++;
             ci++;
         }
-        System.out.printf("Mesclado: %s\n", Arrays.toString(c));
+        System.out.printf("Mesclado: %s%n", Arrays.toString(c));
     }
 }

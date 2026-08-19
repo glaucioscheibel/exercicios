@@ -13,12 +13,12 @@ public class Exercicio07 {
             System.out.printf("Matrícula: %d: ", matriculas.size());
             aux = input.nextInt();
             if (matriculas.contains(aux)) {
-                System.err.printf("A matrícula %d já existe!\n", aux);
+                System.err.printf("A matrícula %d já existe!%n", aux);
             } else {
                 matriculas.add(aux);
             }
         }
-        System.out.printf("Matrículas: %s\n", matriculas);
+        System.out.printf("Matrículas: %s%n", matriculas);
         input.close();
     }
 }

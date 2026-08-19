@@ -15,7 +15,7 @@ public class Exercicio05 {
         leet = leet.replaceAll("A", "4");
         leet = leet.replaceAll("E", "3");
         leet = leet.replaceAll("B", "ß");
-        System.out.printf("L33t: %s\n", leet);
+        System.out.printf("L33t: %s%n", leet);
         input.close();
     }
 }

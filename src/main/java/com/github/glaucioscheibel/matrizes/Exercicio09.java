@@ -22,7 +22,7 @@ public class Exercicio09 {
         System.out.print("Cidade destino(1-7): ");
         destino = input.nextInt();
         System.out.printf(
-                "Tempo da cidade de %d para %d é de %d horas\n", origem, destino, dist[origem - 1][destino - 1]);
+                "Tempo da cidade de %d para %d é de %d horas%n", origem, destino, dist[origem - 1][destino - 1]);
 
         System.out.println("Informe as cidades da rota. 0 finaliza.");
         List<Integer> cidades = new ArrayList<>();

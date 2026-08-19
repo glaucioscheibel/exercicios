@@ -12,7 +12,7 @@ public class Exercicio14 {
         for (int i = 1; i <= n; i++) {
             fatorial *= i;
         }
-        System.out.printf("%d! = %d\n", n, fatorial);
+        System.out.printf("%d! = %d%n", n, fatorial);
         input.close();
     }
 }

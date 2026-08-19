@@ -10,7 +10,7 @@ public class Exercicio04 {
         System.out.print("Informe o raio: ");
         raio = input.nextDouble();
         area = Math.PI * Math.pow(raio, 2);
-        System.out.printf("Area: %.2f \n", area);
+        System.out.printf("Area: %.2f %n", area);
         input.close();
     }
 }

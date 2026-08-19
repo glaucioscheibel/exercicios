@@ -18,7 +18,7 @@ public class Exercicio05 {
         } else {
             comissao = vendas * 0.07;
         }
-        System.out.printf("%s receberá R$ %,1.2f de comissão\n", nome, comissao);
+        System.out.printf("%s receberá R$ %,1.2f de comissão%n", nome, comissao);
         input.close();
     }
 }

@@ -23,7 +23,7 @@ public class Exercicio0205 {
                 .projection(fields(include("title", "awards.wins"), exclude("_id")))
                 .sort(ascending("title"));
         for (Document doc : docs) {
-            System.out.printf("Achei: %s\n\n", doc.toJson());
+            System.out.printf("Achei: %s%n%n", doc.toJson());
         }
         mongoClient.close();
     }

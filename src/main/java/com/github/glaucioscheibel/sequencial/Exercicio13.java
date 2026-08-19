@@ -11,7 +11,7 @@ public class Exercicio13 {
         area = input.nextDouble();
         latas = (int) Math.ceil(area / 3 / 18);
         preco = latas * 80;
-        System.out.printf("São necessárias %d latas. Total: R$%1.2f \n", latas, preco);
+        System.out.printf("São necessárias %d latas. Total: R$%1.2f %n", latas, preco);
         input.close();
     }
 }

@@ -19,7 +19,7 @@ public class Exercicio06 {
         if (media >= 7) {
             aprovado = true;
         } else {
-            System.out.printf("Media: %2.2f \n", media);
+            System.out.printf("Media: %2.2f %n", media);
             System.out.print("Nota do exame: ");
             exame = input.nextFloat();
             media = (media + exame) / 2;
@@ -27,7 +27,7 @@ public class Exercicio06 {
                 aprovado = true;
             }
         }
-        System.out.printf("Media final: %2.2f \n", media);
+        System.out.printf("Media final: %2.2f %n", media);
         if (aprovado) {
             System.out.println("Aprovado!");
         } else {

@@ -15,7 +15,7 @@ public class Exercicio07 {
                 break;
             }
         }
-        System.out.printf("O número %d %sé primo\n", numero, primo ? "" : "não ");
+        System.out.printf("O número %d %sé primo%n", numero, primo ? "" : "não ");
         input.close();
     }
 }

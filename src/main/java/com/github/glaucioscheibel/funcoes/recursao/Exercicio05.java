@@ -19,7 +19,7 @@ public class Exercicio05 {
         Scanner input = new Scanner(System.in);
         System.out.print("Palavra: ");
         palavra = input.nextLine();
-        System.out.printf("O inverso de %s é %s\n", palavra, inverte(palavra));
+        System.out.printf("O inverso de %s é %s%n", palavra, inverte(palavra));
         input.close();
     }
 }

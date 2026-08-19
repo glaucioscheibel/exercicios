@@ -9,8 +9,8 @@ public class Exercicio05 {
         };
         RedisClient redis = RedisClient.create("redis://localhost:6379");
         redis.sadd("setusuarios", nomes);
-        System.out.printf("Tamanho da set: %s\n", redis.scard("setusuarios"));
-        System.out.printf("Usuários na set: %s\n", redis.smembers("setusuarios"));
+        System.out.printf("Tamanho da set: %s%n", redis.scard("setusuarios"));
+        System.out.printf("Usuários na set: %s%n", redis.smembers("setusuarios"));
         redis.close();
     }
 }

@@ -14,6 +14,6 @@ public class Exercicio08 {
             a -= 3;
             b++;
         }
-        System.out.printf("Soma: %1.2f\n", soma);
+        System.out.printf("Soma: %1.2f%n", soma);
     }
 }

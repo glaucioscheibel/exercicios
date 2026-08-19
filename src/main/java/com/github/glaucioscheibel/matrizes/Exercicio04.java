@@ -13,6 +13,6 @@ public class Exercicio04 {
                 at.get(i).add(a[i][j] * -1);
             }
         }
-        System.out.printf("At: %s\n", at);
+        System.out.printf("At: %s%n", at);
     }
 }

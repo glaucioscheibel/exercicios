@@ -5,7 +5,7 @@ public class Exercicio05 {
 
     public static void main(String[] args) throws Exception {
         Banco firmeza = new Banco(100, 1000D);
-        System.out.printf("Saldo do banco: %,.2f Transações %,d\n", firmeza.getSaldoTotal(), firmeza.getTransacoes());
+        System.out.printf("Saldo do banco: %,.2f Transações %,d%n", firmeza.getSaldoTotal(), firmeza.getTransacoes());
         for (int i = 0; i < 5; i++) {
             Thread.ofPlatform().daemon().start(new Movimento(firmeza));
         }
@@ -13,7 +13,7 @@ public class Exercicio05 {
         while (true) {
             Thread.sleep(5000);
             System.out.printf(
-                    "Saldo do banco: %,.2f Transações: %,d\n", firmeza.getSaldoTotal(), firmeza.getTransacoes());
+                    "Saldo do banco: %,.2f Transações: %,d%n", firmeza.getSaldoTotal(), firmeza.getTransacoes());
             if (System.currentTimeMillis() - ini >= _3_MINUTOS) {
                 break;
             }

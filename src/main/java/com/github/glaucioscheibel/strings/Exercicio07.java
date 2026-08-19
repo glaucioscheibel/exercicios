@@ -18,7 +18,7 @@ public class Exercicio07 {
             }
             anagrama = aux.isEmpty();
         }
-        System.out.printf("%s e %s%s são anagramas\n", palavra1, palavra2, anagrama ? "" : " não");
+        System.out.printf("%s e %s%s são anagramas%n", palavra1, palavra2, anagrama ? "" : " não");
         input.close();
     }
 }

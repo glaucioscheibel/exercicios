@@ -21,9 +21,9 @@ public class Exercicio02 {
                 total += matriz[i][j];
             }
         }
-        System.out.printf("A soma dos elementos da primeira coluna: %d\n", somaPrimeiraColuna);
-        System.out.printf("O produto dos elementos da primeira linha: %d\n", produtoPrimeiraLinha);
-        System.out.printf("A soma de todos os elementos: %d\n", total);
-        System.out.printf("O produto da diagonal principal: %d\n", produtoDiagonal);
+        System.out.printf("A soma dos elementos da primeira coluna: %d%n", somaPrimeiraColuna);
+        System.out.printf("O produto dos elementos da primeira linha: %d%n", produtoPrimeiraLinha);
+        System.out.printf("A soma de todos os elementos: %d%n", total);
+        System.out.printf("O produto da diagonal principal: %d%n", produtoDiagonal);
     }
 }

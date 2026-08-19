@@ -11,7 +11,7 @@ public class Exercicio06 {
         System.out.print("Informe o sobrenome: ");
         sobrenome = input.next();
         nomeCompleto = nome + " " + sobrenome;
-        System.out.printf("Seu nome completo é %s\n", nomeCompleto);
+        System.out.printf("Seu nome completo é %s%n", nomeCompleto);
         input.close();
     }
 }

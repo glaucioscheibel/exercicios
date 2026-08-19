@@ -9,7 +9,7 @@ public class Exercicio1002 {
         JedisPubSub subscriber = new JedisPubSub() {
             @Override
             public void onMessage(String channel, String message) {
-                System.out.printf("Recebi %s do canal %s\n", message, channel);
+                System.out.printf("Recebi %s do canal %s%n", message, channel);
             }
         };
         redis.subscribe(subscriber, "codigo:seguranca");

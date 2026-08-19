@@ -14,7 +14,7 @@ public class Exercicio05 {
         for (int i = a; i <= b; i++) {
             soma += Math.pow(i, 3);
         }
-        System.out.printf("Resultado: %d\n", soma);
+        System.out.printf("Resultado: %d%n", soma);
         input.close();
     }
 }

@@ -11,7 +11,7 @@ public class Exercicio05 {
         System.out.print("Informe expoente: ");
         expoente = input.nextInt();
         resultado = Math.pow(base, expoente);
-        System.out.printf("Resultado: %.0f \n", resultado);
+        System.out.printf("Resultado: %.0f %n", resultado);
         input.close();
     }
 }

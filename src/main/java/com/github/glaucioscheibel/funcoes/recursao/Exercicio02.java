@@ -15,7 +15,7 @@ public class Exercicio02 {
         Scanner input = new Scanner(System.in);
         System.out.print("Número: ");
         numero = input.nextInt();
-        System.out.printf("Fatorial: %d\n", fatorial(numero));
+        System.out.printf("Fatorial: %d%n", fatorial(numero));
         input.close();
     }
 }

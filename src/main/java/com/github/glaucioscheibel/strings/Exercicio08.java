@@ -16,7 +16,7 @@ public class Exercicio08 {
                 resultado.append(Character.toUpperCase(c));
             }
         }
-        System.out.printf("Resultado: %s\n", resultado);
+        System.out.printf("Resultado: %s%n", resultado);
         input.close();
     }
 }

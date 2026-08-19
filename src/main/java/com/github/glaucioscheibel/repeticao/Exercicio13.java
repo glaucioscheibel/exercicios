@@ -10,10 +10,10 @@ public class Exercicio13 {
             total = total.add(graos);
             graos = graos.multiply(BigInteger.TWO);
         }
-        System.out.printf("Total de grãos: %s\n", total);
+        System.out.printf("Total de grãos: %s%n", total);
 
         // Versao alternativa:
         BigInteger total2 = BigInteger.TWO.pow(64).subtract(BigInteger.ONE);
-        System.out.printf("Total de grãos: %s\n", total2);
+        System.out.printf("Total de grãos: %s%n", total2);
     }
 }

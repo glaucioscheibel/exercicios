@@ -8,6 +8,6 @@ public class Exercicio01 {
             soma += i;
             i++;
         }
-        System.out.printf("Soma: %d \n", soma);
+        System.out.printf("Soma: %d %n", soma);
     }
 }

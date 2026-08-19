@@ -16,7 +16,7 @@ public class Exercicio07 {
         }
 
         System.out.printf(
-                "Seu computador tem %d núcleos \n\n", Runtime.getRuntime().availableProcessors());
+                "Seu computador tem %d núcleos %n%n", Runtime.getRuntime().availableProcessors());
 
         executa(Executors.newSingleThreadExecutor(), numeros, 1, "de Plataforma");
         executa(Executors.newThreadPerTaskExecutor(Thread.ofPlatform().factory()), numeros, 10, "de Plataforma");
@@ -35,6 +35,7 @@ public class Exercicio07 {
         int faixa = numeros.length / numThreads;
         List<Future<Long>> futureList = new ArrayList<>();
         int ini = 0;
+
         for (int i = 0; i < numThreads; i++) {
             futureList.add(executor.submit(new Soma(numeros, ini, faixa)));
             ini += faixa;
@@ -43,8 +44,8 @@ public class Exercicio07 {
         for (Future<Long> future : futureList) {
             soma += future.get();
         }
-        System.out.printf("Total %d Threads %s: %,d\n", numThreads, descricao, soma);
-        System.out.printf("Tempo: %d milisegundos \n\n", System.currentTimeMillis() - timer);
+        System.out.printf("Total %d Threads %s: %,d%n", numThreads, descricao, soma);
+        System.out.printf("Tempo: %d milisegundos %n%n", System.currentTimeMillis() - timer);
         executor.close();
     }
 }

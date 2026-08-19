@@ -10,6 +10,6 @@ public class Exercicio10 {
             felisberto += 0.03;
             anos++;
         }
-        System.out.printf("Felisberto será maior que Anacleto em %d anos\n", anos);
+        System.out.printf("Felisberto será maior que Anacleto em %d anos%n", anos);
     }
 }

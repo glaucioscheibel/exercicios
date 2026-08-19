@@ -21,7 +21,7 @@ public class Exercicio0204 {
                 .find(all("genres", "Drama", "Comedy"))
                 .projection(fields(include("title", "genres"), exclude("_id")));
         for (Document doc : docs) {
-            System.out.printf("Achei: %s\n\n", doc.toJson());
+            System.out.printf("Achei: %s%n%n", doc.toJson());
         }
         mongoClient.close();
     }

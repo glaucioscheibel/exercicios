@@ -10,6 +10,6 @@ public class Exercicio12 {
             paisA += paisA * 0.03;
             paisB += paisB * 0.015;
         }
-        System.out.printf("O país A leva %d anos para ultrapassar o país B.\n", anos);
+        System.out.printf("O país A leva %d anos para ultrapassar o país B.%n", anos);
     }
 }

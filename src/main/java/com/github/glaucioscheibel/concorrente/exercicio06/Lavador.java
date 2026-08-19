@@ -19,12 +19,12 @@ public class Lavador implements Runnable {
             lavar(prato);
             escorredor.addPrato(prato);
         }
-        System.out.printf("%s terminou\n", Thread.currentThread().getName());
+        System.out.printf("%s terminou%n", Thread.currentThread().getName());
     }
 
     public void lavar(Prato prato) {
         prato.setEstado(Estado.MOLHADO);
-        System.out.printf("%s lavou prato %d\n", Thread.currentThread().getName(), prato.getId());
+        System.out.printf("%s lavou prato %d%n", Thread.currentThread().getName(), prato.getId());
         Thread.yield();
     }
 }
