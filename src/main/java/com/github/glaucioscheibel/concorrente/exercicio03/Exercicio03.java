@@ -5,13 +5,13 @@ import java.util.Random;
 public class Exercicio03 {
 
     public static void main(String[] args) {
+        int cores = Runtime.getRuntime().availableProcessors();
         short[] numeros = new short[1_000_000_000];
         Random r = new Random();
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = (short) r.nextInt(1, Short.MAX_VALUE);
         }
 
-        // Sequencial
         long hini = System.currentTimeMillis();
         long soma = 0;
         for (short numero : numeros) {
@@ -23,8 +23,10 @@ public class Exercicio03 {
 
         executa(numeros, 10, false, millis);
         executa(numeros, 100, false, millis);
+        executa(numeros, cores, false, millis);
         executa(numeros, 10, true, millis);
         executa(numeros, 100, true, millis);
+        executa(numeros, cores, true, millis);
     }
 
     private static void executa(short[] numeros, int qtdeThreads, boolean virtual, long sequential) {
@@ -55,8 +57,10 @@ public class Exercicio03 {
         }
         long millis = System.currentTimeMillis() - hini;
         double speedup = (double) sequential / millis;
+        double eficiencia = speedup / qtdeThreads * 100;
         System.out.printf("Total %d Threads %s: %,d%n", qtdeThreads, virtual ? "Virtuais" : "Nativas", soma);
         System.out.printf("Tempo: %d milissegundos %n", millis);
-        System.out.printf("Speedup: %.2fx%n%n", speedup);
+        System.out.printf("Speedup: %.2fx%n", speedup);
+        System.out.printf("Eficiência: %.2f%%%n%n", eficiencia);
     }
 }

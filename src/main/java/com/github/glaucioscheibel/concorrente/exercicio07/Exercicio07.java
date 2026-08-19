@@ -16,21 +16,28 @@ public class Exercicio07 {
             numeros[i] = (short) r.nextInt(1, Short.MAX_VALUE);
         }
 
-        System.out.printf(
-                "Seu computador tem %d núcleos %n%n", Runtime.getRuntime().availableProcessors());
+        long ini = System.currentTimeMillis();
+        long soma = 0;
+        for (short numero : numeros) {
+            soma += numero;
+        }
+        long millis = System.currentTimeMillis() - ini;
+        System.out.printf("Total Sequencial: %,d%n", soma);
+        System.out.printf("Tempo: %d milissegundos%n%n", millis);
 
-        executa(Executors.newSingleThreadExecutor(), numeros, 1, "nativa");
-        executa(Executors.newThreadPerTaskExecutor(Thread.ofPlatform().factory()), numeros, 10, "nativas");
-        executa(Executors.newThreadPerTaskExecutor(Thread.ofPlatform().factory()), numeros, 100, "nativas");
-        executa(Executors.newVirtualThreadPerTaskExecutor(), numeros, 10, "virtuais");
-        executa(Executors.newVirtualThreadPerTaskExecutor(), numeros, 100, "virtuais");
-        executa(Executors.newCachedThreadPool(), numeros, 10, "com cache");
-        executa(Executors.newCachedThreadPool(), numeros, 100, "com cache");
-        executa(Executors.newWorkStealingPool(), numeros, 10, "com work stealing");
-        executa(Executors.newWorkStealingPool(), numeros, 100, "com work stealing");
+        executa(Executors.newSingleThreadExecutor(), numeros, 1, "nativa", millis);
+        executa(Executors.newThreadPerTaskExecutor(Thread.ofPlatform().factory()), numeros, 10, "nativas", millis);
+        executa(Executors.newThreadPerTaskExecutor(Thread.ofPlatform().factory()), numeros, 100, "nativas", millis);
+        executa(Executors.newVirtualThreadPerTaskExecutor(), numeros, 10, "virtuais", millis);
+        executa(Executors.newVirtualThreadPerTaskExecutor(), numeros, 100, "virtuais", millis);
+        executa(Executors.newCachedThreadPool(), numeros, 10, "com cache", millis);
+        executa(Executors.newCachedThreadPool(), numeros, 100, "com cache", millis);
+        executa(Executors.newWorkStealingPool(), numeros, 10, "com work stealing", millis);
+        executa(Executors.newWorkStealingPool(), numeros, 100, "com work stealing", millis);
     }
 
-    private static void executa(ExecutorService executor, short[] numeros, int numThreads, String descricao) {
+    private static void executa(
+            ExecutorService executor, short[] numeros, int numThreads, String descricao, long tempoBase) {
         long timer = System.currentTimeMillis();
         int faixa = numeros.length / numThreads;
         List<Future<Long>> futureList = new ArrayList<>();
@@ -48,8 +55,13 @@ public class Exercicio07 {
                 System.err.println("Erro ao obter resultado da thread");
             }
         }
+        timer = System.currentTimeMillis() - timer;
+        double speedup = (double) tempoBase / timer;
+        double eficiencia = speedup / numThreads * 100;
         System.out.printf("Total %d Threads %s: %,d%n", numThreads, descricao, soma);
-        System.out.printf("Tempo: %d milissegundos %n%n", System.currentTimeMillis() - timer);
+        System.out.printf("Tempo: %d milissegundos %n", timer);
+        System.out.printf("Speedup: %.2fx%n", speedup);
+        System.out.printf("Eficiência: %.2f%%%n%n", eficiencia);
         executor.close();
     }
 }
