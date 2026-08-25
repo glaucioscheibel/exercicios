@@ -2,7 +2,7 @@ package com.github.glaucioscheibel.concorrente.exercicio04;
 
 import java.util.List;
 
-public class Remove extends Thread {
+public class Remove implements Runnable {
     private final List<Integer> numeros;
 
     public Remove(List<Integer> numeros) {

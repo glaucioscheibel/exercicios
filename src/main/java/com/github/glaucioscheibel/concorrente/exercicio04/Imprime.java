@@ -2,7 +2,7 @@ package com.github.glaucioscheibel.concorrente.exercicio04;
 
 import java.util.List;
 
-public class Imprime extends Thread {
+public class Imprime implements Runnable {
     private final List<Integer> numeros;
 
     public Imprime(List<Integer> numeros) {

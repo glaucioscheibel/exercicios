@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.concorrente.exercicio04;
 import java.util.List;
 import java.util.Random;
 
-public class Insere extends Thread {
+public class Insere implements Runnable {
     private final List<Integer> numeros;
     private final Random random;
 

@@ -6,13 +6,9 @@ import java.util.List;
 public class Exercicio04 {
     public static void main(String[] args) {
         List<Integer> numeros = new ArrayList<>();
-        Insere i1 = new Insere(numeros);
-        Insere i2 = new Insere(numeros);
-        Remove r1 = new Remove(numeros);
-        Imprime p1 = new Imprime(numeros);
-        i1.start();
-        i2.start();
-        r1.start();
-        p1.start();
+        Thread.ofPlatform().start(new Insere(numeros));
+        Thread.ofPlatform().start(new Insere(numeros));
+        Thread.ofPlatform().start(new Remove(numeros));
+        Thread.ofPlatform().start(new Imprime(numeros));
     }
 }
