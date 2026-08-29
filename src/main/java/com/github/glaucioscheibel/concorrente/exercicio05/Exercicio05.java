@@ -7,16 +7,13 @@ public class Exercicio05 {
         Banco firmeza = new Banco(100, 1000D);
         System.out.printf("Saldo do banco: %,.2f Transações %,d%n", firmeza.getSaldoTotal(), firmeza.getTransacoes());
         for (int i = 0; i < 5; i++) {
-            Thread.ofPlatform().daemon().start(new Movimento(firmeza));
+            Thread.ofVirtual().start(new Movimento(firmeza));
         }
         long ini = System.currentTimeMillis();
-        while (true) {
+        do {
             Thread.sleep(5000);
             System.out.printf(
                     "Saldo do banco: %,.2f Transações: %,d%n", firmeza.getSaldoTotal(), firmeza.getTransacoes());
-            if (System.currentTimeMillis() - ini >= _3_MINUTOS) {
-                break;
-            }
-        }
+        } while (System.currentTimeMillis() - ini < _3_MINUTOS);
     }
 }
