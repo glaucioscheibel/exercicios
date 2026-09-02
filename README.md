@@ -610,7 +610,7 @@ lousas?
 1. Observe o programa a seguir, e diga o motivo do valor de saída no console as vezes não ser 2000. Qual seria a correção?
 
 ```java
-    public class Exercicio08 {
+    public class Exercicio09 {
         private int count = 0;
 
         public void increment() {
