@@ -622,7 +622,7 @@ lousas?
         }
 
         public static void main(String[] args) throws Exception {
-            Exercicio08 contador = new Exercicio08();
+            Exercicio09 contador = new Exercicio09();
 
             Thread t1 = new Thread(() -> {
                 for (int i = 0; i < 1000; i++) {
