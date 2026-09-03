@@ -1,7 +1,7 @@
 package com.github.glaucioscheibel.repeticao;
 
 public class Exercicio08 {
-    void main() {
+    static void main() {
         double a = 1000;
         int b = 1;
         double soma = 0;

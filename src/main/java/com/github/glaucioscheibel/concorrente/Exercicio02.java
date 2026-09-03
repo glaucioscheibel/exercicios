@@ -9,7 +9,7 @@ public class Exercicio02 extends Thread {
         }
     }
 
-    void main() {
+    static void main() {
         Exercicio02[] exercs = new Exercicio02[10];
         for (int i = 0; i < 10; i++) {
             exercs[i] = new Exercicio02();

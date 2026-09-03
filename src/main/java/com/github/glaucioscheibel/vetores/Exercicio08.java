@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Exercicio08 {
-    void main() {
+    static void main() {
         int[] numeros = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
         List<Integer> pares = new ArrayList<>();
         List<Integer> impares = new ArrayList<>();

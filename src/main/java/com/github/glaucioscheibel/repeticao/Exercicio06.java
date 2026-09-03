@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.repeticao;
 import java.util.Scanner;
 
 public class Exercicio06 {
-    void main() {
+    static void main() {
         double saldo;
         Scanner input = new Scanner(System.in);
         System.out.print("Valor depositado: ");

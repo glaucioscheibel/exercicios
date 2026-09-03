@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.decisao;
 import java.util.Scanner;
 
 public class Exercicio04 {
-    void main() {
+    static void main() {
         double valor;
         double salario;
         double valorParcela;

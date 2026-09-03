@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.sequencial;
 import java.util.Scanner;
 
 public class Exercicio05 {
-    void main() {
+    static void main() {
         double base;
         double expoente;
         double resultado;

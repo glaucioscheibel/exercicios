@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Exercicio07 {
-    void main() {
+    static void main() {
         List<Integer> matriculas = new ArrayList<>();
         Scanner input = new Scanner(System.in);
         int aux = 0;

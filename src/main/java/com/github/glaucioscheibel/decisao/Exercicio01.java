@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio01 {
 
-    void main() {
+    static void main() {
         int num1;
         int num2;
         Scanner input = new Scanner(System.in);

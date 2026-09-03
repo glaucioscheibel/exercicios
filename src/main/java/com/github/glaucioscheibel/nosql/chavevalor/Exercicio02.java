@@ -4,7 +4,7 @@ import java.util.Set;
 import redis.clients.jedis.RedisClient;
 
 public class Exercicio02 {
-    void main() {
+    static void main() {
         RedisClient redis = RedisClient.create("redis://localhost:6379");
         for (int i = 1; i <= 10; i++) {
             redis.set("chave" + i, "valor" + i);

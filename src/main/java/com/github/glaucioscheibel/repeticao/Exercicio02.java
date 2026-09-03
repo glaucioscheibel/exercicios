@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.repeticao;
 import java.util.Scanner;
 
 public class Exercicio02 {
-    void main() {
+    static void main() {
         int soma = 0;
         int max;
         Scanner input = new Scanner(System.in);

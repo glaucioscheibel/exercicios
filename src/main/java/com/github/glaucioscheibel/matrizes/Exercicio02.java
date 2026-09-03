@@ -1,7 +1,7 @@
 package com.github.glaucioscheibel.matrizes;
 
 public class Exercicio02 {
-    void main() {
+    static void main() {
         int[][] matriz = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}, {13, 14, 15, 16}};
         int somaPrimeiraColuna = 0;
         int produtoPrimeiraLinha = 1;

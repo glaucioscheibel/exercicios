@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exercicio07 {
-    void main() {
+    static void main() {
         int ordem;
         Scanner input = new Scanner(System.in);
         System.out.print("Ordem da matriz identidade: ");

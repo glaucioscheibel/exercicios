@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exercicio10 {
-    void main() {
+    static void main() {
         int ordem;
         Scanner input = new Scanner(System.in);
         System.out.print("Ordem do triângulo de Pascal: ");

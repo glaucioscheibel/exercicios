@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.repeticao;
 import java.util.Scanner;
 
 public class Exercicio04 {
-    void main() {
+    static void main() {
         int tabuadas;
         Scanner input = new Scanner(System.in);
         System.out.print("Tabuadas até ");

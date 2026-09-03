@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.strings;
 import java.util.Scanner;
 
 public class Exercicio04 {
-    void main() {
+    static void main() {
         String digitos;
         Scanner input = new Scanner(System.in);
         System.out.print("Informe digitos: ");

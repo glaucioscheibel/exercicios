@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.repeticao;
 import java.util.Scanner;
 
 public class Exercicio07 {
-    void main() {
+    static void main() {
         int numero;
         boolean primo = true;
         Scanner input = new Scanner(System.in);

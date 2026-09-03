@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.strings;
 import java.util.Scanner;
 
 public class Exercicio03 {
-    void main() {
+    static void main() {
         String codigo;
         int a;
         int b;

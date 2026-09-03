@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Exercicio04 {
-    void main() {
+    static void main() {
         List<Integer> numeros = new ArrayList<>();
         Thread.ofPlatform().start(new Insere(numeros));
         Thread.ofPlatform().start(new Insere(numeros));

@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Exercicio03 {
 
-    void main() {
+    static void main() {
         int cores = Runtime.getRuntime().availableProcessors();
         short[] numeros = new short[1_000_000_000];
         Random r = new Random();

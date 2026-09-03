@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.decisao;
 import java.util.Scanner;
 
 public class Exercicio03 {
-    void main() {
+    static void main() {
         int qtdeMacas;
         double valor;
         Scanner input = new Scanner(System.in);

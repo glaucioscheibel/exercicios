@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.repeticao;
 import java.util.Scanner;
 
 public class Exercicio17 {
-    void main() {
+    static void main() {
         Scanner input = new Scanner(System.in);
         System.out.println("Pense em um número entre 1 e 1000, e tecle enter.");
         input.nextLine();

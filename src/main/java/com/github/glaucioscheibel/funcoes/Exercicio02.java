@@ -5,7 +5,7 @@ public class Exercicio02 {
         return a + b + c;
     }
 
-    void main() {
+    static void main() {
         int a = 1;
         int b = 2;
         int c = 3;

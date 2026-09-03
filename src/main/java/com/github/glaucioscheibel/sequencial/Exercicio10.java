@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.sequencial;
 import java.util.Scanner;
 
 public class Exercicio10 {
-    void main() {
+    static void main() {
         int anos;
         int meses;
         int dias;

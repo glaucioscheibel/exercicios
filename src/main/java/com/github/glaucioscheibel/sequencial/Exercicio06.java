@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.sequencial;
 import java.util.Scanner;
 
 public class Exercicio06 {
-    void main() {
+    static void main() {
         String nome;
         String sobrenome;
         String nomeCompleto;

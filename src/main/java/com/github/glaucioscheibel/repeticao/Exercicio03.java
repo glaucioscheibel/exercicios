@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.repeticao;
 import java.util.Scanner;
 
 public class Exercicio03 {
-    void main() {
+    static void main() {
         int base;
         int expoente;
         int potencia = 1;

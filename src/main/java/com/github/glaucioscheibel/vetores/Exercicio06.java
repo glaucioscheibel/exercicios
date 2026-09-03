@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.vetores;
 import java.util.Arrays;
 
 public class Exercicio06 {
-    void main() {
+    static void main() {
         int[] v = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
         System.out.println(Arrays.toString(v));
         int aux = 0;

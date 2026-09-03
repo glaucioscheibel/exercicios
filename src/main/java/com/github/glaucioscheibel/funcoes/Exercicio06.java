@@ -19,7 +19,7 @@ public class Exercicio06 {
         return msg;
     }
 
-    void main() {
+    static void main() {
         int ladoA;
         int ladoB;
         int ladoC;

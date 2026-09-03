@@ -14,7 +14,7 @@ public class Exercicio05 {
         return inverte(palavra, palavra.length() - 1);
     }
 
-    void main() {
+    static void main() {
         String palavra;
         Scanner input = new Scanner(System.in);
         System.out.print("Palavra: ");

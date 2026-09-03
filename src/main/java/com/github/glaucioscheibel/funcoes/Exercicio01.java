@@ -7,7 +7,7 @@ public class Exercicio01 {
         return palavra.startsWith(prefixo);
     }
 
-    void main() {
+    static void main() {
         String palavra;
         String prefixo;
         Scanner input = new Scanner(System.in);

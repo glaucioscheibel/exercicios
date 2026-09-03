@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.sequencial;
 import java.util.Scanner;
 
 public class Exercicio11 {
-    void main() {
+    static void main() {
         double potencia;
         double largura;
         double comprimento;

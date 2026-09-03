@@ -13,7 +13,7 @@ import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
 
 public class Exercicio0203 {
-    void main() {
+    static void main() {
         MongoClient mongoClient = MongoClients.create();
         MongoDatabase database = mongoClient.getDatabase("mflix");
         MongoCollection<Document> collection = database.getCollection("movies");

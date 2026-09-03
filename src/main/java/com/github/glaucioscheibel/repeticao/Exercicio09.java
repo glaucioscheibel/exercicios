@@ -1,7 +1,7 @@
 package com.github.glaucioscheibel.repeticao;
 
 public class Exercicio09 {
-    void main() {
+    static void main() {
         int a = 37;
         int b = 38;
         int c = 1;

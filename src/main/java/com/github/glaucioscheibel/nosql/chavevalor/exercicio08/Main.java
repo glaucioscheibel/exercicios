@@ -6,7 +6,7 @@ public class Main {
     private static Scanner input;
     private static final PessoaDAO dao = new PessoaDAO();
 
-    void main() {
+    static void main() {
         input = new Scanner(System.in);
         int opcao = 0;
         do {

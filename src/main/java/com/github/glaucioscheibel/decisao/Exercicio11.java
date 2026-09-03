@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.decisao;
 import java.util.Scanner;
 
 public class Exercicio11 {
-    void main() {
+    static void main() {
         int ano;
         boolean bissexto;
         Scanner input = new Scanner(System.in);

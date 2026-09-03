@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio04 {
 
-    void main() {
+    static void main() {
         double raio;
         double area;
         Scanner input = new Scanner(System.in);

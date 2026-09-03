@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.decisao;
 import java.util.Scanner;
 
 public class Exercicio13 {
-    void main() {
+    static void main() {
         double morango;
         double macas;
         double preco = 0;

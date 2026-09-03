@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Exercicio09 {
-    void main() {
+    static void main() {
         int[][] dist = {
             {0, 2, 11, 6, 15, 11, 1},
             {2, 0, 7, 12, 4, 2, 15},

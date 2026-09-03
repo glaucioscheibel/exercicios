@@ -1,7 +1,7 @@
 package com.github.glaucioscheibel.concorrente.exercicio06;
 
 public class Exercicio06 {
-    void main() throws Exception {
+    static void main() throws Exception {
         PilhaPratos sujos = new PilhaPratos(100);
         PilhaPratos limpos = new PilhaPratos(100);
         PilhaPratos escorredor = new PilhaPratos(10);

@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.repeticao;
 import java.util.Scanner;
 
 public class Exercicio15 {
-    void main() {
+    static void main() {
         int n = -1;
         int min = 0;
         int max = 0;

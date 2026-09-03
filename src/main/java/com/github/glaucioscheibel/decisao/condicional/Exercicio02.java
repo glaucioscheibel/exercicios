@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.decisao.condicional;
 import java.util.Scanner;
 
 public class Exercicio02 {
-    void main() {
+    static void main() {
         int val1;
         int val2;
         int resultado = 0;

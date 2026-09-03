@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.vetores;
 import java.util.Arrays;
 
 public class Exercicio09 {
-    void main() {
+    static void main() {
         int[] a = {1, 2, 3, 4, 5, 20, 30, 50};
         int[] b = {6, 7, 8, 9, 10, 25, 35, 55, 65, 200};
         int[] c = new int[a.length + b.length];

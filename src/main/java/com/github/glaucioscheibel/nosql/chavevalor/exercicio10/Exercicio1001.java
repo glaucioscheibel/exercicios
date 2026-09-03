@@ -4,7 +4,7 @@ import java.util.Random;
 import redis.clients.jedis.RedisClient;
 
 public class Exercicio1001 {
-    void main() {
+    static void main() {
         Random random = new Random();
         RedisClient redis = RedisClient.create("redis://localhost:6379");
         boolean running = true;

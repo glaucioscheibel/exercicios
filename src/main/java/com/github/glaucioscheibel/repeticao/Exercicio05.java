@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.repeticao;
 import java.util.Scanner;
 
 public class Exercicio05 {
-    void main() {
+    static void main() {
         int a;
         int b;
         double soma = 0;

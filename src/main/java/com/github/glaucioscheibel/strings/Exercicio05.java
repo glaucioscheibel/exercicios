@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.strings;
 import java.util.Scanner;
 
 public class Exercicio05 {
-    void main() {
+    static void main() {
         String frase;
         String leet;
         Scanner input = new Scanner(System.in);

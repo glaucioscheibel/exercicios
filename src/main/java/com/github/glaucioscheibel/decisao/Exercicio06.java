@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.decisao;
 import java.util.Scanner;
 
 public class Exercicio06 {
-    void main() {
+    static void main() {
         float n1;
         float n2;
         float n3;

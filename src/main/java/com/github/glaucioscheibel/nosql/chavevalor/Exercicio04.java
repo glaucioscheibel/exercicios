@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.nosql.chavevalor;
 import redis.clients.jedis.RedisClient;
 
 public class Exercicio04 {
-    void main() {
+    static void main() {
         String[] nomes = {
             "Adalberto", "Bianca", "Celso", "Diana", "Edson", "Fiona", "Gilberto", "Helena", "Igor", "Josefina"
         };

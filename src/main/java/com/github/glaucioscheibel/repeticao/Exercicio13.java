@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.repeticao;
 import java.math.BigInteger;
 
 public class Exercicio13 {
-    void main() {
+    static void main() {
         BigInteger graos = BigInteger.ONE;
         BigInteger total = BigInteger.ZERO;
         for (int casa = 1; casa <= 64; casa++) {

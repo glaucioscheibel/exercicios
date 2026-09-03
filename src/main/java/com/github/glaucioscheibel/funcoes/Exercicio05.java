@@ -7,7 +7,7 @@ public class Exercicio05 {
         return (ano % 4 == 0 && ano % 100 != 0) || ano % 400 == 0;
     }
 
-    void main() {
+    static void main() {
         int ano;
         Scanner input = new Scanner(System.in);
         System.out.print("Ano: ");

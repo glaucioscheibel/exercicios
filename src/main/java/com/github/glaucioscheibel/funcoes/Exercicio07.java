@@ -15,7 +15,7 @@ public class Exercicio07 {
         return true;
     }
 
-    void main() {
+    static void main() {
         Scanner input = new Scanner(System.in);
         System.out.print("Número: ");
         int numero = input.nextInt();

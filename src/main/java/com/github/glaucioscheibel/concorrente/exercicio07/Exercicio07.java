@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 public class Exercicio07 {
-    void main() {
+    static void main() {
         short[] numeros = new short[1_000_000_000];
         Random r = new Random();
         for (int i = 0; i < numeros.length; i++) {

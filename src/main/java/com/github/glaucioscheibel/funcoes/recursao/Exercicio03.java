@@ -11,7 +11,7 @@ public class Exercicio03 {
         }
     }
 
-    void main() {
+    static void main() {
         int x;
         int y;
         Scanner input = new Scanner(System.in);

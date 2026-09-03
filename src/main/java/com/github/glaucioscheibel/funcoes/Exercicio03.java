@@ -9,7 +9,7 @@ public class Exercicio03 {
         return resultado;
     }
 
-    void main() {
+    static void main() {
         int a = 1;
         int b = 2;
         int c = 3;

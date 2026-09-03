@@ -8,7 +8,7 @@ import dev.morphia.Morphia;
 import dev.morphia.query.Query;
 
 public class Exercicio0104 {
-    void main() {
+    static void main() {
         Datastore datastore = Morphia.createDatastore(MongoClients.create());
         Livro gato = new Livro("O Gato Preto");
         gato.setAno(1843);
