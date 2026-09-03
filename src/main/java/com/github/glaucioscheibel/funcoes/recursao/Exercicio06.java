@@ -13,7 +13,7 @@ public class Exercicio06 {
         }
     }
 
-    public static void main(String[] args) {
+    void main() {
         int quantidade;
         Scanner input = new Scanner(System.in);
         System.out.print("Informe a quantidade de discos: ");

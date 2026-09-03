@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.sequencial;
 import java.util.Scanner;
 
 public class Exercicio07 {
-    public static void main(String[] args) {
+    void main() {
         double c, f;
         Scanner input = new Scanner(System.in);
         System.out.print("Temperatura em celsius: ");

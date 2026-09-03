@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class Exercicio01 {
 
-    public static void main(String[] args) {
-        int num1, num2;
+    void main() {
+        int num1;
+        int num2;
         Scanner input = new Scanner(System.in);
         System.out.print("Número 1: ");
         num1 = input.nextInt();

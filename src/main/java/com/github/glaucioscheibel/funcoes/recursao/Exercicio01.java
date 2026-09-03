@@ -10,7 +10,7 @@ public class Exercicio01 {
         return numero + soma(numero - 1);
     }
 
-    public static void main(String[] args) {
+    void main() {
         int numero;
         Scanner input = new Scanner(System.in);
         System.out.print("Número: ");

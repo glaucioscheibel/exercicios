@@ -1,7 +1,7 @@
 package com.github.glaucioscheibel.sequencial;
 
 public class Exercicio12 {
-    public static void main(String[] args) {
+    void main() {
         int A = 10;
         int B = 20;
         int aux;

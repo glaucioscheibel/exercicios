@@ -3,8 +3,10 @@ package com.github.glaucioscheibel.decisao;
 import java.util.Scanner;
 
 public class Exercicio02 {
-    public static void main(String[] args) {
-        int num1, num2, num3;
+    void main() {
+        int num1;
+        int num2;
+        int num3;
         Scanner input = new Scanner(System.in);
         System.out.print("Número 1: ");
         num1 = input.nextInt();

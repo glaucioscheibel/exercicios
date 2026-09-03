@@ -9,7 +9,7 @@ import dev.morphia.Morphia;
 import dev.morphia.query.Query;
 
 public class Exercicio0103 {
-    public static void main(String[] args) {
+    void main() {
         Datastore datastore = Morphia.createDatastore(MongoClients.create());
         Query<Autor> query = datastore.find(Autor.class);
         query = query.filter(eq("nome", "Edgar Allan Poe"));

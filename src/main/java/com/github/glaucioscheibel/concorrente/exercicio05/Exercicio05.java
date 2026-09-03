@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.concorrente.exercicio05;
 public class Exercicio05 {
     private static final int _3_MINUTOS = 3 * 60 * 1000;
 
-    public static void main(String[] args) throws Exception {
+    void main() throws Exception {
         Banco firmeza = new Banco(100, 1000D);
         System.out.printf("Saldo do banco: %,.2f Transações %,d%n", firmeza.getSaldoTotal(), firmeza.getTransacoes());
         for (int i = 0; i < 5; i++) {

@@ -3,8 +3,9 @@ package com.github.glaucioscheibel.repeticao;
 import java.util.Scanner;
 
 public class Exercicio03 {
-    public static void main(String[] args) {
-        int base, expoente;
+    void main() {
+        int base;
+        int expoente;
         int potencia = 1;
         Scanner input = new Scanner(System.in);
         System.out.print("Base: ");

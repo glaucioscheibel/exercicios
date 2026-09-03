@@ -3,10 +3,12 @@ package com.github.glaucioscheibel.decisao;
 import java.util.Scanner;
 
 public class Exercicio07 {
-    public static void main(String[] args) {
-        double horasTrabalhadas, salarioHora, salarioTotal;
+    void main() {
+        double horasTrabalhadas;
+        double salarioHora;
+        double salarioTotal;
         double horasExtras = 0.0;
-        double horasNormais = 0.0;
+        double horasNormais;
         Scanner input = new Scanner(System.in);
         System.out.print("Salário-hora: ");
         salarioHora = input.nextDouble();

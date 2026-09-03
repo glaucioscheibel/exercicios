@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 
 public class Exercicio05 {
-    public static void main(String[] args) {
+    void main() {
         List<Integer> a = List.of(2, 4, 7, 13, 14, 15, 16);
         List<Integer> b = List.of(1, 6, 7, 11, 13, 16, 18);
 

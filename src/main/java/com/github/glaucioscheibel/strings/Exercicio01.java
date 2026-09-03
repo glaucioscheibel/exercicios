@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.strings;
 import java.util.Scanner;
 
 public class Exercicio01 {
-    public static void main(String[] args) {
+    void main() {
         String nome;
         StringBuilder nomeInvertido = new StringBuilder();
         Scanner input = new Scanner(System.in);

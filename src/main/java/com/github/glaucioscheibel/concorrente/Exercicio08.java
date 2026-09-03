@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.LockSupport;
 
 public class Exercicio08 {
-    public static void main(String[] args) {
+    void main() {
         AtomicInteger total = new AtomicInteger();
         try {
             while (true) {

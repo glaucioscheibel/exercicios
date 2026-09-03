@@ -3,9 +3,10 @@ package com.github.glaucioscheibel.decisao;
 import java.util.Scanner;
 
 public class Exercicio05 {
-    public static void main(String[] args) {
+    void main() {
         String nome;
-        double vendas, comissao;
+        double vendas;
+        double comissao;
         Scanner input = new Scanner(System.in);
         System.out.print("Nome do corretor: ");
         nome = input.nextLine();

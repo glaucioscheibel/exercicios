@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Exercicio03 {
-    public static void main(String[] args) {
+    void main() {
         int[][] a = {{-10, 1, 4, 6}, {2, 3, 2, 8}};
         int[][] b = {{1, 8, 4, -1}, {0, 6, 3, -3}};
         List<List<Integer>> c = new ArrayList<>();

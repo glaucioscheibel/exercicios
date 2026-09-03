@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.decisao;
 import java.util.Scanner;
 
 public class Exercicio09 {
-    public static void main(String[] args) {
+    void main() {
         final double salarioMinimo = 1412.0;
         double salario;
         Scanner input = new Scanner(System.in);

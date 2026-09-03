@@ -13,9 +13,7 @@ public class Lavador implements Runnable {
     public void run() {
         while (sujos.temPrato()) {
             Prato prato;
-            synchronized (sujos) {
-                prato = sujos.removePrato();
-            }
+            prato = sujos.removePrato();
             lavar(prato);
             escorredor.addPrato(prato);
         }

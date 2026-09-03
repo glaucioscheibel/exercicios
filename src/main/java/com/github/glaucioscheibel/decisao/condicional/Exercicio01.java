@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.decisao.condicional;
 import java.util.Scanner;
 
 public class Exercicio01 {
-    public static void main(String[] args) {
+    void main() {
         char estadoCivil;
         Scanner input = new Scanner(System.in);
         System.out.print("Inicial do estado civil: ");

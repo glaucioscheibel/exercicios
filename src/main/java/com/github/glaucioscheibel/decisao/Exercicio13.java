@@ -3,8 +3,9 @@ package com.github.glaucioscheibel.decisao;
 import java.util.Scanner;
 
 public class Exercicio13 {
-    public static void main(String[] args) {
-        double morango, macas;
+    void main() {
+        double morango;
+        double macas;
         double preco = 0;
         Scanner input = new Scanner(System.in);
         System.out.print("Quantidade de morangos: ");

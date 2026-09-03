@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.vetores;
 import java.util.Scanner;
 
 public class Exercicio04 {
-    public static void main(String[] args) {
+    void main() {
         int[] v1 = new int[15];
         int[] v2 = new int[15];
         int vezes = 0;

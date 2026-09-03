@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.sequencial;
 import java.util.Scanner;
 
 public class Exercicio14 {
-    public static void main(String[] args) {
+    void main() {
         double bruto, previdencia, ir, liquido;
         Scanner input = new Scanner(System.in);
         System.out.print("Salário bruto: ");

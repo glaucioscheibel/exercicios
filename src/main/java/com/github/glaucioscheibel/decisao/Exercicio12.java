@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.decisao;
 import java.util.Scanner;
 
 public class Exercicio12 {
-    public static void main(String[] args) {
+    void main() {
         char tipo;
         double litros;
         double preco = 0;

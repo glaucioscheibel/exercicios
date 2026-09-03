@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.matrizes;
 import java.util.Arrays;
 
 public class Exercicio06 {
-    public static void main(String[] args) {
+    void main() {
         int[][] a = {{2, 3, 1}, {-1, 0, 2}};
         int[][] b = {{1, -2}, {0, 5}, {4, 1}};
         int[][] c = new int[a.length][b[0].length];

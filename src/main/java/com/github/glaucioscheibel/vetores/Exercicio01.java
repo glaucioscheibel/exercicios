@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.vetores;
 import java.util.Scanner;
 
 public class Exercicio01 {
-    public static void main(String[] args) {
+    void main() {
         int[] numeros = new int[100];
         Scanner input = new Scanner(System.in);
         for (int i = 0; i < numeros.length; i++) {

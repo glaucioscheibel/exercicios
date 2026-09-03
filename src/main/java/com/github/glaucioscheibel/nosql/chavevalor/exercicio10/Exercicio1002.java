@@ -4,7 +4,7 @@ import redis.clients.jedis.JedisPubSub;
 import redis.clients.jedis.RedisClient;
 
 public class Exercicio1002 {
-    public static void main(String[] args) {
+    void main() {
         RedisClient redis = RedisClient.create("redis://localhost:6379");
         JedisPubSub subscriber = new JedisPubSub() {
             @Override

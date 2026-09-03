@@ -14,7 +14,7 @@ import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
 
 public class Exercicio0205 {
-    public static void main(String[] args) {
+    void main() {
         MongoClient mongoClient = MongoClients.create();
         MongoDatabase database = mongoClient.getDatabase("mflix");
         MongoCollection<Document> collection = database.getCollection("movies");

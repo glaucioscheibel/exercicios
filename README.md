@@ -621,7 +621,7 @@ lousas?
             return count;
         }
 
-        public static void main(String[] args) throws Exception {
+        void main() throws Exception {
             Exercicio09 contador = new Exercicio09();
 
             Thread t1 = new Thread(() -> {

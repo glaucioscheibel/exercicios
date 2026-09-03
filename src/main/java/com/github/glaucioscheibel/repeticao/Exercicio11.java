@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.repeticao;
 import java.util.Scanner;
 
 public class Exercicio11 {
-    public static void main(String[] args) {
+    void main() {
         double massa;
         int tempo = 0;
         Scanner input = new Scanner(System.in);

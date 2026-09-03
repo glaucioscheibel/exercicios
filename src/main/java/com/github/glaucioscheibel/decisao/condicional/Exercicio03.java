@@ -3,8 +3,9 @@ package com.github.glaucioscheibel.decisao.condicional;
 import java.util.Scanner;
 
 public class Exercicio03 {
-    public static void main(String[] args) {
-        double valor, valorAPagar;
+    void main() {
+        double valor;
+        double valorAPagar;
         int tipo;
         Scanner input = new Scanner(System.in);
         System.out.print("Valor da compra: ");

@@ -3,8 +3,10 @@ package com.github.glaucioscheibel.decisao;
 import java.util.Scanner;
 
 public class Exercicio04 {
-    public static void main(String[] args) {
-        double valor, salario, valorParcela;
+    void main() {
+        double valor;
+        double salario;
+        double valorParcela;
         int parcelas;
         Scanner input = new Scanner(System.in);
         System.out.print("Valor do empréstimo: ");

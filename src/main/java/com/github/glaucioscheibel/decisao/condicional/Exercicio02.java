@@ -3,8 +3,9 @@ package com.github.glaucioscheibel.decisao.condicional;
 import java.util.Scanner;
 
 public class Exercicio02 {
-    public static void main(String[] args) {
-        int val1, val2;
+    void main() {
+        int val1;
+        int val2;
         int resultado = 0;
         char operacao;
         Scanner input = new Scanner(System.in);

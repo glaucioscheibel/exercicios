@@ -13,7 +13,7 @@ public class Exercicio09 {
         return count.get();
     }
 
-    public static void main(String[] args) throws Exception {
+    void main() throws Exception {
         Exercicio09 contador = new Exercicio09();
 
         Thread t1 = new Thread(() -> {

@@ -11,8 +11,9 @@ public class Exercicio03 {
         }
     }
 
-    public static void main(String[] args) {
-        int x, y;
+    void main() {
+        int x;
+        int y;
         Scanner input = new Scanner(System.in);
         System.out.print("X: ");
         x = input.nextInt();

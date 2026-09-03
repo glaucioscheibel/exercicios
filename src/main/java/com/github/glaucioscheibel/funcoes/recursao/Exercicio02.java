@@ -10,7 +10,7 @@ public class Exercicio02 {
         return numero * fatorial(numero - 1);
     }
 
-    public static void main(String[] args) {
+    void main() {
         int numero;
         Scanner input = new Scanner(System.in);
         System.out.print("Número: ");

@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.sequencial;
 import java.util.Scanner;
 
 public class Exercicio08 {
-    public static void main(String[] args) {
+    void main() {
         double tempoGasto, velocidadeMedia;
         Scanner input = new Scanner(System.in);
         System.out.print("Tempo gasto: ");

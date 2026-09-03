@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Exercicio11 {
-    public static void main(String[] args) {
+    void main() {
         int[] a = {1, 8, 2, 4, 3, 4, 2, 5, 1};
         int[] b = {3, 3, 7, 5, 2, 3, 3, 7};
         List<Integer> soma = new ArrayList<>();

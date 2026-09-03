@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Main {
     private static Scanner input;
-    private static PessoaDAO dao = new PessoaDAO();
+    private static final PessoaDAO dao = new PessoaDAO();
 
-    public static void main(String[] args) {
+    void main() {
         input = new Scanner(System.in);
         int opcao = 0;
         do {

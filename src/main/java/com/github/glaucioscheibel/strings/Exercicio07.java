@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.strings;
 import java.util.Scanner;
 
 public class Exercicio07 {
-    public static void main(String[] args) {
+    void main() {
         String palavra1, palavra2;
         Scanner input = new Scanner(System.in);
         System.out.print("Palavra 1: ");

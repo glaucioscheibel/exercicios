@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.sequencial;
 import java.util.Scanner;
 
 public class Exercicio05 {
-    public static void main(String[] args) {
+    void main() {
         double base, expoente, resultado;
         Scanner input = new Scanner(System.in);
         System.out.print("Informe base: ");

@@ -3,8 +3,10 @@ package com.github.glaucioscheibel.decisao;
 import java.util.Scanner;
 
 public class Exercicio08 {
-    public static void main(String[] args) {
-        int ladoA, ladoB, ladoC;
+    void main() {
+        int ladoA;
+        int ladoB;
+        int ladoC;
         String msg = null;
         Scanner input = new Scanner(System.in);
         System.out.print("Lado A: ");

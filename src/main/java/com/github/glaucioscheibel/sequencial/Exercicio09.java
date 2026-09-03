@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.sequencial;
 import java.util.Scanner;
 
 public class Exercicio09 {
-    public static void main(String[] args) {
+    void main() {
         double comprimento, largura, altura, volume;
         Scanner input = new Scanner(System.in);
         System.out.print("Comprimento: ");

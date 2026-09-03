@@ -3,8 +3,9 @@ package com.github.glaucioscheibel.repeticao;
 import java.util.Scanner;
 
 public class Exercicio16 {
-    public static void main(String[] args) {
-        int n, aux;
+    void main() {
+        int n;
+        int aux;
         Scanner input = new Scanner(System.in);
         System.out.print("Fibonacci até qual número? ");
         n = input.nextInt();

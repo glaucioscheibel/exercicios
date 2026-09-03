@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.strings;
 import java.util.Scanner;
 
 public class Exercicio02 {
-    public static void main(String[] args) {
+    void main() {
         String frase;
         int vogais = 0;
         int espacos = 0;

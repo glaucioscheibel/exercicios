@@ -1,7 +1,7 @@
 package com.github.glaucioscheibel.repeticao;
 
 public class Exercicio10 {
-    public static void main(String[] args) {
+    void main() {
         double anacleto = 1.5;
         double felisberto = 1.1;
         int anos = 0;

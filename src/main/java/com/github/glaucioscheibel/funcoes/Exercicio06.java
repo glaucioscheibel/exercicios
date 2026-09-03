@@ -19,8 +19,10 @@ public class Exercicio06 {
         return msg;
     }
 
-    public static void main(String[] args) {
-        int ladoA, ladoB, ladoC;
+    void main() {
+        int ladoA;
+        int ladoB;
+        int ladoC;
         Scanner input = new Scanner(System.in);
         System.out.print("Lado A: ");
         ladoA = input.nextInt();

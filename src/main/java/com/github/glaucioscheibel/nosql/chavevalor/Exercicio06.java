@@ -4,7 +4,7 @@ import java.util.Map;
 import redis.clients.jedis.RedisClient;
 
 public class Exercicio06 {
-    public static void main(String[] args) {
+    void main() {
         Map<String, Double> nomes = Map.of(
                 "Adalberto",
                 1d,

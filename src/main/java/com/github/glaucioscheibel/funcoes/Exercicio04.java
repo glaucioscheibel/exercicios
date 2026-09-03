@@ -11,7 +11,7 @@ public class Exercicio04 {
         return c * 9 / 5 + 32;
     }
 
-    public static void main(String[] args) {
+    void main() {
         double temp;
         Scanner input = new Scanner(System.in);
         System.out.print("Informe uma temperatura em celcius: ");

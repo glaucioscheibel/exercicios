@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.sequencial;
 import java.util.Scanner;
 
 public class Exercicio13 {
-    public static void main(String[] args) {
+    void main() {
         double area, preco;
         int latas;
         Scanner input = new Scanner(System.in);

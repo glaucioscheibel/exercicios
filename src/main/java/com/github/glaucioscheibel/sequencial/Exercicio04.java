@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio04 {
 
-    public static void main(String[] args) {
+    void main() {
         double raio, area;
         Scanner input = new Scanner(System.in);
         System.out.print("Informe o raio: ");
