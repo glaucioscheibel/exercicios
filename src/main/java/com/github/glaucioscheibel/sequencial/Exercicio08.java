@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Exercicio08 {
     void main() {
-        double tempoGasto, velocidadeMedia;
+        double tempoGasto;
+        double velocidadeMedia;
         Scanner input = new Scanner(System.in);
         System.out.print("Tempo gasto: ");
         tempoGasto = input.nextDouble();

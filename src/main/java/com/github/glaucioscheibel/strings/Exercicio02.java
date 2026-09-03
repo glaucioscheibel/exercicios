@@ -16,11 +16,7 @@ public class Exercicio02 {
                 case ' ':
                     espacos++;
                     break;
-                case 'a':
-                case 'e':
-                case 'i':
-                case 'o':
-                case 'u':
+                case 'a', 'e', 'i', 'o', 'u':
                     vogais++;
                     break;
             }

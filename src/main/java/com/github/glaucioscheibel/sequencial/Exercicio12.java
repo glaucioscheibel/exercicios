@@ -2,14 +2,14 @@ package com.github.glaucioscheibel.sequencial;
 
 public class Exercicio12 {
     void main() {
-        int A = 10;
-        int B = 20;
+        int a = 10;
+        int b = 20;
         int aux;
 
-        aux = A;
-        A = B;
-        B = aux;
+        aux = a;
+        a = b;
+        b = aux;
 
-        System.out.printf("A:%d, B:%d %n", A, B);
+        System.out.printf("A:%d, B:%d %n", a, b);
     }
 }

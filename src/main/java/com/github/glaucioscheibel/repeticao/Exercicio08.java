@@ -3,7 +3,7 @@ package com.github.glaucioscheibel.repeticao;
 public class Exercicio08 {
     void main() {
         double a = 1000;
-        double b = 1;
+        int b = 1;
         double soma = 0;
         while (b <= 50) {
             if (b % 2 == 0) {

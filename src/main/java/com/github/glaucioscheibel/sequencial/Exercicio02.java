@@ -4,7 +4,11 @@ import java.util.Scanner;
 
 public class Exercicio02 {
     void main() {
-        float n1, n2, n3, n4, media;
+        float n1;
+        float n2;
+        float n3;
+        float n4;
+        float media;
         Scanner input = new Scanner(System.in);
         System.out.print("Informe a nota1: ");
         n1 = input.nextFloat();

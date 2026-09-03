@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class Exercicio05 {
     void main() {
-        double base, expoente, resultado;
+        double base;
+        double expoente;
+        double resultado;
         Scanner input = new Scanner(System.in);
         System.out.print("Informe base: ");
         base = input.nextInt();

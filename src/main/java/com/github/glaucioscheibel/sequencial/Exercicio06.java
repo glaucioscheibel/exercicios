@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class Exercicio06 {
     void main() {
-        String nome, sobrenome, nomeCompleto;
+        String nome;
+        String sobrenome;
+        String nomeCompleto;
         Scanner input = new Scanner(System.in);
         System.out.print("Informe o nome: ");
         nome = input.next();

@@ -8,7 +8,7 @@ import dev.morphia.Datastore;
 import dev.morphia.Morphia;
 
 public class Exercicio0102 {
-    void main() throws Exception {
+    void main() {
         Datastore datastore = Morphia.createDatastore(MongoClients.create());
         Livro corvo = new Livro("O Corvo");
         corvo.setAno(1845);

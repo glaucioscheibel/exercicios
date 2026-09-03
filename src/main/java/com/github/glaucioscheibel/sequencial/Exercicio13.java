@@ -4,13 +4,14 @@ import java.util.Scanner;
 
 public class Exercicio13 {
     void main() {
-        double area, preco;
+        double area;
+        double preco;
         int latas;
         Scanner input = new Scanner(System.in);
         System.out.print("Área em m²: ");
         area = input.nextDouble();
         latas = (int) Math.ceil(area / 3 / 18);
-        preco = latas * 80;
+        preco = latas * 80.0;
         System.out.printf("São necessárias %d latas. Total: R$%1.2f %n", latas, preco);
         input.close();
     }

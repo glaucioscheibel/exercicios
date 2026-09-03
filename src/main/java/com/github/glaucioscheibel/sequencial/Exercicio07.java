@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Exercicio07 {
     void main() {
-        double c, f;
+        double c;
+        double f;
         Scanner input = new Scanner(System.in);
         System.out.print("Temperatura em celsius: ");
         c = input.nextDouble();

@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Exercicio07 {
     void main() {
-        String palavra1, palavra2;
+        String palavra1;
+        String palavra2;
         Scanner input = new Scanner(System.in);
         System.out.print("Palavra 1: ");
         palavra1 = input.nextLine();

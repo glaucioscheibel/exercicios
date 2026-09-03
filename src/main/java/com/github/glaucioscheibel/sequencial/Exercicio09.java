@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class Exercicio09 {
     void main() {
-        double comprimento, largura, altura, volume;
+        double comprimento;
+        double largura;
+        double altura;
+        double volume;
         Scanner input = new Scanner(System.in);
         System.out.print("Comprimento: ");
         comprimento = input.nextDouble();

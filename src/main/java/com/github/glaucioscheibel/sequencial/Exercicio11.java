@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class Exercicio11 {
     void main() {
-        double potencia, largura, comprimento;
+        double potencia;
+        double largura;
+        double comprimento;
         int quantidade;
         Scanner input = new Scanner(System.in);
         System.out.print("Potencia da lâmpada: ");

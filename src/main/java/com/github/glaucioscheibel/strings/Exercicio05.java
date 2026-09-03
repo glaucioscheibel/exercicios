@@ -4,17 +4,18 @@ import java.util.Scanner;
 
 public class Exercicio05 {
     void main() {
-        String frase, leet;
+        String frase;
+        String leet;
         Scanner input = new Scanner(System.in);
         System.out.print("Informe um frase: ");
         frase = input.nextLine();
         leet = frase.toUpperCase();
-        leet = leet.replaceAll("D", "|)");
-        leet = leet.replaceAll("I", "1");
-        leet = leet.replaceAll("O", "0");
-        leet = leet.replaceAll("A", "4");
-        leet = leet.replaceAll("E", "3");
-        leet = leet.replaceAll("B", "ß");
+        leet = leet.replace("D", "|)");
+        leet = leet.replace("I", "1");
+        leet = leet.replace("O", "0");
+        leet = leet.replace("A", "4");
+        leet = leet.replace("E", "3");
+        leet = leet.replace("B", "ß");
         System.out.printf("L33t: %s%n", leet);
         input.close();
     }

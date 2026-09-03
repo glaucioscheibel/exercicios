@@ -15,7 +15,8 @@ public class Exercicio09 {
             {11, 2, 3, 2, 5, 0, 14},
             {1, 15, 13, 1, 13, 14, 0}
         };
-        int origem, destino;
+        int origem;
+        int destino;
         Scanner input = new Scanner(System.in);
         System.out.print("Cidade origem(1-7): ");
         origem = input.nextInt();

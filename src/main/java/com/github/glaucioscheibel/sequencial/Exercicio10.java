@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class Exercicio10 {
     void main() {
-        int anos, meses, dias;
+        int anos;
+        int meses;
+        int dias;
         Scanner input = new Scanner(System.in);
         System.out.print("Anos: ");
         anos = input.nextInt();

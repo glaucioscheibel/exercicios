@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class Exercicio14 {
     void main() {
-        double bruto, previdencia, ir, liquido;
+        double bruto;
+        double previdencia;
+        double ir;
+        double liquido;
         Scanner input = new Scanner(System.in);
         System.out.print("Salário bruto: ");
         bruto = input.nextDouble();
