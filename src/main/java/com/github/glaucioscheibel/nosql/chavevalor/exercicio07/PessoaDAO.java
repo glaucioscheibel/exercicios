@@ -5,7 +5,7 @@ import java.util.Map;
 import redis.clients.jedis.RedisClient;
 
 public class PessoaDAO {
-    private RedisClient redis;
+    private final RedisClient redis;
 
     public PessoaDAO() {
         redis = RedisClient.create("redis://localhost:6379");

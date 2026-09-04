@@ -12,7 +12,7 @@ public class Exercicio03 {
         int e;
         int digito;
         Scanner input = new Scanner(System.in);
-        boolean ok = false;
+        boolean ok;
         do {
             System.out.print("Informe um código de 5 algarismos: ");
             codigo = input.nextLine();

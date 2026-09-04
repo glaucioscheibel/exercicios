@@ -9,8 +9,8 @@ public class Exercicio05 {
         List<List<Integer>> at = new ArrayList<>();
         for (int j = 0; j < a[0].length; j++) {
             at.add(new ArrayList<>());
-            for (int i = 0; i < a.length; i++) {
-                at.get(j).add(a[i][j]);
+            for (int[] ints : a) {
+                at.get(j).add(ints[j]);
             }
         }
         System.out.printf("at: %s%n", at);

@@ -18,8 +18,12 @@ public class Exercicio0104 {
         escaravelho = datastore.save(escaravelho);
         Query<Autor> query = datastore.find(Autor.class);
         Autor edgar = query.first();
-        edgar.addLivro(escaravelho);
-        edgar.addLivro(gato);
-        datastore.save(edgar);
+        if (edgar != null) {
+            edgar.addLivro(escaravelho);
+            edgar.addLivro(gato);
+            datastore.save(edgar);
+        } else {
+            System.err.println("Edgar Allan Poe não encontrado!");
+        }
     }
 }

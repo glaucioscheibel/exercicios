@@ -13,7 +13,6 @@ public class Exercicio01 {
         int maior = 0;
         int menor = 0;
         int soma = 0;
-        int media = 0;
         for (int i = 0; i < numeros.length; i++) {
             if (i == 0) {
                 maior = numeros[i];
@@ -28,7 +27,7 @@ public class Exercicio01 {
             }
             soma += numeros[i];
         }
-        media = soma / numeros.length;
+        int media = soma / numeros.length;
         System.out.printf("Soma: %d%n", soma);
         System.out.printf("Média: %d%n", media);
         System.out.printf("Maior: %d%n", maior);

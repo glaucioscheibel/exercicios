@@ -17,7 +17,7 @@ public class Exercicio0102 {
         Endereco endereco1 = new Endereco();
         endereco1.setRua("7th Street");
         endereco1.setCidade("Philadelphia");
-        endereco1.setTipo("redidencial");
+        endereco1.setTipo("residencial");
         edgar.addEndereco(endereco1);
         edgar.addLivro(corvo);
         datastore.save(edgar);

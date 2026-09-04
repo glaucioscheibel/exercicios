@@ -7,7 +7,7 @@ public class Exercicio08 {
         int ladoA;
         int ladoB;
         int ladoC;
-        String msg = null;
+        String msg;
         Scanner input = new Scanner(System.in);
         System.out.print("Lado A: ");
         ladoA = input.nextInt();

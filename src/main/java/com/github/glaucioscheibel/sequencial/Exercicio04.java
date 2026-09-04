@@ -3,7 +3,6 @@ package com.github.glaucioscheibel.sequencial;
 import java.util.Scanner;
 
 public class Exercicio04 {
-
     static void main() {
         double raio;
         double area;

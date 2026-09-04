@@ -16,20 +16,13 @@ public class Exercicio02 {
         input.nextLine(); // ignore o %n
         System.out.print("Operação: ");
         operacao = input.nextLine().charAt(0);
-        switch (operacao) {
-            case '+':
-                resultado = val1 + val2;
-                break;
-            case '-':
-                resultado = val1 - val2;
-                break;
-            case '*':
-                resultado = val1 * val2;
-                break;
-            case '/':
-                resultado = val1 / val2;
-                break;
-        }
+        resultado = switch (operacao) {
+            case '+' -> val1 + val2;
+            case '-' -> val1 - val2;
+            case '*' -> val1 * val2;
+            case '/' -> val1 / val2;
+            default -> resultado;
+        };
         System.out.printf("%d %s %d = %d", val1, operacao, val2, resultado);
         input.close();
     }

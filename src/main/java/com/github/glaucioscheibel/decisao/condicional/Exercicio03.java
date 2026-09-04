@@ -12,20 +12,12 @@ public class Exercicio03 {
         valor = input.nextDouble();
         System.out.print("Tipo de pessoa: ");
         tipo = input.nextInt();
-        switch (tipo) {
-            case 1:
-                valorAPagar = valor;
-                break;
-            case 2:
-                valorAPagar = valor - valor * 0.1;
-                break;
-            case 3:
-                valorAPagar = valor - valor * 0.05;
-                break;
-            default:
-                valorAPagar = 0;
-                break;
-        }
+        valorAPagar = switch (tipo) {
+            case 1 -> valor;
+            case 2 -> valor - valor * 0.1;
+            case 3 -> valor - valor * 0.05;
+            default -> 0;
+        };
         System.out.printf("Valor a pagar: %1.2f %n", valorAPagar);
         input.close();
     }

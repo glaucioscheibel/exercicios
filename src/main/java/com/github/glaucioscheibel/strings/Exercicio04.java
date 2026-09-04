@@ -6,7 +6,7 @@ public class Exercicio04 {
     static void main() {
         String digitos;
         Scanner input = new Scanner(System.in);
-        System.out.print("Informe digitos: ");
+        System.out.print("Informe dígitos: ");
         digitos = input.nextLine();
         boolean primeiro = true;
         for (char c : digitos.toCharArray()) {

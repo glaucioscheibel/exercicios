@@ -20,9 +20,9 @@ public class Exercicio08 {
                 }
             }
             System.out.printf("Rotacionado em %d°:%n", r);
-            for (int i = 0; i < matriz.length; i++) {
-                for (int j = 0; j < matriz[i].length; j++) {
-                    System.out.printf("%d ", matriz[i][j]);
+            for (int[] ints : matriz) {
+                for (int anInt : ints) {
+                    System.out.printf("%d ", anInt);
                 }
                 System.out.println();
             }

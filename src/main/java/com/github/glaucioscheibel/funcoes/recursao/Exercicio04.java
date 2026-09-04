@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercicio04 {
     public static int fibonacci(int n) {
         if (n < 0) {
-            throw new IllegalArgumentException("O n deve ser positivo");
+            throw new IllegalArgumentException("O número deve ser positivo");
         }
         if (n <= 1) {
             return n;
