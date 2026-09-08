@@ -1,4 +1,4 @@
-package com.github.glaucioscheibel.concorrente.exercicio06;
+package com.github.glaucioscheibel.concorrente.exercicio07;
 
 public class PilhaPratos {
     private final Prato[] pratos;

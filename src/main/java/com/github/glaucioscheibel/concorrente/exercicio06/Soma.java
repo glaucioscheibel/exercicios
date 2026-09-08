@@ -1,4 +1,4 @@
-package com.github.glaucioscheibel.concorrente.exercicio07;
+package com.github.glaucioscheibel.concorrente.exercicio06;
 
 import java.util.concurrent.Callable;
 

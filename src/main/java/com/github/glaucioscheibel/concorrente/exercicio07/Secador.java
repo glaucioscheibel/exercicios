@@ -1,4 +1,4 @@
-package com.github.glaucioscheibel.concorrente.exercicio06;
+package com.github.glaucioscheibel.concorrente.exercicio07;
 
 public class Secador implements Runnable {
     private final PilhaPratos limpos;
@@ -10,7 +10,7 @@ public class Secador implements Runnable {
     }
 
     public void run() {
-        Prato prato = null;
+        Prato prato;
         do {
             prato = escorredor.removePrato();
             if (prato != null) {

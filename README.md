@@ -597,13 +597,13 @@ lousas?
 
 1. O banco Firmeza desenvolveu um sistema de contas e saldos bancários e lhe contratou para executar um teste de performance para avaliar a robusteza e a quantidade de transações possíveis de serem processadas por 3 minutos. Para avaliar a performance do sistema foram criadas 100 contas correntes fictícias com R$ 1.000,00 de saldo inicial. Crie então um teste com programação concorrente que simule 5 sistemas fazendo transferências de valores aleatórios de até R$ 2.500,00 de uma conta aleatória para outra igualmente aleatória. A cada 5 segundos, imprima o valor total no cofre do banco, que deverá ser sempre de R$ 100.000,00. Após 3 minutos de execução, verifique a quantidade de transações que foram executadas e se o valor total no cofre continua sendo R$ 100.000,00.
 
-1. Em uma cozinha, existe uma pilha de 100 pratos sujos. Para tal, temos uma pessoa lavando pratos e duas secando os pratos. Entre eles, existe um escorredor com espaço para apenas dez pratos. Faça um programa que simule a lavação dos 100 pratos sujos, sua colocação no escorredor e a secagem destes. Após enxugar cada prato, ele será colocado na pilha de pratos limpos.
-
 1. Reescreva o exercício 3 usando [Executors](https://docs.oracle.com/en/java/javase/26/docs/api/java.base/java/util/concurrent/package-summary.html#executors-heading). Faça os testes com 10 e 100 _Threads_ usando os _Executors_ abaixo listados. Explique o funcionamento de cada _Executor_ e o motivo da diferença nos tempos recebidos.
     - _ThreadPerTaskExecutor_
     - _VirtualThreadPerTaskExecutor_
     - _CachedThreadPool_
     - _WorkStealingPool_
+
+1. Em uma cozinha, existe uma pilha de 100 pratos sujos. Para tal, temos uma pessoa lavando pratos e duas secando os pratos. Entre eles, existe um escorredor com espaço para apenas dez pratos. Faça um programa que simule a lavação dos 100 pratos sujos, sua colocação no escorredor e a secagem destes. Após enxugar cada prato, ele será colocado na pilha de pratos limpos.
 
 1. Descubra qual a quantidade de _Threads_ que o seu sistema consegue criar. Para isso, fique criando _Threads_ de plataforma e "estacione" elas com o método _park()_ da classe _LockSupport_.
 
