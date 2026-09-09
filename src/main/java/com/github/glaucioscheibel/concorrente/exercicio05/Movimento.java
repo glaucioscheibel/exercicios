@@ -14,7 +14,7 @@ public class Movimento implements Runnable {
     @Override
     public void run() {
         while (!Thread.currentThread().isInterrupted()) {
-            banco.transferencia(random.nextInt(100), random.nextInt(100), random.nextDouble(2500D));
+            banco.transferencia(random.nextInt(100) + 1, random.nextInt(100) + 1, random.nextDouble(2500D));
         }
     }
 }

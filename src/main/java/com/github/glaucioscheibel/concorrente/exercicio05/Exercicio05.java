@@ -1,19 +1,18 @@
 package com.github.glaucioscheibel.concorrente.exercicio05;
 
 public class Exercicio05 {
-    private static final int _3_MINUTOS = 3 * 60 * 1000;
+    private static final int TRES_MINUTOS = 1 * 60 * 1000;
 
     static void main() throws Exception {
         Banco firmeza = new Banco(100, 1000D);
-        System.out.printf("Saldo do banco: %,.2f Transações %,d%n", firmeza.getSaldoTotal(), firmeza.getTransacoes());
+        firmeza.imprimeSaldoContas();
         for (int i = 0; i < 5; i++) {
             Thread.ofVirtual().start(new Movimento(firmeza));
         }
         long ini = System.currentTimeMillis();
         do {
             Thread.sleep(5000);
-            System.out.printf(
-                    "Saldo do banco: %,.2f Transações: %,d%n", firmeza.getSaldoTotal(), firmeza.getTransacoes());
-        } while (System.currentTimeMillis() - ini < _3_MINUTOS);
+            firmeza.imprimeSaldoContas();
+        } while (System.currentTimeMillis() - ini < TRES_MINUTOS);
     }
 }
