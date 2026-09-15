@@ -11,11 +11,11 @@ public class Exercicio07 {
         System.out.printf("Pilha com %d pratos sujos: %s%n", sujos.getQtde(), sujos);
         System.out.printf("Pilha com %d pratos limpos: %s%n", limpos.getQtde(), limpos);
         Lavador l1 = new Lavador(sujos, escorredor);
-        Secador s1 = new Secador(limpos, escorredor);
-        Secador s2 = new Secador(limpos, escorredor);
+        Enxugador e1 = new Enxugador(limpos, escorredor);
+        Enxugador e2 = new Enxugador(limpos, escorredor);
         Thread t1 = Thread.ofVirtual().name("Lavador-1").start(l1);
-        Thread t2 = Thread.ofVirtual().name("Secador-1").start(s1);
-        Thread t3 = Thread.ofVirtual().name("Secador-2").start(s2);
+        Thread t2 = Thread.ofVirtual().name("Enxugador-1").start(e1);
+        Thread t3 = Thread.ofVirtual().name("Enxugador-2").start(e2);
         t1.join();
         t2.join();
         t3.join();
