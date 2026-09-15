@@ -6,6 +6,7 @@ public class Exercicio03 {
 
     static void main() {
         int cores = Runtime.getRuntime().availableProcessors();
+        System.out.printf("O seu ambiente de execução possui %d núcleos%n", cores);
         short[] numeros = new short[1_000_000_000];
         Random r = new Random();
         for (int i = 0; i < numeros.length; i++) {

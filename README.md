@@ -71,7 +71,7 @@ lousas?
 
 1. Uma pessoa lê um livro de 100 páginas em 6 dias. Em quantos dias essa pessoa lê um livro de 150 páginas?
 
-1. Lúcia foi ao mesmo tempo a décima terceira melhor classificada e a décima terceira pior classificada de um concurso. Quantos eram os concorrentes?
+1. Lúcia foi ao mesmo tempo, a décima terceira melhor classificada e a décima terceira pior classificada de um concurso. Quantos eram os concorrentes?
 
 1. Ao observar a sequência de números abaixo, descubra qual das opções completa a série.
 
@@ -179,7 +179,7 @@ lousas?
 
 1. Faça um programa que efetue a leitura de três valores numéricos representando os lados de um triângulo. O programa deverá verificar e informar se os lados fornecidos formam realmente um triângulo (cada lado é menor que a soma dos outros dois lados). Se esta condição for verdadeira, deverá ser indicado qual tipo de triângulo foi formado: isósceles (dois lados iguais e um diferente), escaleno (todos os lados diferentes) ou equilátero (todos os lados são iguais).
 
-1. Faça um programa para uma empresa que decide dar um reajuste funcionários de acordo com os seguintes critérios:
+1. Faça um programa para uma empresa que decide dar um reajuste aos funcionários conforme os seguintes critérios:
     - 50% para aqueles que ganham menos do que três salários mínimos;
     - 20% para aqueles que ganham entre três até dez salários mínimos;
     - 15% para aqueles que ganham acima de dez até vinte salários mínimos;
@@ -251,7 +251,7 @@ lousas?
 
 1. Faça um programa que calcule a soma dos números inteiros de 1 a 100.
 
-1. Escreva um programa que pergunte ao usuário um número e após, imprima na tela a soma total de 1 até o número lido. Exemplo: 5: $1 + 2 + 3 + 4 + 5 = 15$
+1. Escreva um programa que pergunte ao usuário um número e após, imprima na tela o total de 1 até o número lido. Exemplo: 5: $1 + 2 + 3 + 4 + 5 = 15$
 
 1. Faça um programa que peça dois números, base e expoente, calcule e imprima o primeiro número elevado ao segundo número. **Não utilize a função de potência da linguagem**.
 
@@ -259,7 +259,7 @@ lousas?
 
 1. Faça um programa para calcular e imprimir a soma dos cubos dos números pares compreendidos entre A e B (B &gt; A). A e B são lidos pelo teclado.
 
-1. Faça um programa que receba um valor que foi depositado na poupança e exiba o valor com rendimento mês a mês durante o período de um ano. Considere fixo o juros da poupança em 0,5% a. m.
+1. Faça um programa que receba um valor depositado na poupança e exiba o valor com rendimento mês a mês durante o período de um ano. Considere fixo os juros da poupança em 0,5% a. m.
 
 1. Número primo é aquele que só é divisível por ele mesmo e pelo número 1. Faça um programa que peça um número inteiro ao usuário e determine se o número informado é primo ou não.
 
@@ -275,7 +275,7 @@ lousas?
 
 1. Um determinado material radioativo perde metade de sua massa a cada 50 segundos. Dada a massa inicial, em gramas, faça um programa que determine o tempo necessário para que essa massa se torne menor que 0,05 gramas.
 
-1. Supondo que a população de um país A seja da ordem de 80.000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200.000 habitantes com uma taxa de crescimento de 1,5%. Faça um programa que calcule e imprima o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
+1. Supondo que a população de um país A seja da ordem de 80.000 habitantes com uma taxa anual de crescimento de 3% e que a população de B, seja 200.000 habitantes com uma taxa de crescimento de 1,5%. Faça um programa que calcule e imprima o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
 
 1. Uma rainha requisitou os serviços de um monge e disse-lhe que pagaria qualquer preço. O monge, necessitando de alimentos, indagou à rainha sobre o pagamento, se poderia ser feito com grãos de trigo dispostos em um tabuleiro de xadrez (que possui 64 casas), de tal forma que o primeiro quadro deveria conter apenas um grão e os quadros subsequentes, o dobro do quadro anterior. Crie um programa para calcular o total de grãos que o monge recebeu.
 
@@ -295,7 +295,7 @@ lousas?
 
 1. Faça um programa que peça ao usuário pensar em um número de 1 a 1000, o programa então tentará adivinhar o número pensando. A cada _chute_ que o programa der, o usuário deverá responder se ele acertou, se o valor foi acima ou abaixo do pensado. Caso o programa acerte em até 10 tentativas, o programa será considerado vitorioso.
 
-1. O seguinte programa em Python&trade; não está funcionando e lhe foi pedido para que seja corrigido. Apenas olhando o código, qual foi o erro de programação?
+1. O seguinte programa em Python&trade; não está funcionando e lhe foi pedido para ser corrigido. Apenas olhando o código, qual foi o erro de programação?
 
     ```python
     cont1 = 0
@@ -338,7 +338,7 @@ lousas?
     Resultado: quatro, cinco, sete, um
     ```
 
-1. _Leet_ é uma forma de se escrever o alfabeto latino usando outros símbolos em lugar das letras, como números por exemplo. A própria palavra _leet_ admite muitas variações, como l33t ou 1337. O uso do _leet_ reflete uma subcultura relacionada ao mundo dos jogos de computador e internet, sendo muito usada para confundir os iniciantes e afirmar-se como parte de um grupo. Pesquise sobre as principais formas de traduzir as letras. Depois, faça um programa que peça uma texto e transforme-o para a grafia _leet speak_.
+1. _Leet_ é uma forma de se escrever o alfabeto latino usando outros símbolos em lugar das letras, como números, por exemplo. A própria palavra _leet_ admite muitas variações, como l33t ou 1337. O uso do _leet_ reflete uma subcultura relacionada ao mundo dos jogos de computador e internet, sendo muito usada para confundir os iniciantes e afirmar-se como parte de um grupo. Pesquise sobre as principais formas de traduzir as letras. Depois, faça um programa que peça uma texto e transforme-o para a grafia _leet speak_.
 
 1. Escreva um programa que, a partir de um nome informado pelo usuário, exiba suas iniciais. As iniciais são formadas pela primeira letra de cada nome, sendo que todas deverão aparecer em maiúsculas na saída do programa. Note que os conectores e, do, da, dos, das, de, di, du não são considerados nomes e, portanto, não devem ser considerados para a obtenção das iniciais. As iniciais devem ser impressas em maiúsculas, ainda que o nome seja entrado todo em minúsculas.
 
@@ -377,9 +377,9 @@ lousas?
 
 1. Escrever um programa que lê um vetor com 20 números inteiros e os imprime na tela. Troque, a seguir, o 1&ordm; elemento com o último, o 2&ordm; com o penúltimo etc. até o 10&ordm; com o 11&ordm; e imprima na tela o vetor N assim modificado.
 
-1. Ler 100 números de matriculas de alunos e armazenar em um vetor. Esses números são distintos, ou seja, não existem números de matriculas iguais. Caso o usuário informa um número de matrículo que já existe, o programa deverá emitir um alerta.
+1. Ler 100 números de matrículas de alunos e armazenar em um vetor. Esses números são distintos, ou seja, não existem números de matrículas iguais. Caso o usuário informa um número de matrículo que já existe, o programa deverá emitir um alerta.
 
-1. Faça um programa que leia um vetor com N elementos formado por valores do tipo inteiro. Crie então dois novos vetores, um com os valores pares e outro com os valores ímpares do vetor original.
+1. Faça um programa que leia um vetor com N elementos formados por valores do tipo inteiro. Crie então dois novos vetores, um com os valores pares e outro com os valores ímpares do vetor original.
 
 1. Faça um programa que:
     1. Leia um vetor A com N elementos já ordenados e um vetor B com M elementos também já ordenados.
@@ -584,6 +584,7 @@ lousas?
     1. Some todos os valores de forma sequencial e meça o tempo de execução;
     1. Some todos os valores de forma concorrente com 10 _threads_ e meça o tempo de execução;
     1. Some todos os valores de forma concorrente com 100 _threads_ e meça o tempo de execução.
+    1. Some todos os valores de forma concorrente com a quantidade de _threads_ igual à quantidade de núcleos no sistema operacional e meça o tempo de execução. 
     1. Responda as seguintes perguntas:
         1. Qual foi o _speedup_[^1] obtido?
         1. Teve algum caso que o _speedup_ foi negativo?
@@ -607,7 +608,7 @@ lousas?
 
 1. Descubra qual a quantidade de _Threads_ que o seu sistema consegue criar. Para isso, fique criando _Threads_ de plataforma e "estacione" elas com o método _park()_ da classe _LockSupport_.
 
-1. Observe o programa a seguir, e diga o motivo do valor de saída no console as vezes não ser 2000. Qual seria a correção?
+1. Observe o programa a seguir, e diga o motivo do valor de saída no console às vezes não ser 2000. Qual seria a correção?
 
 ```java
     public class Exercicio09 {
