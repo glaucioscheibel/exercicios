@@ -31,14 +31,14 @@
 1. Três jesuítas e três canibais precisam atravessar um rio. No entanto dispõem apenas de um barco com capacidade para duas pessoas. Por medida de segurança não se permite que em alguma das margens do rio a quantidade de jesuítas seja inferior à quantidade de canibais. Qual a sequência de viagens necessárias para a travessia do rio com segurança para os jesuítas?
 [link racha-cuca](https://rachacuca.com.br/jogos/missionarios-e-canibais/)
 
-1. Para comemorar o aniversário de Cláudio, ele e mais quatro amigos – Alberto, Beto, Dino e Eurico – foram almoçar juntos no restaurante da escola. As mesas são redondas e acomodam exatamente cinco pessoas. Cláudio e Dino sentam-se um ao lado do outro. Alberto e Beto não sentam-se um ao lado do outro. Os dois amigos sentados ao lado de Eurico são:
+1. Para comemorar o aniversário de Cláudio, ele e mais quatro amigos – Alberto, Beto, Dino e Eurico – foram almoçar juntos no restaurante da escola. As mesas são redondas e acomodam exatamente cinco pessoas. Cláudio e Dino sentam-se um ao lado do outro. Alberto e Beto não se sentam um ao lado do outro. Os dois amigos sentados ao lado de Eurico são:
     - Alberto e Beto
     - Cláudio e Dino
     - Dino e Beto
     - Cláudio e Alberto
     - Alberto e Dino
 
-1. Uma equipe de meninas está participando de uma gincana preparada pelos professores da escola. Depois de muitas peripécias, elas finalmente encontraram o cofre escondido que contém a última tarefa a ser resolvida. Mas o cofre está protegido com um cadeado digital que é aberto somente se uma senha de quatro letras for digitada. Junto ao cofre elas encontraram também um pedaço de papel com as letras Xkzk. Inicialmente elas pensaram que essa era a senha, mas o cofre não abriu. No entanto, elas tinham certeza de que as quatro letras encontradas eram a chave para o enigma. Depois de pensar um pouco elas perceberam que os nomes das cinco meninas da equipe tinham exatamente quatro letras. Seria essa a ligação com as letras encontradas? Não demorou muito para elas abrirem o cofre, pois a senha era mesmo o nome de uma das meninas. Qual era a senha do cofre?
+1. Uma equipe de meninas está participando de uma gincana preparada pelos professores da escola. Depois de muitas peripécias, elas finalmente encontraram o cofre escondido que contém a última tarefa a ser resolvida. Mas o cofre está protegido com um cadeado digital aberto somente se uma senha de quatro letras for digitada. Junto ao cofre elas encontraram também um pedaço de papel com as letras Xkzk. Inicialmente elas pensaram que essa era a senha, mas o cofre não abriu. No entanto, elas tinham certeza de que as quatro letras encontradas eram a chave para o enigma. Após pensar um pouco elas perceberam que os nomes das cinco meninas da equipe tinham exatamente quatro letras. Seria essa a ligação com as letras encontradas? Não demorou muito para elas abrirem o cofre, pois a senha era mesmo o nome de uma das meninas. Qual era a senha do cofre?
     - Anna
     - Lisa
     - Nina
@@ -52,7 +52,7 @@
     - 998
     - 979
 
-1. Na Nlogônia, as cédulas de dinheiro são de $1,00, $3,00, $9,00, $27,00, e $81,00. Num dado momento, um vendedor possui apenas cinco cédulas, uma de cada um dos valores das cédulas existentes na Nlogônia. Qual dos valores abaixo não é possível ser dado como troco por esse vendedor?
+1. Na Nlogônia, as cédulas de dinheiro são de $ 1,00, $ 3,00, $ 9,00, $ 27,00, e $ 81,00. Num dado momento, um vendedor possui apenas cinco cédulas, uma de cada um dos valores das cédulas existentes na Nlogônia. Qual dos valores abaixo não é possível ser dado como troco por esse vendedor?
     - $40,00
     - $35,00
     - $31,00
@@ -104,7 +104,7 @@ lousas?
     1. A or C and not B
     1. (A or B) and (A and C)
 
-1. Há cinco casas diferentes em cinco cores diferentes em uma fileira. Em cada casa mora uma pessoa com uma diferente nacionalidade. Os cinco proprietários bebem um certo tipo de bebida, fuma cigarro de uma certa marca e tem um certo tipo de animal de estimação. Nenhum dos proprietários tem o mesmo tipo de animal ou de marca de cigarro ou de bebida. Quem é o dono do peixe? [link racha-cuca](https://rachacuca.com.br/logica/problemas/teste-de-einstein/)
+1. Há cinco casas diferentes em cinco cores diferentes em uma fileira. Em cada casa mora uma pessoa com uma diferente nacionalidade. Os cinco proprietários bebem um certo tipo de bebida, fuma cigarro de uma certa marca e tem um certo tipo de animal de estimação. Nenhum dos proprietários tem o mesmo tipo de animal ou de marca de cigarro, ou de bebida. Quem é o dono do peixe? [link racha-cuca](https://rachacuca.com.br/logica/problemas/teste-de-einstein/)
     1. O britânico mora na casa vermelha
     1. O suíço tem um cão como animal de estimação
     1. O dinamarquês bebe chá
@@ -171,7 +171,7 @@ lousas?
 
 1. Faça um programa para aprovar empréstimos bancários. O código deve pedir três informações: valor do empréstimo, número de parcelas e salário do solicitante. Aprovar empréstimo caso o valor das parcelas represente no máximo 30% do salário do solicitante.
 
-1. A empresa paga ao corretor uma comissão calculada de acordo com o valor de suas vendas. Se o valor da venda de um corretor for maior que R$ 50.000,00 a comissão será de 12% do valor vendido. Se o valor da venda do corretor estiver entre R$ 30.000,00 e R$ 50.000,00 (incluindo extremos) a comissão será de 9,5%. Em qualquer outro caso, a comissão será de 7%. Escreva um programa onde será informado nome do corretor e o valor da venda, após isto o programa irá calcular o valor da comissão.
+1. A empresa paga ao corretor uma comissão calculada conforme o valor de suas vendas. Se o valor da venda de um corretor for maior que R$ 50.000,00 a comissão será de 12% do valor vendido. Se o valor da venda do corretor estiver entre R$ 30.000,00 e R$ 50.000,00 (incluindo extremos) a comissão será de 9,5%. Em qualquer outro caso, a comissão será de 7%. Escreva um programa onde será informado nome do corretor e o valor da venda, após isto o programa irá calcular o valor da comissão.
 
 1. Faça um programa onde serão informados as quatro notas do aluno. O programa irá então apresentar a média, se foi aprovado (nota &ge; 7) ou se ficou em exame. Caso o aluno ficou em exame, o programa irá então perguntar qual foi a nota do exame e então irá calcular a nova média (média anterior com a nota do exame) e informar se ele foi aprovado (nova média &ge; 5) ou se foi reprovado.
 
@@ -197,30 +197,30 @@ lousas?
 
 1. Faça um programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto. Regras para o cálculo dos anos bissextos:
 
-    1. De 4 em 4 anos é ano bissexto.
-    1. De 100 em 100 anos não é ano bissexto.
-    1. De 400 em 400 anos é ano bissexto.
+    1. A cada 4 anos é ano bissexto.
+    1. A cada 100 anos não é ano bissexto.
+    1. A cada 400 anos é ano bissexto.
     1. Prevalecem as últimas regras sobre as primeiras
 
 1. Um posto está vendendo combustíveis com a seguinte tabela de descontos. Escreva um programa que leia o número de litros vendidos e o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 3,30 e o preço do litro do álcool é R$ 2,90.
     <table border="1" align="center">
         <tr>
             <th rowspan="2" align="center">Álcool</th>
-            <td>até 20 litros, desconto de 3% por litro</td>
+            <td>Até 20 litros, desconto de 3% por litro</td>
         </tr>
         <tr>
             <td>acima de 20 litros, desconto de 5% por litro</td>
         </tr>
         <tr>
             <th rowspan="2" align="center">Gasolina</th>
-            <td>até 20 litros, desconto de 4% por litro</td>
+            <td>Até 20 litros, desconto de 4% por litro</td>
         </tr>
         <tr>
             <td>acima de 20 litros, desconto de 6% por litro</td>
         </tr>
     </table>
 
-1. Uma quitanda está vendendo frutas com a seguinte tabela de preços. Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberá ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade (em Kg) de maças adquiridas e imprima o valor a ser pago pelo cliente.
+1. Uma quitanda está vendendo frutas com a seguinte tabela de preços. Se o cliente comprar mais de 8 kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberá ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em kg) de morangos e a quantidade (em kg) de maças adquiridas e imprima o valor a ser pago pelo cliente.
     <table border="1" align="center">
         <tr>
             <td></td>
@@ -338,7 +338,7 @@ lousas?
     Resultado: quatro, cinco, sete, um
     ```
 
-1. _Leet_ é uma forma de se escrever o alfabeto latino usando outros símbolos em lugar das letras, como números, por exemplo. A própria palavra _leet_ admite muitas variações, como l33t ou 1337. O uso do _leet_ reflete uma subcultura relacionada ao mundo dos jogos de computador e internet, sendo muito usada para confundir os iniciantes e afirmar-se como parte de um grupo. Pesquise sobre as principais formas de traduzir as letras. Depois, faça um programa que peça uma texto e transforme-o para a grafia _leet speak_.
+1. _Leet_ é uma forma de se escrever o alfabeto latino usando outros símbolos em lugar das letras, como números, por exemplo. A própria palavra _leet_ admite muitas variações, como l33t ou 1337. O uso do _leet_ reflete uma subcultura relacionada ao mundo dos jogos de computador e internet, sendo muito usada para confundir os iniciantes e afirmar-se como parte de um grupo. Pesquise sobre as principais formas de traduzir as letras. Depois, faça um programa que peça um texto e transforme-o para a grafia _leet speak_.
 
 1. Escreva um programa que, a partir de um nome informado pelo usuário, exiba suas iniciais. As iniciais são formadas pela primeira letra de cada nome, sendo que todas deverão aparecer em maiúsculas na saída do programa. Note que os conectores e, do, da, dos, das, de, di, du não são considerados nomes e, portanto, não devem ser considerados para a obtenção das iniciais. As iniciais devem ser impressas em maiúsculas, ainda que o nome seja entrado todo em minúsculas.
 
@@ -472,7 +472,7 @@ lousas?
 
 1. Matriz identidade é a matriz quadrada de ordem N (2&times;2, 3&times;3, 4&times;4, ... N&times;N), em que os elementos da diagonal principal são iguais a 1 e, o restante dos elementos são iguais a 0.
 
-    Faça um programa que peça ao usuário informar o tamanho do ordem e gere a matriz identidade.
+    Faça um programa que peça ao usuário informar o tamanho da ordem e gere a matriz identidade.
 
 1. Dada a seguinte matriz 3x3, faça um programa que:
 
@@ -513,10 +513,10 @@ lousas?
     1. Faça um programa que leia a matriz anterior e informe ao usuário o tempo necessário para percorrer duas cidades por ele fornecidas;
     1. Faça um programa que permita ao usuário informa várias cidades e as armazene no vetor de rota até que ele informe 0 (zero), após isto imprima o tempo total para cumprir todo o trajeto fornecido passando por todas as cidades.
 
-1. Implemente um programa que exiba um triângulo de Pascal (Tartaglia) de ordem n, sendo n informado pelo usuário. Para tal, considere uma matriz quadrada de ordem n, o triângulo de Pascal segue a seguinte regra de formação:
+1. Implemente um programa que exiba um triângulo de Pascal (Tartalha) de ordem n, sendo n informado pelo usuário. Para tal, considere uma matriz quadrada de ordem n, o triângulo de Pascal segue a seguinte regra de formação:
     1. todos os elementos da primeira coluna da matriz são iguais a 1;
     1. todos os elementos da diagonal principal da matriz também são iguais a 1;
-    1. para os demais elementos são obtido pela soma do elemento da mesma coluna na linha de cima com o seu vizinho esquerdo;
+    1. para os demais elementos são obtidos pela soma do elemento da mesma coluna na linha de cima com o seu vizinho esquerdo;
     1. os elementos acima da diagonal principal não são exibidos.
 
     ex: Triângulo de Pascal de ordem 7:
@@ -559,7 +559,7 @@ lousas?
 
 1. Faça uma função recursiva que calcule e retorne o fatorial de um número inteiro N.
 
-1. O máximo divisor comum (MDC) dos inteiros x e y é o maior número inteiro que é divisor de ambos x e y. Escreva o algoritmo de Euclides através de uma função recursiva MDC, que retorna o máximo divisor comum de x e y. O MDC de x e y é definido como segue:
+1. O máximo divisor comum (MDC) dos inteiros x e y é o maior número inteiro que é divisor de ambos x e y. Escreva o algoritmo de Euclides por uma função recursiva MDC, que retorna o máximo divisor comum de x e y. O MDC de x e y é definido como segue:
 
     - se y é igual a 0, então mdc(x, y) é x;
     - caso contrário, mdc(x, y) é mdc (y, x mod y), onde mod é o operador módulo (resto).
@@ -596,7 +596,7 @@ lousas?
     - Uma _thread_ removendo o primeiro valor da lista.
     - Uma _thread_ imprimindo a cada segundo os valores existentes.
 
-1. O banco Firmeza desenvolveu um sistema de contas e saldos bancários e lhe contratou para executar um teste de performance para avaliar a robusteza e a quantidade de transações possíveis de serem processadas por 3 minutos. Para avaliar a performance do sistema foram criadas 100 contas correntes fictícias com R$ 1.000,00 de saldo inicial. Crie então um teste com programação concorrente que simule 5 sistemas fazendo transferências de valores aleatórios de até R$ 2.500,00 de uma conta aleatória para outra igualmente aleatória. A cada 5 segundos, imprima o valor total no cofre do banco, que deverá ser sempre de R$ 100.000,00. Após 3 minutos de execução, verifique a quantidade de transações que foram executadas e se o valor total no cofre continua sendo R$ 100.000,00.
+1. O banco Firmeza desenvolveu um sistema de contas e saldos bancários e lhe contratou para executar um teste de desempenho para avaliar a robusteza e a quantidade de transações possíveis de serem processadas por 3 minutos. Para avaliar a desempenho do sistema foram criadas 100 contas correntes fictícias com R$ 1.000,00 de saldo inicial. Crie então um teste com programação concorrente que simule 5 sistemas fazendo transferências de valores aleatórios de até R$ 2.500,00 de uma conta aleatória para outra igualmente aleatória. A cada 5 segundos, imprima o valor total no cofre do banco, que deverá ser sempre de R$ 100.000,00. Após 3 minutos de execução, verifique a quantidade de transações que foram executadas e se o valor total no cofre continua sendo R$ 100.000,00.
 
 1. Reescreva o exercício 3 usando [Executors](https://docs.oracle.com/en/java/javase/26/docs/api/java.base/java/util/concurrent/package-summary.html#executors-heading). Faça os testes com 10 e 100 _Threads_ usando os _Executors_ abaixo listados. Explique o funcionamento de cada _Executor_ e o motivo da diferença nos tempos recebidos.
     - _ThreadPerTaskExecutor_
@@ -687,7 +687,7 @@ lousas?
 1. Com a base de dados do [mflix](src/main/resources/mongodb/mflix/) e faça os seguintes programas com a linguagem [Java&trade;](https://www.java.com/) e a biblioteca [MongoDB&reg; Synchronous Driver](https://www.mongodb.com/pt-br/docs/drivers/java/sync/current/):
     1. Liste os filmes com o nome "_The Room_".
     1. Liste os filmes que possuam uma duração ("_runtime_") menor ou igual à 15 minutos.
-    1. Liste os filmes produzidos nos anos 1980's ordenados do maior ao menor valor no campo "_imdb.rating_".
+    1. Liste os filmes produzidos nos anos 1980s ordenados do maior ao menor valor no campo "_imdb.rating_".
     1. Liste os nomes e gêneros dos filmes que contenham, ao menos, ambos gêneros "_Drama_" e "_Comedy_".
     1. Liste, em ordem alfabética, os nomes e a quantidade de prêmios recebidos dos fimes que possuam mais de 3 prêmios ganhos.
     1. Insira o filme [O Triunfo dos Nerds](https://www.imdb.com/title/tt0115398).
@@ -698,7 +698,7 @@ lousas?
 ### NoSQL Documento ODM
 
 1. Com o uso da biblioteca [Morphia](https://morphia.dev/), vamos criar uma aplicação C.R.U.D[^2]:
-    1. Crie classes de modelo com a sequinte estrutura e com as anotações do _Morphia_:
+    1. Crie classes de modelo com a seguinte estrutura e com as anotações do _Morphia_:
         - Livro:
             - id
             - titulo
