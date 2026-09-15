@@ -604,7 +604,7 @@ lousas?
     - _CachedThreadPool_
     - _WorkStealingPool_
 
-1. Em uma cozinha, existe uma pilha de 100 pratos sujos. Para tal, temos uma pessoa lavando pratos e duas secando os pratos. Entre eles, existe um escorredor com espaço para apenas dez pratos. Faça um programa que simule a lavação dos 100 pratos sujos, sua colocação no escorredor e a secagem destes. Após enxugar cada prato, ele será colocado na pilha de pratos limpos.
+1. Em uma cozinha, existe uma pilha de 100 pratos sujos. Para tal, temos uma pessoa lavando pratos e duas secando os pratos. Entre eles, existe um escorredor com espaço para apenas 10 pratos. Faça um programa que simule a lavação dos 100 pratos sujos, sua colocação no escorredor e a secagem destes. Após enxugar cada prato, ele será colocado na pilha de pratos limpos.
 
 1. Descubra qual a quantidade de _Threads_ que o seu sistema consegue criar. Para isso, fique criando _Threads_ de plataforma e "estacione" elas com o método _park()_ da classe _LockSupport_.
 
