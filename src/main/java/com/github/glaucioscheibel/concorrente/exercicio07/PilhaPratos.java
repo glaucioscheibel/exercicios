@@ -1,72 +1,69 @@
 package com.github.glaucioscheibel.concorrente.exercicio07;
 
-public class PilhaPratos {
-    private final Prato[] pratos;
-    private volatile int qtde;
+import java.util.LinkedList;
+import java.util.Queue;
 
-    public PilhaPratos(int tamanho) {
-        pratos = new Prato[tamanho];
+public class PilhaPratos {
+    private final String nome;
+    private final Queue<Prato> pratos;
+    private final int capacidade;
+    private final int totalPratos;
+    private volatile int pratosAcessados;
+
+    public PilhaPratos(String nome, int totalPratos) {
+        this(nome, totalPratos, totalPratos);
     }
 
-    public synchronized void addPrato(Prato prato) {
-        while (qtde >= pratos.length) {
-            try {
-                wait();
-            } catch (InterruptedException _) {
-                Thread.currentThread().interrupt();
-            }
+    public PilhaPratos(String nome, int capacidade, int totalPratos) {
+        this.nome = nome;
+        this.capacidade = capacidade;
+        this.totalPratos = totalPratos;
+        pratos = new LinkedList<>();
+    }
+
+    public synchronized void colocarPrato(Prato prato) throws InterruptedException {
+        while (pratos.size() == capacidade) {
+            System.out.printf(
+                    "%s esperando para colocar prato %d no %s.%n",
+                    Thread.currentThread().getName(), prato.getId(), nome);
+            wait();
         }
-        pratos[qtde] = prato;
-        qtde++;
+
+        pratos.add(prato);
+        pratosAcessados++;
+        System.out.printf(
+                "%s Colocou o prato %d no %s. (%s: %d/%d)%n",
+                Thread.currentThread().getName(), prato.getId(), nome, nome, pratos.size(), capacidade);
+
         notifyAll();
     }
 
-    public synchronized Prato removePrato() {
-        if (qtde <= 0) {
-            try {
-                wait(2000);
-            } catch (InterruptedException _) {
-                Thread.currentThread().interrupt();
+    public synchronized Prato retirarPrato() throws InterruptedException {
+        while (pratos.isEmpty()) {
+            if (pratosAcessados >= totalPratos) {
+                return null;
             }
+            System.out.printf(
+                    "%s esperando para retirar prato do %s.%n",
+                    Thread.currentThread().getName(), nome);
+            wait();
         }
-        if (qtde > 0) {
-            qtde--;
-            Prato prato = pratos[qtde];
-            pratos[qtde] = null;
-            notifyAll();
-            return prato;
-        } else {
-            return null;
-        }
+
+        Prato prato = pratos.poll();
+        System.out.printf(
+                "%s Retirou o prato %d do %s. (%s: %d/%d)%n",
+                Thread.currentThread().getName(), prato.getId(), nome, nome, pratos.size(), capacidade);
+
+        notifyAll();
+        return prato;
     }
 
-    public synchronized boolean temPrato() {
-        return qtde > 0;
-    }
-
-    public synchronized boolean temEspaco() {
-        return qtde < pratos.length;
+    public synchronized int getQuantidade() {
+        return pratos.size();
     }
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("PilhaPratos : [");
-        for (int i = 0; i < qtde; i++) {
-            if (pratos[i] != null) {
-                if (i > 0) {
-                    sb.append(", ");
-                }
-                sb.append(pratos[i]);
-            } else {
-                break;
-            }
-        }
-        sb.append("]");
-        return sb.toString();
-    }
-
-    public int getQtde() {
-        return qtde;
+        return nome + ":" + pratos;
     }
 }

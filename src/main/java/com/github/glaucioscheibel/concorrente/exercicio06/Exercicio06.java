@@ -10,7 +10,9 @@ import java.util.concurrent.Future;
 
 public class Exercicio06 {
     static void main() {
-        System.out.printf("O seu ambiente de execução possui %d núcleos%n", Runtime.getRuntime().availableProcessors());
+        System.out.printf(
+                "O seu ambiente de execução possui %d núcleos%n",
+                Runtime.getRuntime().availableProcessors());
         short[] numeros = new short[1_000_000_000];
         Random r = new Random();
         for (int i = 0; i < numeros.length; i++) {

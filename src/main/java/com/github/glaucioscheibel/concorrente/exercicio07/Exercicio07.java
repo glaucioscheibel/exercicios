@@ -1,25 +1,26 @@
 package com.github.glaucioscheibel.concorrente.exercicio07;
 
 public class Exercicio07 {
+    public static final int TOTAL_PRATOS = 100;
+
     static void main() throws Exception {
-        PilhaPratos sujos = new PilhaPratos(100);
-        PilhaPratos limpos = new PilhaPratos(100);
-        PilhaPratos escorredor = new PilhaPratos(10);
-        for (int i = 1; i <= 100; i++) {
-            sujos.addPrato(new Prato(i, Estado.SUJO));
+        PilhaPratos sujos = new PilhaPratos("Sujos", TOTAL_PRATOS);
+        PilhaPratos limpos = new PilhaPratos("Limpos", TOTAL_PRATOS);
+        PilhaPratos escorredor = new PilhaPratos("Escorredor", 10, TOTAL_PRATOS);
+        for (int i = 1; i <= TOTAL_PRATOS; i++) {
+            sujos.colocarPrato(new Prato(i, Estado.SUJO));
         }
-        System.out.printf("Pilha com %d pratos sujos: %s%n", sujos.getQtde(), sujos);
-        System.out.printf("Pilha com %d pratos limpos: %s%n", limpos.getQtde(), limpos);
-        Lavador l1 = new Lavador(sujos, escorredor);
-        Enxugador e1 = new Enxugador(limpos, escorredor);
-        Enxugador e2 = new Enxugador(limpos, escorredor);
-        Thread t1 = Thread.ofVirtual().name("Lavador-1").start(l1);
-        Thread t2 = Thread.ofVirtual().name("Enxugador-1").start(e1);
-        Thread t3 = Thread.ofVirtual().name("Enxugador-2").start(e2);
-        t1.join();
-        t2.join();
-        t3.join();
-        System.out.printf("Pilha com %d pratos sujos: %s%n", sujos.getQtde(), sujos);
-        System.out.printf("Pilha com %d pratos limpos: %s%n", limpos.getQtde(), limpos);
+        System.out.printf("Pilha com %d pratos sujos: %s%n", sujos.getQuantidade(), sujos);
+        System.out.printf("Pilha com %d pratos molhados: %s%n", escorredor.getQuantidade(), escorredor);
+        System.out.printf("Pilha com %d pratos limpos: %s%n", limpos.getQuantidade(), limpos);
+        Thread lava1 = Thread.ofVirtual().name("Lavador-1").start(new Lavador(sujos, escorredor));
+        Thread enxuga1 = Thread.ofVirtual().name("Enxugador-1").start(new Enxugador(limpos, escorredor));
+        Thread enxuga2 = Thread.ofVirtual().name("Enxugador-2").start(new Enxugador(limpos, escorredor));
+        lava1.join();
+        enxuga1.join();
+        enxuga2.join();
+        System.out.printf("Pilha com %d pratos sujos: %s%n", sujos.getQuantidade(), sujos);
+        System.out.printf("Pilha com %d pratos molhados: %s%n", escorredor.getQuantidade(), escorredor);
+        System.out.printf("Pilha com %d pratos limpos: %s%n", limpos.getQuantidade(), limpos);
     }
 }

@@ -11,11 +11,18 @@ public class Lavador implements Runnable {
 
     @Override
     public void run() {
-        while (sujos.temPrato()) {
+        try {
             Prato prato;
-            prato = sujos.removePrato();
-            lavar(prato);
-            escorredor.addPrato(prato);
+            do {
+                prato = sujos.retirarPrato();
+                if (prato != null) {
+                    lavar(prato);
+                    escorredor.colocarPrato(prato);
+                }
+            } while (prato != null);
+        } catch (InterruptedException _) {
+            Thread.currentThread().interrupt();
+            System.out.printf("%s foi interrompido%n", Thread.currentThread().getName());
         }
         System.out.printf("%s terminou%n", Thread.currentThread().getName());
     }
@@ -23,6 +30,5 @@ public class Lavador implements Runnable {
     public void lavar(Prato prato) {
         prato.setEstado(Estado.MOLHADO);
         System.out.printf("%s lavou prato %d%n", Thread.currentThread().getName(), prato.getId());
-        Thread.yield();
     }
 }

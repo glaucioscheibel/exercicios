@@ -11,13 +11,18 @@ public class Enxugador implements Runnable {
 
     public void run() {
         Prato prato;
-        do {
-            prato = escorredor.removePrato();
-            if (prato != null) {
-                enxugar(prato);
-                limpos.addPrato(prato);
-            }
-        } while (limpos.temEspaco());
+        try {
+            do {
+                prato = escorredor.retirarPrato();
+                if (prato != null) {
+                    enxugar(prato);
+                    limpos.colocarPrato(prato);
+                }
+            } while (prato != null);
+        } catch (InterruptedException _) {
+            Thread.currentThread().interrupt();
+            System.out.printf("%s foi interrompido%n", Thread.currentThread().getName());
+        }
         System.out.printf("%s terminou%n", Thread.currentThread().getName());
     }
 
