@@ -8,7 +8,7 @@ public class Main {
 
     static void main() {
         input = new Scanner(System.in);
-        int opcao = 0;
+        int opcao;
         do {
             System.out.println("""
                     Menu:
