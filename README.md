@@ -749,6 +749,7 @@ Segue uma relação de filmes que abordam o tema da programação e/ou da import
 
 Segue relação de livros recomendados (ordem alfabética):
 
+- [A Catedral e o Bazar](https://www.oreilly.com/library/view/the-cathedral/0596001088/)
 - [Código Limpo: Habilidades Práticas do Agile Software](https://altabooks.com.br/produto/codigo-limpo/)
 - [Como o Google Funciona](https://intrinseca.com.br/livro/como-o-google-funciona/)
 - [Conceitos de Linguagens de Programação](https://loja.grupoa.com.br/conceitos-de-linguagens-de-programacao-p992606)
