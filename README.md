@@ -137,16 +137,16 @@
     1. O dinamarquês bebe chá
     1. A casa verde fica imediatamente à esquerda da casa branca
     1. O dono da casa verde bebe café
-    1. O proprietário que fuma Pall Mall tem um pássaro
-    1. O dono da casa amarela fuma Dunhill
+    1. O proprietário que fuma _Pall Mall_ tem um pássaro
+    1. O dono da casa amarela fuma _Dunhill_
     1. O proprietário morando na casa do centro bebe leite
     1. O norueguês mora na primeira casa
     1. O dono que fuma Blends mora ao lado do que cria gatos
-    1. O proprietário que cria um cavalo mora ao lado do que fuma Dunhill
-    1. O dono que fuma Bluemasters bebe cerveja
-    1. O alemão fuma Prince
+    1. O proprietário que cria um cavalo mora ao lado do que fuma _Dunhill_
+    1. O dono que fuma _Bluemasters_ bebe cerveja
+    1. O alemão fuma _Prince_
     1. O norueguês mora ao lado da casa azul
-    1. O proprietário que fuma Blends mora ao lado do que bebe água
+    1. O proprietário que fuma _Blends_ mora ao lado do que bebe água
 
 ## Algoritmo
 
@@ -260,7 +260,7 @@
     - Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
     - Se o delta for positivo, a equação possui duas raízes reais; informe-as ao usuário.
 
-   Fórmula de bhaskara:
+   Fórmula de _bhaskara_:
 
    $x = -b \pm \frac{\sqrt{b^2 - 4ac}}{2a}$
 
@@ -495,7 +495,7 @@
     - A &minus; B: Diferença (apenas valores que não apareçam simultaneamente em ambos conjuntos)
 
 1. Escrever um programa que lê um vetor com 20 números inteiros e os imprime na tela. Troque, a seguir, o 1&ordm;
-   elemento com o último, o 2&ordm; com o penúltimo etc. até o 10&ordm; com o 11&ordm; e imprima na tela o vetor N assim
+   elemento com o último, o 2&ordm; com o penúltimo, etc. até o 10&ordm; com o 11&ordm; e imprima na tela o vetor N assim
    modificado.
 
 1. Ler 100 números de matrículas de alunos e armazenar em um vetor. Esses números são distintos, ou seja, não existem
@@ -875,7 +875,7 @@
     1. Liste os filmes que possuam uma duração ("_runtime_") menor ou igual à 15 minutos.
     1. Liste os filmes produzidos nos anos 1980s ordenados do maior ao menor valor no campo "_imdb.rating_".
     1. Liste os nomes e gêneros dos filmes que contenham, ao menos, ambos gêneros "_Drama_" e "_Comedy_".
-    1. Liste, em ordem alfabética, os nomes e a quantidade de prêmios recebidos dos fimes que possuam mais de 3 prêmios
+    1. Liste, em ordem alfabética, os nomes e a quantidade de prêmios recebidos dos filmes que possuam mais de 3 prêmios
        ganhos.
     1. Insira o filme [O Triunfo dos Nerds](https://www.imdb.com/title/tt0115398).
     1. Insira o filme [Silicon Cowboys](http://www.imdb.com/title/tt4938484) e inclua dois comentários.
