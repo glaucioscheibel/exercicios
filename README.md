@@ -834,18 +834,20 @@
 
 1. Salve na base de dados uma lista de 10 usuários usando o tipo de dado `Sorted Set`.
 
-1. Crie uma lista de contatos com a chave "contatos:" mais o apelido da pessoa. Usando o tipo `Hash`, crie os campos
-   _nome_, _sobrenome_, _telefone_, _idade_. Faça um programa com as operações C.R.U.D.[^2] da lista de contatos.
+1. Crie a classe Pessoa, com os atributos mais comuns (id, nome, telefone, etc), e após isto crie uma classe PessoaDAO
+   que implemente as operações básicas de C.R.U.D.[^2] para fazerem a persistência dos objetos na base chave-valor
+   usando o tipo `Hash`de dados. A chave da coleção _hash_ será "contatos:" mais o id da pessoa. Ex: `contatos:1`,
+   `contatos:2`
 
 1. Crie a classe Pessoa, com os atributos mais comuns (id, nome, telefone, etc), e após isto crie uma classe PessoaDAO
    que implemente as operações básicas de C.R.U.D.[^2] para fazerem a persistência dos objetos na base chave-valor
    usando do mecanismo de serialização do Java&trade;. Neste exercício será usada a mesma estratégia de chaves do
-   exercício anterior, ou seja, chave "contatos:" + o apelido da pessoa.
+   exercício anterior, ou seja, chave "contatos:" + o id da pessoa.
 
 1. Crie a classe Pessoa, com os atributos mais comuns (id, nome, telefone, etc), e após isto crie uma classe PessoaDAO
    que implemente as operações básicas de C.R.U.D.[^2] para fazerem a persistência dos objetos na base chave-valor
    usando do mecanismo de serialização do Java&trade;. Neste exercício será usado uma entrada _Hash_ somente. Cada valor
-   interno do _Hash_ terá o apelido da pessoa como chave e a objeto serializado como valor.
+   interno do _Hash_ terá o id da pessoa como chave e a objeto serializado como valor.
 
 1. Faça um programa que fique publicando (`Publish`) a cada 20 segundos um número aleatório no tópico
    `codigo:seguranca`. Faça um segundo programa que assine (`Subscribe`) a este mesmo tópico e que exiba os valores que
