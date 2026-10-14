@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     private static Scanner input;
-    private static final PessoaDAO dao = new PessoaDAO();
+    private static final PessoaDAO dao = new PessoaKVDAOImpl();
 
     static void main() {
         input = new Scanner(System.in);
