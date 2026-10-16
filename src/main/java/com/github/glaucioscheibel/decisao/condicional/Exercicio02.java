@@ -23,7 +23,7 @@ public class Exercicio02 {
             case '/' -> val1 / val2;
             default -> resultado;
         };
-        System.out.printf("%d %s %d = %d", val1, operacao, val2, resultado);
+        System.out.printf("%d %s %d = %d%n", val1, operacao, val2, resultado);
         input.close();
     }
 }

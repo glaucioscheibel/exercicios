@@ -18,7 +18,7 @@ public class Exercicio03 {
             case 3 -> valor - valor * 0.05;
             default -> 0;
         };
-        System.out.printf("Valor a pagar: %1.2f %n", valorAPagar);
+        System.out.printf("Valor a pagar: %1.2f%n", valorAPagar);
         input.close();
     }
 }
