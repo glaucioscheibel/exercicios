@@ -17,6 +17,6 @@ public class Exercicio10 {
             soma += nota;
         }
         media = (soma - maior - menor) / 3f;
-        System.out.printf("Média: %1.2f desconsiderando as notas %1.2f e %1.2f", media, menor, maior);
+        System.out.printf("Média: %1.2f desconsiderando as notas %1.2f e %1.2f%n", media, menor, maior);
     }
 }

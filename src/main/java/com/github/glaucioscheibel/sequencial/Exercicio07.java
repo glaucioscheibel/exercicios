@@ -10,7 +10,7 @@ public class Exercicio07 {
         System.out.print("Temperatura em celsius: ");
         c = input.nextDouble();
         f = (c * 9 / 5) + 32;
-        System.out.printf("Temperatura em fahrenheit: %.2f", f);
+        System.out.printf("Temperatura em fahrenheit: %.2f%n", f);
         input.close();
     }
 }

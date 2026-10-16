@@ -25,7 +25,7 @@ public class Exercicio13 {
         if (preco > 25) {
             preco -= preco * 0.1;
         }
-        System.out.printf("Preço: %1.2f", preco);
+        System.out.printf("Preço: %1.2f%n", preco);
         input.close();
     }
 }

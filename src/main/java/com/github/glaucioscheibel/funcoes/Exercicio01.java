@@ -15,7 +15,7 @@ public class Exercicio01 {
         palavra = input.nextLine();
         System.out.print("Prefixo: ");
         prefixo = input.nextLine();
-        System.out.printf("%s%s é prefixo de %s", prefixo, ehPrefixo(palavra, prefixo) ? "" : " não", palavra);
+        System.out.printf("%s%s é prefixo de %s%n", prefixo, ehPrefixo(palavra, prefixo) ? "" : " não", palavra);
         input.close();
     }
 }

@@ -15,7 +15,7 @@ public class Exercicio10 {
         System.out.print("Dias: ");
         dias = input.nextInt();
         dias += anos * 365 + meses * 30;
-        System.out.printf("Você ja viveu %d dias", dias);
+        System.out.printf("Você ja viveu %d dias%n", dias);
         input.close();
     }
 }

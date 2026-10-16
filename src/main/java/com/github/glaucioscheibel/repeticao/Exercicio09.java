@@ -9,6 +9,6 @@ public class Exercicio09 {
         while (c <= 37) {
             soma += a-- * b-- / (double) c++;
         }
-        System.out.printf("Resultado: %1.2f", soma);
+        System.out.printf("Resultado: %1.2f%n", soma);
     }
 }

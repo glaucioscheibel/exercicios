@@ -24,10 +24,10 @@ public class Exercicio10 {
             } else {
                 double r1 = (-b + Math.sqrt(delta)) / (2 * a);
                 if (delta == 0) {
-                    System.out.printf("A equação possui apenas uma raiz real: %1.2f", r1);
+                    System.out.printf("A equação possui apenas uma raiz real: %1.2f%n", r1);
                 } else {
                     double r2 = (-b - Math.sqrt(delta)) / (2 * a);
-                    System.out.printf("A equação possui duas raízes reais: %1.2f e %1.2f", r1, r2);
+                    System.out.printf("A equação possui duas raízes reais: %1.2f e %1.2f%n", r1, r2);
                 }
             }
         }

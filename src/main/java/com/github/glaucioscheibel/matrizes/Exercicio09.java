@@ -24,7 +24,6 @@ public class Exercicio09 {
         destino = input.nextInt();
         System.out.printf(
                 "Tempo da cidade de %d para %d é de %d horas%n", origem, destino, dist[origem - 1][destino - 1]);
-
         System.out.println("Informe as cidades da rota. 0 finaliza.");
         List<Integer> cidades = new ArrayList<>();
         int aux = -1;
@@ -39,7 +38,7 @@ public class Exercicio09 {
         for (int i = 0; i < cidades.size() - 1; i++) {
             tempo += dist[cidades.get(i) - 1][cidades.get(i + 1) - 1];
         }
-        System.out.printf("Rota %s é de %d horas ", cidades, tempo);
+        System.out.printf("Rota %s é de %d horas%n", cidades, tempo);
         input.close();
     }
 }
