@@ -1,7 +1,7 @@
 package com.github.glaucioscheibel.nosql.chavevalor.exercicio07;
 
 public class Pessoa {
-    private String apelido;
+    private int id;
     private String nome;
     private String sobrenome;
     private String telefone;
@@ -9,20 +9,20 @@ public class Pessoa {
 
     public Pessoa() {}
 
-    public Pessoa(String apelido, String nome, String sobrenome, String telefone, int idade) {
-        this.apelido = apelido;
+    public Pessoa(int id, String nome, String sobrenome, String telefone, int idade) {
+        this.id = id;
         this.nome = nome;
         this.sobrenome = sobrenome;
         this.telefone = telefone;
         this.idade = idade;
     }
 
-    public String getApelido() {
-        return apelido;
+    public int getId() {
+        return id;
     }
 
-    public void setApelido(String apelido) {
-        this.apelido = apelido;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNome() {
@@ -59,7 +59,7 @@ public class Pessoa {
 
     @Override
     public String toString() {
-        return "Pessoa [apelido=" + apelido + ", nome=" + nome + ", sobrenome=" + sobrenome + ", telefone=" + telefone
+        return "Pessoa [id=" + id + ", nome=" + nome + ", sobrenome=" + sobrenome + ", telefone=" + telefone
                 + ", idade=" + idade + "]";
     }
 }

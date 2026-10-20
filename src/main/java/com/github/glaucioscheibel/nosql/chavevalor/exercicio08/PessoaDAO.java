@@ -5,7 +5,7 @@ public interface PessoaDAO {
 
     void update(Pessoa pessoa);
 
-    Pessoa read(String apelido);
+    Pessoa read(int id);
 
-    void delete(String apelido);
+    void delete(int id);
 }

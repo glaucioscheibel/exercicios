@@ -33,8 +33,9 @@ public class Main {
     private static void create() {
         Pessoa p = new Pessoa();
         System.out.println("Create:");
-        System.out.print("Apelido: ");
-        p.setApelido(input.nextLine());
+        System.out.print("id: ");
+        p.setId(input.nextInt());
+        input.nextLine();
         System.out.print("Nome: ");
         p.setNome(input.nextLine());
         System.out.print("Sobrenome: ");
@@ -53,15 +54,15 @@ public class Main {
 
     private static void read() {
         System.out.println("Read:");
-        System.out.print("Apelido: ");
-        String apelido = input.nextLine();
-        System.out.println(dao.read(apelido));
+        System.out.print("Id: ");
+        int id = input.nextInt();
+        System.out.println(dao.read(id));
     }
 
     private static void delete() {
         System.out.println("Delete:");
-        System.out.print("Apelido: ");
-        String apelido = input.nextLine();
-        dao.delete(apelido);
+        System.out.print("Id: ");
+        int id = input.nextInt();
+        dao.delete(id);
     }
 }

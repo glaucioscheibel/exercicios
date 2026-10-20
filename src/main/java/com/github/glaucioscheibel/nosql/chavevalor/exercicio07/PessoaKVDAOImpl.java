@@ -24,7 +24,7 @@ public class PessoaKVDAOImpl implements PessoaDAO {
             data.put("telefone", pessoa.getTelefone());
         }
         data.put("idade", String.valueOf(pessoa.getIdade()));
-        redis.hset("contatos:" + pessoa.getApelido(), data);
+        redis.hset("contatos:" + pessoa.getId(), data);
     }
 
     @Override
@@ -33,12 +33,12 @@ public class PessoaKVDAOImpl implements PessoaDAO {
     }
 
     @Override
-    public Pessoa read(String apelido) {
+    public Pessoa read(int id) {
         Pessoa p = null;
-        Map<String, String> data = redis.hgetAll("contatos:" + apelido);
+        Map<String, String> data = redis.hgetAll("contatos:" + id);
         if (data != null && !data.isEmpty()) {
             p = new Pessoa();
-            p.setApelido(apelido);
+            p.setId(id);
             p.setNome(data.get("nome"));
             p.setSobrenome(data.get("sobrenome"));
             p.setTelefone(data.get("telefone"));
@@ -48,7 +48,7 @@ public class PessoaKVDAOImpl implements PessoaDAO {
     }
 
     @Override
-    public void delete(String apelido) {
-        redis.del("contatos:" + apelido);
+    public void delete(int id) {
+        redis.del("contatos:" + id);
     }
 }
