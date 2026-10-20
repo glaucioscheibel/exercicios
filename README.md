@@ -397,29 +397,34 @@
    pensando. A cada _chute_ que o programa der, o usuário deverá responder se ele acertou, se o valor foi acima ou
    abaixo do pensado. Caso o programa acerte em até 10 tentativas, o programa será considerado vitorioso.
 
-1. O seguinte programa em Python&trade; não está funcionando e lhe foi pedido para ser corrigido. Apenas olhando o
+1. O seguinte programa em Java&trade; não está funcionando e lhe foi pedido para ser corrigido. Apenas olhando o
    código, qual foi o erro de programação?
 
-    ```python
-    cont1 = 0
-    cont2 = 0
-    brancos = 0
-    nulos = 0
-    voto = int(input())
-    while voto != -1:
-        if voto == 1:
-            cont1 += 1
-        elif voto == 2:
-            cont2 += 1
-        elif voto == 0:
-            brancos += 1
-        else:
-            nulos += 1
-    print(cont1)
-    print(cont2)
-    print(brancos)
-    print(nulos)
-    ```
+   ```java
+   public class Exercicio18 {
+      static void main() {
+      Scanner input = new Scanner(System.in);
+      int cont1 = 0;
+      int cont2 = 0;
+      int brancos = 0;
+      int nulos = 0;
+      int voto = input.nextInt();
+      while (voto != -1) {
+         switch (voto) {
+            case 1 -> cont1 += 1;
+            case 2 -> cont2 += 1;
+            case 0 -> brancos += 1;
+            default -> nulos += 1;
+         }
+      }
+      System.out.println(cont1);
+      System.out.println(cont2);
+      System.out.println(brancos);
+      System.out.println(nulos);
+      input.close();
+      }
+   }
+   ```
 
 ## _Strings_
 
