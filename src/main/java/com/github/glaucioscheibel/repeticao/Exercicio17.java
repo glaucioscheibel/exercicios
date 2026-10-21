@@ -16,14 +16,18 @@ public class Exercicio17 {
             System.out.printf("O número que você pensou é %d?%n", chute);
             System.out.print("S-im, M-aior, N-menor: ");
             resp = input.nextLine().toUpperCase().charAt(0);
-            if (resp == 'S') {
-                acertei = true;
-            } else if (resp == 'M') {
-                min = chute + 1;
-            } else if (resp == 'N') {
-                max = chute - 1;
-            } else {
-                System.out.println("Resposta inválida.");
+            switch (resp) {
+                case 'S':
+                    acertei = true;
+                    break;
+                case 'M':
+                    min = chute + 1;
+                    break;
+                case 'N':
+                    max = chute - 1;
+                    break;
+                default:
+                    System.out.println("Resposta inválida.");
             }
         }
         System.out.println("Acertei!!!");
