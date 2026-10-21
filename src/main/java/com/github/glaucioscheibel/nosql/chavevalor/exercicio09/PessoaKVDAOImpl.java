@@ -18,7 +18,9 @@ public class PessoaKVDAOImpl implements PessoaDAO {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             ObjectOutputStream bos = new ObjectOutputStream(baos);
             bos.writeObject(pessoa);
-            redis.hset("contatos3".getBytes(), intToByteArray(pessoa.getId()), baos.toByteArray());
+            redis.hset("contatos3".getBytes(), String.valueOf(pessoa.getId()).getBytes(), baos.toByteArray());
+            bos.close();
+            baos.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -31,10 +33,12 @@ public class PessoaKVDAOImpl implements PessoaDAO {
     public Pessoa read(int id) {
         Pessoa p = null;
         try {
-            byte[] data = redis.hget("contatos3".getBytes(), intToByteArray(id));
+            byte[] data = redis.hget("contatos3".getBytes(), String.valueOf(id).getBytes());
             ByteArrayInputStream bis = new ByteArrayInputStream(data);
             ObjectInputStream ois = new ObjectInputStream(bis);
             p = (Pessoa) ois.readObject();
+            ois.close();
+            bis.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -42,10 +46,6 @@ public class PessoaKVDAOImpl implements PessoaDAO {
     }
 
     public void delete(int id) {
-        redis.hdel("contatos3".getBytes(), intToByteArray(id));
-    }
-
-    private static byte[] intToByteArray(int value) {
-        return new byte[] {(byte) (value >>> 24), (byte) (value >>> 16), (byte) (value >>> 8), (byte) value};
+        redis.hdel("contatos3".getBytes(), String.valueOf(id).getBytes());
     }
 }

@@ -18,6 +18,8 @@ public class PessoaKVDAOImpl implements PessoaDAO {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             ObjectOutputStream bos = new ObjectOutputStream(baos);
             bos.writeObject(pessoa);
+            bos.close();
+            baos.close();
             redis.set(("contatos2:" + pessoa.getId()).getBytes(), baos.toByteArray());
         } catch (Exception e) {
             e.printStackTrace();
@@ -35,6 +37,8 @@ public class PessoaKVDAOImpl implements PessoaDAO {
             ByteArrayInputStream bis = new ByteArrayInputStream(data);
             ObjectInputStream ois = new ObjectInputStream(bis);
             p = (Pessoa) ois.readObject();
+            ois.close();
+            bis.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
